@@ -1,0 +1,16 @@
+Problem: Ablenkung von Laserstrahl mit spiegel verändert das Strahlprofil in Abhängigkeit des Ablenkwinkels => Ablenkwinkel müssen klein sein.
+
+Laserbeschriftung mittels geregelter, einachsiger Strahlablenkung
+	Aufgabenstellung:		
+		-konstanter Vorschub in Längsrichtung übernimmt Zeilenschrittweite
+		-geregelte Spiegelverstellung übernimmt die 
+
+
+
+
+
+
+
+VERMERK:
+	um Einwände im Kapitel 6. Diskussion vorweg zunehmen: Fertigungstolleranzen(Monte-Carlo)
+	z.B. Dezentrierung, Verkippung, Beleuchtungsstärkeverteilung, 
