@@ -1,0 +1,49 @@
+Einleitung:
+- Beschichtung von z.B.Wafern (Lasertrimmen von Widerständen), Glas (Brille) oder Masken für die Lithographie, erfolgt in der Fokusebene des Laserstrahls durch     
+  X- und Y-Ablenkung.
+- Fokusebene ist räumlich beschränkt (gleiche Intensität und Strahldurchmesser)
+- Problem bei Beschriftungsobjekten größeren Ausmaßes als Größe der Fokusebene (z.B. Fensterscheiben, Solarpannels, Folien)
+Möglicher Ausweg:
+- Laserstrahl ist fest nach unten gerichtet
+- 2 große Motoren um a) ganzen Laser oder b) Objekt in X- und Y-Richtung zu bewegen
+- Geschwindigkeit und Genauigkeit von großen Motoren ist beschränkt
+Laser ist fest:
+-> Ablenkung nur in einer Richtung -> Fokuslinie
+-> Quer zur Fokuslinie mit Schrittmotoren das Material verschieben -> große Fokusebene
+-> Objekte wesentlich größeren Ausmaßes können beschriftet werden
+
+Ablenkung durch Galvo:
+Galvo ist:
+- Drehachse mit Spiegel
+- Magnet in der Drehachse
+- Spulen im Abstand zum Magneten
+- Blende an Drehachse
+- Lichtquelle und Sensor, dazwischen Blende
+
+Aufgabe: Regelung der Spiegelposition
+
+Leistungsmerkmale: 
+- +/- 10°
+- 20° in 1ms
+- 1°e-3 Genauigkeit
+
+Keine Aufgabe:
+- Abstand des Lasers zum Werkstück -> Fokushöhe egal
+- Fokus wird über Winkelbereich als konstant angenommen
+- Vorschub und Laseraktivität sind abgestimmt
+- An- und absteigen der Laserleistung wird nicht berücksichtigt
+
+Themenabdeckung:
+- Bewegung von Magnet, Drehachse und Spiegel ist mechanische Arbeit durch Drehmomente
+- Drehmomente werden durch Ströme die Magnetfelder hervorrufen realisiert
+- Positionserfassung durch Auswertung von Lichtintensitäten auf 4 Sensoren
+
+Vereinfachungen:
+- Spiegel und Drehachse sind eine immer gleich konzentrierte Masse -> gleiche Beschleunigungen
+- Luftspalt zwischen Magnet und Spule hat keinen Einfluss -> Luftspalt hat geringere magnetische Kraftflussdichte
+- Spiegel ist immer mit Schwerpunkt in der Drehachse -> keine anderen Drehmomente
+- Druch verdrehen des Spiegls kann der Laserstrahl nicht vom Spiegel "fallen"
+- Lichtquelle hat konstante Beleuchtungsstärke in den Halbraum
+- Völlige Abdunkelung des einen Sensors, wenn der andere maximale Helligkeit besitzt
+- Keine Reibung
+- Alle Bauteile 100% steif
