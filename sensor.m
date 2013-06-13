@@ -9,6 +9,8 @@
 %       Array aus Sensorkonstanten => Sensorkonstanten
 %           1 signal_max in A
 %           2 Lastwiederstand der Idealen Photodiode in Ohm
+%           3 Azimutwinkel der Photodioden
+%           4 signal_max in V
 %       Unit cases: 'grad','mgrad','rad','mrad'
 
 function signal = sensor(Blendenwinkel,Unit,Sensorkonstanten)
@@ -32,5 +34,5 @@ S24 = @(phi) Sensorkonstanten(1)*(1-a(phi)); % Signal der Sensoren 2+4
 
 Iph = @(phi) S13(phi) - S24(phi); % Gesammt Photostrom
 
-signal = Sensorkonstanten(2)*Iph(phiB); % Spannungssignal [Out]
+signal = Iph(phiB)/Sensorkonstanten(1)*Sensorkonstanten(4); % Spannungssignal [Out]
 end

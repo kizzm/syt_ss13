@@ -18,9 +18,5 @@
 %           2   LED Abstand zu Dioden       in mm
 
 function Sensorkonstanten = sensorDaten(Photodioden,Blendenbreite,LED)
-Sensorkonstanten(1) = 1 % Fürs erste angenommen zu 1A
-Sensorkonstanten(2) = 50 % 
-Sensorkonstanten(3) =
-Sensorkonstanten(4) =
 
 end
