@@ -6,7 +6,7 @@
 %           2 Lastwiederstand der Idealen Photodiode in Ohm
 %           3 Azimutwinkel der Photodioden
 %           4 signal_max in V
-%       
+%      
 %       [In]:
 %       Array der Diodendaten => Photodioden
 %           1   Azimutwinkel                in rad     
