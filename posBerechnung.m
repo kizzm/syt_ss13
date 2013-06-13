@@ -12,6 +12,6 @@
 %           4 signal_max in V
 function phiPos = posBerechnung(signal,Sensorkonstanten)
 
-phiPos = Sensorkonstanten(3)/2 * signal/Sensorkonstanten(1);
+phiPos = Sensorkonstanten(3) * signal/Sensorkonstanten(4);
 
 end

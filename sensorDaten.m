@@ -4,23 +4,25 @@
 %       Array der Sensorkonstanten => Sensorkonstanten
 %           1 signal_max in A
 %           2 Lastwiederstand der Idealen Photodiode in Ohm
-%           3 Azimutwinkel der Photodioden
+%           3 Azimutwinkel der Photodioden/Maximaler Messbereich
 %           4 signal_max in V
 %      
 %       [In]:
 %       Array der Diodendaten => Photodioden
-%           1   Azimutwinkel                in rad     
-%           2   Innererradius r1            in mm
-%           3   Äußererradius r2            in mm
-%       Breite der Blende => Blendenbreite  in rad
+%           1   Innererradius r1            in mm
+%           2   Äußererradius r2            in mm
+%           3   Lastwiederstand             in Ohm
+%
+%       Maximal messbarer Winkel +- => Messbereich in rad
+%
 %       Array der LEDDaten => LED
 %           1   LED Abstrahlcharakteristik  als Array
-%           2   LED Abstand zu Dioden       in mm
-
-function Sensorkonstanten = sensorDaten(Photodioden,Blendenbreite,LED)
-Sensorkonstanten(1) = 1 % Fürs erste angenommen zu 1A
-Sensorkonstanten(2) = 50 % 
-Sensorkonstanten(3) =
-Sensorkonstanten(4) =
+%           2   LED Abstand zu Dioden       in mm  
+   
+function Sensorkonstanten = sensorDaten(Photodioden,Messbereich,LED)
+Sensorkonstanten(1) = 1; % Fürs erste angenommen zu 1A
+Sensorkonstanten(2) = Photodioden(3); % Lastwiederstand
+Sensorkonstanten(3) = Messbereich; % max Messbereich
+Sensorkonstanten(4) = Sensorkonstanten(1)*Photodioden(3); % max Signal in V
 
 end
