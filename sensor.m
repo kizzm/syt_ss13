@@ -1,7 +1,7 @@
 %% signal = sensor( Blendenwinkel, Unit, Sensorkonstanten)
 % Erzeugt:
 %       [Out]:
-%       Spannungssignal => signalV in V
+%       Normiertes Spannungssignal +-5V => signal in V
 %       
 %       [In]:
 %       aus Eingangswinkel => Blendenwinkel in 
