@@ -12,15 +12,15 @@
 %  Parameterbeschreibung:
 %
 %   RA          Ankerwiderstand
-%   LA          Ankerinduktivit�t
+%   LA          Ankerinduktivität
 %
-%   J           Tr�gheitsmoment
+%   J           Trägheitsmoment
 %   r           Reibkonstante
 %
 %   KMPHI       Motorkenngr�sse
 %
-%   uedach      Sprungh�he Motorspannung
-%   MLdach      Sprungh�he Lastmoment
+%   uephi       Sprunghöhe Motorwinkel
+%   MLdach      Sprunghöhe Lastmoment
 %
 %   te          Ende des Integrationsintervalls (ab t=0)
 %
@@ -37,11 +37,12 @@
 %   - Grafische Oberfläche bereitstellen
 % ########################################################
 clear all
-   
+close all
+% Angabe der Parameter für Simulink für die weiteren Berechnungen
   RA=.16;         % R=.16 Ohm  (Nollau, S. 36)
   TA=2.8;         % TA=2.8 ms
-  TA=TA*1e-3      % ms -> s
-  LA=RA*TA        
+  TA=TA*1e-3;      % ms -> s
+  LA=RA*TA;     
   
   J=93.3e-9;           % J=93.3e-9(12) kg cm^2
   % J=J*1e-2*1e-2;  % cm -> m
@@ -49,24 +50,32 @@ clear all
   
   KMPHI=6.3e-2;    % KMPHI=6.3e-2 Vs
   
-  uedach=24;        % uedach=u_nenn=24V
+  % uephi=0.1;        % verstellwinkel vorher: uedach=u_nenn=24V
   Mspiegel=130.25e-3; % MLdach=M_nenn=(1.6Nm) 130.25e-3Nm Spiegelmoment 
   
-  te=.02;            % te=.02s 
+  te=.02;            % te=.1s 
    
-  uu=-.1;           % uu=-10 N
-  uo=25;            % uo=25 N 
+  uu=-5;           % uu=-10 N
+  uo=5;            % uo=25 N 
   vu=-1000;         % wu=-1000 U/s
   vo=1000;           % wo=1000 U/s 
   vu2=0;            % iu2=0 mA
   vo2=15*1e4;       % io2=15*1e4 mA 
-  vu3=-0.35;         % phiu=-20� in rad
-  vo3=0.35           % phio=+20� in rad
+  vu3=-0.3;         % phiu=-20° in rad
+  vo3=0.3;           % phio=+20° in rad
   
 % ########################################################
 
-clc
-close all
+% Begin der Schleife um verschiedene Winkel einzustellen
+% Startbedingung phi = 0.
+%phi = 0;  
+%while phi > -10.1 && phi < 10.1
+
+% Eingabe des einzustellenden Winkels
+%prompt='Welcher Winkel soll eingestellt werden ?';
+%winkelein = input(prompt);
+phi = 10*pi/180; % Winkelein
+
 
 % Plot: Eingangssignal u
 figure(1)
@@ -86,20 +95,20 @@ opts=simset('solver','ode45',...
 
 % Plots
 subplot(2,1,1)
-% plot (t,y(:,1),'linewidth',2)  
-% axis([0 te uu uo])
-% grid on
-% hold on
-% plot (t,y(:,2),'r','linewidth',2) 
-% xlabel('t / s')
-% ylabel('u_e / V,   M_L / Nm')
-% title('Gleichstrommotor: Motorspannung, Lastmoment')
-plot (t,y(:,3),'linewidth',2);
-axis([0 te vu vo])
+plot (t,y(:,1),'linewidth',2)  
+axis([0 te uu uo])
 grid on
+hold on
+% plot (t,y(:,2),'r','linewidth',2) 
 xlabel('t / s')
-ylabel('\omega / U/s')
-title('Gleichstrommotor: Drehzahl')
+ylabel('u_e / V') %',   M_L / Nm'
+title('Gleichstrommotor: Motorspannung,') % Lastmoment
+% plot (t,y(:,3),'linewidth',2);
+% axis([0 te vu vo])
+% grid on
+% xlabel('t / s')
+% ylabel('\omega / U/s')
+% title('Gleichstrommotor: Drehzahl')
 
 subplot(2,1,2)
 % y(:,3)=(y(:,3)/(2*pi))*60; % rad/s  ->  U/min
@@ -146,6 +155,7 @@ title('Gleichstrommotor: Winkel')
 % xlabel('t / s')
 % ylabel('h / s')
 % title('Schrittweite')
+%end
 
 
 
