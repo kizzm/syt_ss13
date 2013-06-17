@@ -8,7 +8,7 @@
 %           4 signal_max in V
 %      
 %       [In]:
-%       Array der Diodendaten => Photodioden
+%       Array der Diodendaten(geometrisch, elektrisch) => Photodioden
 %           1   Innererradius r1            in mm
 %           2   Äußererradius r2            in mm
 %           3   Lastwiederstand             in Ohm

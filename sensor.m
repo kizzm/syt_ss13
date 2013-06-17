@@ -15,7 +15,7 @@
 
 function signal = sensor(Blendenwinkel,Unit,Sensorkonstanten)
 
-%% Abfrage der Eingangseinheit
+%% Umrechnung der Eingangseinheit
 switch Unit
     case 'grad'
         phiB = Blendenwinkel/180*pi;    
@@ -27,7 +27,7 @@ switch Unit
         phiB = Blendenwinkel/1000;
 end
         
-a = @(phi) 1/(20/180*pi) * phi + 0.5; % lineares Verhalten des Sensors +- 10°
+a = @(phi) 1/(Sensorkonstanten(2)/180*2*pi) * phi + 0.5; % lineares Verhalten des Sensors +- 10°
 
 S13 = @(phi) Sensorkonstanten(1)*(a(phi)); % Signal der Sensoren 1+3
 S24 = @(phi) Sensorkonstanten(1)*(1-a(phi)); % Signal der Sensoren 2+4
