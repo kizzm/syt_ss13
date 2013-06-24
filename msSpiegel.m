@@ -55,10 +55,10 @@ close all
   
   te=.02;            % te=.1s 
    
-  uu=-5;           % uu=-10 N
-  uo=5;            % uo=25 N 
+  uu=-30;           % uu=-10 N
+  uo=30;            % uo=25 N 
   vu=-1000;         % wu=-1000 U/s
-  vo=1000;           % wo=1000 U/s 
+  vo=1000;          % wo=1000 U/s 
   vu2=0;            % iu2=0 mA
   vo2=15*1e4;       % io2=15*1e4 mA 
   vu3=-0.3;         % phiu=-20° in rad
@@ -90,7 +90,7 @@ opts=simset('solver','ode45',...
     'Refine',1,...
     'MaxStep',.1);
 
-[t,x,y]=sim('sSpiegel',[t0 te],opts);
+[t,x,y]=sim('sSpiegeloE',[t0 te],opts);
 
 
 % Plots
