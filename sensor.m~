@@ -40,20 +40,16 @@ switch Verhalten
 
         signal = Iph(phiB)/Sensorkonstanten{1}*Sensorkonstanten{4}; % Spannungssignal [Out]
     case 'lineardif'
-        Rauschen = rand();
         a = @(phi) 1/(Sensorkonstanten{2}/180*2*pi) * phi + 0.5; % lineares Verhalten des Sensors +- °_max
 
-        S1 = @(phi,d) Sensorkonstanten{1}*(a(phi))+d; % Signal der Sensor 1
-        S3 = @(phi,d) -Sensorkonstanten{1}*(a(phi))+d; % Signal der Sensor 3
-        S2 = @(phi,d) Sensorkonstanten{1}*(1-a(phi))+d; % Signal Sensor 2
-        S4 = @(phi,d) -Sensorkonstanten{1}*(1-a(phi))+d; % Signal Sensor 4
-        
-        S13 = @(phi,d) S1(phi,d)-S3(phi,d);
-        S24 = @(phi,d) S2(phi,d)-S4(phi,d);
+        S1 = @(phi,Rauschen) Sensorkonstanten{1}*(a(phi))+Rauschen; % Signal der Sensoren 1
+        S3 = @(phi,Rauschen) -Sensorkonstanten{1}*(a(phi))+Rauschen; % Signal der Sensoren 1+3
+        S24 = @(phi,Rauschen) Sensorkonstanten{1}*(1-a(phi)); % Signal der Sensoren 2
+        S24 = @(phi,Rauschen) Sensorkonstanten{1}*(1-a(phi)); % Signal der Sensoren 4
 
-        Iph = @(phi,d) S13(phi,d) - S24(phi,d); % Gesammt Photostrom
+        Iph = @(phi) S13(phi) - S24(phi); % Gesammt Photostrom
 
-        signal = Iph(phiB,Rauschen)/Sensorkonstanten{1}*Sensorkonstanten{4}; % Spannungssignal [Out]
+        signal = Iph(phiB)/Sensorkonstanten{1}*Sensorkonstanten{4}; % Spannungssignal [Out]
         
     case 'char'
         Iph = @(phi) Sensorkonstanten{5}
