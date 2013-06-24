@@ -53,7 +53,7 @@ close all
   % uephi=0.1;        % verstellwinkel vorher: uedach=u_nenn=24V
   Mspiegel=130.25e-3; % MLdach=M_nenn=(1.6Nm) 130.25e-3Nm Spiegelmoment 
   
-  te=.02;            % te=.1s 
+  te=.05;            % te=.1s 
    
   uu=-30;           % uu=-10 N
   uo=30;            % uo=25 N 
@@ -61,8 +61,8 @@ close all
   vo=1000;          % wo=1000 U/s 
   vu2=0;            % iu2=0 mA
   vo2=15*1e4;       % io2=15*1e4 mA 
-  vu3=-0.3;         % phiu=-20° in rad
-  vo3=0.3;           % phio=+20° in rad
+  vu3=-0.2;         % phiu=-20° in rad
+  vo3=0.2;           % phio=+20° in rad
   
 % ########################################################
 
@@ -90,7 +90,7 @@ opts=simset('solver','ode45',...
     'Refine',1,...
     'MaxStep',.1);
 
-[t,x,y]=sim('sSpiegeloE',[t0 te],opts);
+[t,x,y]=sim('sSpiegel',[t0 te],opts);
 
 
 % Plots
