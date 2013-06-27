@@ -1,0 +1,19 @@
+function f = rechteckfunktion(breite, azimut, schrittzahl)
+z = 0
+for i = linspace(0,2*pi,schritt
+    z = z+1
+    if i <= azimut-breite/2
+        f(i/(2*pi/schrittzahl)) = 0;
+    elseif i > azimut-breite/2 & i < azimut+breite/2
+        f(i/(2*pi/schrittzahl)) = 1;
+    elseif i >= azimut+breite/2 & i <= pi+azimut-breite/2
+        f(i/(2*pi/schrittzahl)) = 0;
+    elseif i > pi+azimut-breite/2 & i < pi+azimut+breite/2
+        f(i/(2*pi/schrittzahl)) = 1;
+    elseif i >= pi+azimut+breite/2 & i <= 2*pi
+        f(i/(2*pi/schrittzahl)) = 0;
+    end
+        
+end
+
+end

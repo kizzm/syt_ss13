@@ -1,0 +1,13 @@
+function f = gausarray(schrittzahl,sig,my)
+ 
+x=linspace(floor(-3*sig),ceil(3*sig)); 
+G=exp(-0.5*x.^2/sig^2); 
+G=G/sum(G); 
+
+z = 0;
+for phi = linspace(0,2*pi,schrittzahl)
+    z = z+1;
+    f(z) = 1/sqrt(2*pi) * exp(-1/2 * (my-phi/sigma)^2);
+end
+
+end
