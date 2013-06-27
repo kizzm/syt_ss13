@@ -17,7 +17,7 @@
 %   J           Trägheitsmoment
 %   r           Reibkonstante
 %
-%   KMPHI       Motorkenngr�sse
+%   KMPHI       Motorkenngrösse
 %
 %   uephi       Sprunghöhe Motorwinkel
 %   MLdach      Sprunghöhe Lastmoment
@@ -39,10 +39,11 @@
 clear all
 close all
 % Angabe der Parameter für Simulink für die weiteren Berechnungen
-  RA=.16;         % R=.16 Ohm  (Nollau, S. 36)
-  TA=1;         % TA=2.8 ms
-  TA=TA*1e-3;      % ms -> s
-  LA=RA*TA;     
+  RA=1.07;         % R=.16 Ohm  (Nollau, S. 36)
+  %TA=1;           % TA=2.8 ms
+  %TA=TA*1e-3;     % ms -> s
+  LA=173e-6;        % RA*TA
+  TA=LA/RA;
   
   J=93.3e-9;           % J=93.3e-9(12) kg cm^2
   % J=J*1e-2*1e-2;  % cm -> m
@@ -53,7 +54,7 @@ close all
   % uephi=0.1;        % verstellwinkel vorher: uedach=u_nenn=24V
   Mspiegel=130.25e-3; % MLdach=M_nenn=(1.6Nm) 130.25e-3Nm Spiegelmoment 
   
-  te=.02;            % te=.1s 
+  te=.005;            % te=.1s 
    
   uu=-30;           % uu=-10 N
   uo=30;            % uo=25 N 
@@ -90,7 +91,7 @@ opts=simset('solver','ode45',...
     'Refine',1,...
     'MaxStep',.00001);
 
-[t,x,y]=sim('sSpiegelIad',[t0 te],opts);
+[t,x,y]=sim('sSpiegelPad',[t0 te],opts);
 
 
 % Plots
