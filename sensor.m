@@ -29,33 +29,48 @@ switch Unit
         phiB = Blendenwinkel/1000;
 end
 
+Rauschen = rand()*Sensorkonstanten{1}/10;
+
 switch Verhalten
-    case 'linear'
-        a = @(phi) 1/(Sensorkonstanten{2}/180*2*pi) * phi + 0.5; % lineares Verhalten des Sensors +- °_max
+    case 'einzelGruppe'
+        
+        a = @(phi) 1/Sensorkonstanten{3}/2 * phi + 0.5; % lineares Verhalten des Sensors +- °_max
 
-        S13 = @(phi) Sensorkonstanten{1}*(a(phi)); % Signal der Sensoren 1+3
-        S24 = @(phi) Sensorkonstanten{1}*(1-a(phi)); % Signal der Sensoren 2+4
+        S1 = @(phi,d) Sensorkonstanten{1}/4*(a(phi))+d; % Signal der Sensor 1
+        S3 = @(phi,d) Sensorkonstanten{1}/4*(a(phi))+d; % Signal der Sensor 3
+        S2 = @(phi,d) Sensorkonstanten{1}/4*(1-a(phi))+d; % Signal Sensor 2
+        S4 = @(phi,d) Sensorkonstanten{1}/4*(1-a(phi))+d; % Signal Sensor 4
+        
+        S13 = @(phi,d) S1(phi,d)+S3(phi,d);
+        S24 = @(phi,d) S2(phi,d)+S4(phi,d);
 
-        Iph = @(phi) S13(phi) - S24(phi); % Gesammt Photostrom
+        Iph = @(phi,d) S13(phi,d); % Gesammt Photostrom
 
-        signal = Iph(phiB)/Sensorkonstanten{1}*Sensorkonstanten{4}; % Spannungssignal [Out]
+        signal = Iph(phiB,Rauschen)/Sensorkonstanten{1}*Sensorkonstanten{4}; % Spannungssignal [Out]
+
     case 'lineardif'
-        Rauschen = rand();
-        a = @(phi) 1/(Sensorkonstanten{2}/180*2*pi) * phi + 0.5; % lineares Verhalten des Sensors +- °_max
+        a = @(phi) 1/Sensorkonstanten{3} * phi + 0.5; % lineares Verhalten des Sensors +- °_max
 
-        S1 = @(phi,d) Sensorkonstanten{1}*(a(phi))+d; % Signal der Sensor 1
-        S3 = @(phi,d) -Sensorkonstanten{1}*(a(phi))+d; % Signal der Sensor 3
-        S2 = @(phi,d) Sensorkonstanten{1}*(1-a(phi))+d; % Signal Sensor 2
-        S4 = @(phi,d) -Sensorkonstanten{1}*(1-a(phi))+d; % Signal Sensor 4
+        S1 = @(phi,d) Sensorkonstanten{1}/4*(a(phi))+d; % Signal der Sensor 1
+        S3 = @(phi,d) -Sensorkonstanten{1}/4*(a(phi))+d; % Signal der Sensor 3
+        S2 = @(phi,d) Sensorkonstanten{1}/4*(1-a(phi))+d; % Signal Sensor 2
+        S4 = @(phi,d) -Sensorkonstanten{1}/4*(1-a(phi))+d; % Signal Sensor 4
         
         S13 = @(phi,d) S1(phi,d)-S3(phi,d);
         S24 = @(phi,d) S2(phi,d)-S4(phi,d);
 
         Iph = @(phi,d) S13(phi,d) - S24(phi,d); % Gesammt Photostrom
-
         signal = Iph(phiB,Rauschen)/Sensorkonstanten{1}*Sensorkonstanten{4}; % Spannungssignal [Out]
         
     case 'char'
         Iph = @(phi) Sensorkonstanten{5}
 end
+
+%Signalbegrenzung
+if signal > Sensorkonstanten{4}
+    signal = Sensorkonstanten{4};
+elseif signal < -Sensorkonstanten{4}
+        signal = -Sensorkonstanten{4};
+end
+
 end

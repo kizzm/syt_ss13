@@ -20,7 +20,7 @@
 %           2   LED Abstand zu Dioden       in mm  
    
 function Sensorkonstanten = sensorDaten(Photodioden,Messbereich,LED)
-Sensorkonstanten{1} = 1; % Fürs erste angenommen zu 1A
+Sensorkonstanten{1} = 0.001; % Fürs erste angenommen zu 1A
 Sensorkonstanten{2} = Photodioden(3); % Lastwiederstand
 Sensorkonstanten{3} = Messbereich; % max Messbereich
 Sensorkonstanten{4} = Sensorkonstanten{1}*Photodioden(3); % max Signal in V

@@ -13,7 +13,11 @@ switch Funktion
             signal(i) = sensor(Wertebereich(i), 'rad',Funktionsparameter{1}, Funktionsparameter{2});
         end
         plot(Wertebereich,signal);
+        xlabel('Winkelposition des Spiegels / rad')
+        ylabel('Spannungssignal des Sensorsmoduls / V')
+        title(['Sensor-Kennlinie, mode = ',Funktionsparameter{1}])
         Hold off;
+        
 
 end
 end
