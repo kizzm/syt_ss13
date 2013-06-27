@@ -40,7 +40,7 @@ clear all
 close all
 % Angabe der Parameter für Simulink für die weiteren Berechnungen
   RA=.16;         % R=.16 Ohm  (Nollau, S. 36)
-  TA=2.8;         % TA=2.8 ms
+  TA=1;         % TA=2.8 ms
   TA=TA*1e-3;      % ms -> s
   LA=RA*TA;     
   
@@ -61,8 +61,8 @@ close all
   vo=1000;          % wo=1000 U/s 
   vu2=0;            % iu2=0 mA
   vo2=15*1e4;       % io2=15*1e4 mA 
-  vu3=-0.3;         % phiu=-20° in rad
-  vo3=0.3;           % phio=+20° in rad
+  vu3=-0.2;         % phiu=-20° in rad
+  vo3=0.2;           % phio=+20° in rad
   
 % ########################################################
 
@@ -88,9 +88,9 @@ t0=0;
 opts=simset('solver','ode45',...
     'InitialState',[],...
     'Refine',1,...
-    'MaxStep',.1);
+    'MaxStep',.00001);
 
-[t,x,y]=sim('sSpiegeloE',[t0 te],opts);
+[t,x,y]=sim('sSpiegelIad',[t0 te],opts);
 
 
 % Plots
