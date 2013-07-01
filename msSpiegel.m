@@ -39,22 +39,22 @@
 clear all
 close all
 % Angabe der Parameter für Simulink für die weiteren Berechnungen
-  RA=1.07;         % R=.16 Ohm  (Nollau, S. 36)
+  RA=0.1;         % R=.16 Ohm  (Nollau, S. 36)
   %TA=1;           % TA=2.8 ms
   %TA=TA*1e-3;     % ms -> s
-  LA=173e-6;        % RA*TA
+  LA=10e-6;        % RA*TA  173e-6
   TA=LA/RA;
   
   J=93.3e-9;           % J=93.3e-9(12) kg cm^2
-  % J=J*1e-2*1e-2;  % cm -> m
-  r=6e-5;         % r=6e-5 Nm*s
+  J=J*1e-2*1e-2;  % cm -> m
+  r=6e-6;         % r=6e-5 Nm*s
   
-  KMPHI=6.3e-2;    % KMPHI=6.3e-2 Vs
+  KMPHI=35e-3;    % KMPHI=6.3e-2 Vs
   
   % uephi=0.1;        % verstellwinkel vorher: uedach=u_nenn=24V
-  Mspiegel=130.25e-3; % MLdach=M_nenn=(1.6Nm) 130.25e-3Nm Spiegelmoment 
+  Mspiegel=130.25e-6; % MLdach=M_nenn=(1.6Nm) 130.25e-3Nm Spiegelmoment 
   
-  te=.005;            % te=.1s 
+  te=.002;            % te=.1s 
    
   uu=-30;           % uu=-10 N
   uo=30;            % uo=25 N 
@@ -75,10 +75,10 @@ close all
 % Eingabe des einzustellenden Winkels
 %prompt='Welcher Winkel soll eingestellt werden ?';
 %winkelein = input(prompt);
-phi = 20*pi/180; % Winkelein
+phi = 20*pi/180; 
 
-  vu4=phi-2*pi/180;
-  vo4=phi+2*pi/180;
+  vu4=phi-0.5e-2*pi/180;
+  vo4=phi+0.5e-2*pi/180;
   
 % Plot: Eingangssignal u
 figure(1)
@@ -93,7 +93,7 @@ opts=simset('solver','ode45',...
     'Refine',1,...
     'MaxStep',.00001);
 
-[t,x,y]=sim('sSpiegel',[t0 te],opts);
+[t,x,y]=sim('sSpiegelIad',[t0 te],opts);
 
 
 % Plots
