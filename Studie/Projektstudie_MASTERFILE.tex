@@ -1,0 +1,194 @@
+% Simulationsstudie zur Vorlesung Systemtechniken SS 2013
+% Erstellt von Michael Jost und Sebastian Schleich
+% Photonik Master, Semester 1
+
+\RequirePackage{hyphsubst}
+% ****************** Definition des Dokumentes ******************
+\documentclass[11pt,a4paper,headsepline,ngerman=ngerman-x-latest, openright, twoside]{scrreprt}
+% Definiert die Klasse des Dokumentes
+% xxpt: Schriftgröße in pt, draft: Overflowboxen werden markiert, a4paper: legt die Vermaßung auf Papiergröße A4 fest
+
+% ****************** Präambel des Dokumentes ******************
+\setlength{\parindent}{0cm} % Ausschalten der Absatzeinrückung im gesamten document
+\setcounter{secnumdepth}{3} % Angabe, wie tief die Überschriften nummeriert werden sollen
+\setcounter{tocdepth}{3} %Angabe, welche Überschriften noch im Inhaltsverzeichnis angezeigt werden sollen
+
+% ****************** Verwendete Pakete ******************
+\usepackage[left=3.5cm,right=3cm,top=3cm,bottom=3cm]{geometry} % Einstellung der Seitengeometrie
+%\evensidemargin0mm
+%\oddsidemargin5mm
+\usepackage[ngerman]{babel}
+\addto\captionsngerman{\renewcommand\figurename{Abb.}}
+\renewcommand{\thefigure}{\arabic{chapter}.\arabic{figure}}
+
+\usepackage[fixlanguage]{babelbib} % deutsche bibliography
+%\usepackage[ngerman=ngerman-x-latest]{hyphsubst} % bessere Trennung
+% Für die Deutsche Rechtschreibung
+
+%\usepackage[ansinew]{inputenc}
+\usepackage[latin1]{inputenc}
+
+
+\newif\ifpdf
+\ifx\pdfoutput\undefined
+   \pdffalse
+\else
+   \pdfoutput=1
+   \pdftrue
+\fi
+\ifpdf
+   \usepackage{graphicx}
+   \usepackage{epstopdf}
+   \DeclareGraphicsRule{.eps}{pdf}{.pdf}{`epstopdf #1}
+   \pdfcompresslevel=9
+\else
+   \usepackage{graphicx}
+\fi
+
+\usepackage{color}
+% color für farbige Schriften und Hintergründe 
+
+\usepackage{url}
+% zum Erstellen von URLs (\url{http:\\bla.de} verwenden)
+
+\usepackage[T1]{fontenc}
+% Erweitert die Anzahl an Zeichen und erleichtert die Silbentrennung
+
+\usepackage{longtable}
+% Damit Tabellen auch über eine Seite hinausgehen können
+
+\usepackage{array}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\numberwithin{equation}{chapter}
+
+% ************* Definition eigener Umgebungen *************
+\usepackage{cite}
+\usepackage[% 
+   automark, 
+   komastyle, 
+   nouppercase, 
+]{scrpage2} 
+
+\setlength{\headheight}{1.5\baselineskip}
+\pagestyle{scrheadings} % pages with header
+\clearscrheadings 
+\clearscrplain 
+\ohead{\pagemark} % header outside: page number 
+\ihead{\headmark} % header inside: chapter and section titles 
+\ofoot[\pagemark]{} % footer outsite: page numbers on plain pages 
+\automark[chapter]{chapter} %[right]{left} 
+\setheadsepline{.4pt}[\color{black}] % configures the line below the header 
+
+\usepackage[onehalfspacing]{setspace}
+\usepackage{pdfpages}
+\usepackage{rotating}
+%Hyperref für verlinktes Inhaltsverzeichnis
+\usepackage[colorlinks,
+pdfpagelabels,
+pdfstartview = FitH,
+bookmarksopen = true,
+bookmarksnumbered = true,
+linkcolor = black,
+plainpages = false,
+hypertexnames = false,
+citecolor = black] {hyperref}
+
+\usepackage{listings} % Das listings Packet für das einfügen von Scripten
+\usepackage{subfigure}
+\usepackage{ltxtable}
+\usepackage{units}
+
+%\hyphenation{} %für erzwungene Silbentrennung
+
+
+
+
+
+
+
+
+% ****************** Das Dokument selbst ******************
+\begin{document}
+
+\begin{titlepage}
+\title{Simulationsstudie}
+\author{Michael Jost, Sebastian Schleich}
+\date{04.07.2013}
+\begin{center} 
+\label{titelpage}
+{
+\vfill{}{\Huge \bf Simulationsstudie:}
+\vfill{}{\huge \bf Regelung eines Laserablenkspiegels}
+
+\vfill{}{\large Projektarbeit zur Vorlesung Simulationstechniken\\
+		SS 2013}
+
+\vfill{}{\large Fakultät 06\\
+		Fakultät für angewandte Wissenschaften und Mechatronik\\
+		der Hochschule München
+		}
+		
+\vfill{\it vorgelegt von} 
+\vfill{\bf Michael Jost\\Sebastian Schleich}
+
+\vfill{München, Juli 2013}
+
+}
+\end{center}
+\begin{tabbing}
+
+erste SpaltebbbreitbreiSpaltebbbreitbrei\= zweite Spalte breit zweite Spalte breit breit\kill
+
+Simulationsstudie eingereicht am:					\>................................  \\
+\\ \\
+Prüfer:						\> \\
+										\>  Prof. Dr. Rainer Froriep\\
+										\>  Prof. Dr. rer. nat. Alfred Kersch
+\\ \\
+\end{tabbing}
+
+%\maketitle
+\end{titlepage}
+
+\cleardoublepage
+
+%\pagenumbering{Roman}
+%\ofoot[]{}
+%\input{"ABSTRACT"}
+
+\newpage
+%\ihead{\headmark}
+\pdfbookmark[1]{Inhaltsverzeichnis}{toc}
+\tableofcontents 
+
+\cleardoublepage
+\setcounter{table}{0}
+\setcounter{secnumdepth}{3}
+\setcounter{chapter}{0}
+\pagenumbering{arabic}
+
+\input{Einfuehrung}
+\input{Aufgabenstellung}
+\input{Modellbildung}
+\input{Programmentwicklung}
+\input{Simulationsdurchfuehrung}
+\input{Disskussion}
+\input{Zusammenfassung}
+
+\setcounter{figure}{0}
+\input{Anhaenge}
+
+%Verzeichnisse
+\setcounter{figure}{0}
+\input{Literatur}
+\input{Abbildungen}
+\input{Tabellen}
+
+%Bürokratischer Kram
+\setcounter{chapter}{0}
+\input{Danksagung}
+\input{Erklaerung}
+
+\end{document}
