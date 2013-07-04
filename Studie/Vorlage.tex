@@ -1,0 +1,153 @@
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage{textcomp}
+\usepackage{graphicx}
+\usepackage[colorlinks,pdfpagelabels,pdfstartview = FitH,bookmarksopen = true,bookmarksnumbered = true,linkcolor = black,plainpages = false,hypertexnames = false,citecolor = black]{hyperref}
+\usepackage{amsmath}
+\begin{document}
+\begin{titlepage}
+\begin{center}
+  \bfseries
+  \huge 
+  \\[4em]
+  \Large 
+  \\[6em]
+  \large
+\end{center}
+\end{titlepage}
+\newpage
+\tableofcontents
+\newpage
+\section{Abstrakt}
+
+
+\section{Einleitung}
+
+\section{Grundlagen}\label{grundlagen}
+
+\subsection{Licht}
+\textsl{``Licht, so bedeutsam es für uns Menschen und für das irdische Leben ist, er\-wei\-st sich physikalisch nur als eine von vielen elektromagnetischen Wellenerscheinun\-gen \cite{WulfLange}.''}
+\\[1em]
+Elektromagnetische Strahlung reicht über einen weiten Wellenlängenbereich und wird nach praktischen Gesichtspunkten wie: Verfügbare Strahlungsquellen(z.B. Gam\-ma\-strah\-lung), Empfänger(z.B Funk) oder Anwendung(z.B. Laser) ein\-ge\-teilt\cite{GottHans}.
+
+
+\begin{itemize}
+\item von 100nm bis 380nm (kurzwelliger Teil) in die Ultraviolettstrahlung(UV)
+\item von 380nm bis 780nm in den Bereich des für das menschliche Auge sichtbaren Lichtes oder auch VIS (Engl.Abk.f.: visible)
+\item von 780nm bis 1mm in den langwelligen Bereich: Infrarotstrahlung, auch Ultrarotstrahlung genannt
+\end{itemize}
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=0.6\textwidth]{Spektrum.jpg}
+	\caption{Spektrum und Linienspektrum\cite{Gerthsen}}
+	\label{Spektrum}
+\end{figure}
+
+
+\begin{center}
+\begin{equation}
+E = h * f
+\end{equation}
+\end{center}
+h ist das Plancksche Wirkungsquantum mit 6,63*10$^{-34}$Js und f ist die Frequenz \cite{WulfLange,Gerthsen}. 
+
+
+\subsection{Laser}
+\subsubsection{Allgemein}
+LASER bedeutet \emph{Light Amplification by Stimulated Emission of Radiation}.
+Also die Lichtverstärkung durch Emission von Strahlung. 
+Für eine anschauliche Erklärung wird ein sog. 2-Niveau Termschema verwendet, siehe Abb.\ref{Spektrum}.
+\\[1em]
+1. Absorption:\newline
+Trifft in einem Atom ein einfallendes Photon mit der Energie E=hf$_{12}$ auf ein Elektron im Energiezustand $E_1$, so kann das Photon seine Energie an das Elektron abgeben und dadurch das Elektron in einen angeregten Zustand (Energiezustand) $E_2$ versetzen. 
+Diesen Vorgang bezeichnet man als Absorption.
+\\[1em]
+2. Spontane Emission:\newline
+Gibt es in einem Atom ein angeregtes Elektron, so fällt dieses spontan von seinem höheren Energieniveau $E_2$ auf ein niedrigeres Energieniveau $E_1$ herunter. 
+Dabei gibt es seine Energie als Photon über die charakteristische Strahlung nach (1) ab.
+Dieser Vorgang wird als spontane Emission bezeichnet.
+\\[1em]
+3. Stimulierte oder induzierte Emission:\newline
+Trifft ein einfallendes Photon auf ein angeregtes Elektron, so fällt das angeregte Elektron vom Energiezustand $E_2$ in ein niedrigeres Energieniveau $E_1$.
+Dabei sendet es, wie bei der spontanen Emission, seine Energie in Form eines Photons ab. 
+Nur diesmal frequenz- und phasengleich, sowie räumlich kohärent mit dem einfallenden Photon.
+Es findet eine stimulierte bzw. induzierte Emission eines Photons statt.
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=0.9\textwidth]{Termschema-Gesamt.jpg}
+	\caption{2-Niveau Termschema \cite{Eichler}}
+	\label{StimulierteEmission}
+\end{figure}
+\\[1em]
+
+\begin{itemize}
+\item \textbf{Schneiden:}
+
+Das bisher in der Industrie am weitesten verbreitete laserbasierte Fertigungsverfahren ist das Laserschneiden.
+Mit einem fokussierten Laserstrahl lässt sich in nahezu jedem Material fast jede beliebige Kontur erzeugen.
+
+\item \textbf{Schweißen:}
+
+Beim Laserstrahlschweißen erfolgt die Verbindung der zusammen zufü\-gen\-den Teile im schmelzflüssigen Zustand.
+
+\item \textbf{Oberflächenmodifikation:}
+
+Um Bauteile an ihrem entsprechenden Einsatzort zu optimieren, wurden Verfahren entwickelt, mit denen die Oberflächen der Bauteile in Bezug auf ihre Verschleiß- und Korrosionsbeständigkeit behandelt werden.
+
+\item \textbf{Bohren und Abtragen:}
+
+Unter Bohren versteht man das Herstellen kreiszylindrischer oder ke\-gel\-för\-miger Innenflächen, bei denen das Verhältnis aus Tiefe zu Durchmesser des Bohrlochs größer gleich eins ist.
+
+Beim Abtragen entstehen beliebige, zweidimensionale Strukturen an der Werk\-stück\-oberfläche, bei denen die Tiefe kleiner als die größte laterale Abmessung ist.
+
+Bei beiden Verfahren wird aufgrund der thermischen Einwirkung der absorbierten Strahlungsenergie das Material in der WWZ erwärmt, es schmil\-zt und verdampft und verlässt diese teilweise als Schmelztröpfchen, teilweise als Dampf, siehe Abb.\ref{Ablation}.
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=0.7\textwidth]{Ablation.jpg}
+	\caption{Ablation \cite{HueGra}}
+	\label{Ablation}
+\end{figure}
+
+In Abhängigkeit von den Strahlparametern wird die Energiedepo\-si\-tion durch Plasma und Streueffekte sowie durch LSA-Wellen modifiziert, was wiederum eine Folge der am Werkstück resultierenden dynamischen Schmel\-z- und Verdampfungsvorgänge der Ablation ist \cite{Eichler,Steen,HueGra}.
+\end{itemize}
+
+
+\section{Komplexität des Beschriftens}\label{beschriften}
+
+\begin{table}[!ht]
+\caption{Übersicht über die verschiedenen Strahldurchmesser bei unterschiedlichen opt. Weglängen und deren Beschriftungsdurchmesser auf der Platte}
+\begin{tabular}{|c|c|c|c|}
+\hline
+	Abstand [cm] & \O \ vor BE [mm] & \O \ nach BE [mm] & \O \ auf der Platte [mm]\\
+\hline
+	18 & 3.57 & 10.71 & 0.13 \\
+	42 & 3.86 & 11.58 & 0.13 \\
+	60 & 4.2 & 12.6 & 0.12 \\
+	78 & 4.61 & 13.83 & 0.12 \\
+	97 & 5.12 & 15.36 & 0.09 \\
+	117 & 5.71 & 17.13 & 0.07 \\
+	178 & 7.7 & 23.11 & nicht messbar \\
+\hline
+	184 & ohne BE & vor Scankopf 7.91 & 0.08 \\
+\hline
+\end{tabular}
+\label{Strahldurchmessertabelle}
+\end{table}
+
+\section{Persönliche Erklärung}
+\large \textbf{Persönliche Erklärung}
+\\[1em]
+Hiermit erkläre ich, Michael Jost, dass ich die vorliegende Bachelorarbeit "`Planung und Errichtung eines standardisierten Messaufbaus zur Bestimmung der Beschriftungsqualität von CO$_2$-Lasern in Abhängigkeit von der Wellenlänge, sowie Durchführen von Beschriftungen und Messungen und automatisiertes Auswerten der Messergebnisse"' selbstständig angefertigt habe. Es wurden nur die in der Arbeit genannten Quellen und Hilfsmittel benutzt.
+\vspace{4\baselineskip}
+München, den \today 
+\newpage
+\addcontentsline{toc}{section}{Abbildungsverzeichnis}
+\listoffigures
+\bibliographystyle{unsrt}
+\addcontentsline{toc}{section}{Literaturverzeichnis}
+\bibliography{Bachelor}
+\end{document}
+
