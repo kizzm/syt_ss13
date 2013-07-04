@@ -1,64 +1,97 @@
 1. Einführung:
-- Beschichtung von z.B.Wafern (Lasertrimmen von Widerständen), Glas (Brille) oder Masken für die Lithographie, erfolgt in der Fokusebene des Laserstrahls durch     
-  X- und Y-Ablenkung.
-- Fokusebene ist räumlich beschränkt (gleiche Intensität und Strahldurchmesser)
-- Problem bei Beschriftungsobjekten größeren Ausmaßes als Größe der Fokusebene (z.B. Fensterscheiben, Solarpannels, Folien)
 
 Bei der Bearbeitung von z.B. Wafern (z.B. Lasertrimmen von Widerständen), Glas (z.B. Brille) oder Masken für die Lithographie, wird ein Laserstrahl in der Fokusebene durch 
-2 Spiegel, einer für die X- und einer für die Y-Richtung, abgelenkt. Die Spiegel sind auf einer Welle montiert, die über einen Motor bewegt werden kann. 
-So lassen sich Beschriftungen in 2 Dimensionen ausführen. Wobei die Fokusebene durch Werte gleicher Intensität und gleicher Strahldurchmesser festgelegt ist.
+2 Spiegel, einer für die X- und einer für die Y-Richtung, abgelenkt. Die Spiegel sind auf einer Welle montiert, die über einen Motor bewegt wird. 
+Durch diese Anordnung lassen sich Beschriftungen in 2 Dimensionen ausführen. Wobei eine Fokusebene durch Werte gleicher Intensität und gleicher Strahldurchmesser festgelegt ist.
+Aber auch in der Medizin, beim Laserstrahlschweißen, in der Raumfahrt, beim Militär und in Barcode Scannern finden Spiegelmotoren Verwendung.
+Es gibt verschiedene Größen der Spiegel und der entsprechenden Motoren. Aber nicht nur die Größe der Spiegel und der Motoren unterscheiden sich, sondern auch in der erreichbaren 
+bzw. geforderten Geschwindigkeit und Genauigkeit unterscheiden sich die verschiedenen Ausührungen.
 
-Der Nachteil ist, dass die Fokusebene nur einen begrenzten Bereich abdeckt. Sollen größere Flächen mit dem Laser bearbeitet werden, so müssen die Anlagen verändert werden.
+Wird ein Laserstrahl durch zwei Spiegel abgelenkt, so ist die Fokusebene auf eine kleine Fläche beschränkt.
+Sollen größere Flächen mit dem Laser bearbeitet werden, so müssen die Anlagen verändert werden.
+
+--->   Bilder einfügen   <---
+
+Es werden zwei Lösungsansätze vorgestellt.
+
+Der Laserstrahl ist fest nach unten gerichtet und zwei entsprechend große Motoren bewegen entweder den ganzen Laser über das Werkstück, oder das zu beschriftende Objekt wird in 
+X- und Y-Richtung durch die zwei großen Motoren bewegt.
+Diese Möglichkeit bringt allerdings einige Nachteile mit sich. Zum einen ist die Geschwindigkeit und Genauigkeit von großen Motoren eingeschränkt.
+Zum anderen kann es die Lebensdauer eines Lasers negative beeinflussen, wenn er ständig Beschleunigt und Abgebremst wird und so entsprechenden Kräften die an ihm rütteln ausgesetzt
+ist.
+Diese Lösung ist für sehr feine bzw. kleine Strukturen und aus wirtschaftlichen Gründen nicht zu empfehlen.
+
+Der zweite Lösungsansatz sieht einen fest eingebauten Laser vor, dessen Laserstrahl nur in einer Richtung abgelenkt wird.
+Durch die Auslenkung des Laserstrahls in nur einer Richtung, ergibt sich keine Fokusebene sondern eine Fokuslinie.
+Bewegt sich nun das zu beschriftende Werkstück quer zu der Fokuslinie, kann eine große Fokusebene beschriftet werden.
+
+--->   verändertes Bild vom Vortrag einfügen   <---
+
+Es muss dabei sichergestellt sein, dass der Vorschub des Werkstücks auf die Einstellgeschwindigkeit der Spiegelverstellung und somit auf die Beschriftung in der Fokuslinie 
+abgestimmt ist.
+Durch eine entsprechende Anordnung können so Werkstücke größeren Ausmaßes beschriftet werden.
+Die Bearbeitung von Solarpannels oder Werbebeschriftungen auf Folien können so realisiert werden.
+
+In den Bildern ??? bis ??? ist eine Fertigungsstraße für Solarpannels der Firma Manz AG dargestellt. 
+--->   Bilder von Manz einfügen   <---
 
 
-Möglicher Lösungsansatz:
-- Laserstrahl ist fest nach unten gerichtet
-- 2 große Motoren um a) ganzen Laser oder b) Objekt in X- und Y-Richtung zu bewegen
-- Geschwindigkeit und Genauigkeit von großen Motoren ist beschränkt
+Gegenstand dieser Simulationsstudie ist die Regelung eines Motors zur Ablenkung eines Laserstrahls an einem Spiegel.
 
-Anderer Lösungsansatz:
-- Laser ist fest:
--> Ablenkung nur in einer Richtung -> Fokuslinie
--> Quer zur Fokuslinie mit Schrittmotoren das Material verschieben -> große Fokusebene
--> Objekte wesentlich größeren Ausmaßes können beschriftet werden
+Es sollen verschiedene Winkel eingestellt werden, wobei die größte Winkeländerung 20° betragen soll.
+Die größte Winkeländerung soll mit einer Einstellzeit von 1ms und mit einer Regelgenauigkeit von 1e-3° erreicht werden.
 
-Gegenstand dieser Simulationsstudie ist die Regelung eines Motors zur Ablenkung eines Laserstrahls an einem Spiegel, welcher sich auf der Motorwelle befindet.
-Bild aus Vortrag einfügen.
+Der Spiegel ist auf der Welle eines Gleichstrommotors befestigt.
+Da Gleichstrommotoren auf eine Drehgeschwindigkeit und nicht auf einen festen Winkel geregelt werden, ergibt sich hier eine neue Aufgabenstellung.
+Die Regelung umfasst folgende Bereiche:
+- Elektronische Steuerung des Motors
+- Mechanische Umsetzung der elektrischen Steuersignale in Drehbewegungen
+- Aufnehmen der aktuellen Winkelposition um eine Regelung aufbauen zu können
+
+Das Aufnehmen der Winkelposition ist von großer Wichtigkeit. 
+In dieser Simulationsstudie lässt sich die winkelposition in Simulink direkt ablesen. Wird aber ein reales Bauteil angeschlossen, weichen dessen Parameter von denen der 
+Simulationsstudie ab. Aufrund dieser Abweichung lässt sich die Winkelposition nicht mehr direkt ablesen, sondern muss am Bauteil selbst gemessen werden.
+Ohne eine genaue Winkelzuordnung ist eine Regelung aber nicht möglich.
+Aus diesen Gründen wird in Kap. ??? intensiver auf die Sensoren eingegangen und es werden verschiedene Sensoren vorgstellt.
+
+
 
 2. Aufgabenstellung:
 
-Ablenkung eines Laserablenkspiegels durch Gleichstrommotor:
+Um größere Flächen eines Werkstücks mit dem Laser zu bearbeiten, soll ein Laserstrahl von einem fest eingebauten Laser mit einem Spiegel abgelenkt werden.
+Es entsteht so eine Fokuslinie in der das Werkstück beschriftet werden kann. Durch einen Vorschub des Werkstückes kann so eine große Fläche beschriftet werden.
 
-Es soll untersucht werden, ob es möglich ist, eine Regelung aufzubauen, um mit einem Gleichstrommotor einen Laserablenkspiegel nach entsprechenden Vorgaben zu bewegen.
-Dabei werden folgende Leistungsmerkmale vorgegeben:
+Die Ablenkung des Laserstrahls erfolgt durch einen Gleichstrommotor, auf dessen Welle ein Spiegel montiert ist.
+
+In dieser Simulationsstudie soll untersucht werden, ob es möglich ist eine Regelung aufzubauen, die einen Laserablenkspiegel, der von einem Gleichstrommotor bewegt wird, 
+auf eine bestimmte Winkelpositionen zu bewegen und in entsprechenden Regeldofferenzen zu halten.
+Es werden folgende willkürlich gewählte Leistungsmerkmale vorgegeben:
 - Verstellung des Spiegels aus der Ruhelage (Mitte) um +/- 10°. Wobei die Ruhelage des Spiegels den Laserstrahl genau in die Mitte der Fokuslinie auf dem Werkstück ablenkt.
 - Um einen maximalen Winkelbereich von 20° abzufahren, darf die Regelung nicht länger als 1ms benötigen.
-- Ist ein Winkle eingestellt, so soll dieser mit einer Genauigkeit von 1°e-3 erreicht werden.
+- Der einzustellende Winkel soll mit einer Genauigkeit von 1°e-3 erreicht und gehalten werden.
 
-Keine Aufgabe:
-- Abstand des Lasers zum Werkstück -> Fokushöhe egal
-- Fokus wird über Winkelbereich als konstant angenommen
-- Vorschub des Werkstücks und Laseraktivität sind aufeinander abgestimmt
-- An- und absteigen der Laserleistung wird nicht berücksichtigt
 
-Themenabdeckung:
-- Bewegung von Magnet, Drehachse und Spiegel ist mechanische Arbeit durch Drehmomente
-- Drehmomente werden durch Ströme die Magnetfelder hervorrufen realisiert
+In dieser Simulationsstudie wird vorausgesetzt, dass der Abstand des Lasers zum Werkstück keine Rolle spielt. Zudem wird der Fokus des Laserstrahls über den zu regelnden 
+Winkelbereich als konstant angenommen.
+Der aufeinander abgestimmte Vorschub des Werkstücks und abfahren der Fokuslinie des Lasers wird hier nicht betrachtet, da nur die Ablenkung des Laserstrahls im Zentrum der
+Studie steht.
+Ein in der Realität beobachtbarer an- und abstieg der Laserleistung beim an- und abschalten des Lasersstrahls wird hier vernachlässigt.
+
+
+Die Simulationsstudie deckt folgende Themen ab:
+- Bewegung von Magnet, Welle und Spiegel als mechanische Arbeit durch angesetzte Drehmomente
+- Drehmomente werden durch Ströme, die Magnetfelder hervorrufen, realisiert
 - Positionserfassung durch Auswertung von Lichtintensitäten auf 4 Sensoren
+- es müssen verschiedene Parameter wie, Trägheitsmomente von Spiegel und Welle, Drehmomente, induzierte Spannungen und z.B. Lichtintensitäten beachtet werden
 
-Vereinfachungen:
+Bevor mit der Simulationsstudie begonnen wird, werden einige Vereinfachungen angenommen:
 - Spiegel und Drehachse sind eine immer gleich konzentrierte Masse -> gleiche Beschleunigungen
 - Luftspalt zwischen Magnet und Spule hat keinen Einfluss -> Luftspalt hat geringere magnetische Kraftflussdichte
-- Spiegel ist immer mit Schwerpunkt in der Drehachse -> keine anderen Drehmomente
-- Druch verdrehen des Spiegls kann der Laserstrahl nicht vom Spiegel "fallen"
+- Spiegel ist immer mit Schwerpunkt in der Drehachse -> keine anderen Drehmomente, kein Verbiegen
+- Druch verdrehen des Spiegls kann der Laserstrahl nicht vom Spiegel "fallen" (wäre der Spiegel zu weit gedreht, so dass der Laserstrahl nur noch auf eine kleine Ablenkfläche 
+trift, würde der mittlere Teil des Laserstrahls abgelenkt und der äußere Teil würde am Spiegel vorbei "laufen")
 - Lichtquelle hat konstante Beleuchtungsstärke in den Halbraum
 - Völlige Abdunkelung des einen Sensors, wenn der andere maximale Helligkeit besitzt
-- Keine Reibung
 - Alle Bauteile 100% steif
+- Erwärmung und dadurch eine Veränderung der Parameter wird nicht beachtet
 
-
-- Welle mit Spiegel
-- Welle ist Magnet
-- Spulen im Abstand zum Magneten
-- Blende an Drehachse
-- Lichtquelle und Sensor, dazwischen Blende
