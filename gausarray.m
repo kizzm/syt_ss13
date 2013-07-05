@@ -1,7 +1,9 @@
-function G = gausarray(schrittzahl,sig)
+function glatt = gkern(x)
  
-x=linspace(floor(-3*sig),ceil(3*sig),schrittzahl); 
-G=exp(-0.5*x.^2/sig^2); 
-%G=G/sum(G);
-
+if abs(x) < 1
+    glatt = exp(-1/(1-x^2));
+else
+    glatt = 0;
+end
+  
 end

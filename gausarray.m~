@@ -1,6 +1,5 @@
-function G = faltungskern(schrittzahl)
-
-for i = (-pi,pi,schrittzahl)
-    G( = exp(-1/1-x^2);
-
+function glatt = gkern(x)
+ 
+if abs(x) < 1
+    glatt = exp(-)
 end
