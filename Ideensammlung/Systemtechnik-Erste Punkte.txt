@@ -95,3 +95,45 @@ trift, würde der mittlere Teil des Laserstrahls abgelenkt und der äußere Teil wü
 - Alle Bauteile 100% steif
 - Erwärmung und dadurch eine Veränderung der Parameter wird nicht beachtet
 
+Es wird mit einem vorgegebenen Gleichstrommotor begonnen, Werte für die Regelparameter heraus zu finden, mit denen sich erste Ergebnisse zeigen.
+Mit diesen gefundenen Regelparametern wird dann versucht, die Regelergebnisse noch zu verbessern.
+Als Alternative kommt die s.g. P-Adapion in Betracht. Bei der P-Adaption gibt es im Regelkreis nur einen P-Regler. Diesem P-Regler ist eine Funktion vorgeschaltet, die es über 
+zwei einzugebende Parameter erlaubt, näher an den Sollwert zu gelangen.
+
+
+5. Simulationsdurchführung:
+
+In diesem Abschnitt werden verschiedene Simulationen durchgeführt.
+Es wird mit einer P-Regelung begonnen, die Sollwerte zu erreichen. Wenn die P-Regelung nicht ausreicht, wird die P-Regelung erst nur um einen I-Anteil und dann nur um einen 
+D-Anteil erweiteret. Sollten immernoch keine Zufriedenstellenden Ergebnisse vorliegen, so wird mit einer PID-Regelung versucht, die Vorgaben zu erreichen.
+
+Bla bla bla
+--->   Hier kommen dann die verscheidenen Ergebnisse hin   <---
+
+Nach dem die verschiedenen Regler die Vorgaben noch nicht erfüllen konnten, wird nun die P-Adapion eingesetzt. Bei der P-Adaption wird folgende Formel vor den P-Verstärke geschaltet:
+ 
+--->   Formel   <---
+ 
+Dabei muss der Regelkreis folgendermaßen erweitert werden:
+ 
+--->   Bild von Froriep   <---
+
+Nun kann mit drei verschiedenenn Parametern verucht werden, die Sollwerte zu erreichen.
+
+--->   Hier kommen dann die verscheidenen Ergebnisse hin   <---
+
+
+Durch die Verwendung der P-Adaption konnte die Einregelzeit verbessert werden.
+Es zeigte sich, dass mit dem vorhandenen Gleichstrommoter keine der Vorgaben eingehalten werden kann.
+
+Nun werden die Motorwerte solange verändert, bis sich das gewünschte Ergebniss einstellt.
+
+
+6. Diskussion:
+
+--->   kommt noch   <---
+
+
+7. Zusammenfassung:
+
+--->   kommt noch   <---
