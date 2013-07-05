@@ -5,8 +5,6 @@
 %
 %  Unterprogramme:  sSpiegel.slx
 %
-%  (c)25.3.12  R.Froriep
-%
 % ########################################################
 %
 %  Parameterbeschreibung:
@@ -24,7 +22,7 @@
 %   te          Ende des Integrationsintervalls (ab t=0)
 %
 %   ug, og      Untere/obere Grenze der Grafiken
-%P Anteil von 800
+%
 % ########################################################
 
 clear all
@@ -36,7 +34,7 @@ close all
   TA=TA*1e-3;         % ms -> s
   LA=RA*TA;        
   
-  J=93.3e-13;          % J=93.3e-9(12) kg cm^2 Trägheitsmoment des Spiegels
+  J=93.3e-9;          % J=93.3e-9(12) kg cm^2 Trägheitsmoment des Spiegels
                        % J=93.3e-13 für kg m^2
   % J=J*1e-2*1e-2;      % cm -> m
   r=6e-5;             % Reibunsgkonstante
@@ -45,7 +43,7 @@ close all
   
   Mspiegel=130.25e-3; % 130.25e-6Nm Spiegelmoment 
   
-  te=.02;             
+  te=.1;             
    
   uu=-30;             % uu=-10 N
   uo=30;              % uo=25 N 
@@ -56,7 +54,7 @@ close all
 
 % ########################################################
 
-% Es wird ein Winkel von 20° zum einstellen vorgegeben.
+% Es wird ein maximaler Winkel von 20° zum einstellen vorgegeben.
 phi = 20*pi/180; 
 
   vu4=phi-0.5e-2*pi/180;    % dient zur Anzeige der Regeldifferenz
