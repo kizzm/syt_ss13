@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.10.25)  5 JUL 2013 09:41
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.10.25)  5 JUL 2013 09:59
 entering extended mode
  %&-line parsing enabled.
 **Projektstudie_MASTERFILE.tex
@@ -733,262 +733,76 @@ rk-st�cks auf die Ein-stellgeschwindigkeit
 
 ]) (./Aufgabenstellung.tex [2]
 Kapitel 2.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 14.
-(/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
-File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 14.
+! Missing $ inserted.
+<inserted text> 
+                $
+l.22 ...s Spiegels aus der Ruhelage (Mitte) um \pm
+                                                   10\textdegree. Wobei die ...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
 
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.14 Um größ
-              ere Flächen eines Werkstücks mit dem Laser zu bearbeiten, so...
-
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 22.
 
 
-! LaTeX Error: Command \textcurrency unavailable in encoding T1.
+LaTeX Warning: Command \" invalid in math mode on input line 22.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.14 Um größere Flä
-                      chen eines Werkstücks mit dem Laser zu bearbeiten, so...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+! Undefined control sequence.
+l.23 ...maximalen Winkelbereich von 20\textcelcius
+                                                   abzufahren, darf die Rege...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.15 ...rschub des Werkstückes kann so eine groß
-                                                  e Fläche beschriftet werden.
-
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
+LaTeX Warning: Command \" invalid in math mode on input line 23.
 
 
-! LaTeX Error: Command \textcurrency unavailable in encoding T1.
+LaTeX Warning: Command \" invalid in math mode on input line 23.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.15 ... des Werkstückes kann so eine große Flä
-                                                  che beschriftet werden.
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+! Undefined control sequence.
+l.24 ...ll mit einer Genauigkeit von 1\textcelcius
+                                                   e-3 erreicht und gehalten...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.25 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
-! LaTeX Error: Command \textcurrency unavailable in encoding T1.
+Missing character: There is no � in font cmr10!
+Missing character: There is no � in font cmr10!
+Missing character: There is no � in font cmr10!
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.21 Es werden folgende willkürlich gewä
-                                          hlte Leistungsmerkmale vorgegeben:
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \textcurrency unavailable in encoding T1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.23 ...° abzufahren, darf die Regelung nicht lä
-                                                  nger als 1ms benötigen.
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \textcurrency unavailable in encoding T1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.31 Ein in der Realitä
-                        t beobachtbarer an- und abstieg der Laserleistung be...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \textcurrency unavailable in encoding T1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.31 ...ten des Lasersstrahls wird hier vernachlä
-                                                  ssigt.
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Overfull \hbox (22.33783pt too wide) in paragraph at lines 27--32
-[]\T1/cmr/m/n/10.95 In dieser Sim-u-la-tion-sstudie wird vo-raus-ge-set-zt, das
-s der Ab-stand des Lasers zum Werkst�$[]$ck
+Overfull \hbox (382.26804pt too wide) in paragraph at lines 19--25
+\T1/cmr/m/n/10.95 - Ver-stel-lung des Spiegels aus der Ruhe-lage (Mitte) um $\O
+MS/cmsy/m/n/10.95 ^^F\OT1/cmr/m/n/10.95 10[]\OML/cmm/m/it/10.95 :WobeidieRuhela
+gedesSpiegelsdenLaserstrahlgenauindieMittederFokuslinieaufdemWerkstckablenkt: \
+OMS/cmsy/m/n/10.95 ^^@
  []
 
 
-! LaTeX Error: Command \textcurrency unavailable in encoding T1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.37 ...ssung durch Auswertung von Lichtintensitä
-                                                  ten auf 4 Sensoren
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+Overfull \hbox (74.81923pt too wide) in paragraph at lines 19--25
+\OML/cmm/m/it/10.95 UmeinenmaximalenWinkelbereichvon\OT1/cmr/m/n/10.95 20\OML/c
+mm/m/it/10.95 abzufahren; darfdieRegelungnichtlngerals\OT1/cmr/m/n/10.95 1\OML/
+cmm/m/it/10.95 msbentigen: \OMS/cmsy/m/n/10.95 ^^@
+ []
 
 
-! LaTeX Error: Command \textcurrency unavailable in encoding T1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.38 - es müssen verschiedene Parameter wie, Trä
-                                                  gheitsmomente von Spiegel ...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \textcurrency unavailable in encoding T1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.38 ...zierte Spannungen und z.B. Lichtintensitä
-                                                  ten beachtet werden
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \textcurrency unavailable in encoding T1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.44 ...aserstrahl nicht vom Spiegel "fallen" (wä
-                                                  re der Spiegel zu weit ged...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \textcurrency unavailable in encoding T1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.44 ...strahl nur noch auf eine kleine Ablenkflä
-                                                  che
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \textcurrency unavailable in encoding T1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.45 ...Teil des Laserstrahls abgelenkt und der ä
-                                                  ußere Teil würde am Spie...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.45 ...l des Laserstrahls abgelenkt und der äuß
-                                                  ere Teil würde am Spiegel...
-
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! LaTeX Error: Command \textcurrency unavailable in encoding T1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.46 - Lichtquelle hat konstante Beleuchtungsstä
-                                                 rke in den Halbraum
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \textcurrency unavailable in encoding T1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.49 - Erwä
-            rmung und dadurch eine Veränderung der Parameter wird nicht bea...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \textcurrency unavailable in encoding T1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.49 - Erwärmung und dadurch eine Verä
-                                        nderung der Parameter wird nicht bea...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+Overfull \hbox (16.97195pt too wide) in paragraph at lines 19--25
+\OML/cmm/m/it/10.95 DereinzustellendeWinkelsollmiteinerGenauigkeitvon\OT1/cmr/m
+/n/10.95 1\OML/cmm/m/it/10.95 e \OMS/cmsy/m/n/10.95 ^^@ \OT1/cmr/m/n/10.95 3\OM
+L/cmm/m/it/10.95 erreichtundgehaltenwerden:$ 
+ []
 
 
 Overfull \hbox (6.01028pt too wide) in paragraph at lines 40--50
@@ -999,21 +813,7 @@ Overfull \hbox (6.01028pt too wide) in paragraph at lines 40--50
 [3
 
 
-]
-
-! LaTeX Error: Command \textcurrency unavailable in encoding T1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.54 zwei einzugebende Parameter erlaubt, nä
-                                             her an den Sollwert zu gelangen.
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-) (./Modellbildung.tex [4]
+]) (./Modellbildung.tex [4]
 Kapitel 3.
 ) (./Programmentwicklung.tex [5
 
@@ -1092,10 +892,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--21
 
 ) [25] (./Projektstudie_MASTERFILE.aux) ) 
 Here is how much of TeX's memory you used:
- 10562 strings out of 495062
- 153499 string characters out of 1182643
- 262584 words of memory out of 3000000
- 13419 multiletter control sequences out of 15000+50000
+ 10540 strings out of 495062
+ 153131 string characters out of 1182643
+ 260584 words of memory out of 3000000
+ 13400 multiletter control sequences out of 15000+50000
  20592 words of font info for 48 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  46i,11n,52p,331b,367s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1108,12 +908,13 @@ home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1095.600pk> </home/kizzm/
 fonts/pk/ljfour/jknappen/ec/ecti1095.600pk> </home/kizzm/.texmf-var/fonts/pk/lj
 four/jknappen/ec/ecrm1200.600pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknapp
 en/ec/ecbx2074.600pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2
-488.600pk></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></u
-sr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/te
-xmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Projektstudie_MASTERFILE.pdf (29 pages, 164086 bytes).
+488.600pk></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+/usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/t
+exmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texliv
+e/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on Projektstudie_MASTERFILE.pdf (29 pages, 179047 bytes).
 PDF statistics:
- 551 PDF objects out of 1000 (max. 8388607)
+ 552 PDF objects out of 1000 (max. 8388607)
  46 named destinations out of 1000 (max. 500000)
  121 words of extra memory for PDF output out of 10000 (max. 10000000)
 
