@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.10.25)  5 JUL 2013 10:05
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.10.25)  5 JUL 2013 10:11
 entering extended mode
  %&-line parsing enabled.
 **Projektstudie_MASTERFILE.tex
@@ -733,22 +733,8 @@ rk-stücks auf die Ein-stellgeschwindigkeit
 
 ]) (./Aufgabenstellung.tex [2]
 Kapitel 2.
-! Missing $ inserted.
-<inserted text> 
-                $
-l.22 ...s Spiegels aus der Ruhelage (Mitte) um \pm
-                                                   10{\textdegree}. Wobei di...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 22.
-
-
-LaTeX Warning: Command \" invalid in math mode on input line 22.
-
 ! Undefined control sequence.
-l.23 ...maximalen Winkelbereich von 20\textcelcius
+l.24 ...maximalen Winkelbereich von 20\textcelcius
                                                    abzufahren, darf die Rege...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -757,49 +743,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 23.
-
-
-LaTeX Warning: Command \" invalid in math mode on input line 23.
-
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 24.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.25 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-Missing character: There is no ü in font cmr10!
-Missing character: There is no ä in font cmr10!
-Missing character: There is no ö in font cmr10!
-
-Overfull \hbox (382.26804pt too wide) in paragraph at lines 19--25
-\T1/cmr/m/n/10.95 - Ver-stel-lung des Spiegels aus der Ruhe-lage (Mitte) um $\O
-MS/cmsy/m/n/10.95 ^^F\OT1/cmr/m/n/10.95 10[]\OML/cmm/m/it/10.95 :WobeidieRuhela
-gedesSpiegelsdenLaserstrahlgenauindieMittederFokuslinieaufdemWerkstckablenkt: \
-OMS/cmsy/m/n/10.95 ^^@
- []
-
-
-Overfull \hbox (74.81923pt too wide) in paragraph at lines 19--25
-\OML/cmm/m/it/10.95 UmeinenmaximalenWinkelbereichvon\OT1/cmr/m/n/10.95 20\OML/c
-mm/m/it/10.95 abzufahren; darfdieRegelungnichtlngerals\OT1/cmr/m/n/10.95 1\OML/
-cmm/m/it/10.95 msbentigen: \OMS/cmsy/m/n/10.95 ^^@
- []
-
-
-Overfull \hbox (21.72202pt too wide) in paragraph at lines 19--25
-\OML/cmm/m/it/10.95 DereinzustellendeWinkelsollmiteinerGenauigkeitvon\OT1/cmr/m
-/n/10.95 1[]\OML/cmm/m/it/10.95 e \OMS/cmsy/m/n/10.95 ^^@ \OT1/cmr/m/n/10.95 3\
-OML/cmm/m/it/10.95 erreichtundgehaltenwerden:$ 
- []
-
-
-Overfull \hbox (6.01028pt too wide) in paragraph at lines 40--50
+Overfull \hbox (6.01028pt too wide) in paragraph at lines 41--51
 []\T1/cmr/m/n/10.95 Bevor mit der Sim-u-la-tion-sstudie be-gonnen wird, wer-den
  einige Vere-in-fachun-gen angenom-
  []
@@ -902,13 +846,11 @@ home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1095.600pk> </home/kizzm/
 fonts/pk/ljfour/jknappen/ec/ecti1095.600pk> </home/kizzm/.texmf-var/fonts/pk/lj
 four/jknappen/ec/ecrm1200.600pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknapp
 en/ec/ecbx2074.600pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2
-488.600pk></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
-/usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/t
-exmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texliv
-e/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Projektstudie_MASTERFILE.pdf (29 pages, 179055 bytes).
+488.600pk></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
+/usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on Projektstudie_MASTERFILE.pdf (29 pages, 154919 bytes).
 PDF statistics:
- 552 PDF objects out of 1000 (max. 8388607)
+ 544 PDF objects out of 1000 (max. 8388607)
  46 named destinations out of 1000 (max. 500000)
  121 words of extra memory for PDF output out of 10000 (max. 10000000)
 
