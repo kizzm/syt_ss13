@@ -48,6 +48,8 @@ close all
   
   vu=-30;             % uu=-30 V
   vo=30;              % uo=+30 V
+  iu=-15;             % iu=-15 A
+  io=+15;             % io=+15 A 
   pu1=-0.4;           % phiu=-20° in rad
   po1=0.4;            % phio=+20° in rad
   pu2=phi-0.5e-2*pi/180;%
@@ -97,17 +99,27 @@ xlabel('t / s')
 ylabel('Phi / rad')
 title('Gleichstrommotor: Winkel')
 
+figure(2)
+subplot(2,1,11)
+plot (t,y(:,4),'linewidth',2);
+axis([0 te iu io])
+grid on
+xlabel('t / s')
+ylabel('i_A / A')
+title('Gleichstrommotor: Motorstrom')
+
+
 % Plot der variablen Schrittweite
-% ht=diff(t)';
-% ht=[ht ht(end)]';
-% figure(3)
+ht=diff(t)';
+ht=[ht ht(end)]';
+subplot(2,1,2)
 % set(gcf,'Units','normal','Position',[.1 .2 .4 .2], ...
 %     'NumberTitle','on','Name','h ');
-% plot (t,ht,'x','markersize',9,'linewidth',2);
-% grid on
-% xlabel('t / s')
-% ylabel('h / s')
-% title('Schrittweite')
+plot (t,ht,'x','markersize',9,'linewidth',2);
+grid on
+xlabel('t / s')
+ylabel('h / s')
+title('Schrittweite')
 %end
 
 
