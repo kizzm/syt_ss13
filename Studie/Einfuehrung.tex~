@@ -11,4 +11,74 @@
 \chapter{Einführung}
 \label{chap:Einführung}
 
-text
+Bei der Bearbeitung von z.B. Wafern (z.B. Lasertrimmen von Widerständen), Glas (z.B. Brille) oder Masken für die Lithographie, wird ein Laserstrahl in der Fokusebene durch 
+2 Spiegel, einer für die X- und einer für die Y-Richtung, abgelenkt. Die Spiegel sind auf einer Welle montiert, die über einen Motor bewegt wird. 
+Durch diese Anordnung lassen sich Beschriftungen in 2 Dimensionen ausführen. Wobei eine Fokusebene durch Werte gleicher Intensität und gleicher Strahldurchmesser festgelegt ist.
+Aber auch in der Medizin, beim Laserstrahlschweißen, in der Raumfahrt, beim Militär und in Barcode Scannern finden Spiegelmotoren Verwendung.
+Es gibt verschiedene Größen der Spiegel und der entsprechenden Motoren. Aber nicht nur die Größe der Spiegel und der Motoren unterscheiden sich, sondern auch in der erreichbaren 
+bzw. geforderten Geschwindigkeit und Genauigkeit unterscheiden sich die verschiedenen Ausührungen.
+
+Wird ein Laserstrahl durch zwei Spiegel abgelenkt, so ist die Fokusebene auf eine kleine Fläche beschränkt.
+Sollen größere Flächen mit dem Laser bearbeitet werden, so müssen die Anlagen verändert werden.
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=0.6\textwidth]{Plexi_Galvohalter.jpg}
+	\caption{2 Laserablenkspiegel\cite{wiki}}
+	\label{galvohalter}
+\end{figure}
+Quelle: http://commons.wikimedia.org/wiki/File:Plexi_Galvohalter.jpg
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=0.6\textwidth]{Strahlführung.jpg}
+	\caption{Fokusebene\cite{lasercommunity}}
+	\label{fokusebene}
+\end{figure}
+Quelle: http://www.laser-community.de/technologie/vw-laser-wobbeln-golf-vii_496/
+Es werden zwei Lösungsansätze vorgestellt.
+
+Der Laserstrahl ist fest nach unten gerichtet und zwei entsprechend große Motoren bewegen entweder den ganzen Laser über das Werkstück, oder das zu beschriftende Objekt wird in 
+X- und Y-Richtung durch die zwei großen Motoren bewegt.
+Diese Möglichkeit bringt allerdings einige Nachteile mit sich. Zum einen ist die Geschwindigkeit und Genauigkeit von großen Motoren eingeschränkt.
+Zum anderen kann es die Lebensdauer eines Lasers negative beeinflussen, wenn er ständig Beschleunigt und Abgebremst wird und so entsprechenden Kräften die an ihm rütteln ausgesetzt
+ist.
+Diese Lösung ist für sehr feine bzw. kleine Strukturen und aus wirtschaftlichen Gründen nicht zu empfehlen.
+
+Der zweite Lösungsansatz sieht einen fest eingebauten Laser vor, dessen Laserstrahl nur in einer Richtung abgelenkt wird.
+Durch die Auslenkung des Laserstrahls in nur einer Richtung, ergibt sich keine Fokusebene sondern eine Fokuslinie.
+Bewegt sich nun das zu beschriftende Werkstück quer zu der Fokuslinie, kann eine große Fokusebene beschriftet werden.
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=0.6\textwidth]{Allgemeiner_Aufbau.jpg}
+	\caption{Fokusline\cite{selbstgemalt}}
+	\label{fokuslinie}
+\end{figure}
+
+In Abbildung \ref{} tritt die Fokuslinie senkrecht aus dem Bild heraus.
+Es muss dabei sichergestellt sein, dass der Vorschub des Werkstücks auf die Einstellgeschwindigkeit der Spiegelverstellung und somit auf die Beschriftung in der Fokuslinie 
+abgestimmt ist.
+Durch eine entsprechende Anordnung können so Werkstücke größeren Ausmaßes beschriftet werden.
+Die Bearbeitung von Solarpannels oder Werbebeschriftungen auf Folien können so realisiert werden.
+
+In den Bildern ??? bis ??? ist eine Fertigungsstraße für Solarpannels der Firma Manz AG dargestellt. 
+--->   Bilder von Manz einfügen   <---
+
+
+Gegenstand dieser Simulationsstudie ist die Regelung eines Motors zur Ablenkung eines Laserstrahls an einem Spiegel.
+
+Es sollen verschiedene Winkel eingestellt werden, wobei die größte Winkeländerung 20° betragen soll.
+Die größte Winkeländerung soll mit einer Einstellzeit von 1ms und mit einer Regelgenauigkeit von 1e-3° erreicht werden.
+
+Der Spiegel ist auf der Welle eines Gleichstrommotors befestigt.
+Da Gleichstrommotoren auf eine Drehgeschwindigkeit und nicht auf einen festen Winkel geregelt werden, ergibt sich hier eine neue Aufgabenstellung.
+Die Regelung umfasst folgende Bereiche:
+- Elektronische Steuerung des Motors
+- Mechanische Umsetzung der elektrischen Steuersignale in Drehbewegungen
+- Aufnehmen der aktuellen Winkelposition um eine Regelung aufbauen zu können
+
+Das Aufnehmen der Winkelposition ist von großer Wichtigkeit. 
+In dieser Simulationsstudie lässt sich die winkelposition in Simulink direkt ablesen. Wird aber ein reales Bauteil angeschlossen, weichen dessen Parameter von denen der 
+Simulationsstudie ab. Aufrund dieser Abweichung lässt sich die Winkelposition nicht mehr direkt ablesen, sondern muss am Bauteil selbst gemessen werden.
+Ohne eine genaue Winkelzuordnung ist eine Regelung aber nicht möglich.
+Aus diesen Gründen wird in Kap. ??? intensiver auf die Sensoren eingegangen und es werden verschiedene Sensoren vorgstellt.
