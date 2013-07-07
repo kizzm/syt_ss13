@@ -35,16 +35,18 @@ Quelle: http://commons.wikimedia.org/wiki/File:Plexi_Galvohalter.jpg
 	\label{fokusebene}
 \end{figure}
 Quelle: http://www.laser-community.de/technologie/vw-laser-wobbeln-golf-vii_496/
-Es werden zwei Lösungsansätze vorgestellt.
+Es werden drei Lösungsansätze vorgestellt.
 
-Der Laserstrahl ist fest nach unten gerichtet und zwei entsprechend große Motoren bewegen entweder den ganzen Laser über das Werkstück, oder das zu beschriftende Objekt wird in 
-X- und Y-Richtung durch die zwei großen Motoren bewegt.
+Der Laserstrahl ist fest nach unten gerichtet und zwei entsprechend große Motoren bewegen den ganzen Laser in X- und Y-Richtung über das Werkstück.
 Diese Möglichkeit bringt allerdings einige Nachteile mit sich. Zum einen ist die Geschwindigkeit und Genauigkeit von großen Motoren eingeschränkt.
-Zum anderen kann es die Lebensdauer eines Lasers negative beeinflussen, wenn er ständig Beschleunigt und Abgebremst wird und so entsprechenden Kräften die an ihm rütteln ausgesetzt
-ist.
+Zum anderen kann es die Lebensdauer eines Lasers negativ beeinflussen, wenn er ständig Beschleunigt und Abgebremst wird und so entsprechenden Kräften die an ihm rütteln 
+ausgesetzt ist.
 Diese Lösung ist für sehr feine bzw. kleine Strukturen und aus wirtschaftlichen Gründen nicht zu empfehlen.
 
-Der zweite Lösungsansatz sieht einen fest eingebauten Laser vor, dessen Laserstrahl nur in einer Richtung abgelenkt wird.
+Eine andere Lösung ist der Einsatz von Robotern in der Fertigung. Dies bringt allerdings den Nachteil, dass die Bewegung drei-dimensional ausgeführt wird und so weitere 
+Ungenauigkeiten miteingebracht werden.
+
+Der dritte Lösungsansatz sieht einen fest eingebauten Laser vor, dessen Laserstrahl nur in einer Richtung abgelenkt wird.
 Durch die Auslenkung des Laserstrahls in nur einer Richtung, ergibt sich keine Fokusebene sondern eine Fokuslinie.
 Bewegt sich nun das zu beschriftende Werkstück quer zu der Fokuslinie, kann eine große Fokusebene beschriftet werden.
 
@@ -55,15 +57,11 @@ Bewegt sich nun das zu beschriftende Werkstück quer zu der Fokuslinie, kann eine
 	\label{fokuslinie}
 \end{figure}
 
-In Abbildung \ref{} tritt die Fokuslinie senkrecht aus dem Bild heraus.
+In Abbildung \ref{fokuslinie} tritt die Fokuslinie senkrecht aus dem Bild heraus.
 Es muss dabei sichergestellt sein, dass der Vorschub des Werkstücks auf die Einstellgeschwindigkeit der Spiegelverstellung und somit auf die Beschriftung in der Fokuslinie 
 abgestimmt ist.
 Durch eine entsprechende Anordnung können so Werkstücke größeren Ausmaßes beschriftet werden.
 Die Bearbeitung von Solarpannels oder Werbebeschriftungen auf Folien können so realisiert werden.
-
-In den Bildern ??? bis ??? ist eine Fertigungsstraße für Solarpannels der Firma Manz AG dargestellt. 
---->   Bilder von Manz einfügen   <---
-
 
 Gegenstand dieser Simulationsstudie ist die Regelung eines Motors zur Ablenkung eines Laserstrahls an einem Spiegel.
 

@@ -12,17 +12,22 @@
 \label{chap:Simulationsdurchfuehrung}
 
 In diesem Abschnitt werden verschiedene Simulationen durchgeführt.
+Der Motor, der der Regelung zu Grunde liegt, ist der Gleichstrommotor aus der Vorlesung von Prof. Froriep.
+Mit diesem Motor soll von einer Nullposition ausgehend ein Winkel von 20{\textdegree} angefahren werden. Dieser Winkel soll innerhalb von einer Millisekunde erreicht werden.
+
+Es wird eine Spannungsbegrenzung von +/- 24 V eingeführt, da diese eine in der Fertigung übliche Versorgungsspannung ist.
+
 Zu Beginn wird der Sensor, der das aktuelle Positionssignal liefert, aus der Regelung heraus gelassen. Somit ist es möglich, die Regelung an den Motor anzupassen und sobald
 diese die Sollwerte erfüllt, werden 2 verschiedene Sensoren das Positionssignal liefern.
+
 Für die verschiedenen P-, PI-, PD- und PID-Regelungen wird der PID-Reglerblock von Simulink verwendet.
-Der Motor der der Regelung zu Grunde liegt, ist der Gleichstrommotor aus der Vorlesung von Prof. Froriep.
-Mit diesem Motor soll von einer Nullposition ausgehend ein Winkel von 20° angefahren werden. Dieser Winkel soll innerhalb von einer Millisekunde erreicht werden.
+
 Es wird mit einer P-Regelung begonnen, die Sollwerte zu erreichen. Wenn die P-Regelung nicht ausreicht, wird die P-Regelung erst nur um einen I-Anteil und dann nur um einen 
 D-Anteil erweiteret. Sollten immernoch keine Zufriedenstellenden Ergebnisse vorliegen, so wird mit einer PID-Regelung versucht, die Vorgaben zu erreichen.
 
-In Abb. \ref{p40} ist das Ergebnis der reinen P-Regelung dargestellt. Es ist zu erkennen, dass nach ca. 7 ms es keine Veränderung des eingesetllten Winkels gibt. Eine Erhöhung 
-des P-Anteils ergibt ein Überschwingen, wie es in Abb. \ref{p45} dargestellt ist.
-In Abb. ?? und ??? ist in der untersten Grafik der Sollwinkel sowie die angegebene Abweichung angezeigt. Wie zu erkennen ist, ist die verbleibende Regeldifferenz noch viel 
+In Abb. \ref{p40} ist das Ergebnis der reinen P-Regelung dargestellt. Es ist zu erkennen, dass nach ca. 7 ms es keine Veränderung des eingesetllten Winkels gibt. Eine 
+Erhöhung des P-Anteils ergibt ein Überschwingen, wie es in Abb. \ref{p45} dargestellt ist.
+In Abb. \ref{p40} und \ref{p45} ist in der untersten Grafik der Sollwinkel sowie die angegebene Abweichung angezeigt. Wie zu erkennen ist, ist die verbleibende Regeldifferenz noch viel 
 zu groß. Demnach wird mit einem zugefügten I-Anteil zur reinen P-Regelung versucht, die restliche große Regeldifferenz auszugleichen. 
 
 \begin{figure}[ht]
@@ -41,7 +46,7 @@ zu groß. Demnach wird mit einem zugefügten I-Anteil zur reinen P-Regelung versuc
 
 In Abb. \ref{p30i17} ist das Ergebnis der PI-Regelung dargestellt. Es ist zu erkennen, dass nach ca. 13 ms es keine Veränderung des eingesetllten Winkels gibt. Eine Erhöhung 
 des P- oder I-Anteils ergibt ein Überschwingen, wie es in Abb. \ref{p30i17} dargestellt ist.
-In Abb. \ref{p30i17}und \ref{p30i17} ist in der untersten Grafik der Sollwinkel sowie die angegebene Abweichung angezeigt. Wie zu erkennen ist, ist die verbleibende Regeldifferenz noch viel 
+In Abb. \ref{p30i17} und \ref{p30i17} ist in der untersten Grafik der Sollwinkel sowie die angegebene Abweichung angezeigt. Wie zu erkennen ist, ist die verbleibende Regeldifferenz noch viel 
 zu groß. 
 Demnach wird der zugefügte I-Anteil herausgenommen und ein D-Anteil zur reinen P-Regelung hinzugenommen, um so ein besseres Regelergebnis zu erreichen.
 
@@ -123,6 +128,9 @@ Dabei muss der Regelkreis folgendermaßen erweitert werden:
 Quelle: PDF, "Tempo beim Laserzugriff", Artikel im F&M Elektronik, Jahrg.111(2003)5, Lugmair, Froriep, Kuplent, Langhans
 
 Nun kann mit drei verschiedenenn Parametern verucht werden, die Sollwerte zu erreichen.
+Wobei die beiden f-Parameter zu Beginn auf 1 gesetzt werden und erst mit dem erhöhen des P-Anteils versucht wird, eine gute Regelung zu erhalten. Danch werden die beiden
+f-Parameter einzeln erhöht bzw. erniedrigt, bis sich das Erebniss verbessert hat. Eine Anpassung des P-Anteils und danach eine erneute Anpassung der f-Parameter gehört 
+ebenso zur Erreichung einer passenden Regelung.
 
 \begin{figure}[ht]
 	\centering
@@ -131,7 +139,8 @@ Nun kann mit drei verschiedenenn Parametern verucht werden, die Sollwerte zu err
 	\label{padp41f1580}
 \end{figure}
 
-Es ist zu erkennen, dass mit den 
+In Abb. \ref{padp41f1580} ist zu erkennen, dass der Sollwinkel nicht erreicht wird. Wird jedoch der P-Anteil erhöht und mit den beiden f-Parametern weitere Einstellungen
+probier, so wird der Sollwinkel nie erreicht. Es kommt zwar zu einem Schwingen um den Sollwinkel, aber dieser kann nicht stabil erreicht werden, siehe Abb. \ref{padp50f3400}.
 
 \begin{figure}[ht]
 	\centering
@@ -139,6 +148,7 @@ Es ist zu erkennen, dass mit den
 	\caption{P-Adaption mit Parametern}
 	\label{padp50f3400}
 \end{figure}
+
 Durch die Verwendung der P-Adaption konnte die Einregelzeit nicht verbessert werden.
 Es zeigt sich, dass mit dem vorhandenen Gleichstrommoter keine der Vorgaben eingehalten werden können.
 Um heraus zu finden, welche Daten der Motor aufweisen müsste, um mit einer PID- oder P-Adaption geregelt werden zu könnnen, werden jetzt zusätzlich zu den $f_{1}$ und $f_{2}$
@@ -147,6 +157,15 @@ Beispielhaft wurden Werte für den Innenwiderstand und der Induktivität eines Gal
 
 Quelle: PDF, Model 6230H Optical Scanner (Mechanical and Electrical Specifications), Cambridge Technology, 03/07.
 
+In Abb. \ref{padwerte} ist eine langsame Annäherung an die zu erfüllenden Vorgaben zu sehen. Jedoch noch nicht in der geforderten Zeit und noch mit zu großen Schwankungen
+um den Sollwinkel.
+Es sind folgende Werte aktuell eingestellt:
+Innenwiderstand der Spule: 1.07 \Omega
+Induktivität der Spule: 173 \mu H
+P-Anteil: 330
+$f_1$: 5
+$f_2$: 370
+
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=0.6\textwidth]{Pad-Werte-P330F1_5F2_370.jpg}
@@ -154,12 +173,47 @@ Quelle: PDF, Model 6230H Optical Scanner (Mechanical and Electrical Specificatio
 	\label{padwerte}
 \end{figure}
 
-Nun werden die Motorwerte solange verändert, bis sich das gewünschte Ergebniss einstellt.
+Nun werden die Motor- und Spiegelwerte solange verändert, bis sich das gewünschte Ergebniss einstellt. 
+Sollte die Regelung erfolgreich sein, könnte mit den veränderten Werten evtl. ein Motor und Spiegel hergestellt werden, der den Anforderungen entspricht.
 
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=0.6\textwidth]{Pad-Neue-Werte-P320F1_2F2_160.jpg}
-	\caption{P-Adaption mit neuen Motorparametern}
+	\caption{P-Adaption mit neuen Parametern}
 	\label{padneuewerte}
 \end{figure}
+
+Wie in Abb. \ref{padneuewerte} zu erkennen, ist die Regelung in den geforderten Bereichen erfolgreich.
+Der geforderte Winkel von 20{\textdegree} ist unter 1ms in seinen Regeldifferenzen erreicht. Dieser Regelung liegen folgende Werte zu Grunde:
+Innenwiderstand der Spule: 0.1 \Omega
+Induktivität der Spule: 
+Motorkonstante KMPHI: 35e-3 Vs
+Reibungskoeffizient: 6e-5 Nm*s
+Trägheitsmoment des Spiegels: 93.3e-9 $kg*m^2$
+Zu Drehmoment auf den Spiegel:130.25e-6 Nm
+P-Anteil: 320
+$f_1$: 2
+$f_2$: 160
+
+Ein Blick auf den Strom liefert allerdings Ergenisse, die weiterer Überarbeitung bedürfen.
+In Abb. \ref{stromzuhoch} ist der Strom der aktuellen Regelung dargestellt. Es fliessen Ströme in Höhe von 80 A.
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=0.6\textwidth]{Strom_zu_hoch.jpg}
+	\caption{P-Adaption mit Strombegrenzung}
+	\label{stromzuhoch}
+\end{figure}
+
+Dies ist allerdings sehr hoch, deshalb wird in die bestehende Regelung eine Strombegrenung von 10 A eingebaut und erneut versucht, die Regelung entsprechende anzupassen.
+
+Eine Regelung mit den aktuellen Werten zeigt das in Abb. \ref{strombegrenztpad} zu erkennende Ergebnis.
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=0.6\textwidth]{Strom-Pad-Neue-Werte-P320F1_2F2_160.jpg}
+	\caption{P-Adaption mit Strombegrenzung}
+	\label{strombegrenztpad}
+\end{figure}
+
 

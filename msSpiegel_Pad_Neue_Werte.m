@@ -42,7 +42,7 @@ close all
   
   Mspiegel=130.25e-6; % 130.25e-6Nm Drehmoment für Spiegel
   
-  te=.002;             % end of simulation time 
+  te=.02;             % end of simulation time 
    
   phi = 20*pi/180;    % einzustellender Winkel von 20°
   
@@ -99,27 +99,25 @@ xlabel('t / s')
 ylabel('Phi / rad')
 title('Gleichstrommotor: Winkel')
 
-figure(2)
-subplot(2,1,11)
-plot (t,y(:,4),'linewidth',2);
-axis([0 te iu io])
-grid on
-xlabel('t / s')
-ylabel('i_A / A')
-title('Gleichstrommotor: Motorstrom')
+% figure(2)
+% plot (t,y(:,4),'linewidth',2);
+% axis([0 te iu io])
+% grid on
+% xlabel('t / s')
+% ylabel('i_A / A')
+% title('Gleichstrommotor: Motorstrom')
 
 
 % Plot der variablen Schrittweite
-ht=diff(t)';
-ht=[ht ht(end)]';
-subplot(2,1,2)
+% ht=diff(t)';
+% ht=[ht ht(end)]';
 % set(gcf,'Units','normal','Position',[.1 .2 .4 .2], ...
 %     'NumberTitle','on','Name','h ');
-plot (t,ht,'x','markersize',9,'linewidth',2);
-grid on
-xlabel('t / s')
-ylabel('h / s')
-title('Schrittweite')
+% plot (t,ht,'x','markersize',9,'linewidth',2);
+% grid on
+% xlabel('t / s')
+% ylabel('h / s')
+% title('Schrittweite')
 %end
 
 
