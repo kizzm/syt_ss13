@@ -3,7 +3,7 @@
 %  Vorgang:   Regelung eines Gleichstrommotors zur Spiegelverstellung
 %  Verfahren: Simulink, mithilfe einer P-Adaption
 %
-%  Unterprogramme:  sSpiegelPad.slx
+%  Unterprogramme:  sSpiegelPadStrom.slx
 %
 %
 % ########################################################
@@ -23,7 +23,7 @@
 %   te          Ende des Integrationsintervalls (ab t=0)
 %
 %   ug, og      Untere/obere Grenze der Grafiken
-%P Anteil von 320 - 2 - 160
+%0
 % ########################################################
 
 clear all
@@ -35,14 +35,14 @@ close all
   LA=3e-6;            % Induktivität des Galvos
   TA=LA/RA;           % Zeitkonstante T1
   
-  J=93.3e-10;          % J=93.3e-9(12) kg cm^2 Trägheitsmoment des Spiegels
-  r=6e-5;             % r=6e-6 Nm*s
+  J=93.3e-11;         % kg m^2 Trägheitsmoment des Spiegels
+  r=6e-5;             % Nm*s
   
-  KMPHI=35e-3;       % KMPHI= Vs  35e-3
+  KMPHI=35e-3;        % Vs
   
-  Mspiegel=30.25e-6; % 130.25e-6Nm Drehmoment für Spiegel
+  Mspiegel=30.25e-6;  % Nm Drehmoment für Spiegel
   
-  te=.002;             % end of simulation time 
+  te=.002;            % end of simulation time 
    
   phi = 20*pi/180;    % einzustellender Winkel von 20°
   
@@ -52,8 +52,8 @@ close all
   io=+15;             % io=+15 A 
   pu1=-0.4;           % phiu=-20° in rad
   po1=0.4;            % phio=+20° in rad
-  pu2=phi-0.5e-2*pi/180;%
-  po2=phi+0.5e-2*pi/180;%
+  pu2=phi-0.5e-2*pi/180;% Diagrammgrenzen für Regeldifferenz
+  po2=phi+0.5e-2*pi/180;% Diagrammgrenzen für Regeldifferenz
 
 % ########################################################
   
@@ -70,7 +70,7 @@ opts=simset('solver','ode45',...
     'Refine',1,...
     'MaxStep',.00001);
 
-[t,x,y]=sim('sSpiegelPad',[t0 te],opts);
+[t,x,y]=sim('sSpiegelPadStrom',[t0 te],opts);
 
 
 % Plots
@@ -98,14 +98,14 @@ grid on
 xlabel('t / s')
 ylabel('Phi / rad')
 title('Gleichstrommotor: Winkel')
-% 
-% figure(2)
-% plot (t,y(:,4),'linewidth',2);
-% axis([0 te iu io])
-% grid on
-% xlabel('t / s')
-% ylabel('i_A / A')
-% title('Gleichstrommotor: Motorstrom')
+
+figure(2)
+plot (t,y(:,4),'linewidth',2);
+axis([0 te iu io])
+grid on
+xlabel('t / s')
+ylabel('i_A / A')
+title('Gleichstrommotor: Motorstrom')
 
 
 % Plot der variablen Schrittweite

@@ -23,7 +23,7 @@
 %   te          Ende des Integrationsintervalls (ab t=0)
 %
 %   ug, og      Untere/obere Grenze der Grafiken
-%P Anteil von 800 - 3 - 150
+%
 % ########################################################
 
 clear all
@@ -31,19 +31,18 @@ close all
 
 % Angabe der Parameter für Simulink für die weiteren Berechnungen
 
-  RA=0.16;            % R=.1 Ohm  (Nollau, S. 36)
-  TA=2.8;             % TA=2.8 ms
+  RA=0.16;            % Widerstand (Nollau, S. 36)
+  TA=2.8;             % Zeitkonstante
   TA=TA*1e-3;         % ms -> s
-  LA=RA*TA;           %   173e-6 10e-6
-  %TA=LA/RA;
+  LA=RA*TA;           % Induktivität
   
-  J=93.3e-9;          % J=93.3e-9(12) kg cm^2 Trägheitsmoment des Spiegels
-  %J=J*1e-2*1e-2;     % cm -> m
-  r=6e-5;             % r=6e-6 Nm*s
+  J=93.3e-9;          % kg m^2 Trägheitsmoment des Spiegels
+  
+  r=6e-5;             %  Nm*s
   
   KMPHI=6.3e-2;       % KMPHI= Vs  35e-3
   
-  Mspiegel=130.25e-3; % MLdach=M_nenn=(1.6Nm) 130.25e-6Nm Drehmoment für Spiegel
+  Mspiegel=130.25e-3; % Drehmoment für Spiegel
   
   te=.05;             % end of simulation time 
    
@@ -80,10 +79,9 @@ plot (t,y(:,1),'linewidth',2)
 axis([0 te vu vo])
 grid on
 hold on
-% plot (t,y(:,2),'r','linewidth',2) 
 xlabel('t / s')
-ylabel('u_e / V') %',   M_L / Nm'
-title('Gleichstrommotor: Motorspannung,') % Lastmoment
+ylabel('u_e / V') 
+title('Gleichstrommotor: Motorspannung,')
 
 subplot(3,1,2)
 plot(t,y(:,5),t,phi,'linewidth',2,'linewidth',2);

@@ -34,9 +34,8 @@ close all
   TA=TA*1e-3;         % ms -> s
   LA=RA*TA;        
   
-  J=93.3e-9;          % J=93.3e-9(12) kg cm^2 Trägheitsmoment des Spiegels
-                       % J=93.3e-13 für kg m^2
-  % J=J*1e-2*1e-2;      % cm -> m
+  J=93.3e-9;          % kg m^2 Trägheitsmoment des Spiegels
+             
   r=6e-5;             % Reibunsgkonstante
   
   KMPHI=6.3e-2;       % Motorkennzahl in Vs  

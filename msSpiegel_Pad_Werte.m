@@ -23,7 +23,7 @@
 %   te          Ende des Integrationsintervalls (ab t=0)
 %
 %   ug, og      Untere/obere Grenze der Grafiken
-%P Anteil von 800 - 3 - 150
+%
 % ########################################################
 
 clear all
@@ -35,12 +35,12 @@ close all
   LA=173e-6;          % Induktivität des Galvos
   TA=LA/RA;           % Zeitkonstante T1
   
-  J=93.3e-9;          % J=93.3e-9(12) kg cm^2 Trägheitsmoment des Spiegels
-  r=6e-5;             % r=6e-6 Nm*s
+  J=93.3e-9;          % kg m^2 Trägheitsmoment des Spiegels
+  r=6e-5;             % Nm*s
   
-  KMPHI=6.3e-2;       % KMPHI= Vs  35e-3
+  KMPHI=6.3e-2;       %  Vs
   
-  Mspiegel=130.25e-3; % MLdach=M_nenn=(1.6Nm) 130.25e-6Nm Drehmoment für Spiegel
+  Mspiegel=130.25e-3; % Nm Drehmoment für Spiegel
   
   te=.02;             % end of simulation time 
    
@@ -50,8 +50,8 @@ close all
   vo=30;              % uo=+30 V
   pu1=-0.4;           % phiu=-20° in rad
   po1=0.4;            % phio=+20° in rad
-  pu2=phi-1e-1*pi/180;%
-  po2=phi+1e-1*pi/180;%
+  pu2=phi-1e-1*pi/180;% Diagrammgrenzen für Regeldifferenz
+  po2=phi+1e-1*pi/180;% Diagrammgrenzen für Regeldifferenz
 
 % ########################################################
   
@@ -77,10 +77,9 @@ plot (t,y(:,1),'linewidth',2)
 axis([0 te vu vo])
 grid on
 hold on
-% plot (t,y(:,2),'r','linewidth',2) 
 xlabel('t / s')
-ylabel('u_e / V') %',   M_L / Nm'
-title('Gleichstrommotor: Motorspannung,') % Lastmoment
+ylabel('u_e / V')
+title('Gleichstrommotor: Motorspannung,') 
 
 subplot(3,1,2)
 plot(t,y(:,5),t,phi,'linewidth',2,'linewidth',2);
