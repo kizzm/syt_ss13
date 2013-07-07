@@ -11,4 +11,63 @@
 \chapter{Mathematische Modellbildung}
 \label{chap:Modellbildung}
 
-text
+In der Regel werden Laserablenkespiegel über einen Galvo gesteuert. Bei der Bearbeitung dieser Simulationsstudie ergaben sich Probleme, Informationen über die Ansteuerung
+solcher Galvos zu bekommen. Insofern wird die Simulationsstudie auf der Ansteuerung eines Gleichstrommotors beruhen. Aber auch hierbei konnten jedoch keine Informationen 
+über die Gleichstrommotorparameter KPHI und der Reibungskonstanten bei verschiedenen Herstellern gefunden werden. Um dennoch die Studie durchführen zu können, wird auf die
+Motorvorgaben aus der Vorlesung Systemtechnik von Prof. Froriep zurück gegriffen.
+
+Lineares Modell für die Berechnungen:
+
+\begin{center}
+\begin{equation}
+\Delta \phi = 20{\textdegree} = 0,349 rad\\
+\Delta t = 1 ms = 0,001 s\\
+\omega = \frac {\Delta \phi}{\Delta t} = \frac {0,349 rad}{0,001 s} = 349 rad/s\\
+\end{equation}
+\end{center}
+Es ergibt sich eine Druchschnittswinkelgeschwindigkeit von 349 rad/s, um einen Winkel von 20{\textdegree} in 1 ms zu überfahren.
+Dies würde aber eine Anfangs- und Endgeschwindigkeit voraussetzen. Da der Spiegel aber aus einer Ruhelage beschleunigt werden und wieder in einer Ruhelage enden soll, 
+wird ein linearer Verlauf der Geschwindigkeit von $\omega = 0 rad/s$ und der doppelten Durchschnittsgeschwindigkeit $\omega = 698 rad/s$ bei der Hälfte der Strecke und bei 
+der Endposition wieder $\omega = 0 rad/s$ der zu fahrenden Strecke angenommen. 
+Daraus folgt eine Beschleunigung von:
+\begin{center}
+\begin{equation}
+\Delta \omega = 698 rad/s\\
+\Delta t = 0,5 ms = 0,0005 s\\
+\alpha = \frac {\Delta \omega}{\Delta t} = \frac {698 rad/s}{0,0005 s} = 1,396 *10^6 rad/s^2\\
+\end{equation}
+\end{center}
+Der Spiegel erfährt zu Beginn der Regelung eine Beschleunigung von $\alpha = 1,396 *10^6 rad/s^2$ um nach der Hälfte der Zeit, also nach 0,5 ms wieder mit dem gleichen
+Betrag der Beschleunigung abgebremst zu werden.
+
+Modell für den Spiegel:
+Durchmesser: 12 mm --> Radius: R = 6 mm
+Höhe: h = 2 mm
+Gewicht: m = 10g
+
+Trägheitsmoment des Spiegels: 
+\begin{center}
+\begin{equation}
+J = \frac {1}{4} * m * R^2 + \frac {1} {12} * m * h^2\\
+J = \frac {1}{4} * 10*10^{-3} * (6*10^{-3})^2 + \frac {1} {12} * 10*10^{-3} * (2*10^{-3})^2\\
+J = 93,3 * 10^{-9} kg m^2
+\end{equation}
+\end{center}
+
+Aus den oben berechneten Daten ergibt sich ein Lastmoment von:
+\begin{center}
+\begin{equation}
+M_L = J * \alpha\\
+M_L = 93,3 * 10^{-9} kg m^2 * 1,396 *10^6 rad/s^2 \\
+M_L = 130,25 * 10^{-3}
+\end{equation}
+\end{center}
+
+Theoretsiche Maximale Leistung eines Gleichstrommotors:
+\begin{center}
+\begin{equation}
+P = M_L * \omega\\
+P = 130,25 * 10^{-3} * 698 rad/s \\
+P = 91 W
+\end{equation}
+\end{center}
