@@ -186,7 +186,7 @@ Sollte die Regelung erfolgreich sein, könnte mit den veränderten Werten evtl. ei
 Wie in Abb. \ref{padneuewerte} zu erkennen, ist die Regelung in den geforderten Bereichen erfolgreich.
 Der geforderte Winkel von 20{\textdegree} ist unter 1ms in seinen Regeldifferenzen erreicht. Dieser Regelung liegen folgende Werte zu Grunde:
 Innenwiderstand der Spule: 0.1 \Omega
-Induktivität der Spule: 
+Induktivität der Spule: 3 \mu H
 Motorkonstante KMPHI: 35e-3 Vs
 Reibungskoeffizient: 6e-5 Nm*s
 Trägheitsmoment des Spiegels: 93.3e-9 $kg*m^2$
@@ -216,4 +216,5 @@ Eine Regelung mit den aktuellen Werten zeigt das in Abb. \ref{strombegrenztpad} 
 	\label{strombegrenztpad}
 \end{figure}
 
+Neues Trägheitsmoment des Spiegels: 93.3e-10 $kg*m^2$
 
