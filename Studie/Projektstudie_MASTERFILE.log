@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.10.25)  7 JUL 2013 17:09
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.10.25)  8 JUL 2013 13:42
 entering extended mode
  %&-line parsing enabled.
 **Projektstudie_MASTERFILE.tex
@@ -844,7 +844,7 @@ Leis-tungsmerk-male vorgegeben:
  []
 
 
-Overfull \hbox (6.01028pt too wide) in paragraph at lines 41--51
+Overfull \hbox (6.01028pt too wide) in paragraph at lines 40--50
 []\T1/cmr/m/n/10.95 Bevor mit der Sim-u-la-tion-sstudie be-gonnen wird, wer-den
  einige Vere-in-fachun-gen angenom-
  []
@@ -2211,7 +2211,7 @@ texlive/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-texlive/fonts
 /amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
 m/cmsy6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
 
-Output written on Projektstudie_MASTERFILE.pdf (49 pages, 2073145 bytes).
+Output written on Projektstudie_MASTERFILE.pdf (49 pages, 2073178 bytes).
 PDF statistics:
  919 PDF objects out of 1000 (max. 8388607)
  107 named destinations out of 1000 (max. 500000)

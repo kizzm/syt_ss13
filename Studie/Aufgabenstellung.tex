@@ -21,14 +21,13 @@ auf eine bestimmte Winkelpositionen zu bewegen und in entsprechenden Regeldiffer
 Es werden folgende, willkürlich gewählten Leistungsmerkmale vorgegeben:
 - Verstellung des Spiegels aus der Ruhelage (Mitte) um $\pm$ 10{\textdegree}.	
 Wobei die Ruhelage des Spiegels den Laserstrahl genau in die Mitte der Fokuslinie auf dem Werkstück ablenkt.
-- Um einen maximalen Winkelbereich von 20\textcelcius abzufahren, darf die Regelung nicht länger als 1ms benötigen.
+- Um einen maximalen Winkelbereich von 20\textcelcius abzufahren, darf die Regelung nicht länger als $1 ms$ benötigen.
 - Der einzustellende Winkel soll mit einer Genauigkeit von 1{\textdegree}e-3 erreicht und gehalten werden.
 
 
 In dieser Simulationsstudie wird vorausgesetzt, dass der Abstand des Lasers zum Werkstück keine Rolle spielt. Zudem wird der Fokus des Laserstrahls über den zu regelnden 
 Winkelbereich als konstant angenommen.
-Der aufeinander abgestimmte Vorschub des Werkstücks und abfahren der Fokuslinie des Lasers wird hier nicht betrachtet, da nur die Ablenkung des Laserstrahls im Zentrum der
-Studie steht.
+Der aufeinander abgestimmte Vorschub des Werkstücks und abfahren der Fokuslinie des Lasers wird hier nicht betrachtet, da nur die Ablenkung des Laserstrahls im Zentrum der Studie steht.
 Ein in der Realität beobachtbarer an- und abstieg der Laserleistung beim an- und abschalten des Lasersstrahls wird hier vernachlässigt.
 
 
@@ -42,8 +41,8 @@ Bevor mit der Simulationsstudie begonnen wird, werden einige Vereinfachungen ang
 - Spiegel und Drehachse sind eine immer gleich konzentrierte Masse -> gleiche Beschleunigungen
 - Luftspalt zwischen Magnet und Spule hat keinen Einfluss -> Luftspalt hat geringere magnetische Kraftflussdichte
 - Spiegel ist immer mit Schwerpunkt in der Drehachse -> keine anderen Drehmomente, kein Verbiegen
-- Druch verdrehen des Spiegls kann der Laserstrahl nicht vom Spiegel "fallen" (wäre der Spiegel zu weit gedreht, so dass der Laserstrahl nur noch auf eine kleine Ablenkfläche 
-trift, würde der mittlere Teil des Laserstrahls abgelenkt und der äußere Teil würde am Spiegel vorbei "laufen")
+- Durch verdrehen des Spiegels kann der Laserstrahl nicht vom Spiegel "fallen" (wäre der Spiegel zu weit gedreht, so dass der Laserstrahl nur noch auf eine kleine Ablenkfläche 
+trifft, würde der mittlere Teil des Laserstrahls abgelenkt und der äußere Teil würde am Spiegel vorbei "laufen")
 - Lichtquelle hat konstante Beleuchtungsstärke in den Halbraum
 - Völlige Abdunkelung des einen Sensors, wenn der andere maximale Helligkeit besitzt
 - Alle Bauteile 100\% steif
@@ -51,5 +50,5 @@ trift, würde der mittlere Teil des Laserstrahls abgelenkt und der äußere Teil wü
 
 Es wird mit einem vorgegebenen Gleichstrommotor begonnen, Werte für die Regelparameter heraus zu finden, mit denen sich erste Ergebnisse zeigen.
 Mit diesen gefundenen Regelparametern wird dann versucht, die Regelergebnisse noch zu verbessern.
-Als Alternative kommt die s.g. P-Adapion in Betracht. Bei der P-Adaption gibt es im Regelkreis nur einen P-Regler. Diesem P-Regler ist eine Funktion vorgeschaltet, die es über 
+Als Alternative kommt die s.g. P-Adaption in Betracht. Bei der P-Adaption gibt es im Regelkreis nur einen P-Regler. Diesem P-Regler ist eine Funktion vorgeschaltet, die es über 
 zwei einzugebende Parameter erlaubt, näher an den Sollwert zu gelangen.
