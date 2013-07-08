@@ -29,12 +29,12 @@ switch Unit
         phiB = Blendenwinkel/1000;
 end
 
-Rauschen = rand()*Sensorkonstanten{1}/10*0;
+Rauschen = rand()*Sensorkonstanten{1}/10;
 
 switch Verhalten
     case 'einzelGruppe'
         
-        a = @(phi) 1/Sensorkonstanten{3} * phi + 0.5; % lineares Verhalten des Sensors +- °_max
+        a = @(phi) 1/Sensorkonstanten{3}/2 * phi + 0.5; % lineares Verhalten des Sensors +- °_max
 
         S1 = @(phi,d) Sensorkonstanten{1}/4*(a(phi))+d; % Signal der Sensor 1
         S3 = @(phi,d) Sensorkonstanten{1}/4*(a(phi))+d; % Signal der Sensor 3
@@ -60,13 +60,14 @@ switch Verhalten
         S24 = @(phi,d) S2(phi,d)-S4(phi,d);
 
         Iph = @(phi,d) S13(phi,d) - S24(phi,d); % Gesammt Photostrom
-        Iph(phiB,Rauschen)
         signal = Iph(phiB,Rauschen)/Sensorkonstanten{1}*Sensorkonstanten{4}; % Spannungssignal [Out]
         
-    case 'char'
-        Iph = @(phi) Sensorkonstanten{5}
+    case 'nonliniear'
+        AP = Sensorkonstanten{1}-phiB;
+        ind1 = find(AP==min(AP));
+        ind2 = find(AP==min(AP(AP~=min(AP))));
 end
-signal
+
 %Signalbegrenzung
 if signal > Sensorkonstanten{4}
     signal = Sensorkonstanten{4};

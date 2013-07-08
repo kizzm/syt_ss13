@@ -1,4 +1,4 @@
-%% signal = sensor( Blendenwinkel, Unit, Verhalten Sensorkonstanten)
+%% signal = sensor( Blendenwinkel, Unit, Verhalten, Sensorkonstanten)
 % Erzeugt:
 %       [Out]:
 %       Normiertes Spannungssignal +-5V => signal in V
@@ -62,8 +62,15 @@ switch Verhalten
         Iph = @(phi,d) S13(phi,d) - S24(phi,d); % Gesammt Photostrom
         signal = Iph(phiB,Rauschen)/Sensorkonstanten{1}*Sensorkonstanten{4}; % Spannungssignal [Out]
         
-    case 'char'
-        Iph = @(phi) Sensorkonstanten{5}
+    case 'nonlinear'
+        AP = Sensorkonstanten{6}-phiB;
+        ind1 = find(AP==min(AP))
+        ind2 = find(AP==min(AP(AP~=min(AP))))
+        X1 = Sensorkonstanten{6}(ind1)
+        X2 = Sensorkonstanten{6}(ind2)
+        Y1 = Sensorkonstanten{8}(ind1)
+        Y2 = Sensorkonstanten{8}(ind2)
+        signal = (Y2-Y1)/(X2-X1)*phiB + (X2*Y1-X1*Y2)/(X2-X1)
 end
 
 %Signalbegrenzung
