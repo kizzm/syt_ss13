@@ -11,12 +11,12 @@
 \chapter{Mathematische Modellbildung}
 \label{chap:Modellbildung}
 
-In der Regel werden Laserablenkespiegel Ã¼ber einen Galvo gesteuert. Bei der Bearbeitung dieser Simulationsstudie ergaben sich Probleme, Informationen Ã¼ber die Ansteuerung
+In der Regel werden Laserablenkespiegel Über einen Galvo gesteuert. Bei der Bearbeitung dieser Simulationsstudie ergaben sich Probleme, Informationen Über die Ansteuerung
 solcher Galvos zu bekommen. Insofern wird die Simulationsstudie auf der Ansteuerung eines Gleichstrommotors beruhen. Aber auch hierbei konnten jedoch keine Informationen 
-Ã¼ber die Gleichstrommotorparameter KPHI und der Reibungskonstanten bei verschiedenen Herstellern gefunden werden. Um dennoch die Studie durchfÃ¼hren zu kÃ¶nnen, wird auf die
-Motorvorgaben aus der Vorlesung Systemtechnik von Prof. Froriep zurÃ¼ck gegriffen.
+über die Gleichstrommotorparameter KPHI und der Reibungskonstanten bei verschiedenen Herstellern gefunden werden. Um dennoch die Studie durchführen zu können, wird auf die
+Motorvorgaben aus der Vorlesung Systemtechnik von Prof. Froriep zurück gegriffen.
 
-Lineares Modell fÃ¼r die Berechnungen:
+Lineares Modell für die Berechnungen:
 
 \begin{center}
 \begin{equation}
@@ -25,9 +25,9 @@ Lineares Modell fÃ¼r die Berechnungen:
 \omega = \frac {\Delta \phi}{\Delta t} = \frac {0,349 rad}{0,001 s} = 349 rad/s\\
 \end{equation}
 \end{center}
-Es ergibt sich eine Druchschnittswinkelgeschwindigkeit von 349 rad/s, um einen Winkel von 20{\textdegree} in 1 ms zu Ã¼berfahren.
-Dies wÃ¼rde aber eine Anfangs- und Endgeschwindigkeit voraussetzen. Da der Spiegel aber aus einer Ruhelage beschleunigt werden und wieder in einer Ruhelage enden soll, 
-wird ein linearer Verlauf der Geschwindigkeit von $\omega = 0 rad/s$ und der doppelten Durchschnittsgeschwindigkeit $\omega = 698 rad/s$ bei der HÃ¤lfte der Strecke und bei 
+Es ergibt sich eine Druchschnittswinkelgeschwindigkeit von 349 rad/s, um einen Winkel von 20{\textdegree} in 1 ms zu überfahren.
+Dies würde aber eine Anfangs- und Endgeschwindigkeit voraussetzen. Da der Spiegel aber aus einer Ruhelage beschleunigt werden und wieder in einer Ruhelage enden soll, 
+wird ein linearer Verlauf der Geschwindigkeit von $\omega = 0 rad/s$ und der doppelten Durchschnittsgeschwindigkeit $\omega = 698 rad/s$ bei der Hälfte der Strecke und bei 
 der Endposition wieder $\omega = 0 rad/s$ der zu fahrenden Strecke angenommen. 
 Daraus folgt eine Beschleunigung von:
 \begin{center}
@@ -37,15 +37,15 @@ Daraus folgt eine Beschleunigung von:
 \alpha = \frac {\Delta \omega}{\Delta t} = \frac {698 rad/s}{0,0005 s} = 1,396 *10^6 rad/s^2\\
 \end{equation}
 \end{center}
-Der Spiegel erfÃ¤hrt zu Beginn der Regelung eine Beschleunigung von $\alpha = 1,396 *10^6 rad/s^2$ um nach der HÃ¤lfte der Zeit, also nach 0,5 ms wieder mit dem gleichen
+Der Spiegel erfährt zu Beginn der Regelung eine Beschleunigung von $\alpha = 1,396 *10^6 rad/s^2$ um nach der Hälfte der Zeit, also nach 0,5 ms wieder mit dem gleichen
 Betrag der Beschleunigung abgebremst zu werden.
 
-Modell fÃ¼r den Spiegel:
+Modell für den Spiegel:
 Durchmesser: 12 mm --> Radius: R = 6 mm
-HÃ¶he: h = 2 mm
+Höhe: h = 2 mm
 Gewicht: m = 10g
 
-TrÃ¤gheitsmoment des Spiegels: 
+Trägheitsmoment des Spiegels: 
 \begin{center}
 \begin{equation}
 J = \frac {1}{4} * m * R^2 + \frac {1} {12} * m * h^2\\
