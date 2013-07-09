@@ -9,9 +9,15 @@
 %************************************************************************************************
 
 \chapter{Mathematische Modellbildung}
-\label{chap:Modellbildung}
+\label{chap:modellbildung}
 
-In der Regel werden Laserablenkespiegel Über einen Galvo gesteuert. Bei der Bearbeitung dieser Simulationsstudie ergaben sich Probleme, Informationen Über die Ansteuerung
+\section{Das System}
+\label{chap:system}
+
+
+\section{Der Motor}
+\label{chap:motor}
+In der Regel werden Laserablenkespiegel über einen Galvo gesteuert. Bei der Bearbeitung dieser Simulationsstudie ergaben sich Probleme, Informationen Über die Ansteuerung
 solcher Galvos zu bekommen. Insofern wird die Simulationsstudie auf der Ansteuerung eines Gleichstrommotors beruhen. Aber auch hierbei konnten jedoch keine Informationen 
 über die Gleichstrommotorparameter KPHI und der Reibungskonstanten bei verschiedenen Herstellern gefunden werden. Um dennoch die Studie durchführen zu können, wird auf die
 Motorvorgaben aus der Vorlesung Systemtechnik von Prof. Froriep zurück gegriffen.
@@ -20,6 +26,7 @@ Lineares Modell für die Berechnungen:
 
 \begin{center}
 \begin{equation}
+\label{equ:lineares_motor_model}
 \Delta \phi = 20{\textdegree} = 0,349 rad\\
 \Delta t = 1 ms = 0,001 s\\
 \omega = \frac {\Delta \phi}{\Delta t} = \frac {0,349 rad}{0,001 s} = 349 rad/s\\
@@ -32,6 +39,7 @@ der Endposition wieder $\omega = 0 rad/s$ der zu fahrenden Strecke angenommen.
 Daraus folgt eine Beschleunigung von:
 \begin{center}
 \begin{equation}
+\label{equ:max_alpha_motor}
 \Delta \omega = 698 rad/s\\
 \Delta t = 0,5 ms = 0,0005 s\\
 \alpha = \frac {\Delta \omega}{\Delta t} = \frac {698 rad/s}{0,0005 s} = 1,396 *10^6 rad/s^2\\
@@ -48,6 +56,7 @@ Gewicht: m = 10g
 Trägheitsmoment des Spiegels: 
 \begin{center}
 \begin{equation}
+\label{equ:J_spiegel}
 J = \frac {1}{4} * m * R^2 + \frac {1} {12} * m * h^2\\
 J = \frac {1}{4} * 10*10^{-3} * (6*10^{-3})^2 + \frac {1} {12} * 10*10^{-3} * (2*10^{-3})^2\\
 J = 93,3 * 10^{-9} kg m^2
@@ -57,6 +66,7 @@ J = 93,3 * 10^{-9} kg m^2
 Aus den oben berechneten Daten ergibt sich ein Lastmoment von:
 \begin{center}
 \begin{equation}
+\label{equ:M_last}
 M_L = J * \alpha\\
 M_L = 93,3 * 10^{-9} kg m^2 * 1,396 *10^6 rad/s^2 \\
 M_L = 130,25 * 10^{-3}
@@ -66,8 +76,24 @@ M_L = 130,25 * 10^{-3}
 Theoretsiche Maximale Leistung eines Gleichstrommotors:
 \begin{center}
 \begin{equation}
+\label{equ:max_leistung_motor}
 P = M_L * \omega\\
 P = 130,25 * 10^{-3} * 698 rad/s \\
 P = 91 W
 \end{equation}
 \end{center}
+
+\section{Der Sensor}
+\label{chap:sensor}
+Im Folgenden werden der Aufbau, das physikalische Modell, sowie verschiedene mathematische Modelle des Sensors vorgestellt und erläutert.
+
+\subsection{Das physikalische Modell des Sensors}
+\label{chap:physik_modell_sensor}
+
+
+\subsection{Das lineare Sensormodell}
+\label{chap:linear_sensor}
+
+
+\subsection{Das nicht lineare Sensormodell}
+\label{chap:nonlinear_sensor}
