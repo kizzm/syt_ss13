@@ -225,18 +225,35 @@ Eine Regelung mit den aktuellen Werten zeigt das in Abb. \ref{strombegrenztpad} 
 	\label{strombegrenztpad}
 \end{figure}
 
+Durch weiteres Anpassen der unterschiedlichen Parameter, konnten die Sollwerte fast erreicht werden. Abb. \ref{strombegrenztpadfastsoll} zeigt schon ein sehr gutes Ergebnis.
 Neues Trägheitsmoment des Spiegels: 93.3e-11 $kg*m^2$
 Neues Drehmoment auf den Spiegel: 30,25e-6 Nm
+P-Anteil: 218
+$f_1$: 5
+$f_2$: 400
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=0.6\textwidth]{Strom-Pad-Neue-Werte-P218F1_5F2_400.jpg}
+	\caption{Angepasste P-Adaption mit Strombegrenzung}
+	\label{strombegrenztpadfastsoll}
+\end{figure}
+
+Die Einregelzeit liegt nur noch knanpp über der vorgegebenen Zeit, durch weitere Anpassung der Regelparameter soll die vorgegebene Einregelzeit erreicht werden.
+Abb. \ref{}
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=0.6\textwidth]{Strom-Pad-Neue-Werte-P200F1_3F2_150.jpg}
+	\caption{Angepasste P-Adaption mit Strombegrenzung}
+	\label{strombegrenztpadsoll}
+\end{figure}
+
+Trägheitsmoment des Spiegels: 93.3e-11 $kg*m^2$
+Drehmoment auf den Spiegel: 30,25e-6 Nm
 P-Anteil: 200
 $f_1$: 3
 $f_2$: 150
 
-\begin{figure}[ht]
-	\centering
-	\includegraphics[width=0.6\textwidth]{Strom-Pad-Neue-Werte-P200F1_5F2_150.jpg}
-	\caption{Angepasste P-Adaption mit Strombegrenzung}
-	\label{strombegrenztpadrichtig}
-\end{figure}
-
-In Abb. \ref{strombegrenztpadrichtig} ist zu erkennen, dass durch Anpassung des Trägheitsmoments des Spiegels und des wirkenden Drehmoments auf den Spiegel, trotz Spannungs-
-und Strombegrenzung, die Regelung erfolgreich ist. Der Spiegel zittert zwar etwas um die Position, dies ist aber im angegebenen Toleranzbereich.
+In Abb. \ref{strombegrenztpadsoll} ist zu erkennen, dass durch Anpassung des Trägheitsmoments des Spiegels, des wirkenden Drehmoments auf den Spiegel und der verschiedenen
+Regelparameter, trotz Spannungs- und Strombegrenzung, die Regelung erfolgreich ist. Der Spiegel zittert zwar etwas um die Position, dies ist aber im angegebenen 
+Toleranzbereich.
