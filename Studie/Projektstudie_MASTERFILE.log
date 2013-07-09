@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.10.25)  9 JUL 2013 13:16
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.10.25)  9 JUL 2013 21:07
 entering extended mode
  %&-line parsing enabled.
 **Projektstudie_MASTERFILE.tex
@@ -751,9 +751,6 @@ Class scrreprt Info: You've told me to use the font selection of the element
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
 (scrreprt)            on input line 20.
-Class scrreprt Info: You've told me to use the font selection of the element
-(scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 21.
 )
 \tf@toc=\write4
 \openout4 = `Projektstudie_MASTERFILE.toc'.
@@ -774,7 +771,7 @@ Class scrreprt Warning: \float@addtolists detected!
 (scrreprt)              Support for \float@addtolists may be removed from
 (scrreprt)              `scrreprt' soon .
 
-<Plexi_Galvohalter.jpg, id=135, 256.7994pt x 298.2342pt>
+<Plexi_Galvohalter.jpg, id=130, 256.7994pt x 298.2342pt>
 File: Plexi_Galvohalter.jpg Graphic file (type jpg)
 
 <use Plexi_Galvohalter.jpg>
@@ -788,7 +785,7 @@ LaTeX Font Info:    Try loading font information for T1+cmtt on input line 31.
 (/usr/share/texmf-texlive/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-<Strahlfuehrung.jpg, id=137, 734.745pt x 489.83pt>
+<Strahlfuehrung.jpg, id=132, 734.745pt x 489.83pt>
 File: Strahlfuehrung.jpg Graphic file (type jpg)
  <use Strahlfuehrung.jpg>
 
@@ -806,7 +803,7 @@ Overfull \hbox (10.40137pt too wide) in paragraph at lines 40--41
 mmunity . de / technologie / vw-[]laser-[]wobbeln-[]golf-[]vii _
  []
 
-<Allgmeiner_Aufbau.jpg, id=147, 1127.21124pt x 796.9775pt>
+<Allgmeiner_Aufbau.jpg, id=142, 1127.21124pt x 796.9775pt>
 File: Allgmeiner_Aufbau.jpg Graphic file (type jpg)
 
 <use Allgmeiner_Aufbau.jpg>
@@ -851,8 +848,11 @@ Overfull \hbox (6.01028pt too wide) in paragraph at lines 40--50
 
 [5]) (./Modellbildung.tex [6]
 Kapitel 3.
+<System_Aufbau.jpg, id=176, 509.905pt x 354.32375pt>
+File: System_Aufbau.jpg Graphic file (type jpg)
+ <use System_Aufbau.jpg>
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 30.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 37.
 
 
 ! LaTeX Error: There's no line here to end.
@@ -861,7 +861,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.30 \Delta \phi = 20{\textdegree} = 0,349 rad\\
+l.37 \Delta \phi = 20{\textdegree} = 0,349 rad\\
                                                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -870,7 +870,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.30 \Delta \phi = 20{\textdegree} = 0,349 rad\\
+l.37 \Delta \phi = 20{\textdegree} = 0,349 rad\\
                                                 
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -878,7 +878,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.30 \Delta \phi = 20{\textdegree} = 0,349 rad\\
+l.37 \Delta \phi = 20{\textdegree} = 0,349 rad\\
                                                 
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -889,7 +889,7 @@ my insertion and my current dilemma will both disappear.
 ! Display math should end with $$.
 <to be read again> 
                    \@@par 
-l.30 \Delta \phi = 20{\textdegree} = 0,349 rad\\
+l.37 \Delta \phi = 20{\textdegree} = 0,349 rad\\
                                                 
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
@@ -897,7 +897,7 @@ So I shall assume that you typed `$$' both times.
 ! Extra }, or forgotten \endgroup.
 \par ...m \@noitemerr {\@@par }\fi \else {\@@par }
                                                   \fi 
-l.30 \Delta \phi = 20{\textdegree} = 0,349 rad\\
+l.37 \Delta \phi = 20{\textdegree} = 0,349 rad\\
                                                 
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -908,7 +908,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.31 \Delta
+l.38 \Delta
             t = 1 ms = 0,001 s\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -920,7 +920,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.31 \Delta t = 1 ms = 0,001 s\\
+l.38 \Delta t = 1 ms = 0,001 s\\
                                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -929,7 +929,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.31 \Delta t = 1 ms = 0,001 s\\
+l.38 \Delta t = 1 ms = 0,001 s\\
                                 
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -937,7 +937,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.31 \Delta t = 1 ms = 0,001 s\\
+l.38 \Delta t = 1 ms = 0,001 s\\
                                 
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -948,7 +948,7 @@ my insertion and my current dilemma will both disappear.
 ! Extra }, or forgotten \endgroup.
 \par ...m \@noitemerr {\@@par }\fi \else {\@@par }
                                                   \fi 
-l.31 \Delta t = 1 ms = 0,001 s\\
+l.38 \Delta t = 1 ms = 0,001 s\\
                                 
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -959,7 +959,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.32 \omega
+l.39 \omega
             = \frac {\Delta \phi}{\Delta t} = \frac {0,349 rad}{0,001 s} = 3...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -971,7 +971,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.32 ...= \frac {0,349 rad}{0,001 s} = 349 rad/s\\
+l.39 ...= \frac {0,349 rad}{0,001 s} = 349 rad/s\\
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -980,7 +980,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.32 ...= \frac {0,349 rad}{0,001 s} = 349 rad/s\\
+l.39 ...= \frac {0,349 rad}{0,001 s} = 349 rad/s\\
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -988,7 +988,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.32 ...= \frac {0,349 rad}{0,001 s} = 349 rad/s\\
+l.39 ...= \frac {0,349 rad}{0,001 s} = 349 rad/s\\
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -999,7 +999,7 @@ my insertion and my current dilemma will both disappear.
 ! Extra }, or forgotten \endgroup.
 \par ...m \@noitemerr {\@@par }\fi \else {\@@par }
                                                   \fi 
-l.32 ...= \frac {0,349 rad}{0,001 s} = 349 rad/s\\
+l.39 ...= \frac {0,349 rad}{0,001 s} = 349 rad/s\\
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1014,7 +1014,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.33 \end{equation}
+l.40 \end{equation}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1023,17 +1023,21 @@ or  <return>  to continue without it.
 ! You can't use `\eqno' in vertical mode.
 \endmathdisplay@a ...\df@tag \@empty \else \veqno 
                                                   \alt@tag \df@tag \fi \ifx ...
-l.33 \end{equation}
+l.40 \end{equation}
                    
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
+[7
+
+
+ <./System_Aufbau.jpg>]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.33 \end{equation}
+l.40 \end{equation}
                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1044,7 +1048,7 @@ my insertion and my current dilemma will both disappear.
 ! Display math should end with $$.
 <to be read again> 
                    \endgroup 
-l.33 \end{equation}
+l.40 \end{equation}
                    
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
@@ -1056,7 +1060,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.43 \Delta \omega = 698 rad/s\\
+l.50 \Delta \omega = 698 rad/s\\
                                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1065,7 +1069,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.43 \Delta \omega = 698 rad/s\\
+l.50 \Delta \omega = 698 rad/s\\
                                 
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1073,7 +1077,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.43 \Delta \omega = 698 rad/s\\
+l.50 \Delta \omega = 698 rad/s\\
                                 
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1084,7 +1088,7 @@ my insertion and my current dilemma will both disappear.
 ! Display math should end with $$.
 <to be read again> 
                    \@@par 
-l.43 \Delta \omega = 698 rad/s\\
+l.50 \Delta \omega = 698 rad/s\\
                                 
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
@@ -1092,7 +1096,7 @@ So I shall assume that you typed `$$' both times.
 ! Extra }, or forgotten \endgroup.
 \par ...m \@noitemerr {\@@par }\fi \else {\@@par }
                                                   \fi 
-l.43 \Delta \omega = 698 rad/s\\
+l.50 \Delta \omega = 698 rad/s\\
                                 
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1103,7 +1107,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.44 \Delta
+l.51 \Delta
             t = 0,5 ms = 0,0005 s\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1115,7 +1119,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.44 \Delta t = 0,5 ms = 0,0005 s\\
+l.51 \Delta t = 0,5 ms = 0,0005 s\\
                                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1124,7 +1128,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.44 \Delta t = 0,5 ms = 0,0005 s\\
+l.51 \Delta t = 0,5 ms = 0,0005 s\\
                                    
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1132,7 +1136,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.44 \Delta t = 0,5 ms = 0,0005 s\\
+l.51 \Delta t = 0,5 ms = 0,0005 s\\
                                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1143,7 +1147,7 @@ my insertion and my current dilemma will both disappear.
 ! Extra }, or forgotten \endgroup.
 \par ...m \@noitemerr {\@@par }\fi \else {\@@par }
                                                   \fi 
-l.44 \Delta t = 0,5 ms = 0,0005 s\\
+l.51 \Delta t = 0,5 ms = 0,0005 s\\
                                    
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1154,15 +1158,11 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.45 \alpha
+l.52 \alpha
             = \frac {\Delta \omega}{\Delta t} = \frac {698 rad/s}{0,0005 s} ...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-[7
-
-
-]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -1170,7 +1170,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.45 ...8 rad/s}{0,0005 s} = 1,396 *10^6 rad/s^2\\
+l.52 ...8 rad/s}{0,0005 s} = 1,396 *10^6 rad/s^2\\
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1179,7 +1179,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.45 ...8 rad/s}{0,0005 s} = 1,396 *10^6 rad/s^2\\
+l.52 ...8 rad/s}{0,0005 s} = 1,396 *10^6 rad/s^2\\
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1187,7 +1187,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.45 ...8 rad/s}{0,0005 s} = 1,396 *10^6 rad/s^2\\
+l.52 ...8 rad/s}{0,0005 s} = 1,396 *10^6 rad/s^2\\
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1198,7 +1198,7 @@ my insertion and my current dilemma will both disappear.
 ! Extra }, or forgotten \endgroup.
 \par ...m \@noitemerr {\@@par }\fi \else {\@@par }
                                                   \fi 
-l.45 ...8 rad/s}{0,0005 s} = 1,396 *10^6 rad/s^2\\
+l.52 ...8 rad/s}{0,0005 s} = 1,396 *10^6 rad/s^2\\
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1213,7 +1213,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.46 \end{equation}
+l.53 \end{equation}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1222,7 +1222,7 @@ or  <return>  to continue without it.
 ! You can't use `\eqno' in vertical mode.
 \endmathdisplay@a ...\df@tag \@empty \else \veqno 
                                                   \alt@tag \df@tag \fi \ifx ...
-l.46 \end{equation}
+l.53 \end{equation}
                    
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1232,7 +1232,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.46 \end{equation}
+l.53 \end{equation}
                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1243,7 +1243,7 @@ my insertion and my current dilemma will both disappear.
 ! Display math should end with $$.
 <to be read again> 
                    \endgroup 
-l.46 \end{equation}
+l.53 \end{equation}
                    
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
@@ -1255,7 +1255,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.60 ...{4} * m * R^2 + \frac {1} {12} * m * h^2\\
+l.67 ...{4} * m * R^2 + \frac {1} {12} * m * h^2\\
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1264,7 +1264,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.60 ...{4} * m * R^2 + \frac {1} {12} * m * h^2\\
+l.67 ...{4} * m * R^2 + \frac {1} {12} * m * h^2\\
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1272,7 +1272,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.60 ...{4} * m * R^2 + \frac {1} {12} * m * h^2\\
+l.67 ...{4} * m * R^2 + \frac {1} {12} * m * h^2\\
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1283,7 +1283,7 @@ my insertion and my current dilemma will both disappear.
 ! Display math should end with $$.
 <to be read again> 
                    \@@par 
-l.60 ...{4} * m * R^2 + \frac {1} {12} * m * h^2\\
+l.67 ...{4} * m * R^2 + \frac {1} {12} * m * h^2\\
                                                   
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
@@ -1291,7 +1291,7 @@ So I shall assume that you typed `$$' both times.
 ! Extra }, or forgotten \endgroup.
 \par ...m \@noitemerr {\@@par }\fi \else {\@@par }
                                                   \fi 
-l.60 ...{4} * m * R^2 + \frac {1} {12} * m * h^2\\
+l.67 ...{4} * m * R^2 + \frac {1} {12} * m * h^2\\
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1302,7 +1302,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.61 J = \frac {1}{4}
+l.68 J = \frac {1}{4}
                       * 10*10^{-3} * (6*10^{-3})^2 + \frac {1} {12} * 10*10^...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1310,7 +1310,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 \frac  #1#2->{\begingroup #1\endgroup \@@over #2}
                                                  
-l.61 J = \frac {1}{4}
+l.68 J = \frac {1}{4}
                       * 10*10^{-3} * (6*10^{-3})^2 + \frac {1} {12} * 10*10^...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1325,7 +1325,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.61 ...ac {1} {12} * 10*10^{-3} * (2*10^{-3})^2\\
+l.68 ...ac {1} {12} * 10*10^{-3} * (2*10^{-3})^2\\
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1334,7 +1334,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.61 ...ac {1} {12} * 10*10^{-3} * (2*10^{-3})^2\\
+l.68 ...ac {1} {12} * 10*10^{-3} * (2*10^{-3})^2\\
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1342,7 +1342,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.61 ...ac {1} {12} * 10*10^{-3} * (2*10^{-3})^2\\
+l.68 ...ac {1} {12} * 10*10^{-3} * (2*10^{-3})^2\\
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1353,7 +1353,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.62 J = 93,3 * 10^
+l.69 J = 93,3 * 10^
                    {-9} kg m^2
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1361,7 +1361,7 @@ you left one out. Proceed, with fingers crossed.
 ! You can't use `\eqno' in math mode.
 \endmathdisplay@a ...\df@tag \@empty \else \veqno 
                                                   \alt@tag \df@tag \fi \ifx ...
-l.63 \end{equation}
+l.70 \end{equation}
                    
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1371,7 +1371,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.63 \end{equation}
+l.70 \end{equation}
                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1386,7 +1386,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 M_L = J * \alpha\\
+l.77 M_L = J * \alpha\\
                        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1395,7 +1395,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.70 M_L = J * \alpha\\
+l.77 M_L = J * \alpha\\
                        
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1403,7 +1403,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.70 M_L = J * \alpha\\
+l.77 M_L = J * \alpha\\
                        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1414,7 +1414,7 @@ my insertion and my current dilemma will both disappear.
 ! Display math should end with $$.
 <to be read again> 
                    \@@par 
-l.70 M_L = J * \alpha\\
+l.77 M_L = J * \alpha\\
                        
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
@@ -1422,7 +1422,7 @@ So I shall assume that you typed `$$' both times.
 ! Extra }, or forgotten \endgroup.
 \par ...m \@noitemerr {\@@par }\fi \else {\@@par }
                                                   \fi 
-l.70 M_L = J * \alpha\\
+l.77 M_L = J * \alpha\\
                        
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1433,7 +1433,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.71 M_
+l.78 M_
        L = 93,3 * 10^{-9} kg m^2 * 1,396 *10^6 rad/s^2 \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1445,7 +1445,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71 ... * 10^{-9} kg m^2 * 1,396 *10^6 rad/s^2 \\
+l.78 ... * 10^{-9} kg m^2 * 1,396 *10^6 rad/s^2 \\
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1454,7 +1454,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.71 ... * 10^{-9} kg m^2 * 1,396 *10^6 rad/s^2 \\
+l.78 ... * 10^{-9} kg m^2 * 1,396 *10^6 rad/s^2 \\
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1462,7 +1462,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.71 ... * 10^{-9} kg m^2 * 1,396 *10^6 rad/s^2 \\
+l.78 ... * 10^{-9} kg m^2 * 1,396 *10^6 rad/s^2 \\
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1473,7 +1473,7 @@ my insertion and my current dilemma will both disappear.
 ! Extra }, or forgotten \endgroup.
 \par ...m \@noitemerr {\@@par }\fi \else {\@@par }
                                                   \fi 
-l.71 ... * 10^{-9} kg m^2 * 1,396 *10^6 rad/s^2 \\
+l.78 ... * 10^{-9} kg m^2 * 1,396 *10^6 rad/s^2 \\
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1484,7 +1484,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.72 M_
+l.79 M_
        L = 130,25 * 10^{-3}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1492,7 +1492,7 @@ you left one out. Proceed, with fingers crossed.
 ! You can't use `\eqno' in math mode.
 \endmathdisplay@a ...\df@tag \@empty \else \veqno 
                                                   \alt@tag \df@tag \fi \ifx ...
-l.73 \end{equation}
+l.80 \end{equation}
                    
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1502,7 +1502,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.73 \end{equation}
+l.80 \end{equation}
                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1510,6 +1510,7 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
+[8]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -1517,7 +1518,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.80 P = M_L * \omega\\
+l.87 P = M_L * \omega\\
                        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1526,7 +1527,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.80 P = M_L * \omega\\
+l.87 P = M_L * \omega\\
                        
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1534,7 +1535,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.80 P = M_L * \omega\\
+l.87 P = M_L * \omega\\
                        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1545,7 +1546,7 @@ my insertion and my current dilemma will both disappear.
 ! Display math should end with $$.
 <to be read again> 
                    \@@par 
-l.80 P = M_L * \omega\\
+l.87 P = M_L * \omega\\
                        
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
@@ -1553,7 +1554,7 @@ So I shall assume that you typed `$$' both times.
 ! Extra }, or forgotten \endgroup.
 \par ...m \@noitemerr {\@@par }\fi \else {\@@par }
                                                   \fi 
-l.80 P = M_L * \omega\\
+l.87 P = M_L * \omega\\
                        
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1564,7 +1565,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.81 P = 130,25 * 10^
+l.88 P = 130,25 * 10^
                      {-3} * 698 rad/s \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1576,7 +1577,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.81 P = 130,25 * 10^{-3} * 698 rad/s \\
+l.88 P = 130,25 * 10^{-3} * 698 rad/s \\
                                         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1585,7 +1586,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.81 P = 130,25 * 10^{-3} * 698 rad/s \\
+l.88 P = 130,25 * 10^{-3} * 698 rad/s \\
                                         
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1593,7 +1594,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.81 P = 130,25 * 10^{-3} * 698 rad/s \\
+l.88 P = 130,25 * 10^{-3} * 698 rad/s \\
                                         
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1604,7 +1605,7 @@ my insertion and my current dilemma will both disappear.
 ! Extra }, or forgotten \endgroup.
 \par ...m \@noitemerr {\@@par }\fi \else {\@@par }
                                                   \fi 
-l.81 P = 130,25 * 10^{-3} * 698 rad/s \\
+l.88 P = 130,25 * 10^{-3} * 698 rad/s \\
                                         
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1619,7 +1620,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.83 \end{equation}
+l.90 \end{equation}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1628,7 +1629,7 @@ or  <return>  to continue without it.
 ! You can't use `\eqno' in horizontal mode.
 \endmathdisplay@a ...\df@tag \@empty \else \veqno 
                                                   \alt@tag \df@tag \fi \ifx ...
-l.83 \end{equation}
+l.90 \end{equation}
                    
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1638,7 +1639,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.83 \end{equation}
+l.90 \end{equation}
                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1649,12 +1650,12 @@ my insertion and my current dilemma will both disappear.
 ! Display math should end with $$.
 <to be read again> 
                    \endgroup 
-l.83 \end{equation}
+l.90 \end{equation}
                    
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
 
-) (./Programmentwicklung.tex [8] [9] [10
+) (./Programmentwicklung.tex [9] [10
 
 
 ]
@@ -1686,21 +1687,21 @@ l.33
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-<NurP40.jpg, id=220, 636.3775pt x 693.59125pt>
+<NurP40.jpg, id=218, 636.3775pt x 693.59125pt>
 File: NurP40.jpg Graphic file (type jpg)
  <use NurP40.jpg>
-<NurP45.jpg, id=221, 636.3775pt x 693.59125pt>
+<NurP45.jpg, id=219, 636.3775pt x 693.59125pt>
 File: NurP45.jpg Graphic file (type jpg)
  <use NurP45.jpg>
-<PI-P30I17.jpg, id=226, 636.3775pt x 693.59125pt>
+<PI-P30I17.jpg, id=224, 636.3775pt x 693.59125pt>
 File: PI-P30I17.jpg Graphic file (type jpg)
  <use PI-P30I17.jpg>
 File: PI-P30I17.jpg Graphic file (type jpg)
 
-<use PI-P30I17.jpg> [13] <PD-P22D1N1.jpg, id=240, 642.4pt x 693.59125pt>
+<use PI-P30I17.jpg> [13] <PD-P22D1N1.jpg, id=238, 642.4pt x 693.59125pt>
 File: PD-P22D1N1.jpg Graphic file (type jpg)
 
-<use PD-P22D1N1.jpg> <PD-P23D1N1.jpg, id=241, 636.3775pt x 693.59125pt>
+<use PD-P22D1N1.jpg> <PD-P23D1N1.jpg, id=239, 636.3775pt x 693.59125pt>
 File: PD-P23D1N1.jpg Graphic file (type jpg)
 
 <use PD-P23D1N1.jpg>
@@ -1713,13 +1714,13 @@ LaTeX Warning: Reference `p20i16d1n1' on page 14 undefined on input line 91.
 
 LaTeX Warning: Reference `p20i16d1n1' on page 14 undefined on input line 92.
 
-<PID-P20I15D1N1.jpg, id=242, 642.4pt x 693.59125pt>
+<PID-P20I15D1N1.jpg, id=240, 642.4pt x 693.59125pt>
 File: PID-P20I15D1N1.jpg Graphic file (type jpg)
  <use PID-P20I15D1N1.jpg>
-<PID-P20I16D1N1.jpg, id=243, 642.4pt x 693.59125pt>
+<PID-P20I16D1N1.jpg, id=241, 642.4pt x 693.59125pt>
 File: PID-P20I16D1N1.jpg Graphic file (type jpg)
  <use PID-P20I16D1N1.jpg>
-<P-Adaption.jpg, id=244, 743.02594pt x 424.58624pt>
+<P-Adaption.jpg, id=242, 743.02594pt x 424.58624pt>
 File: P-Adaption.jpg Graphic file (type jpg)
  <use P-Adaption.jpg>
 ! Misplaced alignment tab character &.
@@ -1756,11 +1757,11 @@ ddasSimulink \OMS/cmsy/m/n/10.95 ^^@ \OML/cmm/m/it/10.95 File\OT1/cmr/m/n/10.95
  hergenommen:$ 
  []
 
-[14 <./NurP40.jpg>] <Pad-P41F1_1,5F2_80.jpg, id=251, 642.4pt x 693.59125pt>
+[14 <./NurP40.jpg>] <Pad-P41F1_1,5F2_80.jpg, id=249, 642.4pt x 693.59125pt>
 File: Pad-P41F1_1,5F2_80.jpg Graphic file (type jpg)
 
 <use Pad-P41F1_1,5F2_80.jpg>
-<Pad-P50F1_3F2_400.jpg, id=254, 636.3775pt x 693.59125pt>
+<Pad-P50F1_3F2_400.jpg, id=252, 636.3775pt x 693.59125pt>
 File: Pad-P50F1_3F2_400.jpg Graphic file (type jpg)
 
 <use Pad-P50F1_3F2_400.jpg>
@@ -1811,7 +1812,7 @@ l.171 $f_
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-<Pad-Werte-P330F1_5F2_370.jpg, id=264, 642.4pt x 693.59125pt>
+<Pad-Werte-P330F1_5F2_370.jpg, id=262, 642.4pt x 693.59125pt>
 File: Pad-Werte-P330F1_5F2_370.jpg Graphic file (type jpg)
 
 <use Pad-Werte-P330F1_5F2_370.jpg>
@@ -1843,7 +1844,7 @@ msSpiegel$[]\OML/cmm/m/it/10.95 ad[]eue[]erte:m[]nddasSimulink \OMS/cmsy/m/n/10
 .95 ^^@
  []
 
-<Pad-Neue-Werte-P320F1_2F2_160.jpg, id=265, 642.4pt x 693.59125pt>
+<Pad-Neue-Werte-P320F1_2F2_160.jpg, id=263, 642.4pt x 693.59125pt>
 File: Pad-Neue-Werte-P320F1_2F2_160.jpg Graphic file (type jpg)
 
 <use Pad-Neue-Werte-P320F1_2F2_160.jpg>
@@ -1880,7 +1881,7 @@ sy/m/n/10.95 ^^@ \OT1/cmr/m/n/10.95 3\OML/cmm/m/it/10.95 VsReibungskoeffizient
 \OT1/cmr/m/n/10.95 :
  []
 
-<Strom_zu_hoch.jpg, id=268, 562.1pt x 421.575pt>
+<Strom_zu_hoch.jpg, id=266, 562.1pt x 421.575pt>
 File: Strom_zu_hoch.jpg Graphic file (type jpg)
  <use Strom_zu_hoch.jpg>
 [16 <./PI-P30I17.jpg>]
@@ -1907,38 +1908,32 @@ msSpiegel$[]\OML/cmm/m/it/10.95 ad[]eue[]erte[]trom:m[]nddasSimulink \OMS/cmsy/
 m/n/10.95 ^^@
  []
 
-<Strom-Pad-Neue-Werte-P320F1_2F2_160.jpg, id=278, 642.4pt x 693.59125pt>
+<Strom-Pad-Neue-Werte-P320F1_2F2_160.jpg, id=276, 642.4pt x 693.59125pt>
 File: Strom-Pad-Neue-Werte-P320F1_2F2_160.jpg Graphic file (type jpg)
 
 <use Strom-Pad-Neue-Werte-P320F1_2F2_160.jpg>
+<Strom-Pad-Neue-Werte-P218F1_5F2_400.jpg, id=278, 642.4pt x 693.59125pt>
+File: Strom-Pad-Neue-Werte-P218F1_5F2_400.jpg Graphic file (type jpg)
 
-LaTeX Warning: File `Strom-Pad-Neue-Werte-P200F1_5F2_150.jpg' not found on inpu
-t line 236.
+<use Strom-Pad-Neue-Werte-P218F1_5F2_400.jpg>
 
+LaTeX Warning: Reference `' on page 17 undefined on input line 243.
 
-! Package pdftex.def Error: File `Strom-Pad-Neue-Werte-P200F1_5F2_150.jpg' not 
-found.
+<Strom-Pad-Neue-Werte-P200F1_3F2_150.jpg, id=279, 636.3775pt x 693.59125pt>
+File: Strom-Pad-Neue-Werte-P200F1_3F2_150.jpg Graphic file (type jpg)
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.236 ...{Strom-Pad-Neue-Werte-P200F1_5F2_150.jpg}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-) (./Disskussion.tex [17] [18 <./PD-P22D1N1.jpg> <./PD-P23D1N1.jpg>] [19 <./PID
--P20I15D1N1.jpg> <./PID-P20I16D1N1.jpg>] [20 <./P-Adaption.jpg> <./Pad-P41F1_1,
-5F2_80.jpg>] [21 <./Pad-P50F1_3F2_400.jpg> <./Pad-Werte-P330F1_5F2_370.jpg>]
-[22 <./Pad-Neue-Werte-P320F1_2F2_160.jpg> <./Strom_zu_hoch.jpg>] [23 <./Strom-P
-ad-Neue-Werte-P320F1_2F2_160.jpg>] [24
-
-
-]
+<use Strom-Pad-Neue-Werte-P200F1_3F2_150.jpg>) (./Disskussion.tex [17] [18 <./P
+D-P22D1N1.jpg> <./PD-P23D1N1.jpg>] [19 <./PID-P20I15D1N1.jpg> <./PID-P20I16D1N1
+.jpg>] [20 <./P-Adaption.jpg> <./Pad-P41F1_1,5F2_80.jpg>] [21 <./Pad-P50F1_3F2_
+400.jpg> <./Pad-Werte-P330F1_5F2_370.jpg>] [22 <./Pad-Neue-Werte-P320F1_2F2_160
+.jpg> <./Strom_zu_hoch.jpg>] [23 <./Strom-Pad-Neue-Werte-P320F1_2F2_160.jpg> <.
+/Strom-Pad-Neue-Werte-P218F1_5F2_400.jpg>] [24 <./Strom-Pad-Neue-Werte-P200F1_3
+F2_150.jpg>]
 Kapitel 6.
-) (./Zusammenfassung.tex [25] [26
+) (./Zusammenfassung.tex [25
+
+
+] [26
 
 
 ]
@@ -1971,14 +1966,14 @@ LaTeX Warning: Citation `lasercommunity' on page 33 undefined on input line 4.
 LaTeX Warning: Citation `selbstgemalt' on page 33 undefined on input line 5.
 
 
-LaTeX Warning: Citation `wiki' on page 33 undefined on input line 29.
+LaTeX Warning: Citation `wiki' on page 33 undefined on input line 31.
 
 
-LaTeX Warning: Citation `lasercommunity' on page 33 undefined on input line 30.
+LaTeX Warning: Citation `lasercommunity' on page 33 undefined on input line 32.
 
 
 
-LaTeX Warning: Citation `selbstgemalt' on page 33 undefined on input line 31.
+LaTeX Warning: Citation `selbstgemalt' on page 33 undefined on input line 33.
 
 )
 \tf@lof=\write5
@@ -1992,6 +1987,7 @@ LaTeX Warning: Citation `wiki' on page 33 undefined on input line 12.
 
 LaTeX Warning: Citation `wiki' on page 33 undefined on input line 12.
 
+[33]
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -2008,74 +2004,14 @@ l.16
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
+File: Strahlfuehrung.jpg Graphic file (type jpg)
+<use Strahlfuehrung.jpg>
 
-LaTeX Warning: File `Strahlf\~A\IeC {\textonequarter }hrung.jpg' not found on i
-nput line 20.
-
-
-! Package pdftex.def Error: File `Strahlf�\global \let \T1\textonequarter $\rel
-ax {\begingroup 1\endgroup \@@over 4.
-\filename@base ...begingroup 1\endgroup \@@over 4}
-                                                  $\T1\textonequarter hrung
-l.20 ...s[width=0.6\textwidth]{Strahlführung.jpg}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Package pdftex.def Error: File `Strahlf�\global \let \T1\textonequarter $\rel
-ax {\begingroup 1\endgroup \@@over 4.
-\filename@base ...begingroup 1\endgroup \@@over 4}
-                                                  $\T1\textonequarter hrung
-l.20 ...s[width=0.6\textwidth]{Strahlführung.jpg}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Extra }, or forgotten \endgroup.
- ...                                              
-                                                  
-l.20 ...s[width=0.6\textwidth]{Strahlführung.jpg}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten \endgroup.
- ...                                              
-                                                  
-l.20 ...s[width=0.6\textwidth]{Strahlführung.jpg}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-Overfull \hbox (59.51564pt too wide) in paragraph at lines 20--21
- \OML/cmm/m/it/10.95 hrung:jpg[]notfound:\OT1/cmr/m/n/10.95 
-
-\OML/cmm/m/it/10.95 Seethepdftex:defpackagedocumentationforexplanation:\OT1/cmr
-/m/n/10.95 
-\OML/cmm/m/it/10.95 Type$\T1/cmr/m/n/10.95 hrung.jpg' 
- []
-
-
-Overfull \hbox (266.2543pt too wide) in paragraph at lines 20--21
- \T1/cmr/m/n/10.95 explanation.
-Type  H <return>  for immediate help H <return>  for immediate help[] 
- []
-
-
-LaTeX Warning: Citation `lasercommunity' on page 33 undefined on input line 21.
+LaTeX Warning: Citation `lasercommunity' on page 34 undefined on input line 21.
 
 
 
-LaTeX Warning: Citation `lasercommunity' on page 33 undefined on input line 21.
+LaTeX Warning: Citation `lasercommunity' on page 34 undefined on input line 21.
 
 
 ! Missing $ inserted.
@@ -2094,27 +2030,13 @@ l.25
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
+File: Allgmeiner_Aufbau.jpg Graphic file (type jpg)
+<use Allgmeiner_Aufbau.jpg>
 
-LaTeX Warning: File `Allgemeiner_Aufbau.jpg' not found on input line 29.
-
-
-! Package pdftex.def Error: File `Allgemeiner_Aufbau.jpg' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.29 ...dth=0.6\textwidth]{Allgemeiner_Aufbau.jpg}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+LaTeX Warning: Citation `selbstgemalt' on page 34 undefined on input line 30.
 
 
-LaTeX Warning: Citation `selbstgemalt' on page 33 undefined on input line 30.
-
-
-LaTeX Warning: Citation `selbstgemalt' on page 33 undefined on input line 30.
+LaTeX Warning: Citation `selbstgemalt' on page 34 undefined on input line 30.
 
 File: NurP40.jpg Graphic file (type jpg)
 <use NurP40.jpg>
@@ -2145,19 +2067,16 @@ File: Pad-Werte-P330F1_5F2_370.jpg Graphic file (type jpg)
  <use Pad-Werte-P330F1_5F2_370.jpg>
 File: Pad-Neue-Werte-P320F1_2F2_160.jpg Graphic file (type jpg)
 
-<use Pad-Neue-Werte-P320F1_2F2_160.jpg>) (./Tabellen.tex [33] [34] [35]
-[36] [37] [38] [39] [40] [41] [42
-
-
-] (./Projektstudie_MASTERFILE.lot)
+<use Pad-Neue-Werte-P320F1_2F2_160.jpg>) (./Tabellen.tex [34] [35] [36]
+[37] [38] [39] [40] [41] [42] (./Projektstudie_MASTERFILE.lot)
 \tf@lot=\write6
 \openout6 = `Projektstudie_MASTERFILE.lot'.
 
 )
-(./Danksagung.tex [43] [44
+(./Erklaerung.tex [43
 
 
-]) (./Erklaerung.tex [45] [46
+] [44
 
 
 ]
@@ -2176,7 +2095,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--21
 
  []
 
-) [47] (./Projektstudie_MASTERFILE.aux)
+) [45] (./Projektstudie_MASTERFILE.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -2185,10 +2104,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 10783 strings out of 495062
- 157264 string characters out of 1182643
- 275064 words of memory out of 3000000
- 13545 multiletter control sequences out of 15000+50000
+ 10789 strings out of 495062
+ 157649 string characters out of 1182643
+ 270201 words of memory out of 3000000
+ 13555 multiletter control sequences out of 15000+50000
  24152 words of font info for 59 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  46i,11n,52p,331b,386s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2211,9 +2130,9 @@ ts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-texlive/fonts/type1/publ
 ic/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
 m/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy6.pfb
 ></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Projektstudie_MASTERFILE.pdf (51 pages, 2090853 bytes).
+Output written on Projektstudie_MASTERFILE.pdf (49 pages, 2227732 bytes).
 PDF statistics:
- 998 PDF objects out of 1000 (max. 8388607)
- 115 named destinations out of 1000 (max. 500000)
- 254 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 975 PDF objects out of 1000 (max. 8388607)
+ 114 named destinations out of 1000 (max. 500000)
+ 261 words of extra memory for PDF output out of 10000 (max. 10000000)
 

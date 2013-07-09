@@ -12,7 +12,7 @@ Kennlinie('sensor.m',100,{'linear1',sensorkonstanten});
 Kennlinie('sensor.m',100,{'linear2',sensorkonstanten}); 
 Kennlinie('sensor.m',100,{'nonlinear',sensorkonstanten}); 
 
-%% Daten ausgabe
+%% Daten ausgabe (oder: so liefert der Sensor ein Spannungssignal)
 mode = 'nonlinear';
 
 Innenradius =5; % in mm
