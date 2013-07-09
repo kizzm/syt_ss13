@@ -18,7 +18,7 @@ Aber auch in der Medizin, beim Laserstrahlschweißen, in der Raumfahrt, beim Mili
 Es gibt verschiedene Größen der Spiegel und der entsprechenden Motoren. Aber nicht nur die Größe der Spiegel und der Motoren unterscheiden sich, sondern auch in der erreichbaren 
 bzw. geforderten Geschwindigkeit und Genauigkeit unterscheiden sich die verschiedenen Ausührungen.
 
-Wird ein Laserstrahl durch zwei Spiegel abgelenkt, so ist die Fokusebene auf eine kleine Fläche beschränkt.
+Wird ein Laserstrahl durch zwei Spiegel abgelenkt, so ist die Fokusebene auf eine kleine Fläche beschränkt, siehe Abb. \ref{galvohalter} und \ref{fokusebene}.
 Sollen größere Flächen mit dem Laser bearbeitet werden, so müssen die Anlagen verändert werden.
 
 \begin{figure}[ht]
@@ -27,14 +27,18 @@ Sollen größere Flächen mit dem Laser bearbeitet werden, so müssen die Anlagen ve
 	\caption{2 Laserablenkspiegel\cite{wiki}}
 	\label{galvohalter}
 \end{figure}
-Quelle: http://commons.wikimedia.org/wiki/File:Plexi_Galvohalter.jpg
+
+Quelle: \url{http://commons.wikimedia.org/wiki/File:Plexi_Galvohalter.jpg}
+
 \begin{figure}[ht]
 	\centering
-	\includegraphics[width=0.6\textwidth]{Strahlführung.jpg}
+	\includegraphics[width=0.6\textwidth]{Strahlfuehrung.jpg}
 	\caption{Fokusebene\cite{lasercommunity}}
 	\label{fokusebene}
 \end{figure}
-Quelle: http://www.laser-community.de/technologie/vw-laser-wobbeln-golf-vii_496/
+
+Quelle: \url{http://www.laser-community.de/technologie/vw-laser-wobbeln-golf-vii_496/}
+
 Es werden drei Lösungsansätze vorgestellt.
 
 Der Laserstrahl ist fest nach unten gerichtet und zwei entsprechend große Motoren bewegen den ganzen Laser in X- und Y-Richtung über das Werkstück.
@@ -48,16 +52,16 @@ Ungenauigkeiten miteingebracht werden.
 
 Der dritte Lösungsansatz sieht einen fest eingebauten Laser vor, dessen Laserstrahl nur in einer Richtung abgelenkt wird.
 Durch die Auslenkung des Laserstrahls in nur einer Richtung, ergibt sich keine Fokusebene sondern eine Fokuslinie.
-Bewegt sich nun das zu beschriftende Werkstück quer zu der Fokuslinie, kann eine große Fokusebene beschriftet werden.
+Bewegt sich nun das zu beschriftende Werkstück quer zu der Fokuslinie, kann eine große Fokusebene beschriftet werden, siehe Abb. \ref{fokuslinie}.
 
 \begin{figure}[ht]
 	\centering
-	\includegraphics[width=0.6\textwidth]{Allgemeiner_Aufbau.jpg}
+	\includegraphics[width=0.6\textwidth]{Allgmeiner_Aufbau.jpg}
 	\caption{Fokusline\cite{selbstgemalt}}
 	\label{fokuslinie}
 \end{figure}
 
-In Abbildung \ref{fokuslinie} tritt die Fokuslinie senkrecht aus dem Bild heraus.
+In Abb. \ref{fokuslinie} tritt die Fokuslinie senkrecht aus dem Bild heraus.
 Es muss dabei sichergestellt sein, dass der Vorschub des Werkstücks auf die Einstellgeschwindigkeit der Spiegelverstellung und somit auf die Beschriftung in der Fokuslinie 
 abgestimmt ist.
 Durch eine entsprechende Anordnung können so Werkstücke größeren Ausmaßes beschriftet werden.
