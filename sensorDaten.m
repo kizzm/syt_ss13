@@ -6,6 +6,10 @@
 %           2 Lastwiederstand der Idealen Photodiode in Ohm
 %           3 Azimutwinkel der Photodioden/Maximaler Messbereich in rad
 %           4 signal_max in V
+%           5 X Koordinaten der liniaren Kennlinie
+%           6 X Koordinaten der nicht liniaren Kennlinie
+%           7 Y- / Funktions-Werte der liniaren Kennline
+%           8 Y- / Funktions-Werte der nicht liniaren Kennline
 %      
 %       [In]:
 %       Array der Diodendaten(geometrisch, elektrisch) => Photodioden
@@ -15,12 +19,12 @@
 %
 %       Maximal messbarer Winkel +- => Messbereich in rad
 %
-%       Array der LEDDaten => LED
-%           1   LED Abstrahlcharakteristik  als Array
-%           2   LED Abstand zu Dioden       in mm  
+%       Gesammtleistung der LED => LEDLeistung in W
    
-function Sensorkonstanten = sensorDaten(Photodioden,Messbereich,LED)
-Sensorkonstanten{1} = 0.001; % Fürs erste angenommen zu 1A
+function Sensorkonstanten = sensorDaten(Photodioden,Messbereich,LEDLeistung)
+Sensorkonstanten{1} = 0.001; % max Signal in A
+
+
 Sensorkonstanten{2} = Photodioden(3); % Lastwiederstand
 Sensorkonstanten{3} = Messbereich; % max Messbereich
 Sensorkonstanten{4} = Sensorkonstanten{1}*Photodioden(3); % max Signal in V
@@ -68,4 +72,6 @@ f = f1-f2;
 Sensorkonstanten{7} = f./max(f);
 gf = gf1-gf2;
 Sensorkonstanten{8} = gf./max(gf);
+
+
 end

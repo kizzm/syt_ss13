@@ -44,11 +44,12 @@ switch Verhalten
         S13 = @(phi,d) S1(phi,d)+S3(phi,d);
         S24 = @(phi,d) S2(phi,d)+S4(phi,d);
 
-        Iph = @(phi,d) S13(phi,d); % Gesammt Photostrom
+        I0 = Sensorkonstanten{1};
+        Iph = @(phi,d) I0*S13(phi,d); % Gesammt Photostrom
 
-        signal = Iph(phiB,Rauschen)/Sensorkonstanten{1}*Sensorkonstanten{4}; % Spannungssignal [Out]
+        signal = Iph(phiB,Rauschen)*Sensorkonstanten{3}; % Spannungssignal [Out]
 
-    case 'lineardif'
+    case 'linear1'
         a = @(phi) 1/Sensorkonstanten{3} * phi + 0.5; % lineares Verhalten des Sensors +- °_max
 
         S1 = @(phi,d) Sensorkonstanten{1}/4*(a(phi))+d; % Signal der Sensor 1
@@ -62,15 +63,25 @@ switch Verhalten
         Iph = @(phi,d) S13(phi,d) - S24(phi,d); % Gesammt Photostrom
         signal = Iph(phiB,Rauschen)/Sensorkonstanten{1}*Sensorkonstanten{4}; % Spannungssignal [Out]
         
+    case 'linear2'
+        AP = abs(Sensorkonstanten{5}-phiB);
+        ind1 = find(AP==min(AP));
+        ind2 = find(AP==min(AP(AP~=min(AP))));
+        X1 = Sensorkonstanten{5}(ind1);
+        X2 = Sensorkonstanten{5}(ind2);
+        Y1 = Sensorkonstanten{7}(ind1);
+        Y2 = Sensorkonstanten{7}(ind2);
+        signal = (Y2-Y1)/(X2-X1)*phiB + (X2*Y1-X1*Y2)/(X2-X1);
+        
     case 'nonlinear'
-        AP = Sensorkonstanten{6}-phiB;
-        ind1 = find(AP==min(AP))
-        ind2 = find(AP==min(AP(AP~=min(AP))))
-        X1 = Sensorkonstanten{6}(ind1)
-        X2 = Sensorkonstanten{6}(ind2)
-        Y1 = Sensorkonstanten{8}(ind1)
-        Y2 = Sensorkonstanten{8}(ind2)
-        signal = (Y2-Y1)/(X2-X1)*phiB + (X2*Y1-X1*Y2)/(X2-X1)
+        AP = abs(Sensorkonstanten{6}-phiB);
+        ind1 = find(AP==min(AP));
+        ind2 = find(AP==min(AP(AP~=min(AP))));
+        X1 = Sensorkonstanten{6}(ind1);
+        X2 = Sensorkonstanten{6}(ind2);
+        Y1 = Sensorkonstanten{8}(ind1);
+        Y2 = Sensorkonstanten{8}(ind2);
+        signal = (Y2-Y1)/(X2-X1)*phiB + (X2*Y1-X1*Y2)/(X2-X1);
 end
 
 %Signalbegrenzung
