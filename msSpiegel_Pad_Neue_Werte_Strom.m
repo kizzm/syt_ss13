@@ -29,6 +29,28 @@
 clear all
 close all
 
+% Funktionen die benötigt werden sind hier gespeichert
+addpath('/home/michamann/git/syt_ss13/');
+
+% Auswahl Sensorverhalten
+mode = 'nonlinear';
+Unit = 'rad';
+
+% Kennwerte für Sensor
+Innenradius =5; % in mm
+Aussenradius =10; % in mm
+Lastwiederstand =6000; % in Ohm
+
+Phototodioden = [Innenradius,Aussenradius,Lastwiederstand];
+Messbereich = 45/180*pi; % 45° in rad
+LEDLeistung = 1; % in W
+Umgebungstemperatur = 300; % in K
+
+% Cell-Array für Kennwerte von Sensor
+sensorkonstanten = sensorDaten(Photodioden,Messbereich,LEDLeistung,Umgebungstemperatur);
+
+
+
 % Angabe der Parameter für Simulink für die weiteren Berechnungen
 
   RA=0.1;             % Innenwiderstand des Galvos
@@ -70,7 +92,7 @@ opts=simset('solver','ode45',...
     'Refine',1,...
     'MaxStep',.00001);
 
-[t,x,y]=sim('sSpiegelPadStromNeu',[t0 te],opts);
+[t,x,y]=sim('sSpiegelPadStromSensor',[t0 te],opts);
 
 
 % Plots
