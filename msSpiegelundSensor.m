@@ -47,7 +47,7 @@ Photodioden = [Innenradius,Aussenradius,Lastwiederstand];
 Messbereich = 20/180*pi; % 45° in rad
 LEDLeistung = 1; % in W
 Umgebungstemperatur = 300; % in K
-nonlinear = 0.3; % Wert zwischen 0 und 1
+nonlinear = 1; % Wert zwischen 0 und 1
 
 % Cell-Array für Kennwerte von Sensor
 global Sensorkonstanten 
@@ -63,13 +63,13 @@ Sensorkonstanten = sensorDaten(Photodioden,Messbereich,LEDLeistung,Umgebungstemp
   J=93.3e-11;         % kg m^2 Trägheitsmoment des Spiegels
   r=6e-5;             % Nm*s Reibung
   
-  KMPHI=35e-3;        % Vs
+  KMPHI=35e-3;        % Vs Motorkonstante
   
   Mspiegel=30.25e-6;  % Nm Drehmoment für Spiegel
   
   te=.002;            % end of simulation time 
    
-  phi = 5*pi/180;    % einzustellender Winkel von 20°
+  phi = 19*pi/180;    % einzustellender Winkel von 20°
   
   vu=-30;             % uu=-30 V
   vo=30;              % uo=+30 V
@@ -114,6 +114,8 @@ axis([0 te pu1 po1])
 grid on
 xlabel('t / s')
 ylabel('Phi / rad')
+YTicks=get(gca,'YTick');
+set(gca,'YTickLabel',num2str(YTicks(:),'%.1f'));
 title('Gleichstrommotor: Winkel')
 
 subplot(3,1,3)
@@ -122,6 +124,8 @@ axis([0 te pu2 po2])
 grid on
 xlabel('t / s')
 ylabel('Phi / rad')
+YTicks=get(gca,'YTick');
+set(gca,'YTickLabel',num2str(YTicks(:),'%.5e'));
 title('Gleichstrommotor: Sollwinkel und Toleranzen')
 
 % figure(2)

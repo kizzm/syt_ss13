@@ -31,15 +31,14 @@ In Abb. \ref{p40} und \ref{p45} ist in der untersten Grafik der Sollwinkel sowie
 zu groß. Demnach wird mit einem zugefügten I-Anteil zur reinen P-Regelung versucht, die restliche große Regeldifferenz auszugleichen. 
 Für die folgenden Simulationen wird das Matlab-File "msSpiegel_PID.m" und das Simulink-File "sSpiegel.slx" hergenommen.
 
-
-\begin{figure}[ht]
+\begin{figure}[!h]
 	\centering
 	\includegraphics[width=0.6\textwidth]{NurP40.jpg}
 	\caption{P-Anteil von 40}
 	\label{p40}
 \end{figure}
 
-\begin{figure}[ht]
+\begin{figure}[!h]
 	\centering
 	\includegraphics[width=0.6\textwidth]{NurP45.jpg}
 	\caption{P-Anteil von 45}
@@ -52,14 +51,14 @@ In Abb. \ref{p30i17} und \ref{p30i17} ist in der untersten Grafik der Sollwinkel
 zu groß. 
 Demnach wird der zugefügte I-Anteil herausgenommen und ein D-Anteil zur reinen P-Regelung hinzugenommen, um so ein besseres Regelergebnis zu erreichen.
 
-\begin{figure}[ht]
+\begin{figure}[!h]
 	\centering
 	\includegraphics[width=0.6\textwidth]{PI-P30I17.jpg}
 	\caption{P-Anteil von 30 und I-Anteil von 17}
 	\label{p30i17}
 \end{figure}
 
-\begin{figure}[ht]
+\begin{figure}[!h]
 	\centering
 	\includegraphics[width=0.6\textwidth]{PI-P30I17.jpg}
 	\caption{P-Anteil von 30 und I-Anteil von 17}
@@ -72,14 +71,14 @@ des P- oder D-Anteils ergibt ein Überschwingen, wie es in Abb. \ref{p23d1n1} dar
 In Abb. \ref{p22d1n1} und \ref{p23d1n1} ist in der untersten Grafik der Sollwinkel sowie die angegebene Abweichung angezeigt. Wie zu erkennen ist, ist die verbleibende Regeldifferenz noch viel 
 zu groß. 
 
-\begin{figure}[ht]
+\begin{figure}[!h]
 	\centering
 	\includegraphics[width=0.6\textwidth]{PD-P22D1N1.jpg}
 	\caption{P=22 - D=1 - N=1}
 	\label{p22d1n1}
 \end{figure}
 
-\begin{figure}[ht]
+\begin{figure}[!h]
 	\centering
 	\includegraphics[width=0.6\textwidth]{PD-P23D1N1.jpg}
 	\caption{P=22 - D=1 - N=1}
@@ -92,14 +91,14 @@ der verschiedenen Reglerparamteranteile ergibt ein Überschwingen, wie es in Abb.
 In Abb. \ref{p20i16d1n1} ist in der untersten Grafik der Sollwinkel sowie die angegebene Abweichung angezeigt.
 Durch die große Abweichung vom Sollwinkel ist in dieser Grafik kein Graph zu erkennen.
 
-\begin{figure}[ht]
+\begin{figure}[!h]
 	\centering
 	\includegraphics[width=0.6\textwidth]{PID-P20I15D1N1.jpg}
 	\caption{P=20 - I=15 - D=1 - N=1}
 	\label{p20i15d1n1}
 \end{figure}
 
-\begin{figure}[ht]
+\begin{figure}[!h]
 	\centering
 	\includegraphics[width=0.6\textwidth]{PID-P20I16D1N1.jpg}
 	\caption{P=20 - I=16 - D=1 - N=1}
@@ -120,7 +119,7 @@ f = 1 + \frac {c_1 - 1}{(c_2 * e)^2 + 1}
  
 Dabei muss der Regelkreis folgendermaßen erweitert werden:
  
-\begin{figure}[ht]
+\begin{figure}[!h]
 	\centering
 	\includegraphics[width=0.6\textwidth]{P-Adaption.jpg}
 	\caption{P-Adaption}
@@ -135,7 +134,7 @@ f-Parameter einzeln erhöht bzw. erniedrigt, bis sich das Erebniss verbessert hat
 ebenso zur Erreichung einer passenden Regelung.
 Für die folgenden Simulationen wird das Matlab-File "msSpiegel_Pad.m" und das Simulink-File "sSpiegelPad.slx" hergenommen.
 
-\begin{figure}[ht]
+\begin{figure}[!h]
 	\centering
 	\includegraphics[width=0.6\textwidth]{Pad-P41F1_1,5F2_80.jpg}
 	\caption{P-Adaption mit Parametern}
@@ -145,7 +144,7 @@ Für die folgenden Simulationen wird das Matlab-File "msSpiegel_Pad.m" und das Si
 In Abb. \ref{padp41f1580} ist zu erkennen, dass der Sollwinkel nicht erreicht wird. Wird jedoch der P-Anteil erhöht und mit den beiden f-Parametern weitere Einstellungen
 probier, so wird der Sollwinkel nie erreicht. Es kommt zwar zu einem Schwingen um den Sollwinkel, aber dieser kann nicht stabil erreicht werden, siehe Abb. \ref{padp50f3400}.
 
-\begin{figure}[ht]
+\begin{figure}[!h]
 	\centering
 	\includegraphics[width=0.6\textwidth]{Pad-P50F1_3F2_400.jpg}
 	\caption{P-Adaption mit Parametern}
@@ -171,7 +170,7 @@ P-Anteil: 330
 $f_1$: 5
 $f_2$: 370
 
-\begin{figure}[ht]
+\begin{figure}[!h]
 	\centering
 	\includegraphics[width=0.6\textwidth]{Pad-Werte-P330F1_5F2_370.jpg}
 	\caption{P-Adaption mit neuen Motorparametern}
@@ -183,7 +182,7 @@ Sollte die Regelung erfolgreich sein, könnte mit den veränderten Werten evtl. ei
 
 Für die folgenden Simulationen wird das Matlab-File "msSpiegel_Pad_Neue_Werte.m" und das Simulink-File "sSpiegelPad.slx" hergenommen.
 
-\begin{figure}[ht]
+\begin{figure}[!h]
 	\centering
 	\includegraphics[width=0.6\textwidth]{Pad-Neue-Werte-P320F1_2F2_160.jpg}
 	\caption{P-Adaption mit neuen Parametern}
@@ -205,7 +204,7 @@ $f_2$: 160
 Ein Blick auf den Strom liefert allerdings Ergenisse, die weiterer Überarbeitung bedürfen.
 In Abb. \ref{stromzuhoch} ist der Strom der aktuellen Regelung dargestellt. Es fliessen Ströme in Höhe von 80 A.
 
-\begin{figure}[ht]
+\begin{figure}[!h]
 	\centering
 	\includegraphics[width=0.6\textwidth]{Strom_zu_hoch.jpg}
 	\caption{Stromhöhe während der Regelung}
@@ -218,7 +217,7 @@ Für die folgenden Simulationen wird das Matlab-File "msSpiegel_Pad_Neue_Werte_St
 
 Eine Regelung mit den aktuellen Werten zeigt das in Abb. \ref{strombegrenztpad} zu erkennende Ergebnis.
 
-\begin{figure}[ht]
+\begin{figure}[!h]
 	\centering
 	\includegraphics[width=0.6\textwidth]{Strom-Pad-Neue-Werte-P320F1_2F2_160.jpg}
 	\caption{P-Adaption mit Strombegrenzung}
@@ -232,7 +231,7 @@ P-Anteil: 218
 $f_1$: 5
 $f_2$: 400
 
-\begin{figure}[ht]
+\begin{figure}[!h]
 	\centering
 	\includegraphics[width=0.6\textwidth]{Strom-Pad-Neue-Werte-P218F1_5F2_400.jpg}
 	\caption{Angepasste P-Adaption mit Strombegrenzung}
@@ -241,7 +240,7 @@ $f_2$: 400
 
 Die Einregelzeit liegt nur noch knanpp über der vorgegebenen Zeit, durch weitere Anpassung der Regelparameter soll die vorgegebene Einregelzeit erreicht werden.
 Abb. \ref{}
-\begin{figure}[ht]
+\begin{figure}[!h]
 	\centering
 	\includegraphics[width=0.6\textwidth]{Strom-Pad-Neue-Werte-P250F1_3F2_150.jpg}
 	\caption{Angepasste P-Adaption mit Strombegrenzung}

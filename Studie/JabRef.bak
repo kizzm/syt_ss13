@@ -1,6 +1,28 @@
 % This file was created with JabRef 2.7b.
 % Encoding: UTF-8
 
+@BOOK{HaWa85,
+  title = {Position Sensing},
+  publisher = {Butterworth-Heinemann},
+  year = {1985},
+  author = {Hans Walcher},
+  owner = {kizzm},
+  timestamp = {2013.07.05}
+}
+
+@MISC{lasercommunity,
+  howpublished = {by Internet},
+  timestamp = {2013.07.11},
+  url = {http://www.laser-community.de/technologie/vw-laser-wobbeln-golf-vii_496/}
+}
+
+@MISC{wiki,
+  howpublished = {by Internet},
+  owner = {michamann},
+  timestamp = {2013.07.11},
+  url = {http://commons.wikimedia.org/wiki/File:Plexi_Galvohalter.jpg}
+}
+
 @comment{jabref-meta: selector_publisher:}
 
 @comment{jabref-meta: selector_author:}
