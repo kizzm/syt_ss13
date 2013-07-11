@@ -20,10 +20,10 @@ In dieser Simulationsstudie soll untersucht werden, ob es möglich ist eine Regel
 auf eine bestimmte Winkelposition zu bewegen und in entsprechenden Regeldifferenzen zu halten.
 Es werden folgende, willkürlich gewählten Leistungsmerkmale vorgegeben:
 \begin{itemize}
-\item  Verstellung des Spiegels aus der Ruhelage (Mitte) um $\pm$ 10{\textdegree}. 
+\item  Verstellung des Spiegels aus der Ruhelage (Mitte) um $\unit[\pm10]{°}$. 
 Wobei die Ruhelage des Spiegels den Laserstrahl genau in die Mitte der Fokuslinie auf dem Werkstück ablenkt.
-\item  Um einen maximalen Winkelbereich von \unit[20]{°} abzufahren, darf die Regelung nicht länger als $1 ms$ benötigen.
-\item Der einzustellende Winkel soll mit einer Genauigkeit von 1{\textdegree}e-3 erreicht und gehalten werden.
+\item  Um einen maximalen Winkelbereich von \unit[20]{°} abzufahren, darf die Regelung nicht länger als \unit[1]{ms} benötigen.
+\item Der einzustellende Winkel soll mit einer Genauigkeit von \unit[1e-3]{°} erreicht und gehalten werden.
 \end{itemize}
 
 
@@ -37,7 +37,7 @@ Die Simulationsstudie deckt folgende Themen ab:
 \begin{itemize}
 \item Bewegung von Magnet, Welle und Spiegel als mechanische Arbeit durch angesetzte Drehmomente
 \item Drehmomente werden durch Ströme, die Magnetfelder hervorrufen, realisiert
-\itemitem Positionserfassung durch Auswertung von Lichtintensitäten auf 4 Sensoren
+\item Positionserfassung durch Auswertung von Lichtintensitäten auf 4 Sensoren
 \item es müssen verschiedene Parameter wie, Trägheitsmomente von Spiegel und Welle, Drehmomente, induzierte Spannungen und z.B. Lichtintensitäten beachtet werden
 \end{itemize}
 
@@ -52,6 +52,7 @@ trifft, würde der mittlere Teil des Laserstrahls abgelenkt und der äußere Teil w
 \item Völlige Abdunkelung des einen Sensors, wenn der andere maximale Helligkeit besitzt
 \item Alle Bauteile 100\% steif
 \item Erwärmung und dadurch eine Veränderung der Parameter wird nicht beachtet
+\end{itemize}
 
 Es wird mit einem vorgegebenen Gleichstrommotor begonnen, Werte für die Regelparameter heraus zu finden, mit denen sich erste Ergebnisse zeigen.
 Mit diesen gefundenen Regelparametern wird dann versucht, die Regelergebnisse noch zu verbessern.
