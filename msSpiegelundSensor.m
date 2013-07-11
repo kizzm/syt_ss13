@@ -108,7 +108,7 @@ ylabel('u_e / V')
 title('Gleichstrommotor: Motorspannung,') 
 
 subplot(3,1,2)
-plot(t,y(:,5),t,phi,'linewidth',2,'linewidth',2);
+plot(t,y(:,2),t,phi,'linewidth',2,'linewidth',2);
 axis([0 te pu1 po1])
 grid on
 xlabel('t / s')
@@ -116,12 +116,12 @@ ylabel('Phi / rad')
 title('Gleichstrommotor: Winkel')
 
 subplot(3,1,3)
-plot(t,y(:,5),t,phi,t,(phi-1e-3*pi/180),t,(phi+1e-3*pi/180),'linewidth',2,'linewidth',2,'linewidth',2,'linewidth',2);
+plot(t,y(:,2),t,phi,t,(phi-1e-3*pi/180),t,(phi+1e-3*pi/180),'linewidth',2,'linewidth',2,'linewidth',2,'linewidth',2);
 axis([0 te pu2 po2])
 grid on
 xlabel('t / s')
 ylabel('Phi / rad')
-title('Gleichstrommotor: Winkel')
+title('Gleichstrommotor: Sollwinkel und Toleranzen')
 
 % figure(2)
 % plot (t,y(:,4),'linewidth',2);
