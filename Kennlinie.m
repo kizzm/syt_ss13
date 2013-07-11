@@ -10,7 +10,7 @@ switch Funktion
     case 'sensor.m'
         figure(); hold on;
         for i = 1:1:size(Wertebereich,2)
-            signal(i) = sensor(Wertebereich(i), 'rad',Funktionsparameter{1}, Funktionsparameter{2});
+            signal(i) = sensor(Wertebereich(i));
         end
         fig = plot(Wertebereich,signal);
         xlabel('Winkelposition des Spiegels / rad')
