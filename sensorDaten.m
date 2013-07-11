@@ -26,7 +26,7 @@ function Sensorkonstanten = sensorDaten(Photodioden,Messbereich,LEDLeistung,Umge
 Sensorkonstanten{1} = 0.001; % max Signal in A
 
 
-Sensorkonstanten{2} = Photodioden(3); % Lastwiederstand
+Sensorkonstanten{2} = Photodioden(3); % Lastwiderstand
 Sensorkonstanten{3} = Messbereich; % max Messbereich
 Sensorkonstanten{4} = Sensorkonstanten{1}*Photodioden(3)*4; % max Signal in V
 

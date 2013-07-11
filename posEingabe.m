@@ -21,7 +21,12 @@ switch Unit
         phiPos = phi;
     case 'mrad'
         phiPos = phi/1000;
+end
+
+if abs(phiPos) > Sensorkonstanten{3}
+    phiPos = Sensorkonstanten{3}*sign(phiPos);
+end
         
-sollsignal = phiPos * 1/2*Sensorkonstanten{3}
+sollsignal = (phiPos * 1/(2*Sensorkonstanten{3})+0.5) * Sensorkonstanten{4};
 
 end
