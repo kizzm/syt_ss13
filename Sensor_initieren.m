@@ -24,7 +24,7 @@ Messbereich = 45/180*pi; % 45° in rad
 LEDLeistung = 1; % in W
 Umgebungstemperatur = 300; % in K
 
-sensorkonstanten = (Photodioden,Messbereich,LEDLeistung,Umgebungstemperatur);
+sensorkonstanten = sensorDaten(Photodioden,Messbereich,LEDLeistung,Umgebungstemperatur);
 
 %erzeugen eines Messwerts
 phi = 0.4 ; %Beispielwinkel der Welle in rad
