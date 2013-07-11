@@ -3,7 +3,7 @@ addpath('/home/kizzm/Master/Repos/syt_ss13/');
 
 % Auswahl Sensorverhalten
 global mode 
-mode = 'nonlinear';
+mode = 'linear1';
 global Unit
 Unit = 'rad';
 
@@ -16,7 +16,7 @@ Photodioden = [Innenradius,Aussenradius,Lastwiederstand];
 Messbereich = 20/180*pi; % 45° in rad
 LEDLeistung = 1; % in W
 Umgebungstemperatur = 300; % in K
-nonlinear = 0.1; % Wert zwischen 0 und 1
+nonlinear = 0.0001; % Wert zwischen 0 und 1
 
 % Cell-Array für Kennwerte von Sensor
 global Sensorkonstanten 
