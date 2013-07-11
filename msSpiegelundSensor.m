@@ -33,7 +33,9 @@ close all
 addpath('/home/michamann/git/syt_ss13/');
 
 % Auswahl Sensorverhalten
+global mode 
 mode = 'nonlinear';
+global Unit
 Unit = 'rad';
 
 % Kennwerte für Sensor
@@ -41,14 +43,14 @@ Innenradius =5; % in mm
 Aussenradius =10; % in mm
 Lastwiederstand =6000; % in Ohm
 
-Phototodioden = [Innenradius,Aussenradius,Lastwiederstand];
-Messbereich = 45/180*pi; % 45° in rad
+Photodioden = [Innenradius,Aussenradius,Lastwiederstand];
+Messbereich = 20/180*pi; % 45° in rad
 LEDLeistung = 1; % in W
 Umgebungstemperatur = 300; % in K
 
 % Cell-Array für Kennwerte von Sensor
-sensorkonstanten = sensorDaten(Photodioden,Messbereich,LEDLeistung,Umgebungstemperatur);
-
+global Sensorkonstanten 
+Sensorkonstanten = sensorDaten(Photodioden,Messbereich,LEDLeistung,Umgebungstemperatur);
 
 
 % Angabe der Parameter für Simulink für die weiteren Berechnungen
@@ -66,14 +68,14 @@ sensorkonstanten = sensorDaten(Photodioden,Messbereich,LEDLeistung,Umgebungstemp
   
   te=.002;            % end of simulation time 
    
-  phi = 20*pi/180;    % einzustellender Winkel von 20°
+  phi = 5*pi/180;    % einzustellender Winkel von 20°
   
   vu=-30;             % uu=-30 V
   vo=30;              % uo=+30 V
   iu=-15;             % iu=-15 A
   io=+15;             % io=+15 A 
-  pu1=-0.4;           % phiu=-20° in rad
-  po1=0.4;            % phio=+20° in rad
+  pu1=-1;           % phiu=-20° in rad 0.4
+  po1=1;            % phio=+20° in rad -0.4
   pu2=phi-0.5e-2*pi/180;% Diagrammgrenzen für Regeldifferenz
   po2=phi+0.5e-2*pi/180;% Diagrammgrenzen für Regeldifferenz
 
@@ -120,7 +122,7 @@ grid on
 xlabel('t / s')
 ylabel('Phi / rad')
 title('Gleichstrommotor: Winkel')
-% 
+
 % figure(2)
 % plot (t,y(:,4),'linewidth',2);
 % axis([0 te iu io])
@@ -128,6 +130,20 @@ title('Gleichstrommotor: Winkel')
 % xlabel('t / s')
 % ylabel('i_A / A')
 % title('Gleichstrommotor: Motorstrom')
+% figure(2)
+% plot (t,y(:,7),'linewidth',2);
+% axis([0 te vu vo])
+% grid on
+% xlabel('t / s')
+% ylabel('U / V')
+% title('Sensor: aktuelle Winkelspannung')
+% figure(3)
+% plot (t,y(:,6),'linewidth',2);
+% axis([0 te vu vo])
+% grid on
+% xlabel('t / s')
+% ylabel('U / V')
+% title('Eingabe: Sollwinkelspannung')
 
 
 % Plot der variablen Schrittweite

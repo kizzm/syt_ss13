@@ -1,4 +1,4 @@
-%% signal = sensor( Blendenwinkel, Unit, Verhalten, Sensorkonstanten)
+%% signal = sensor( Blendenwinkel, Unit, mode, Sensorkonstanten)
 % Erzeugt:
 %       [Out]:
 %       Normiertes Spannungssignal +-5V => signal in V
@@ -6,16 +6,20 @@
 %       [In]:
 %       aus Eingangswinkel => Blendenwinkel in 
 %       der angegebenen Einheit => Unit
-%       Kennverhalten des Sensors => Verhalten
+%       Kennmode des Sensors => mode
 %       Array aus Sensorkonstanten => Sensorkonstanten
 %           1 signal_max in A
 %           2 Lastwiederstand der Idealen Photodiode in Ohm
 %           3 Azimutwinkel der Photodiodennonlinear
 %           4 signal_max in V
 %       Unit cases: 'grad','mgrad','rad','mrad'
-%       Verhalten cases : 'linear', ...
+%       mode cases : 'linear', ...
 
-function signal = sensor(Blendenwinkel,Unit, Verhalten, Sensorkonstanten)
+function signal = sensor(Blendenwinkel)
+
+global Unit
+global mode
+global Sensorkonstanten
 
 %% Umrechnung der Eingangseinheit
 switch Unit
@@ -40,10 +44,10 @@ Rauschen = UT+UT*zufall
 %}
 Rauschen = rand()*Sensorkonstanten{1}/10;
 
-switch Verhalten
+switch mode
     case 'einzelGruppe'
         
-        a = @(phi) 1/Sensorkonstanten{3}/2 * phi + 0.5; % lineares Verhalten des Sensors +- °_max
+        a = @(phi) 1/Sensorkonstanten{3}/2 * phi + 0.5; % lineares mode des Sensors +- °_max
 
         S1 = @(phi,d) Sensorkonstanten{1}*(a(phi))+d; % Signal der Sensor 1
         S3 = @(phi,d) Sensorkonstanten{1}*(a(phi))+d; % Signal der Sensor 3
@@ -58,7 +62,7 @@ switch Verhalten
         signal = Iph(phiB,Rauschen)*Sensorkonstanten{2}; % Spannungssignal [Out]
 
     case 'linear1'
-        a = @(phi) 1/Sensorkonstanten{3} * phi + 0.5; % lineares Verhalten des Sensors +- °_max
+        a = @(phi) 1/Sensorkonstanten{3} * phi + 0.5; % lineares mode des Sensors +- °_max
 
         S1 = @(phi,d) Sensorkonstanten{1}*(a(phi))+d; % Signal der Sensor 1
         S3 = @(phi,d) -Sensorkonstanten{1}*(a(phi))+d; % Signal der Sensor 3
