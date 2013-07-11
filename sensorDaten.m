@@ -22,7 +22,7 @@
 %       Gesammtleistung der LED => LEDLeistung in W
 %       Umgebungstemperatur => Umgebungstemperatur in K
    
-function Sensorkonstanten = sensorDaten(Photodioden,Messbereich,LEDLeistung,Umgebungstemperatur)
+function Sensorkonstanten = sensorDaten(Photodioden,Messbereich,LEDLeistung,Umgebungstemperatur,nonlinear)
 Sensorkonstanten{1} = 0.001; % max Signal in A
 
 
@@ -36,7 +36,7 @@ xmax = 2*pi;
 x = linspace(xmin,xmax,4000);
 
 c = 1;
-e = 0.3;
+e = nonlinear;
 b = Messbereich*2;
 pb = 0;
 ps1 = b/2;

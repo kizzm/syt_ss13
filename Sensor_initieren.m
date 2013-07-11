@@ -1,31 +1,36 @@
-% Sensor initieren
-addpath('/home/kizzm/Dokumente/Studium/Master_Photonik/Repos/syt_ss13/');
+% Funktionen die benötigt werden sind hier gespeichert
+addpath('/home/kizzm/Master/Repos/syt_ss13/');
 
-sensorkonstanten = sensorDaten([5,10,6000],(45/360*2*pi),1,300);
+% Auswahl Sensorverhalten
+global mode 
+mode = 'nonlinear';
+global Unit
+Unit = 'rad';
+
+% Kennwerte für Sensor
+Innenradius =5; % in mm
+Aussenradius =10; % in mm
+Lastwiederstand =6000; % in Ohm
+
+Photodioden = [Innenradius,Aussenradius,Lastwiederstand];
+Messbereich = 20/180*pi; % 45° in rad
+LEDLeistung = 1; % in W
+Umgebungstemperatur = 300; % in K
+nonlinear = 0.1; % Wert zwischen 0 und 1
+
+% Cell-Array für Kennwerte von Sensor
+global Sensorkonstanten 
+Sensorkonstanten = sensorDaten(Photodioden,Messbereich,LEDLeistung,Umgebungstemperatur,nonlinear);
 
 % Bsp: signal = sensor(5.1,'grad','linear',sensorkonstanten)
 % Bsp: Position = posBerechnung(signal,sensorkonstanten)
 
 %% Kennlinien
-Kennlinie('sensor.m',100,{'einzelGruppe',sensorkonstanten});
-Kennlinie('sensor.m',100,{'linear1',sensorkonstanten}); 
-Kennlinie('sensor.m',100,{'linear2',sensorkonstanten}); 
-Kennlinie('sensor.m',100,{'nonlinear',sensorkonstanten}); 
-
-%% Daten ausgabe (oder: so liefert der Sensor ein Spannungssignal)
+mode = 'einzelGruppe';
+Kennlinie('sensor.m',100,{'einzelGruppe',Sensorkonstanten});
+mode = 'linear1';
+Kennlinie('sensor.m',100,{'linear1',Sensorkonstanten}); 
+mode = 'linear2';
+Kennlinie('sensor.m',100,{'linear2',Sensorkonstanten}); 
 mode = 'nonlinear';
-
-Innenradius =5; % in mm
-Aussenradius =10; % in mm
-Lastwiederstand =6000; % in Ohm
-
-Phototodioden = [Innenradius,Aussenradius,Lastwiederstand];
-Messbereich = 45/180*pi; % 45° in rad
-LEDLeistung = 1; % in W
-Umgebungstemperatur = 300; % in K
-
-sensorkonstanten = sensorDaten(Photodioden,Messbereich,LEDLeistung,Umgebungstemperatur);
-
-%erzeugen eines Messwerts
-phi = 0.4 ; %Beispielwinkel der Welle in rad
-signal = sensor(phi,'rad',mode,sensorkonstanten)
+Kennlinie('sensor.m',100,{'nonlinear',Sensorkonstanten}); 

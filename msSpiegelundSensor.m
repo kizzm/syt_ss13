@@ -47,10 +47,11 @@ Photodioden = [Innenradius,Aussenradius,Lastwiederstand];
 Messbereich = 20/180*pi; % 45° in rad
 LEDLeistung = 1; % in W
 Umgebungstemperatur = 300; % in K
+nonlinear = 0.3; % Wert zwischen 0 und 1
 
 % Cell-Array für Kennwerte von Sensor
 global Sensorkonstanten 
-Sensorkonstanten = sensorDaten(Photodioden,Messbereich,LEDLeistung,Umgebungstemperatur);
+Sensorkonstanten = sensorDaten(Photodioden,Messbereich,LEDLeistung,Umgebungstemperatur,nonlinear);
 
 
 % Angabe der Parameter für Simulink für die weiteren Berechnungen
