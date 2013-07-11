@@ -3,7 +3,7 @@
 %  Vorgang:   Regelung eines Gleichstrommotors zur Spiegelverstellung
 %  Verfahren: Simulink, mithilfe einer P-Adaption
 %
-%  Unterprogramme:  sSpiegelPadStrom.slx
+%  Unterprogramme:  sSpiegelPadStromNeu.slx
 %
 %
 % ########################################################
@@ -36,7 +36,7 @@ close all
   TA=LA/RA;           % Zeitkonstante T1
   
   J=93.3e-11;         % kg m^2 Trägheitsmoment des Spiegels
-  r=6e-5;             % Nm*s
+  r=6e-5;             % Nm*s Reibung
   
   KMPHI=35e-3;        % Vs
   
@@ -70,7 +70,7 @@ opts=simset('solver','ode45',...
     'Refine',1,...
     'MaxStep',.00001);
 
-[t,x,y]=sim('sSpiegelPadStrom',[t0 te],opts);
+[t,x,y]=sim('sSpiegelPadStromNeu',[t0 te],opts);
 
 
 % Plots
@@ -98,14 +98,14 @@ grid on
 xlabel('t / s')
 ylabel('Phi / rad')
 title('Gleichstrommotor: Winkel')
-
-figure(2)
-plot (t,y(:,4),'linewidth',2);
-axis([0 te iu io])
-grid on
-xlabel('t / s')
-ylabel('i_A / A')
-title('Gleichstrommotor: Motorstrom')
+% 
+% figure(2)
+% plot (t,y(:,4),'linewidth',2);
+% axis([0 te iu io])
+% grid on
+% xlabel('t / s')
+% ylabel('i_A / A')
+% title('Gleichstrommotor: Motorstrom')
 
 
 % Plot der variablen Schrittweite
