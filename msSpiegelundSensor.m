@@ -1,10 +1,13 @@
 %  msSpiegel_Pad.m     (Matlab/Simulink R2011b)
 %
 %  Vorgang:   Regelung eines Gleichstrommotors zur Spiegelverstellung
-%  Verfahren: Simulink, mithilfe einer P-Adaption
+%  Verfahren: Simulink, mithilfe einer P-Adaption, eingebauter Strom-
+%             begrenzung, angepasster Motorenwerte und eingebauter
+%             Sensor
 %
 %  Unterprogramme:  sSpiegelPadStromNeu.slx
-%                   sensorDaten.m
+%                   sensor.m
+%                   posEingabe.m
 %
 % ########################################################
 %
@@ -16,13 +19,15 @@
 %   J           Traegheitsmoment
 %   r           Reibkonstante
 %
+%   MSpiegel    Drehmoment für Spiegel
+%
 %   KMPHI       Motorkenngrösse
 %
-%   uephi       Sprunghöhe Motorwinkel
+%   phi         Sprunghöhe Motorwinkel
 %
 %   te          Ende des Integrationsintervalls (ab t=0)
 %
-%   ug, og      Untere/obere Grenze der Grafiken
+%   xuX, xoX    Untere/obere Grenze der Grafiken
 %0
 % ########################################################
 clear all
@@ -33,20 +38,20 @@ addpath('/home/michamann/git/syt_ss13/');
 
 % Auswahl Sensorverhalten
 global mode 
-mode = 'nonlinear';
+mode = 'nonlinear';           % linear1, linear2, nonlinear
 global Unit
 Unit = 'rad';
 
 % Kennwerte fuer Sensor
-Innenradius =5; % in mm
-Aussenradius =10; % in mm
-Lastwiederstand =6000; % in Ohm
+Innenradius =5;             % in mm
+Aussenradius =10;           % in mm
+Lastwiederstand =6000;      % in Ohm
 
 Photodioden = [Innenradius,Aussenradius,Lastwiederstand];
-Messbereich = 20/180*pi; % 45° in rad
-LEDLeistung = 1; % in W
-Umgebungstemperatur = 300; % in K
-nonlinear = 1; % Wert zwischen 0 und 1
+Messbereich = 20/180*pi;    % 45° in rad
+LEDLeistung = 1;            % in W
+Umgebungstemperatur = 300;  % in K
+nonlinear = 0.0001;         % Wert zwischen 0 und 1
 
 % Cell-Array fuer Kennwerte von Sensor
 global Sensorkonstanten 
@@ -58,31 +63,33 @@ Sensorkonstanten = sensorDaten(Photodioden,...
 
 
 % Angabe der Parameter fuer Simulink fuer die weiteren Berechnungen
-  RA=0.1;             % Innenwiderstand des Galvos
-  LA=3e-6;            % Induktivitaet des Galvos
-  TA=LA/RA;           % Zeitkonstante T1
+  RA=0.1;                   % Innenwiderstand
+  LA=3e-6;                  % Induktivitaet
+  TA=LA/RA;                 % Zeitkonstante T1
   
-  J=93.3e-11;         % kg m^2 Traegheitsmoment des Spiegels
-  r=6e-5;             % Nm*s Reibung
+  J=93.3e-11;               % kg m^2 Traegheitsmoment des Spiegels
+  r=6e-5;                   % Nm*s Reibung
   
-  KMPHI=35e-3;        % Vs Motorkonstante
+  KMPHI=35e-3;              % Vs Motorkonstante
   
-  Mspiegel=30.25e-6;  % Nm Drehmoment fuer Spiegel
+  MSpiegel=30.25e-6;        % Nm Drehmoment fuer Spiegel
   
-  te=.002;            % end of simulation time 
+  te=.002;                  % end of simulation time 
    
-  phi = 19*pi/180;    % einzustellender Winkel
+  phi = 19*pi/180;          % einzustellender Winkel
   
-  vu=-30;             % uu=-30 V
-  vo=30;              % uo=+30 V
-  iu=-15;             % iu=-15 A
-  io=+15;             % io=+15 A 
-  pu1=-1;           % phiu=-20° in rad 0.4
-  po1=1;            % phio=+20° in rad -0.4
-  pu2=phi-0.5e-2*pi/180;% Diagrammgrenzen fuer Regeldifferenz
-  po2=phi+0.5e-2*pi/180;% Diagrammgrenzen fuer Regeldifferenz
+  vu=-30;                   % uu=-30 V
+  vo=30;                    % uo=+30 V
+  iu=-15;                   % iu=-15 A
+  io=+15;                   % io=+15 A 
+  pu1=-1;                   % phiu=-20° in rad 0.4
+  po1=1;                    % phio=+20° in rad -0.4
+  pu2=phi-0.5e-2*pi/180;    % Diagrammgrenzen fuer Regeldifferenz
+  po2=phi+0.5e-2*pi/180;    % Diagrammgrenzen fuer Regeldifferenz
+  
 % ########################################################
-% Plot: Eingangssignal u
+
+% Plot: Eingangssignal u und Winkel phi
 figure(1)
 set(gcf,'Units','normal','Position',[.49 .7 .5 .9], ...
     'NumberTitle','on','Name','u und v ');
@@ -114,7 +121,7 @@ xlabel('t / s')
 ylabel('Phi / rad')
 YTicks=get(gca,'YTick');
 set(gca,'YTickLabel',num2str(YTicks(:),'%.1f'));
-title('Gleichstrommotor: Winkel')
+title('Gleichstrommotor: Winkel mit Sollwinkel')
 
 subplot(3,1,3)
 plot(t,y(:,2),...
@@ -131,7 +138,10 @@ xlabel('t / s')
 ylabel('Phi / rad')
 YTicks=get(gca,'YTick');
 set(gca,'YTickLabel',num2str(YTicks(:),'%.5e'));
-title('Gleichstrommotor: Sollwinkel und Toleranzen')
+title('Gleichstrommotor: Sollwinkel mit Regeldifferenz')
+
+
+% Möglichkeit, Strom und Winkelspannunge auszugeben
 
 % figure(2)
 % plot (t,y(:,4),'linewidth',2);
