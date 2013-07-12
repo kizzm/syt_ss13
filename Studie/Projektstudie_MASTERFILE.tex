@@ -14,9 +14,9 @@
 \setcounter{tocdepth}{3} %Angabe, welche Überschriften noch im Inhaltsverzeichnis angezeigt werden sollen
 
 % ****************** Verwendete Pakete ******************
-\usepackage[left=3.5cm,right=3cm,top=3cm,bottom=3cm]{geometry} % Einstellung der Seitengeometrie
-%\evensidemargin0mm
-%\oddsidemargin5mm
+\usepackage[left=3.0cm,right=3cm,top=3cm,bottom=3cm]{geometry} % Einstellung der Seitengeometrie
+\evensidemargin0mm
+\oddsidemargin6mm
 \usepackage[ngerman]{babel}
 \addto\captionsngerman{\renewcommand\figurename{Abb.}}
 \renewcommand{\thefigure}{\arabic{chapter}.\arabic{figure}}
@@ -96,9 +96,46 @@ hypertexnames = false,
 citecolor = black] {hyperref}
 
 \usepackage{listings} % Das listings Packet für das einfügen von Scripten
+\lstloadlanguages{Matlab}
 \usepackage{subfigure}
 \usepackage{ltxtable}
 \usepackage{units}
+
+\usepackage{color}
+
+% Farben für Matlab-Listings
+\definecolor{hellgelb}{rgb}{1,1,0.85}     % Hintergrundfarbe
+\definecolor{colKeys}{RGB}{0,0,255}       % blau
+\definecolor{colIdentifier}{RGB}{0,0,0}	  % schwarz
+\definecolor{colComments}{RGB}{34,139,34} % gruen
+\definecolor{colString}{RGB}{160,32,240}  % violett
+
+\lstset{%
+    language=Matlab,%
+    backgroundcolor={\color{hellgelb}},%
+    basicstyle={\footnotesize\ttfamily},%
+    breakautoindent=true,%
+    breakindent=10pt,%
+    breaklines=true,%
+    captionpos=t,%
+    columns=fixed,%
+    commentstyle={\itshape\color{colComments}},%
+    extendedchars=true,%
+    float=hbp,%
+    frame=single,%
+    framerule=1pt,%
+    identifierstyle={\color{colIdentifier}},%
+    keywordstyle={\color{colKeys}},%
+    numbers=left,%
+    numbersep=1em,%
+    numberstyle={\tiny\ttfamily},%
+    showspaces=false,%
+    showstringspaces=false,%
+    stringstyle={\color{colString}},%
+    tabsize=4,%
+    xleftmargin=1em,%
+    xrightmargin=1em%
+}
 
 %\hyphenation{} %für erzwungene Silbentrennung
 

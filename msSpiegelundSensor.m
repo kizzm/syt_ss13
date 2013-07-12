@@ -4,7 +4,7 @@
 %  Verfahren: Simulink, mithilfe einer P-Adaption
 %
 %  Unterprogramme:  sSpiegelPadStromNeu.slx
-%
+%                   sensorDaten.m
 %
 % ########################################################
 %
@@ -13,7 +13,7 @@
 %   RA          Ankerwiderstand
 %   LA          Ankerinduktivität
 %
-%   J           Trägheitsmoment
+%   J           Traegheitsmoment
 %   r           Reibkonstante
 %
 %   KMPHI       Motorkenngrösse
@@ -25,11 +25,10 @@
 %   ug, og      Untere/obere Grenze der Grafiken
 %0
 % ########################################################
-
 clear all
 close all
 
-% Funktionen die benötigt werden sind hier gespeichert
+% Funktionen die benoetigt werden sind hier gespeichert
 addpath('/home/michamann/git/syt_ss13/');
 
 % Auswahl Sensorverhalten
@@ -38,7 +37,7 @@ mode = 'nonlinear';
 global Unit
 Unit = 'rad';
 
-% Kennwerte für Sensor
+% Kennwerte fuer Sensor
 Innenradius =5; % in mm
 Aussenradius =10; % in mm
 Lastwiederstand =6000; % in Ohm
@@ -49,27 +48,30 @@ LEDLeistung = 1; % in W
 Umgebungstemperatur = 300; % in K
 nonlinear = 1; % Wert zwischen 0 und 1
 
-% Cell-Array für Kennwerte von Sensor
+% Cell-Array fuer Kennwerte von Sensor
 global Sensorkonstanten 
-Sensorkonstanten = sensorDaten(Photodioden,Messbereich,LEDLeistung,Umgebungstemperatur,nonlinear);
+Sensorkonstanten = sensorDaten(Photodioden,...
+                               Messbereich,...
+                               LEDLeistung,...
+                               Umgebungstemperatur,...
+                               nonlinear);
 
 
-% Angabe der Parameter für Simulink für die weiteren Berechnungen
-
+% Angabe der Parameter fuer Simulink fuer die weiteren Berechnungen
   RA=0.1;             % Innenwiderstand des Galvos
-  LA=3e-6;            % Induktivität des Galvos
+  LA=3e-6;            % Induktivitaet des Galvos
   TA=LA/RA;           % Zeitkonstante T1
   
-  J=93.3e-11;         % kg m^2 Trägheitsmoment des Spiegels
+  J=93.3e-11;         % kg m^2 Traegheitsmoment des Spiegels
   r=6e-5;             % Nm*s Reibung
   
   KMPHI=35e-3;        % Vs Motorkonstante
   
-  Mspiegel=30.25e-6;  % Nm Drehmoment für Spiegel
+  Mspiegel=30.25e-6;  % Nm Drehmoment fuer Spiegel
   
   te=.002;            % end of simulation time 
    
-  phi = 19*pi/180;    % einzustellender Winkel von 20°
+  phi = 19*pi/180;    % einzustellender Winkel
   
   vu=-30;             % uu=-30 V
   vo=30;              % uo=+30 V
@@ -77,16 +79,13 @@ Sensorkonstanten = sensorDaten(Photodioden,Messbereich,LEDLeistung,Umgebungstemp
   io=+15;             % io=+15 A 
   pu1=-1;           % phiu=-20° in rad 0.4
   po1=1;            % phio=+20° in rad -0.4
-  pu2=phi-0.5e-2*pi/180;% Diagrammgrenzen für Regeldifferenz
-  po2=phi+0.5e-2*pi/180;% Diagrammgrenzen für Regeldifferenz
-
+  pu2=phi-0.5e-2*pi/180;% Diagrammgrenzen fuer Regeldifferenz
+  po2=phi+0.5e-2*pi/180;% Diagrammgrenzen fuer Regeldifferenz
 % ########################################################
-  
 % Plot: Eingangssignal u
 figure(1)
 set(gcf,'Units','normal','Position',[.49 .7 .5 .9], ...
     'NumberTitle','on','Name','u und v ');
-
 
 %  Integrationsalgorithmus:
 t0=0;
@@ -96,7 +95,6 @@ opts=simset('solver','ode45',...
     'MaxStep',.00001);
 
 [t,x,y]=sim('sSpiegelPadStromSensor',[t0 te],opts);
-
 
 % Plots
 subplot(3,1,1)
@@ -119,7 +117,14 @@ set(gca,'YTickLabel',num2str(YTicks(:),'%.1f'));
 title('Gleichstrommotor: Winkel')
 
 subplot(3,1,3)
-plot(t,y(:,2),t,phi,t,(phi-1e-3*pi/180),t,(phi+1e-3*pi/180),'linewidth',2,'linewidth',2,'linewidth',2,'linewidth',2);
+plot(t,y(:,2),...
+     t,phi,...
+     t,(phi-1e-3*pi/180),...
+     t,(phi+1e-3*pi/180),...
+     'linewidth',2,...
+     'linewidth',2,...
+     'linewidth',2,...
+     'linewidth',2);
 axis([0 te pu2 po2])
 grid on
 xlabel('t / s')
@@ -150,7 +155,6 @@ title('Gleichstrommotor: Sollwinkel und Toleranzen')
 % ylabel('U / V')
 % title('Eingabe: Sollwinkelspannung')
 
-
 % Plot der variablen Schrittweite
 % ht=diff(t)';
 % ht=[ht ht(end)]';
@@ -162,8 +166,3 @@ title('Gleichstrommotor: Sollwinkel und Toleranzen')
 % ylabel('h / s')
 % title('Schrittweite')
 %end
-
-
-
-
-

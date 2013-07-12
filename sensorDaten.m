@@ -1,4 +1,7 @@
-%% Sensorkonstanten = sensorDaten(Photodioden,Messbereich,LEDLeistung,Umgebungstemperatur)
+%% Sensorkonstanten = sensorDaten(Photodioden,
+%                                 Messbereich,
+%                                 LEDLeistung,
+%                                 Umgebungstemperatur)
 % Erzeugt:
 %       [Out]:
 %       Array der Sensorkonstanten => Sensorkonstanten
@@ -22,15 +25,17 @@
 %       Gesammtleistung der LED => LEDLeistung in W
 %       Umgebungstemperatur => Umgebungstemperatur in K
    
-function Sensorkonstanten = sensorDaten(Photodioden,Messbereich,LEDLeistung,Umgebungstemperatur,nonlinear)
-Sensorkonstanten{1} = 0.001; % max Signal in A
+function Sensorkonstanten = sensorDaten(Photodioden,...
+                                        Messbereich,...
+                                        LEDLeistung,...
+                                        Umgebungstemperatur,...
+                                        nonlinear)
+Sensorkonstanten{1}=0.001; % max Strom
+Sensorkonstanten{2}=Photodioden(3); % Lastwiderstand
+Sensorkonstanten{3}=Messbereich; % max Messbereich
+Sensorkonstanten{4}=Sensorkonstanten{1}*Photodioden(3)*4;%max Spannung
 
-
-Sensorkonstanten{2} = Photodioden(3); % Lastwiderstand
-Sensorkonstanten{3} = Messbereich; % max Messbereich
-Sensorkonstanten{4} = Sensorkonstanten{1}*Photodioden(3)*4; % max Signal in V
-
-%Sensorcharakteristik mittels Fensterfunktionen für Blende und Photodiode
+%Sensorcharakteristik mittels Faltung von Fensterfunktionen
 xmin = -2*pi;
 xmax = 2*pi;
 x = linspace(xmin,xmax,4000);
