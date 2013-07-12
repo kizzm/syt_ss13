@@ -3,18 +3,19 @@
 \contentsline {chapter}{\numberline {2}Aufgabenstellung}{5}{chapter.6}
 \contentsline {chapter}{\numberline {3}Mathematische Modellbildung}{7}{chapter.7}
 \contentsline {section}{\numberline {3.1}Das System}{7}{section.8}
-\contentsline {section}{\numberline {3.2}Der Motor}{7}{section.10}
-\contentsline {section}{\numberline {3.3}Der Sensor}{9}{section.16}
-\contentsline {subsection}{\numberline {3.3.1}Das physikalische Modell des Sensors}{9}{subsection.17}
-\contentsline {subsection}{\numberline {3.3.2}Das lineare Sensormodell}{10}{subsection.20}
-\contentsline {subsection}{\numberline {3.3.3}Das nicht lineare Sensormodell}{10}{subsection.21}
-\contentsline {chapter}{\numberline {4}Programmentwicklung}{11}{chapter.22}
-\contentsline {chapter}{\numberline {5}Simulationsdurchf\"uhrung}{13}{chapter.23}
-\contentsline {chapter}{\numberline {6}Disskussion}{25}{chapter.42}
-\contentsline {chapter}{\numberline {7}Zusammenfassung}{27}{chapter.43}
-\contentsline {chapter}{\numberline {A}Anh\"ange}{29}{appendix.44}
-\contentsline {section}{\numberline {A.1}Anhaenge}{29}{section.45}
-\contentsline {chapter}{Literaturverzeichnis}{31}{appendix*.46}
-\contentsline {chapter}{Abbildungsverzeichnis}{33}{appendix*.47}
-\contentsline {chapter}{Tabellenverzeichnis}{35}{appendix*.48}
-\contentsline {chapter}{Eidesstattliche Erkl\"arung}{37}{appendix*.49}
+\contentsline {section}{\numberline {3.2}Der Spiegel}{7}{section.10}
+\contentsline {section}{\numberline {3.3}Der Motor}{9}{section.16}
+\contentsline {section}{\numberline {3.4}Der Sensor}{9}{section.17}
+\contentsline {subsection}{\numberline {3.4.1}Das physikalische Modell des Sensors}{9}{subsection.18}
+\contentsline {subsection}{\numberline {3.4.2}Das lineare Sensormodell}{10}{subsection.21}
+\contentsline {subsection}{\numberline {3.4.3}Das nicht lineare Sensormodell}{10}{subsection.22}
+\contentsline {chapter}{\numberline {4}Programmentwicklung}{11}{chapter.23}
+\contentsline {chapter}{\numberline {5}Simulationsdurchf\"uhrung}{13}{chapter.24}
+\contentsline {chapter}{\numberline {6}Disskussion}{25}{chapter.43}
+\contentsline {chapter}{\numberline {7}Zusammenfassung}{27}{chapter.44}
+\contentsline {chapter}{\numberline {A}Anh\"ange}{29}{appendix.45}
+\contentsline {section}{\numberline {A.1}Anhaenge}{29}{section.46}
+\contentsline {chapter}{Literaturverzeichnis}{31}{appendix*.47}
+\contentsline {chapter}{Abbildungsverzeichnis}{33}{appendix*.48}
+\contentsline {chapter}{Tabellenverzeichnis}{35}{appendix*.49}
+\contentsline {chapter}{Eidesstattliche Erkl\"arung}{37}{appendix*.50}

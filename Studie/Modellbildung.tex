@@ -21,13 +21,8 @@ Der vorliegenden Simulationsstudie wird in folgendes, in Abb. \ref{fig:aufbau_sy
 	\label{fig:aufbau_system}
 \end{figure}
 
-
-\section{Der Motor}
-\label{chap:motor}
-In der Regel werden Laserablenkespiegel über einen Galvo gesteuert. Bei der Bearbeitung dieser Simulationsstudie ergaben sich Probleme, Informationen Über die Ansteuerung
-solcher Galvos zu bekommen. Insofern wird die Simulationsstudie auf der Ansteuerung eines Gleichstrommotors beruhen. Aber auch hierbei konnten jedoch keine Informationen 
-über die Gleichstrommotorparameter KPHI und der Reibungskonstanten bei verschiedenen Herstellern gefunden werden. Um dennoch die Studie durchführen zu können, wird auf die
-Motorvorgaben aus der Vorlesung Systemtechnik von Prof. Froriep zurück gegriffen.
+\section{Der Spiegel}
+\label{chap:spiegel}
 
 Lineares Modell für die Berechnungen:
 
@@ -62,7 +57,7 @@ Modell für den Spiegel:
 \item Durchmesser: 12 mm --> Radius: R = 6 mm
 \item Höhe: h = 2 mm
 \item Gewicht: m = 10 g
-end{itemize}
+\end{itemize}
 
 Das Trägheitsmoment des Spiegels beträgt demnach: 
 \begin{center}
@@ -84,15 +79,23 @@ M_L = 130,25 * 10^{-3} Nm
 \end{equation}
 \end{center}
 
-Theoretsiche Maximale Leistung eines Gleichstrommotors:
+Theoretische Maximale Leistung eines Gleichstrommotors:
 \begin{center}
 \begin{equation}
 \label{equ:max_leistung_motor}
 P = M_L * \omega\\
 P = 130,25 * 10^{-3} Nm * 698 rad/s \\
-P = 91\ W
+P = \unit[91]{W}
 \end{equation}
 \end{center}
+
+\section{Der Motor}
+\label{chap:motor}
+In der Regel werden Laserablenkespiegel über einen Galvo gesteuert. Bei der Bearbeitung dieser Simulationsstudie ergaben sich Probleme, Informationen Über die Ansteuerung
+solcher Galvos zu bekommen. Insofern wird die Simulationsstudie auf der Ansteuerung eines Gleichstrommotors beruhen. Aber auch hierbei konnten jedoch keine Informationen 
+über die Gleichstrommotorparameter KPHI und der Reibungskonstanten bei verschiedenen Herstellern gefunden werden. Um dennoch die Studie durchführen zu können, wird auf die
+Motorvorgaben aus der Vorlesung Systemtechnik von Prof. Froriep zurück gegriffen.
+
 
 \section{Der Sensor}
 \label{chap:sensor}
