@@ -7,6 +7,6 @@ else
     glatt = 0;
 end
 
-glat = 1/e * glatt;
+glatt = 1/e * glatt;
 
 end

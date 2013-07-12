@@ -17,12 +17,12 @@
 \contentsline {section}{\numberline {A.1}msSpiegelundSensor.m}{29}{section.46}
 \contentsline {section}{\numberline {A.2}sensorDaten.m}{33}{section.216}
 \contentsline {section}{\numberline {A.3}frect.m}{35}{section.301}
-\contentsline {section}{\numberline {A.4}gkern.m}{36}{section.316}
-\contentsline {section}{\numberline {A.5}sensor.m}{37}{section.327}
-\contentsline {section}{\numberline {A.6}posEingabe.m}{40}{section.440}
-\contentsline {chapter}{\numberline {B}Simulink-Files}{41}{appendix.474}
-\contentsline {section}{\numberline {B.1}1}{41}{section.475}
-\contentsline {chapter}{Literaturverzeichnis}{43}{appendix*.476}
-\contentsline {chapter}{Abbildungsverzeichnis}{45}{appendix*.477}
-\contentsline {chapter}{Tabellenverzeichnis}{47}{appendix*.478}
-\contentsline {chapter}{Eidesstattliche Erkl\"arung}{49}{appendix*.479}
+\contentsline {section}{\numberline {A.4}gekern.m}{35}{section.316}
+\contentsline {section}{\numberline {A.5}sensor.m}{36}{section.330}
+\contentsline {section}{\numberline {A.6}posEingabe.m}{39}{section.443}
+\contentsline {chapter}{\numberline {B}Simulink-Files}{41}{appendix.477}
+\contentsline {section}{\numberline {B.1}1}{41}{section.478}
+\contentsline {chapter}{Literaturverzeichnis}{43}{appendix*.479}
+\contentsline {chapter}{Abbildungsverzeichnis}{45}{appendix*.480}
+\contentsline {chapter}{Tabellenverzeichnis}{47}{appendix*.481}
+\contentsline {chapter}{Eidesstattliche Erkl\"arung}{49}{appendix*.482}
