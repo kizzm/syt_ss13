@@ -14,7 +14,7 @@
 \section{Das System}
 \label{chap:system}
 Der vorliegenden Simulationsstudie wird folgendes, in Abb. \ref{fig:aufbau_system} dargestellen Systems zugrunde gelegt.
-\begin{figure}[ht]
+\begin{figure}[!h]
 	\centering
 	\includegraphics[width=0.6\textwidth]{System_Aufbau.jpg}
 	\caption{Allgemeiner Aufbau des simulierten Systems}
@@ -44,7 +44,7 @@ Berechnung der Winkelgeschwindigkeit:
 \end{equation}
 \end{center}
 
-Es ergibt sich eine Druchschnittswinkelgeschwindigkeit von unit[349]{rad/s}, um einen Winkel von \unit[20}{°} in \unit[1]{ms} zu überfahren.
+Es ergibt sich eine Druchschnittswinkelgeschwindigkeit von \unit[349]{rad/s}, um einen Winkel von \unit[20}{°} in \unit[1]{ms} zu überfahren.
 Dies würde aber eine Anfangs- und Endgeschwindigkeit voraussetzen. Da der Spiegel aber aus einer Ruhelage beschleunigt und wieder in einer Ruhelage enden soll, 
 wird ein linearer Verlauf der Geschwindigkeit von $\omega = \unit[0]{rad/s}$ und der doppelten Durchschnittsgeschwindigkeit $\omega = \unit[698]{rad/s}$ bei der Hälfte der 
 Strecke und bei der Endposition wieder $\omega = \unit[0]{rad/s}$ der zu fahrenden Strecke angenommen. 
@@ -108,10 +108,13 @@ Motorvorgaben aus der Vorlesung Systemtechnik von Prof. Froriep zurück gegriffen
 \subsection{Der elektrische Teil}
 \label{chap:elekteil}
 Der elektrische Teil eines Gleichstrommotors besteht aus einer Spule $L_A$, ihrem Innenwiderstand $R_A$, der induzierten Spannung $e_A$ und der Eingangsspannung
-für den Motor $U_e$, siehe Abb. \ref{fig:motorelek}.
-
-Bild einfügen
-
+für den Motor $U_e$, siehe Abb. \ref{fig:elekeinzelteil}.
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.6\textwidth]{ElektrischerTeil.jpg}
+	\caption{Elektrischer Teil des Motors}
+	\label{fig:elekeinzelteil}
+\end{figure}
 Es lässt sich folgende Spannungsmasche aufstellen:
 \begin{center}
 \begin{equation}
@@ -140,7 +143,7 @@ Für die spätere Integration in Simulink wird die Gleichung \ref{equ:motorspannun
 \begin{center}
 \begin{equation}
 \label{equ:motorspannungsimulink}
-si_A = \frac{1}{L} (e_A - R_Ai_A + u_e)
+si_A = \frac{1}{L_A} (e_A - R_Ai_A + u_e)
 \end{equation}
 \end{center}
 Wobei
@@ -155,10 +158,13 @@ $K_M$ und $\phi$ Motorkonstanten sind.
 \subsection{Der mechanische Teil}
 \label{chap:mechteil}
 Der mechanische Teil eines Gleichstrommotors besteht aus dem gesamten Drehmoment $M_B$, dem Motormoment $M_M$, dem Lastmoment $M_L$ des Spiegels und der 
-Moment-Winkel-Beziehung (Reibung) $M_R = r*\omega$, siehe Abb. \ref{}.
-
-Bild einfügen
-
+Moment-Winkel-Beziehung (Reibung) $M_R = r*\omega$, siehe Abb. \ref{mecheinzelteil}.
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.6\textwidth]{MechanischerTeil.jpg}
+	\caption{Mechanischer Teil des Motors}
+	\label{fig:mecheinzelteil}
+\end{figure}
 Es lässt sich folgende Moment-Bilanzgleichung aufstellen:
 \begin{center}
 \begin{equation}
@@ -183,6 +189,15 @@ M_M = K_M * \phi *i_A
 \end{equation}
 \end{center}
 $K_M$ und $\phi$ Motorkonstanten sind.
+
+\subsection{Der ganze Motor}
+Werden die beiden Einzelaspekte des Motors gleichzeitig betrachtet, so ergbit sich folgender Zusammenhang wie er in Abb. \ref{fig:motoraufbau} dargestellt ist.
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.6\textwidth]{Motoraufbau.jpg}
+	\caption{Aufbau des Motors}
+	\label{fig:motoraufbau}
+\end{figure}
 
 \section{Der Sensor}
 \label{chap:sensor}
