@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.10.25)  11 JUL 2013 17:32
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.10.25)  12 JUL 2013 12:42
 entering extended mode
  %&-line parsing enabled.
 **Projektstudie_MASTERFILE.tex
@@ -497,6 +497,9 @@ File: listings.cfg 2007/02/22 1.4 listings configuration
 ))
 Package: listings 2007/02/22 1.4 (Carsten Heinz)
 
+(/usr/share/texmf-texlive/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+)
 (/usr/share/texmf-texlive/tex/latex/subfigure/subfigure.sty
 Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfigtopskip=\skip61
@@ -546,20 +549,20 @@ LaTeX Warning: Label `p30i17' multiply defined.
 )
 \openout1 = `Projektstudie_MASTERFILE.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
 
 *geometry auto-detecting driver*
 *geometry detected driver: pdftex*
@@ -569,7 +572,7 @@ landscape: --
 twocolumn: --
 twoside: true
 asymmetric: --
-h-parts: 99.58464pt, 412.56497pt, 85.35826pt
+h-parts: 85.35826pt, 426.79135pt, 85.35826pt
 v-parts: 85.35826pt, 674.33032pt, 85.35826pt
 hmarginratio: --
 vmarginratio: --
@@ -584,10 +587,10 @@ driver: pdftex
 -------------------- Page layout dimensions and switches
 \paperwidth  597.50787pt
 \paperheight 845.04684pt
-\textwidth  412.56497pt
+\textwidth  426.79135pt
 \textheight 674.33032pt
-\oddsidemargin  27.31465pt
-\evensidemargin 13.08827pt
+\oddsidemargin  17.07164pt
+\evensidemargin 0.0pt
 \topmargin  -24.31174pt
 \headheight 20.40001pt
 \headsep    20.40001pt
@@ -623,7 +626,7 @@ babelbib: Set language for keywords in the bibliography fixed to ngerman
 \MPnumerator=\count140
 \everyMPtoPDFconversion=\toks31
 ) ABD: EveryShipout initializing macros
-Package hyperref Info: Link coloring ON on input line 113.
+Package hyperref Info: Link coloring ON on input line 150.
 
 (/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
 Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
@@ -633,8 +636,8 @@ Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
 \c@section@level=\count141
 )
-LaTeX Info: Redefining \ref on input line 113.
-LaTeX Info: Redefining \pageref on input line 113.
+LaTeX Info: Redefining \ref on input line 150.
+LaTeX Info: Redefining \pageref on input line 150.
 
 (./Projektstudie_MASTERFILE.out) (./Projektstudie_MASTERFILE.out)
 \@outlinefile=\write3
@@ -650,7 +653,7 @@ LaTeX Info: Redefining \pageref on input line 113.
 
 
 ]
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 164.
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 201.
 
 
 (/usr/share/texmf-texlive/tex/latex/base/t1cmss.fd
@@ -693,16 +696,19 @@ Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)            on input line 16.
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 18.
+(scrreprt)            on input line 23.
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 19.
+(scrreprt)            on input line 25.
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 20.
+(scrreprt)            on input line 26.
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 21.
+(scrreprt)            on input line 27.
+Class scrreprt Info: You've told me to use the font selection of the element
+(scrreprt)           `sectioning' that is an alias of element `disposition'
+(scrreprt)            on input line 28.
 )
 \tf@toc=\write4
 \openout4 = `Projektstudie_MASTERFILE.toc'.
@@ -710,10 +716,7 @@ Class scrreprt Info: You've told me to use the font selection of the element
  [1
 
 
-] [2
-
-
-]
+] [2]
 (./Einfuehrung.tex
 Kapitel 1.
 
@@ -723,7 +726,7 @@ Class scrreprt Warning: \float@addtolists detected!
 (scrreprt)              Support for \float@addtolists may be removed from
 (scrreprt)              `scrreprt' soon .
 
-<Plexi_Galvohalter.jpg, id=135, 256.7994pt x 298.2342pt>
+<Plexi_Galvohalter.jpg, id=171, 256.7994pt x 298.2342pt>
 File: Plexi_Galvohalter.jpg Graphic file (type jpg)
 
 <use Plexi_Galvohalter.jpg>
@@ -733,7 +736,7 @@ LaTeX Warning: Citation `wiki' on page 1 undefined on input line 30.
 
 LaTeX Warning: Citation `wiki' on page 1 undefined on input line 30.
 
-<Strahlfuehrung.jpg, id=136, 734.745pt x 489.83pt>
+<Strahlfuehrung.jpg, id=172, 734.745pt x 489.83pt>
 File: Strahlfuehrung.jpg Graphic file (type jpg)
  <use Strahlfuehrung.jpg>
 
@@ -742,11 +745,7 @@ LaTeX Warning: Citation `lasercommunity' on page 1 undefined on input line 38.
 
 LaTeX Warning: Citation `lasercommunity' on page 1 undefined on input line 38.
 
-[1
-
-
- <./Plexi_Galvohalter.jpg>]
-<Allgmeiner_Aufbau.jpg, id=144, 1127.21124pt x 796.9775pt>
+<Allgmeiner_Aufbau.jpg, id=174, 1127.21124pt x 796.9775pt>
 File: Allgmeiner_Aufbau.jpg Graphic file (type jpg)
 
 <use Allgmeiner_Aufbau.jpg>
@@ -761,30 +760,37 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-[2 <./Strahlfuehrung.jpg>]
+[1
+
+
+
+
+]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 80.
  (/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 80.
-) (./Aufgabenstellung.tex [3 <./Allgmeiner_Aufbau.jpg>] [4
+)
+(./Aufgabenstellung.tex [2 <./Plexi_Galvohalter.jpg>] [3 <./Strahlfuehrung.jpg>
+ <./Allgmeiner_Aufbau.jpg>] [4
 
 
 ]
 Kapitel 2.
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 23.
-
-
-Overfull \hbox (6.01028pt too wide) in paragraph at lines 44--45
-[]\T1/cmr/m/n/10.95 Bevor mit der Sim-u-la-tion-sstudie be-gonnen wird, wer-den
- einige Vere-in-fachun-gen angenom-
+Overfull \hbox (14.18668pt too wide) in paragraph at lines 19--22
+[]\T1/cmr/m/n/10.95 In dieser Sim-u-la-tion-sstudie soll un-ter-sucht wer-den, 
+ob es möglich ist eine Regelung aufzubauen,
  []
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 23.
 
 [5]) (./Modellbildung.tex [6]
 Kapitel 3.
-<System_Aufbau.jpg, id=174, 509.905pt x 354.32375pt>
+<System_Aufbau.jpg, id=209, 509.905pt x 354.32375pt>
 File: System_Aufbau.jpg Graphic file (type jpg)
  <use System_Aufbau.jpg>
 
@@ -1613,7 +1619,13 @@ l.89 \end{equation}
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
 
-<Sensor_Aufbau.jpg, id=196, 1025.8325pt x 316.18124pt>
+
+Overfull \hbox (1.1018pt too wide) in paragraph at lines 94--98
+\T1/cmr/m/n/10.95 dieser Sim-u-la-tion-sstudie er-gaben sich Prob-leme, In-for-
+ma-tio-nen Über die Ans-teuerung solch-
+ []
+
+<Sensor_Aufbau.jpg, id=231, 1025.8325pt x 316.18124pt>
 File: Sensor_Aufbau.jpg Graphic file (type jpg)
  <use Sensor_Aufbau.jpg>
 ! Undefined control sequence.
@@ -1635,12 +1647,6 @@ Kapitel 4.
 
 ]
 Kapitel 5.
-
-Overfull \hbox (1.11327pt too wide) in paragraph at lines 25--27
-[]\T1/cmr/m/n/10.95 Es wird mit ein-er P-Regelung be-gonnen, die Soll-w-erte zu
- er-re-ichen. Wenn die P-Regelung
- []
-
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -1657,19 +1663,26 @@ l.33
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-<NurP40.jpg, id=222, 636.3775pt x 693.59125pt>
+
+Overfull \hbox (28.6383pt too wide) in paragraph at lines 28--33
+\T1/cmr/m/n/10.95 ichen. Für die fol-gen-den Sim-u-la-tio-nen wird das Matlab-F
+ile "msSpiegel$[]\OML/cmm/m/it/10.95 ID:m[]nddasSimulink \OMS/cmsy/m/n/10.95 ^^
+@
+ []
+
+<NurP40.jpg, id=257, 636.3775pt x 693.59125pt>
 File: NurP40.jpg Graphic file (type jpg)
  <use NurP40.jpg>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<NurP45.jpg, id=223, 636.3775pt x 693.59125pt>
+<NurP45.jpg, id=258, 636.3775pt x 693.59125pt>
 File: NurP45.jpg Graphic file (type jpg)
  <use NurP45.jpg>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<PI-P30I17.jpg, id=228, 636.3775pt x 693.59125pt>
+<PI-P30I17.jpg, id=263, 636.3775pt x 693.59125pt>
 File: PI-P30I17.jpg Graphic file (type jpg)
  <use PI-P30I17.jpg>
 
@@ -1680,13 +1693,13 @@ File: PI-P30I17.jpg Graphic file (type jpg)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[13] <PD-P22D1N1.jpg, id=242, 642.4pt x 693.59125pt>
+[13] <PD-P22D1N1.jpg, id=277, 642.4pt x 693.59125pt>
 File: PD-P22D1N1.jpg Graphic file (type jpg)
  <use PD-P22D1N1.jpg>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<PD-P23D1N1.jpg, id=243, 636.3775pt x 693.59125pt>
+<PD-P23D1N1.jpg, id=278, 636.3775pt x 693.59125pt>
 File: PD-P23D1N1.jpg Graphic file (type jpg)
  <use PD-P23D1N1.jpg>
 
@@ -1701,24 +1714,17 @@ LaTeX Warning: Reference `p20i16d1n1' on page 14 undefined on input line 90.
 
 LaTeX Warning: Reference `p20i16d1n1' on page 14 undefined on input line 91.
 
-[14 <./NurP40.jpg> <./NurP45.jpg>] [15 <./PI-P30I17.jpg>]
-<PID-P20I15D1N1.jpg, id=254, 642.4pt x 693.59125pt>
+[14 <./NurP40.jpg> <./NurP45.jpg>] [15 <./PI-P30I17.jpg>] [16 <./PD-P22D1N1.jpg
+> <./PD-P23D1N1.jpg>] <PID-P20I15D1N1.jpg, id=293, 642.4pt x 693.59125pt>
 File: PID-P20I15D1N1.jpg Graphic file (type jpg)
- <use PID-P20I15D1N1.jpg>
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<PID-P20I16D1N1.jpg, id=255, 642.4pt x 693.59125pt>
+<use PID-P20I15D1N1.jpg> <PID-P20I16D1N1.jpg, id=294, 642.4pt x 693.59125pt>
 File: PID-P20I16D1N1.jpg Graphic file (type jpg)
- <use PID-P20I16D1N1.jpg>
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[16 <./PD-P22D1N1.jpg> <./PD-P23D1N1.jpg>] [17 <./PID-P20I15D1N1.jpg> <./PID-P2
-0I16D1N1.jpg>] <P-Adaption.jpg, id=266, 743.02594pt x 424.58624pt>
+<use PID-P20I16D1N1.jpg> [17 <./PID-P20I15D1N1.jpg> <./PID-P20I16D1N1.jpg>]
+<P-Adaption.jpg, id=301, 743.02594pt x 424.58624pt>
 File: P-Adaption.jpg Graphic file (type jpg)
-
-<use P-Adaption.jpg>
+ <use P-Adaption.jpg>
 ! Misplaced alignment tab character &.
 l.129 ... "Tempo beim Laserzugriff", Artikel im F&
                                                   M Elektronik, Jahrg.111(20...
@@ -1745,28 +1751,22 @@ l.136
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-
-Overfull \hbox (40.2337pt too wide) in paragraph at lines 131--136
-\T1/cmr/m/n/10.95 wird das Matlab-File "msSpiegel$[]\OML/cmm/m/it/10.95 ad:m[]n
-ddasSimulink \OMS/cmsy/m/n/10.95 ^^@ \OML/cmm/m/it/10.95 File\OT1/cmr/m/n/10.95
- ^^Y[]\OML/cmm/m/it/10.95 SpiegelPad:slx\OT1/cmr/m/n/10.95 "\OML/cmm/m/it/10.95
- hergenommen:$ 
- []
-
-<Pad-P41F1_1,5F2_80.jpg, id=267, 642.4pt x 693.59125pt>
+<Pad-P41F1_1,5F2_80.jpg, id=302, 642.4pt x 693.59125pt>
 File: Pad-P41F1_1,5F2_80.jpg Graphic file (type jpg)
 
 <use Pad-P41F1_1,5F2_80.jpg>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Pad-P50F1_3F2_400.jpg, id=270, 636.3775pt x 693.59125pt>
+<Pad-P50F1_3F2_400.jpg, id=305, 636.3775pt x 693.59125pt>
 File: Pad-P50F1_3F2_400.jpg Graphic file (type jpg)
 
 <use Pad-P50F1_3F2_400.jpg>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[18 <./P-Adaption.jpg>] [19 <./Pad-P41F1_1,5F2_80.jpg> <./Pad-P50F1_3F2_400.jpg
+>]
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -1784,13 +1784,12 @@ I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (38.45688pt too wide) in paragraph at lines 162--163
+Overfull \hbox (24.2305pt too wide) in paragraph at lines 162--163
 []\T1/cmr/m/n/10.95 Für die fol-gen-den Sim-u-la-tio-nen wird das Matlab-File "
 msSpiegel$[]\OML/cmm/m/it/10.95 ad[]erte:m[]nddasSimulink \OMS/cmsy/m/n/10.95 ^
 ^@
  []
 
-[18 <./P-Adaption.jpg>]
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -1811,16 +1810,10 @@ l.170 $f_
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-[19 <./Pad-P41F1_1,5F2_80.jpg> <./Pad-P50F1_3F2_400.jpg>]
-<Pad-Werte-P330F1_5F2_370.jpg, id=285, 642.4pt x 693.59125pt>
+<Pad-Werte-P330F1_5F2_370.jpg, id=319, 642.4pt x 693.59125pt>
 File: Pad-Werte-P330F1_5F2_370.jpg Graphic file (type jpg)
 
 <use Pad-Werte-P330F1_5F2_370.jpg>
-Overfull \hbox (2.5428pt too wide) in paragraph at lines 180--182
-\T1/cmr/m/n/10.95 Werten evtl. ein Mo-tor und Spiegel hergestellt wer-den, der 
-den An-forderun-gen entspricht. 
- []
-
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -1838,13 +1831,13 @@ I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (63.02118pt too wide) in paragraph at lines 183--184
+Overfull \hbox (48.7948pt too wide) in paragraph at lines 183--184
 []\T1/cmr/m/n/10.95 Für die fol-gen-den Sim-u-la-tio-nen wird das Matlab-File "
 msSpiegel$[]\OML/cmm/m/it/10.95 ad[]eue[]erte:m[]nddasSimulink \OMS/cmsy/m/n/10
 .95 ^^@
  []
 
-<Pad-Neue-Werte-P320F1_2F2_160.jpg, id=286, 642.4pt x 693.59125pt>
+<Pad-Neue-Werte-P320F1_2F2_160.jpg, id=320, 642.4pt x 693.59125pt>
 File: Pad-Neue-Werte-P320F1_2F2_160.jpg Graphic file (type jpg)
 
 <use Pad-Neue-Werte-P320F1_2F2_160.jpg>
@@ -1876,20 +1869,22 @@ I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (14.854pt too wide) in paragraph at lines 192--203
-\OT1/cmr/m/n/10.95 
-\OML/cmm/m/it/10.95 InduktivittderSpule \OT1/cmr/m/n/10.95 : 3\OML/cmm/m/it/10.
-95 ^^VHMotorkonstanteKMPHI \OT1/cmr/m/n/10.95 : 35\OML/cmm/m/it/10.95 e \OMS/cm
-sy/m/n/10.95 ^^@ \OT1/cmr/m/n/10.95 3\OML/cmm/m/it/10.95 VsReibungskoeffizient 
-\OT1/cmr/m/n/10.95 :
+Overfull \hbox (88.57997pt too wide) in paragraph at lines 192--203
+\OT1/cmr/m/n/10.95 3\OML/cmm/m/it/10.95 ^^VHMotorkonstanteKMPHI \OT1/cmr/m/n/10
+.95 : 35\OML/cmm/m/it/10.95 e \OMS/cmsy/m/n/10.95 ^^@ \OT1/cmr/m/n/10.95 3\OML/
+cmm/m/it/10.95 VsReibungskoeffizient \OT1/cmr/m/n/10.95 : 6\OML/cmm/m/it/10.95 
+e \OMS/cmsy/m/n/10.95 ^^@ \OT1/cmr/m/n/10.95 5\OML/cmm/m/it/10.95 Nm \OMS/cmsy/
+m/n/10.95 ^^C \OML/cmm/m/it/10.95 sTrgheitsmomentdesSpiegels \OT1/cmr/m/n/10.95
+ :
  []
 
-<Strom_zu_hoch.jpg, id=289, 562.1pt x 421.575pt>
+<Strom_zu_hoch.jpg, id=323, 562.1pt x 421.575pt>
 File: Strom_zu_hoch.jpg Graphic file (type jpg)
  <use Strom_zu_hoch.jpg>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[20 <./Pad-Werte-P330F1_5F2_370.jpg>]
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -1907,29 +1902,26 @@ I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (93.25839pt too wide) in paragraph at lines 216--217
+Overfull \hbox (79.03201pt too wide) in paragraph at lines 216--217
 []\T1/cmr/m/n/10.95 Für die fol-gen-den Sim-u-la-tio-nen wird das Matlab-File "
 msSpiegel$[]\OML/cmm/m/it/10.95 ad[]eue[]erte[]trom:m[]nddasSimulink \OMS/cmsy/
 m/n/10.95 ^^@
  []
 
-<Strom-Pad-Neue-Werte-P320F1_2F2_160.jpg, id=291, 642.4pt x 693.59125pt>
+<Strom-Pad-Neue-Werte-P320F1_2F2_160.jpg, id=332, 642.4pt x 693.59125pt>
 File: Strom-Pad-Neue-Werte-P320F1_2F2_160.jpg Graphic file (type jpg)
 
-<use Strom-Pad-Neue-Werte-P320F1_2F2_160.jpg> [20 <./Pad-Werte-P330F1_5F2_370.j
-pg>]
+<use Strom-Pad-Neue-Werte-P320F1_2F2_160.jpg>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Strom-Pad-Neue-Werte-P218F1_5F2_400.jpg, id=299, 642.4pt x 693.59125pt>
+[21 <./Pad-Neue-Werte-P320F1_2F2_160.jpg> <./Strom_zu_hoch.jpg>]
+<Strom-Pad-Neue-Werte-P218F1_5F2_400.jpg, id=341, 642.4pt x 693.59125pt>
 File: Strom-Pad-Neue-Werte-P218F1_5F2_400.jpg Graphic file (type jpg)
 
 <use Strom-Pad-Neue-Werte-P218F1_5F2_400.jpg>
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: Reference `' on page 21 undefined on input line 242.
+LaTeX Warning: Reference `' on page 22 undefined on input line 242.
 
 
 LaTeX Warning: File `Strom-Pad-Neue-Werte-P250F1_3F2_150.jpg' not found on inpu
@@ -1953,13 +1945,9 @@ LaTeX Font Info:    Try loading font information for T1+cmtt on input line 245.
 
 (/usr/share/texmf-texlive/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[21 <./Pad-Neue-Werte-P320F1_2F2_160.jpg> <./Strom_zu_hoch.jpg>])
-(./Disskussion.tex [22 <./Strom-Pad-Neue-Werte-P320F1_2F2_160.jpg> <./Strom-Pad
--Neue-Werte-P218F1_5F2_400.jpg>] [23] [24
+) [22 <./Strom-Pad-Neue-Werte-P320F1_2F2_160.jpg> <./Strom-Pad-Neue-Werte-P218F
+1_5F2_400.jpg>])
+(./Disskussion.tex [23] [24
 
 
 ]
@@ -1975,7 +1963,74 @@ Kapitel 7.
 
 ]
 Anhang A.
-) (./Literatur.tex [29] (./Projektstudie_MASTERFILE.bbl [30
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 13.
+(../msSpiegelundSensor.m
+
+! LaTeX Error: Command \textcurrency unavailable in encoding T1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 %   LA          AnkerinduktivitÃ¤t
+                                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+LaTeX Font Info:    Try loading font information for OMS+cmtt on input line 19.
+
+LaTeX Font Info:    No file OMScmtt.fd. on input line 19.
+
+LaTeX Font Warning: Font shape `OMS/cmtt/m/it' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textparagraph' on input line 19.
+
+[29]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [30]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [31])
+[32] (../sensorDaten.m
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 %           2   Ã„uÃŸererradius 
+                                     r2            in mm
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 %           2   Ã„uÃŸererradius 
+                                     r2            in mm
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+[33]) [34] (../frect.m) (../gekern.m) [35] (../sensor.m [36]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [37])
+[38] (../posEingabe.m) [39] [40
+
+
+]
+Anhang B.
+) (./Literatur.tex [41] (./Projektstudie_MASTERFILE.bbl [42
 
 
 ]
@@ -1983,21 +2038,21 @@ Anhang A.
 LaTeX Warning: Empty `thebibliography' environment or \BreakBibliography
                before end of `thebibliography' environment on input line 3.
 
-)) (./Abbildungen.tex [31] [32
+)) (./Abbildungen.tex [43] [44
 
 
 ] (./Projektstudie_MASTERFILE.lof
 
-LaTeX Warning: Citation `wiki' on page 33 undefined on input line 3.
+LaTeX Warning: Citation `wiki' on page 45 undefined on input line 3.
 
 
-LaTeX Warning: Citation `lasercommunity' on page 33 undefined on input line 4.
+LaTeX Warning: Citation `lasercommunity' on page 45 undefined on input line 4.
 
 )
 \tf@lof=\write5
 \openout5 = `Projektstudie_MASTERFILE.lof'.
 
-) (./Tabellen.tex [33] [34
+) (./Tabellen.tex [45] [46
 
 
 ] (./Projektstudie_MASTERFILE.lot)
@@ -2005,16 +2060,10 @@ LaTeX Warning: Citation `lasercommunity' on page 33 undefined on input line 4.
 \openout6 = `Projektstudie_MASTERFILE.lot'.
 
 )
-(./Erklaerung.tex [35] [36
+(./Erklaerung.tex [47] [48
 
 
 ]
-Overfull \hbox (12.92548pt too wide) in paragraph at lines 9--10
-\T1/cmr/m/n/10.95 Wir ver-sich-ern hi-er-mit gemäÿ Ÿ 35 Abs.7 der Rah-men-prü-f
-ung-sor-d-nung für Fach-hochschulen
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 11--13
 
  []
@@ -2024,7 +2073,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--21
 
  []
 
-) [37] (./Projektstudie_MASTERFILE.aux)
+) [49] (./Projektstudie_MASTERFILE.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
 
 LaTeX Warning: There were undefined references.
 
@@ -2033,35 +2085,60 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 10792 strings out of 495062
- 157809 string characters out of 1182643
- 263342 words of memory out of 3000000
- 13575 multiletter control sequences out of 15000+50000
- 24152 words of font info for 59 fonts, out of 3000000 for 9000
+ 12283 strings out of 495062
+ 174566 string characters out of 1182643
+ 701389 words of memory out of 3000000
+ 14580 multiletter control sequences out of 15000+50000
+ 28169 words of font info for 70 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 46i,11n,52p,331b,376s stack positions out of 5000i,500n,10000p,200000b,50000s
- </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1000.600pk> </home/k
-izzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/kizzm/.texmf
--var/fonts/pk/ljfour/jknappen/ec/ectt1095.600pk> </home/kizzm/.texmf-var/fonts/
-pk/ljfour/jknappen/ec/ecsx1200.600pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/j
-knappen/ec/ecsx1440.600pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/
-ecsl1095.600pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1095.60
-0pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx2074.600pk> </home
-/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1095.600pk> </home/kizzm/.tex
-mf-var/fonts/pk/ljfour/jknappen/ec/ecbx1095.600pk> </home/kizzm/.texmf-var/font
-s/pk/ljfour/jknappen/ec/ecti1095.600pk> </home/kizzm/.texmf-var/fonts/pk/ljfour
-/jknappen/ec/ecrm1200.600pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/e
-c/ecbx2074.600pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2488.
-600pk></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr
-/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf
--texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fon
-ts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-texlive/fonts/type1/publ
-ic/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
-m/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy6.pfb
-></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Projektstudie_MASTERFILE.pdf (41 pages, 2168724 bytes).
+ 46i,12n,52p,331b,2357s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{appendix*.478} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{appendix*.477} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{appendix*.476} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.475} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{appendix.474} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.440} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.327} has been referenced but does not exist
+, replaced by a fixed one
+
+ </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1000.600pk> </home/kiz
+zm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/kizzm/.texmf-v
+ar/fonts/pk/ljfour/jknappen/ec/ectt0900.600pk> </home/kizzm/.texmf-var/fonts/pk
+/ljfour/jknappen/ec/ecit0900.600pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jkn
+appen/ec/ectt0800.450pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ec
+tt1095.600pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1200.600p
+k> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1440.600pk> </home/k
+izzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecsl1095.600pk> </home/kizzm/.texmf
+-var/fonts/pk/ljfour/jknappen/ec/ecsx1095.600pk> </home/kizzm/.texmf-var/fonts/
+pk/ljfour/jknappen/ec/ecsx2074.600pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/j
+knappen/ec/ecrm1095.600pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/
+ecbx1095.600pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1095.60
+0pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home
+/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2074.600pk> </home/kizzm/.tex
+mf-var/fonts/pk/ljfour/jknappen/ec/ecbx2488.600pk></usr/share/texmf-texlive/fon
+ts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/pu
+blic/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfont
+s/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr6.pf
+b></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share
+/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texl
+ive/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-texlive/fonts/ty
+pe1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/public/a
+msfonts/cm/cmsy9.pfb>
+Output written on Projektstudie_MASTERFILE.pdf (53 pages, 2339278 bytes).
 PDF statistics:
- 907 PDF objects out of 1000 (max. 8388607)
- 93 named destinations out of 1000 (max. 500000)
- 269 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1721 PDF objects out of 1728 (max. 8388607)
+ 544 named destinations out of 1000 (max. 500000)
+ 325 words of extra memory for PDF output out of 10000 (max. 10000000)
 

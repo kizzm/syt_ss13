@@ -13,9 +13,16 @@
 \contentsline {chapter}{\numberline {5}Simulationsdurchf\"uhrung}{13}{chapter.24}
 \contentsline {chapter}{\numberline {6}Disskussion}{25}{chapter.43}
 \contentsline {chapter}{\numberline {7}Zusammenfassung}{27}{chapter.44}
-\contentsline {chapter}{\numberline {A}Anh\"ange}{29}{appendix.45}
-\contentsline {section}{\numberline {A.1}Anhaenge}{29}{section.46}
-\contentsline {chapter}{Literaturverzeichnis}{31}{appendix*.47}
-\contentsline {chapter}{Abbildungsverzeichnis}{33}{appendix*.48}
-\contentsline {chapter}{Tabellenverzeichnis}{35}{appendix*.49}
-\contentsline {chapter}{Eidesstattliche Erkl\"arung}{37}{appendix*.50}
+\contentsline {chapter}{\numberline {A}Matlab-Files}{29}{appendix.45}
+\contentsline {section}{\numberline {A.1}msSpiegelundSensor.m}{29}{section.46}
+\contentsline {section}{\numberline {A.2}sensorDaten.m}{33}{section.216}
+\contentsline {section}{\numberline {A.3}frect.m}{35}{section.301}
+\contentsline {section}{\numberline {A.4}gekern.m}{35}{section.316}
+\contentsline {section}{\numberline {A.5}sensor.m}{36}{section.330}
+\contentsline {section}{\numberline {A.6}posEingabe.m}{39}{section.443}
+\contentsline {chapter}{\numberline {B}Simulink-Files}{41}{appendix.477}
+\contentsline {section}{\numberline {B.1}1}{41}{section.478}
+\contentsline {chapter}{Literaturverzeichnis}{43}{appendix*.479}
+\contentsline {chapter}{Abbildungsverzeichnis}{45}{appendix*.480}
+\contentsline {chapter}{Tabellenverzeichnis}{47}{appendix*.481}
+\contentsline {chapter}{Eidesstattliche Erkl\"arung}{49}{appendix*.482}
