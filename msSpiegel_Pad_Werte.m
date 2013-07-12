@@ -1,10 +1,10 @@
 %  msSpiegel_Pad.m     (Matlab/Simulink R2011b)
 %
 %  Vorgang:   Regelung eines Gleichstrommotors zur Spiegelverstellung
-%  Verfahren: Simulink, mithilfe einer P-Adaption
+%  Verfahren: Simulink, mithilfe einer P-Adaption und veränderten 
+%             Motorwerten
 %
 %  Unterprogramme:  sSpiegelPad.slx
-%
 %
 % ########################################################
 %
@@ -16,13 +16,15 @@
 %   J           Trägheitsmoment
 %   r           Reibkonstante
 %
+%   MSpiegel    Drehmoment für Spiegel
+%
 %   KMPHI       Motorkenngrösse
 %
-%   uephi       Sprunghöhe Motorwinkel
+%   phi         Sprunghöhe Motorwinkel
 %
 %   te          Ende des Integrationsintervalls (ab t=0)
 %
-%   ug, og      Untere/obere Grenze der Grafiken
+%   xuX, xoX    Untere/obere Grenze der Grafiken
 %
 % ########################################################
 
@@ -31,31 +33,31 @@ close all
 
 % Angabe der Parameter für Simulink für die weiteren Berechnungen
 
-  RA=1.07;            % Innenwiderstand des Galvos
-  LA=173e-6;          % Induktivität des Galvos
-  TA=LA/RA;           % Zeitkonstante T1
+  RA=1.07;              % Innenwiderstand des Galvos (Datenblatt)
+  LA=173e-6;            % Induktivität des Galvos (Datenblatt)
+  TA=LA/RA;             % Zeitkonstante T1
   
-  J=93.3e-9;          % kg m^2 Trägheitsmoment des Spiegels
-  r=6e-5;             % Nm*s
+  J=93.3e-9;            % kg m^2 Trägheitsmoment des Spiegels
+  r=6e-5;               % Nm*s
   
-  KMPHI=6.3e-2;       %  Vs
+  KMPHI=6.3e-2;         % Vs
   
-  Mspiegel=130.25e-3; % Nm Drehmoment für Spiegel
+  MSpiegel=130.25e-3;   % Nm Drehmoment für Spiegel
   
-  te=.02;             % end of simulation time 
+  te=.02;               % end of simulation time 
    
-  phi = 20*pi/180;    % einzustellender Winkel von 20°
+  phi = 20*pi/180;      % einzustellender Winkel von 20°
   
-  vu=-30;             % uu=-30 V
-  vo=30;              % uo=+30 V
-  pu1=-0.4;           % phiu=-20° in rad
-  po1=0.4;            % phio=+20° in rad
-  pu2=phi-1e-1*pi/180;% Diagrammgrenzen für Regeldifferenz
-  po2=phi+1e-1*pi/180;% Diagrammgrenzen für Regeldifferenz
+  vu=-30;               % uu=-30 V
+  vo=30;                % uo=+30 V
+  wu1=-0.4;             % phiu=-20° in rad
+  wo1=0.4;              % phio=+20° in rad
+  wu2=phi-1e-1*pi/180;  % Diagrammgrenzen für Regeldifferenz
+  wo2=phi+1e-1*pi/180;  % Diagrammgrenzen für Regeldifferenz
 
 % ########################################################
   
-% Plot: Eingangssignal u
+% Plot: Eingangssignal u und Winkel phi
 figure(1)
 set(gcf,'Units','normal','Position',[.49 .7 .5 .9], ...
     'NumberTitle','on','Name','u und v ');
@@ -82,20 +84,25 @@ ylabel('u_e / V')
 title('Gleichstrommotor: Motorspannung,') 
 
 subplot(3,1,2)
-plot(t,y(:,5),t,phi,'linewidth',2,'linewidth',2);
-axis([0 te pu1 po1])
+plot(t,y(:,2),t,phi,'linewidth',2,'linewidth',2);
+axis([0 te wu1 wo1])
 grid on
 xlabel('t / s')
 ylabel('Phi / rad')
-title('Gleichstrommotor: Winkel')
+YTicks=get(gca,'YTick');
+set(gca,'YTickLabel',num2str(YTicks(:),'%.1f'));
+title('Gleichstrommotor: Winkel mit Sollwinkel')
 
 subplot(3,1,3)
-plot(t,y(:,5),t,phi,t,(phi-1e-3*pi/180),t,(phi+1e-3*pi/180),'linewidth',2,'linewidth',2,'linewidth',2,'linewidth',2);
-axis([0 te pu2 po2])
+plot(t,y(:,2),t,phi,t,(phi-1e-3*pi/180),t,(phi+1e-3*pi/180),'linewidth',...
+    2,'linewidth',2,'linewidth',2,'linewidth',2);
+axis([0 te wu2 wo2])
 grid on
 xlabel('t / s')
 ylabel('Phi / rad')
-title('Gleichstrommotor: Winkel')
+YTicks=get(gca,'YTick');
+set(gca,'YTickLabel',num2str(YTicks(:),'%.5e'));
+title('Gleichstrommotor: Sollwinkel mit Regeldifferenz')
 
 % Plot der variablen Schrittweite
 % ht=diff(t)';

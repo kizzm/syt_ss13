@@ -1,7 +1,8 @@
 %  msSpiegel_Pad.m     (Matlab/Simulink R2011b)
 %
 %  Vorgang:   Regelung eines Gleichstrommotors zur Spiegelverstellung
-%  Verfahren: Simulink, mithilfe einer P-Adaption
+%  Verfahren: Simulink, mithilfe einer P-Adaption, eingebauter Strom-
+%             begrenzung und anpassen der gesamten Motorwerte
 %
 %  Unterprogramme:  sSpiegelPadStromNeu.slx
 %
@@ -16,14 +17,16 @@
 %   J           Trägheitsmoment
 %   r           Reibkonstante
 %
+%   MSpiegel    Drehmoment für Spiegel
+%
 %   KMPHI       Motorkenngrösse
 %
-%   uephi       Sprunghöhe Motorwinkel
+%   phi         Sprunghöhe Motorwinkel
 %
 %   te          Ende des Integrationsintervalls (ab t=0)
 %
-%   ug, og      Untere/obere Grenze der Grafiken
-%0
+%   xuX, xoX    Untere/obere Grenze der Grafiken
+%
 % ########################################################
 
 clear all
@@ -31,33 +34,33 @@ close all
 
 % Angabe der Parameter für Simulink für die weiteren Berechnungen
 
-  RA=0.1;             % Innenwiderstand des Galvos
-  LA=3e-6;            % Induktivität des Galvos
-  TA=LA/RA;           % Zeitkonstante T1
+  RA=0.1;                   % Innenwiderstand des Galvos
+  LA=3e-6;                  % Induktivität des Galvos
+  TA=LA/RA;                  % Zeitkonstante T1
   
-  J=93.3e-11;         % kg m^2 Trägheitsmoment des Spiegels
-  r=6e-5;             % Nm*s Reibung
+  J=93.3e-11;               % kg m^2 Trägheitsmoment des Spiegels
+  r=6e-5;                   % Nm*s Reibung
   
-  KMPHI=35e-3;        % Vs
+  KMPHI=35e-3;              % Vs
   
-  Mspiegel=30.25e-6;  % Nm Drehmoment für Spiegel
+  MSpiegel=30.25e-6;        % Nm Drehmoment für Spiegel
   
-  te=.002;            % end of simulation time 
+  te=.002;                  % end of simulation time 
    
-  phi = 20*pi/180;    % einzustellender Winkel von 20°
+  phi = 20*pi/180;          % einzustellender Winkel von 20°
   
-  vu=-30;             % uu=-30 V
-  vo=30;              % uo=+30 V
-  iu=-15;             % iu=-15 A
-  io=+15;             % io=+15 A 
-  pu1=-0.4;           % phiu=-20° in rad
-  po1=0.4;            % phio=+20° in rad
-  pu2=phi-0.5e-2*pi/180;% Diagrammgrenzen für Regeldifferenz
-  po2=phi+0.5e-2*pi/180;% Diagrammgrenzen für Regeldifferenz
+  vu=-30;                   % uu=-30 V
+  vo=30;                     % uo=+30 V
+  iu=-15;                   % iu=-15 A
+  io=+15;                   % io=+15 A 
+  wu1=-0.4;                 % phiu=-20° in rad
+  wo1=0.4;                  % phio=+20° in rad
+  wu2=phi-0.5e-2*pi/180;    % Diagrammgrenzen für Regeldifferenz
+  wo2=phi+0.5e-2*pi/180;    % Diagrammgrenzen für Regeldifferenz
 
 % ########################################################
   
-% Plot: Eingangssignal u
+% Plot: Eingangssignal u, Winkel phi und Strom i
 figure(1)
 set(gcf,'Units','normal','Position',[.49 .7 .5 .9], ...
     'NumberTitle','on','Name','u und v ');
@@ -84,28 +87,33 @@ ylabel('u_e / V')
 title('Gleichstrommotor: Motorspannung,') 
 
 subplot(3,1,2)
-plot(t,y(:,5),t,phi,'linewidth',2,'linewidth',2);
-axis([0 te pu1 po1])
+plot(t,y(:,2),t,phi,'linewidth',2,'linewidth',2);
+axis([0 te wu1 wo1])
 grid on
 xlabel('t / s')
 ylabel('Phi / rad')
-title('Gleichstrommotor: Winkel')
+YTicks=get(gca,'YTick');
+set(gca,'YTickLabel',num2str(YTicks(:),'%.1f'));
+title('Gleichstrommotor: Winkel mit Sollwinkel')
 
 subplot(3,1,3)
-plot(t,y(:,5),t,phi,t,(phi-1e-3*pi/180),t,(phi+1e-3*pi/180),'linewidth',2,'linewidth',2,'linewidth',2,'linewidth',2);
-axis([0 te pu2 po2])
+plot(t,y(:,2),t,phi,t,(phi-1e-3*pi/180),t,(phi+1e-3*pi/180),'linewidth',...
+    2,'linewidth',2,'linewidth',2,'linewidth',2);
+axis([0 te wu2 wo2])
 grid on
 xlabel('t / s')
 ylabel('Phi / rad')
-title('Gleichstrommotor: Winkel')
-% 
-% figure(2)
-% plot (t,y(:,4),'linewidth',2);
-% axis([0 te iu io])
-% grid on
-% xlabel('t / s')
-% ylabel('i_A / A')
-% title('Gleichstrommotor: Motorstrom')
+YTicks=get(gca,'YTick');
+set(gca,'YTickLabel',num2str(YTicks(:),'%.5e'));
+title('Gleichstrommotor: Sollwinkel mit Regeldifferenz')
+
+figure(2)
+plot (t,y(:,3),'linewidth',2);
+axis([0 te iu io])
+grid on
+xlabel('t / s')
+ylabel('i_A / A')
+title('Gleichstrommotor: Motorstrom')
 
 
 % Plot der variablen Schrittweite

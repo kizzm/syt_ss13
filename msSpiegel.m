@@ -114,7 +114,8 @@ ylabel('Phi / rad')
 title('Gleichstrommotor: Winkel')
 
 subplot(3,1,3)
-plot(t,y(:,5),t,phi,t,(phi-1e-3*pi/180),t,(phi+1e-3*pi/180),'linewidth',2,'linewidth',2,'linewidth',2,'linewidth',2);
+plot(t,y(:,5),t,phi,t,(phi-1e-3*pi/180),t,(phi+1e-3*pi/180),'linewidth',...
+    2,'linewidth',2,'linewidth',2,'linewidth',2);
 axis([0 te vu4 vo4])
 grid on
 xlabel('t / s')
