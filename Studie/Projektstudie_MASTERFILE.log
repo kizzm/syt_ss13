@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.10.25)  13 JUL 2013 09:51
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.10.25)  13 JUL 2013 11:17
 entering extended mode
  %&-line parsing enabled.
 **Projektstudie_MASTERFILE.tex
@@ -544,7 +544,10 @@ Package: nicefrac 1998/08/04 v0.9b Nice fractions
 ))
 (./Projektstudie_MASTERFILE.aux
 
-LaTeX Warning: Label `p30i17' multiply defined.
+LaTeX Warning: Label `equ:motormomentsimulink2' multiply defined.
+
+
+LaTeX Warning: Label `fig:p30i17' multiply defined.
 
 )
 \openout1 = `Projektstudie_MASTERFILE.aux'.
@@ -684,40 +687,410 @@ Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)            on input line 12.
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 13.
+(scrreprt)            on input line 19.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.22 ...1.1}chap:p_regelung}{17}{subsubsection.44}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<argument> ...numberline {5.1.1.1}chap:p_regelung}
+                                                  \hyper@linkend 
+l.22 ...1.1}chap:p_regelung}{17}{subsubsection.44}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.22 ...1.1}chap:p_regelung}{17}{subsubsection.44}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.22 ...1.1}chap:p_regelung}{17}{subsubsection.44}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.23 ....2}chap:pi_regelung}{17}{subsubsection.47}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<argument> ...umberline {5.1.1.2}chap:pi_regelung}
+                                                  \hyper@linkend 
+l.23 ....2}chap:pi_regelung}{17}{subsubsection.47}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.23 ....2}chap:pi_regelung}{17}{subsubsection.47}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.23 ....2}chap:pi_regelung}{17}{subsubsection.47}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.24 ....3}chap:pd_regelung}{18}{subsubsection.50}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<argument> ...umberline {5.1.1.3}chap:pd_regelung}
+                                                  \hyper@linkend 
+l.24 ....3}chap:pd_regelung}{18}{subsubsection.50}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.24 ....3}chap:pd_regelung}{18}{subsubsection.50}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.24 ....3}chap:pd_regelung}{18}{subsubsection.50}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.25 ...4}chap:pid_regelung}{18}{subsubsection.53}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<argument> ...mberline {5.1.1.4}chap:pid_regelung}
+                                                  \hyper@linkend 
+l.25 ...4}chap:pid_regelung}{18}{subsubsection.53}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.25 ...4}chap:pid_regelung}{18}{subsubsection.53}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.25 ...4}chap:pid_regelung}{18}{subsubsection.53}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.27 ...2.1}chap:p_adaption}{21}{subsubsection.59}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<argument> ...numberline {5.1.2.1}chap:p_adaption}
+                                                  \hyper@linkend 
+l.27 ...2.1}chap:p_adaption}{21}{subsubsection.59}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.27 ...2.1}chap:p_adaption}{21}{subsubsection.59}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.27 ...2.1}chap:p_adaption}{21}{subsubsection.59}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.28 ...hap:p_adaptiongalvo}{22}{subsubsection.62}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<argument> ...rline {5.1.2.2}chap:p_adaptiongalvo}
+                                                  \hyper@linkend 
+l.28 ...hap:p_adaptiongalvo}{22}{subsubsection.62}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.28 ...hap:p_adaptiongalvo}{22}{subsubsection.62}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.28 ...hap:p_adaptiongalvo}{22}{subsubsection.62}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.29 ...hap:p_adaptionwerte}{22}{subsubsection.64}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<argument> ...rline {5.1.2.3}chap:p_adaptionwerte}
+                                                  \hyper@linkend 
+l.29 ...hap:p_adaptionwerte}{22}{subsubsection.64}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.29 ...hap:p_adaptionwerte}{22}{subsubsection.64}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.29 ...hap:p_adaptionwerte}{22}{subsubsection.64}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.30 ...hap:p_adaptionstrom}{23}{subsubsection.66}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<argument> ...rline {5.1.2.4}chap:p_adaptionstrom}
+                                                  \hyper@linkend 
+l.30 ...hap:p_adaptionstrom}{23}{subsubsection.66}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.30 ...hap:p_adaptionstrom}{23}{subsubsection.66}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.30 ...hap:p_adaptionstrom}{23}{subsubsection.66}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.31 ...ap:p_adaptionfertig}{25}{subsubsection.72}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<argument> ...line {5.1.2.5}chap:p_adaptionfertig}
+                                                  \hyper@linkend 
+l.31 ...ap:p_adaptionfertig}{25}{subsubsection.72}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.31 ...ap:p_adaptionfertig}{25}{subsubsection.72}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.31 ...ap:p_adaptionfertig}{25}{subsubsection.72}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[1
+
+
+]
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 14.
+(scrreprt)            on input line 36.
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 15.
+(scrreprt)            on input line 37.
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 16.
+(scrreprt)            on input line 38.
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 23.
+(scrreprt)            on input line 45.
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 25.
+(scrreprt)            on input line 47.
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 26.
+(scrreprt)            on input line 48.
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 27.
+(scrreprt)            on input line 49.
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 28.
+(scrreprt)            on input line 50.
 )
 \tf@toc=\write4
 \openout4 = `Projektstudie_MASTERFILE.toc'.
 
- [1
-
-
-] [2]
-(./Einfuehrung.tex
+ [2] (./Einfuehrung.tex
 Kapitel 1.
 
 Class scrreprt Warning: \float@addtolists detected!
@@ -726,7 +1099,7 @@ Class scrreprt Warning: \float@addtolists detected!
 (scrreprt)              Support for \float@addtolists may be removed from
 (scrreprt)              `scrreprt' soon .
 
-<Plexi_Galvohalter.jpg, id=171, 256.7994pt x 298.2342pt>
+<Plexi_Galvohalter.jpg, id=283, 256.7994pt x 298.2342pt>
 File: Plexi_Galvohalter.jpg Graphic file (type jpg)
 
 <use Plexi_Galvohalter.jpg>
@@ -736,7 +1109,7 @@ LaTeX Warning: Citation `wiki' on page 1 undefined on input line 30.
 
 LaTeX Warning: Citation `wiki' on page 1 undefined on input line 30.
 
-<Strahlfuehrung.jpg, id=172, 734.745pt x 489.83pt>
+<Strahlfuehrung.jpg, id=284, 734.745pt x 489.83pt>
 File: Strahlfuehrung.jpg Graphic file (type jpg)
  <use Strahlfuehrung.jpg>
 
@@ -745,7 +1118,7 @@ LaTeX Warning: Citation `lasercommunity' on page 1 undefined on input line 38.
 
 LaTeX Warning: Citation `lasercommunity' on page 1 undefined on input line 38.
 
-<Allgmeiner_Aufbau.jpg, id=174, 1127.21124pt x 796.9775pt>
+<Allgmeiner_Aufbau.jpg, id=286, 1127.21124pt x 796.9775pt>
 File: Allgmeiner_Aufbau.jpg Graphic file (type jpg)
 
 <use Allgmeiner_Aufbau.jpg>
@@ -790,7 +1163,7 @@ LaTeX Warning: Command \textdegree invalid in math mode on input line 23.
 
 [5]) (./Modellbildung.tex [6]
 Kapitel 3.
-<System_Aufbau.jpg, id=209, 509.905pt x 354.32375pt>
+<System_Aufbau.jpg, id=321, 509.905pt x 354.32375pt>
 File: System_Aufbau.jpg Graphic file (type jpg)
  <use System_Aufbau.jpg>
 
@@ -1625,25 +1998,57 @@ Overfull \hbox (1.1018pt too wide) in paragraph at lines 94--98
 ma-tio-nen Über die Ans-teuerung solch-
  []
 
-<Sensor_Aufbau.jpg, id=231, 1025.8325pt x 316.18124pt>
-File: Sensor_Aufbau.jpg Graphic file (type jpg)
- <use Sensor_Aufbau.jpg>
-<Sensor_DIODEN.jpg, id=232, 304.13625pt x 304.13625pt>
+
+LaTeX Warning: File `Sensor_Funktion.jpg' not found on input line 115.
+
+
+! Package pdftex.def Error: File `Sensor_Funktion.jpg' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.115 ...width=0.8\textwidth]{Sensor_Funktion.jpg}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 115.
+
+(/usr/share/texmf-texlive/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Sensor_Aufbau_schichten.jpg, id=341, 445.665pt x 256.96pt>
+File: Sensor_Aufbau_schichten.jpg Graphic file (type jpg)
+
+<use Sensor_Aufbau_schichten.jpg>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Sensor_DIODEN.jpg, id=342, 304.13625pt x 304.13625pt>
 File: Sensor_DIODEN.jpg Graphic file (type jpg)
  <use Sensor_DIODEN.jpg>
-<Sensor_BLENDE.jpg, id=233, 304.13625pt x 304.13625pt>
+<Sensor_BLENDE.jpg, id=343, 304.13625pt x 304.13625pt>
 File: Sensor_BLENDE.jpg Graphic file (type jpg)
  <use Sensor_BLENDE.jpg>
-<Sensor_Abdunklung_0.jpg, id=234, 304.13625pt x 304.13625pt>
+<Sensor_Abdunklung_0.jpg, id=344, 304.13625pt x 304.13625pt>
 File: Sensor_Abdunklung_0.jpg Graphic file (type jpg)
 
 <use Sensor_Abdunklung_0.jpg>
-<Sensor_Abdunklung_40.jpg, id=235, 304.13625pt x 304.13625pt>
+<Sensor_Abdunklung_40.jpg, id=345, 304.13625pt x 304.13625pt>
 File: Sensor_Abdunklung_40.jpg Graphic file (type jpg)
 
-<use Sensor_Abdunklung_40.jpg>) (./Programmentwicklung.tex [9] [10 <./Sensor_Au
-fbau.jpg>] [11 <./Sensor_DIODEN.jpg> <./Sensor_BLENDE.jpg> <./Sensor_Abdunklung
-_0.jpg> <./Sensor_Abdunklung_40.jpg>] [12
+<use Sensor_Abdunklung_40.jpg>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./Programmentwicklung.tex [9] [10 <./Sensor_Aufbau_schichten.jpg>] [11 <./Se
+nsor_DIODEN.jpg> <./Sensor_BLENDE.jpg> <./Sensor_Abdunklung_0.jpg> <./Sensor_Ab
+dunklung_40.jpg>] [12
 
 
 ]
@@ -1902,11 +2307,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-
-LaTeX Warning: Reference `fig:grundprogramm' on page 14 undefined on input line
- 75.
-
-<sSpiegel.jpg, id=273, 902.6222pt x 358.33875pt>
+<sSpiegel.jpg, id=388, 902.6222pt x 358.33875pt>
 File: sSpiegel.jpg Graphic file (type jpg)
  <use sSpiegel.jpg>
 
@@ -2192,7 +2593,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-<NurP40.jpg, id=297, 642.4pt x 693.59125pt>
+<NurP40.jpg, id=411, 642.4pt x 693.59125pt>
 File: NurP40.jpg Graphic file (type jpg)
  <use NurP40.jpg>
 
@@ -2227,7 +2628,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-<NurP45.jpg, id=298, 642.4pt x 693.59125pt>
+<NurP45.jpg, id=412, 642.4pt x 693.59125pt>
 File: NurP45.jpg Graphic file (type jpg)
  <use NurP45.jpg>
 ! Missing $ inserted.
@@ -2265,19 +2666,7 @@ you left one out. Proceed, with fingers crossed.
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `subscript' on input line 54.
 
-
-LaTeX Warning: Reference `fig:p30i17' on page 17 undefined on input line 55.
-
-
-LaTeX Warning: Reference `fig:p30i17' on page 17 undefined on input line 57.
-
-
-LaTeX Warning: Reference `fig:p30i17' on page 17 undefined on input line 58.
-
-
-LaTeX Warning: Reference `fig:p30i17' on page 17 undefined on input line 58.
-
-<PI-P30I17.jpg, id=299, 636.3775pt x 693.59125pt>
+<PI-P30I17.jpg, id=417, 636.3775pt x 693.59125pt>
 File: PI-P30I17.jpg Graphic file (type jpg)
  <use PI-P30I17.jpg>
 File: PI-P30I17.jpg Graphic file (type jpg)
@@ -2306,25 +2695,13 @@ you left one out. Proceed, with fingers crossed.
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `subscript' on input line 74.
 
-
-LaTeX Warning: Reference `fig:p22d1n1' on page 18 undefined on input line 76.
-
-
-LaTeX Warning: Reference `fig:p23d1n1' on page 18 undefined on input line 78.
-
-
-LaTeX Warning: Reference `fig:p22d1n1' on page 18 undefined on input line 79.
-
-
-LaTeX Warning: Reference `fig:p23d1n1' on page 18 undefined on input line 79.
-
-<PD-P22D1N1.jpg, id=309, 642.4pt x 693.59125pt>
+<PD-P22D1N1.jpg, id=432, 642.4pt x 693.59125pt>
 File: PD-P22D1N1.jpg Graphic file (type jpg)
  <use PD-P22D1N1.jpg>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<PD-P23D1N1.jpg, id=310, 642.4pt x 693.59125pt>
+<PD-P23D1N1.jpg, id=433, 642.4pt x 693.59125pt>
 File: PD-P23D1N1.jpg Graphic file (type jpg)
  <use PD-P23D1N1.jpg>
 
@@ -2362,10 +2739,10 @@ LaTeX Warning: Reference `fig:p20i16d1n1' on page 18 undefined on input line 98
 LaTeX Warning: Reference `fig:p20i16d1n1' on page 18 undefined on input line 99
 .
 
-<PID-P20I15D1N1.jpg, id=311, 642.4pt x 693.59125pt>
+<PID-P20I15D1N1.jpg, id=434, 642.4pt x 693.59125pt>
 File: PID-P20I15D1N1.jpg Graphic file (type jpg)
  <use PID-P20I15D1N1.jpg>
-<PID-P20I16D1N1.jpg, id=312, 642.4pt x 693.59125pt>
+<PID-P20I16D1N1.jpg, id=435, 642.4pt x 693.59125pt>
 File: PID-P20I16D1N1.jpg Graphic file (type jpg)
  <use PID-P20I16D1N1.jpg>
 [18 <./PI-P30I17.jpg>]
@@ -2382,7 +2759,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [20 <./PD-P23D1N1.jpg> <./PID-P20I15D1N1.jpg>]
-<P-Adaption.jpg, id=333, 743.02594pt x 424.58624pt>
+<P-Adaption.jpg, id=456, 743.02594pt x 424.58624pt>
 File: P-Adaption.jpg Graphic file (type jpg)
  <use P-Adaption.jpg>
 
@@ -2464,7 +2841,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-<Pad-P41F1_1,5F2_80.jpg, id=334, 642.4pt x 693.59125pt>
+<Pad-P41F1_1,5F2_80.jpg, id=457, 642.4pt x 693.59125pt>
 File: Pad-P41F1_1,5F2_80.jpg Graphic file (type jpg)
 
 <use Pad-P41F1_1,5F2_80.jpg>
@@ -2511,7 +2888,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-<Pad-P50F1_3F2_400.jpg, id=335, 636.3775pt x 693.59125pt>
+<Pad-P50F1_3F2_400.jpg, id=458, 636.3775pt x 693.59125pt>
 File: Pad-P50F1_3F2_400.jpg Graphic file (type jpg)
 
 <use Pad-P50F1_3F2_400.jpg>
@@ -2587,10 +2964,6 @@ Overfull \hbox (24.2305pt too wide) in paragraph at lines 164--165
 msSpiegel$[]\OML/cmm/m/it/10.95 ad[]erte:m[]nddasSimulink \OMS/cmsy/m/n/10.95 ^
 ^@
  []
-
-
-LaTeX Warning: Reference `fig:padwerte' on page 22 undefined on input line 166.
-
 
 ! Missing $ inserted.
 <inserted text> 
@@ -2695,7 +3068,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<Pad-Werte-P330F1_5F2_370.jpg, id=344, 642.4pt x 693.59125pt>
+<Pad-Werte-P330F1_5F2_370.jpg, id=468, 642.4pt x 693.59125pt>
 File: Pad-Werte-P330F1_5F2_370.jpg Graphic file (type jpg)
 
 <use Pad-Werte-P330F1_5F2_370.jpg>
@@ -2763,7 +3136,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-<Pad-Neue-Werte-P320F1_2F2_65.jpg, id=352, 642.4pt x 693.59125pt>
+<Pad-Neue-Werte-P320F1_2F2_65.jpg, id=477, 642.4pt x 693.59125pt>
 File: Pad-Neue-Werte-P320F1_2F2_65.jpg Graphic file (type jpg)
 
 <use Pad-Neue-Werte-P320F1_2F2_65.jpg>
@@ -3090,26 +3463,14 @@ you left one out. Proceed, with fingers crossed.
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `subscript' on input line 210.
 
-
-LaTeX Warning: Reference `fig:stromzuhoch' on page 23 undefined on input line 2
-12.
-
-<Strom_zu_hoch.jpg, id=353, 562.1pt x 421.575pt>
+<Strom_zu_hoch.jpg, id=479, 562.1pt x 421.575pt>
 File: Strom_zu_hoch.jpg Graphic file (type jpg)
  <use Strom_zu_hoch.jpg>
-<P-Adaption-Strom.jpg, id=354, 912.40875pt x 404.26031pt>
+<P-Adaption-Strom.jpg, id=480, 912.40875pt x 404.26031pt>
 File: P-Adaption-Strom.jpg Graphic file (type jpg)
 
 <use P-Adaption-Strom.jpg>
-
-LaTeX Warning: Reference `fig:strombegrenzt' on page 23 undefined on input line
- 227.
-
-
-LaTeX Warning: Reference `fig:strombegrenztsauber' on page 23 undefined on inpu
-t line 229.
-
-<sSpiegelPadStrom.jpg, id=355, 910.15031pt x 306.39468pt>
+<sSpiegelPadStrom.jpg, id=483, 910.15031pt x 306.39468pt>
 File: sSpiegelPadStrom.jpg Graphic file (type jpg)
 
 <use sSpiegelPadStrom.jpg>
@@ -3141,10 +3502,11 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (122.00262pt too wide) in paragraph at lines 211--237
-\T1/cmr/m/n/10.95 Abb. []. Für die fol-gen-den Sim-u-la-tio-nen wird das Matlab
--File "msSpiegel$[]\OML/cmm/m/it/10.95 ad[]eue[]erte[]trom:m[]nddasSimulink \OM
-S/cmsy/m/n/10.95 ^^@
+Overfull \hbox (41.34816pt too wide) in paragraph at lines 211--237
+\T1/cmr/m/n/10.95 "msSpiegel$[]\OML/cmm/m/it/10.95 ad[]eue[]erte[]trom:m[]nddas
+Simulink \OMS/cmsy/m/n/10.95 ^^@ \OML/cmm/m/it/10.95 File\OT1/cmr/m/n/10.95 ^^Y
+[]\OML/cmm/m/it/10.95 SpiegelPadStrom:slx\OT1/cmr/m/n/10.95 "\OML/cmm/m/it/10.9
+5 hergenommen:[]$ 
  []
 
 
@@ -3159,23 +3521,15 @@ l.237
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
 
-
-LaTeX Warning: Reference `fig:strombegrenztpad' on page 24 undefined on input l
-ine 238.
-
-<Strom-Pad-Neue-Werte-P320F1_2F2_160.jpg, id=362, 642.4pt x 693.59125pt>
+<Strom-Pad-Neue-Werte-P320F1_2F2_160.jpg, id=492, 642.4pt x 693.59125pt>
 File: Strom-Pad-Neue-Werte-P320F1_2F2_160.jpg Graphic file (type jpg)
 
 <use Strom-Pad-Neue-Werte-P320F1_2F2_160.jpg>
 
-LaTeX Warning: Reference `fig:strombegrenztpadfastsoll' on page 24 undefined on
- input line 246.
-
-
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [24 <./Strom_zu_hoch.jpg> <./P-Adaption-Strom.jpg> <./sSpiegelPadStrom.jpg>]
-<Strom-Pad-Neue-Werte-P218F1_5F2_400.jpg, id=370, 642.4pt x 690.58pt>
+<Strom-Pad-Neue-Werte-P218F1_5F2_400.jpg, id=502, 642.4pt x 690.58pt>
 File: Strom-Pad-Neue-Werte-P218F1_5F2_400.jpg Graphic file (type jpg)
 
 <use Strom-Pad-Neue-Werte-P218F1_5F2_400.jpg>
@@ -3223,11 +3577,6 @@ Using draft setting for this image.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 266.
-
-(/usr/share/texmf-texlive/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -3239,10 +3588,6 @@ of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `fig:strombegrenztpadsoll' on page 25 undefined on inp
-ut line 277.
 
 
 LaTeX Warning: Reference `chap:???' on page 25 undefined on input line 283.
@@ -3461,31 +3806,21 @@ l.299 \end{itemize}
                    
 Things are pretty mixed up, but I think the worst is over.
 
-
-LaTeX Warning: Reference `fig:linear1' on page 27 undefined on input line 316.
-
-<Sensor_10_1_100_linear1.jpg, id=385, 642.4pt x 693.59125pt>
+<Sensor_10_1_100_linear1.jpg, id=518, 642.4pt x 693.59125pt>
 File: Sensor_10_1_100_linear1.jpg Graphic file (type jpg)
 
 <use Sensor_10_1_100_linear1.jpg>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Warning: Reference `fig:linear2' on page 27 undefined on input line 326.
-
-<Sensor_10_1_100_linear2.jpg, id=386, 642.4pt x 693.59125pt>
+<Sensor_10_1_100_linear2.jpg, id=520, 642.4pt x 693.59125pt>
 File: Sensor_10_1_100_linear2.jpg Graphic file (type jpg)
 
 <use Sensor_10_1_100_linear2.jpg>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Warning: Reference `fig:nonlinear' on page 27 undefined on input line 337
-.
-
-<Sensor_10_1_100_nonlinear00001.jpg, id=387, 642.4pt x 693.59125pt>
+<Sensor_10_1_100_nonlinear00001.jpg, id=522, 642.4pt x 693.59125pt>
 File: Sensor_10_1_100_nonlinear00001.jpg Graphic file (type jpg)
 
 <use Sensor_10_1_100_nonlinear00001.jpg>) (./Disskussion.tex [27]
@@ -3593,6 +3928,9 @@ LaTeX Warning: Citation `wiki' on page 51 undefined on input line 3.
 
 LaTeX Warning: Citation `lasercommunity' on page 51 undefined on input line 4.
 
+
+LaTeX Warning: Citation `FrKu' on page 51 undefined on input line 24.
+
 )
 \tf@lof=\write5
 \openout5 = `Projektstudie_MASTERFILE.lof'.
@@ -3630,115 +3968,157 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 12451 strings out of 495062
- 177474 string characters out of 1182643
+ 12475 strings out of 495062
+ 178000 string characters out of 1182643
  630389 words of memory out of 3000000
- 14661 multiletter control sequences out of 15000+50000
+ 14669 multiletter control sequences out of 15000+50000
  30490 words of font info for 73 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  46i,12n,52p,331b,2358s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{figure.46} has been referenced but does not exist
+pdfTeX warning (dest): name{figure.58} has been referenced but does not exist
 , replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.45} has been referenced but does not exist, 
+pdfTeX warning (dest): name{figure.54} has been referenced but does not exist, 
 replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.44} has been referenced but does not exist, 
+pdfTeX warning (dest): name{figure.48} has been referenced but does not exist, 
 replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.43} has been referenced but does not exist, 
+pdfTeX warning (dest): name{figure.24} has been referenced but does not exist, 
 replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.42} has been referenced but does not exist, 
+pdfTeX warning (dest): name{figure.80} has been referenced but does not exist, 
 replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.41} has been referenced but does not exist, 
+pdfTeX warning (dest): name{figure.78} has been referenced but does not exist, 
 replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.40} has been referenced but does not exist, 
+pdfTeX warning (dest): name{figure.76} has been referenced but does not exist, 
 replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.39} has been referenced but does not exist, 
+pdfTeX warning (dest): name{figure.73} has been referenced but does not exist, 
 replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.38} has been referenced but does not exist, 
+pdfTeX warning (dest): name{figure.67} has been referenced but does not exist, 
 replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.36} has been referenced but does not exist, 
+pdfTeX warning (dest): name{figure.63} has been referenced but does not exist, 
 replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.34} has been referenced but does not exist, 
+pdfTeX warning (dest): name{figure.51} has been referenced but does not exist, 
 replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.33} has been referenced but does not exist, 
+pdfTeX warning (dest): name{figure.35} has been referenced but does not exist, 
 replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.32} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.31} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.30} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.29} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{appendix*.486} has been referenced but does not exi
+pdfTeX warning (dest): name{appendix*.527} has been referenced but does not exi
 st, replaced by a fixed one
 
-pdfTeX warning (dest): name{appendix*.485} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{appendix*.484} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{appendix*.483} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.482} has been referenced but does not exist
+pdfTeX warning (dest): name{section.526} has been referenced but does not exist
 , replaced by a fixed one
 
-pdfTeX warning (dest): name{appendix.481} has been referenced but does not exis
+pdfTeX warning (dest): name{appendix.525} has been referenced but does not exis
 t, replaced by a fixed one
 
-pdfTeX warning (dest): name{section.447} has been referenced but does not exist
+pdfTeX warning (dest): name{section.491} has been referenced but does not exist
 , replaced by a fixed one
 
-pdfTeX warning (dest): name{section.334} has been referenced but does not exist
+pdfTeX warning (dest): name{section.378} has been referenced but does not exist
 , replaced by a fixed one
 
-pdfTeX warning (dest): name{section.320} has been referenced but does not exist
+pdfTeX warning (dest): name{section.364} has been referenced but does not exist
 , replaced by a fixed one
 
-pdfTeX warning (dest): name{section.305} has been referenced but does not exist
+pdfTeX warning (dest): name{section.349} has been referenced but does not exist
 , replaced by a fixed one
 
-pdfTeX warning (dest): name{section.220} has been referenced but does not exist
+pdfTeX warning (dest): name{section.264} has been referenced but does not exist
 , replaced by a fixed one
 
-pdfTeX warning (dest): name{section.50} has been referenced but does not exist,
+pdfTeX warning (dest): name{section.84} has been referenced but does not exist,
  replaced by a fixed one
 
-pdfTeX warning (dest): name{appendix.49} has been referenced but does not exist
+pdfTeX warning (dest): name{appendix.83} has been referenced but does not exist
 , replaced by a fixed one
 
-pdfTeX warning (dest): name{chapter.48} has been referenced but does not exist,
+pdfTeX warning (dest): name{chapter.81} has been referenced but does not exist,
  replaced by a fixed one
 
-pdfTeX warning (dest): name{chapter.47} has been referenced but does not exist,
+pdfTeX warning (dest): name{subsubsection.79} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.77} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.75} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.74} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.72} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.66} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.64} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.62} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.59} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.56} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.53} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.50} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.47} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.44} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.43} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.42} has been referenced but does not exist,
  replaced by a fixed one
 
-pdfTeX warning (dest): name{chapter.28} has been referenced but does not exist,
+pdfTeX warning (dest): name{chapter.41} has been referenced but does not exist,
  replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.39} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.37} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.36} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{section.28} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.27} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.25} has been referenced but does not exi
+st, replaced by a fixed one
 
  </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1000.600pk> </home/kiz
 zm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/kizzm/.texmf-v
 ar/fonts/pk/ljfour/jknappen/ec/ectt0900.600pk> </home/kizzm/.texmf-var/fonts/pk
 /ljfour/jknappen/ec/ecit0900.600pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jkn
 appen/ec/ectt0800.450pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ec
-tt1095.600pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0900.600p
+rm0900.600pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1095.600p
 k> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1200.600pk> </home/k
 izzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1440.600pk> </home/kizzm/.texmf
 -var/fonts/pk/ljfour/jknappen/ec/ecsl1095.600pk> </home/kizzm/.texmf-var/fonts/
@@ -3757,9 +4137,9 @@ live/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/ty
 pe1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/
 amsfonts/cm/cmsy6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/
 cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on Projektstudie_MASTERFILE.pdf (59 pages, 2530617 bytes).
+Output written on Projektstudie_MASTERFILE.pdf (59 pages, 2539972 bytes).
 PDF statistics:
- 1854 PDF objects out of 2073 (max. 8388607)
- 618 named destinations out of 1000 (max. 500000)
- 375 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1987 PDF objects out of 2073 (max. 8388607)
+ 633 named destinations out of 1000 (max. 500000)
+ 551 words of extra memory for PDF output out of 10000 (max. 10000000)
 

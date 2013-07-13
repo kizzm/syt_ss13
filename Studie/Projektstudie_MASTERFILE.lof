@@ -6,32 +6,33 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Allgemeiner Aufbau des simulierten Systems}}{7}{figure.9}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Allgemeiner Aufbau des Sensors}}{10}{figure.19}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Sensor Funktions}}{11}{figure.24}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {a}}}{11}{figure.24}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {b}}}{11}{figure.24}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {c}}}{11}{figure.24}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {d}}}{11}{figure.24}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Allgemeines Funktionsdiagramm des Sensors}}{10}{figure.19}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Allgemeiner Aufbau des Sensors}}{10}{figure.20}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Sensor Funktions}}{11}{figure.25}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {a}}}{11}{figure.25}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {b}}}{11}{figure.25}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {c}}}{11}{figure.25}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {d}}}{11}{figure.25}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Simulink Grundprogramm}}{14}{figure.35}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Simulink Grundprogramm}}{14}{figure.36}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.3}{\ignorespaces P-Anteil von 30 und I-Anteil von 17}}{18}{figure.48}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces P-Anteil von 30 und I-Anteil von 17}}{19}{figure.49}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces P=22 - D=1 - N=1}}{19}{figure.51}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces P=22 - D=1 - N=1}}{20}{figure.52}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces P=20 - I=15 - D=1 - N=1}}{20}{figure.54}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces P=20 - I=16 - D=1 - N=1}}{21}{figure.55}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces P-Adaption\cite {FrKu}}}{22}{figure.58}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces P-Adaption mit neuen Motorparametern}}{23}{figure.63}
-\contentsline {figure}{\numberline {5.14}{\ignorespaces Stromh\"ohe w\"ahrend der Regelung}}{24}{figure.67}
-\contentsline {figure}{\numberline {5.15}{\ignorespaces P-Adaption mit Strombegrenzung}}{24}{figure.68}
-\contentsline {figure}{\numberline {5.16}{\ignorespaces Stromh\"ohe w\"ahrend der Regelung}}{24}{figure.69}
-\contentsline {figure}{\numberline {5.17}{\ignorespaces P-Adaption mit Strombegrenzung}}{25}{figure.70}
-\contentsline {figure}{\numberline {5.18}{\ignorespaces Angepasste P-Adaption mit Strombegrenzung}}{26}{figure.71}
-\contentsline {figure}{\numberline {5.19}{\ignorespaces Angepasste P-Adaption mit Strombegrenzung}}{26}{figure.73}
-\contentsline {figure}{\numberline {5.20}{\ignorespaces Erster linearer Sensor}}{28}{figure.76}
-\contentsline {figure}{\numberline {5.21}{\ignorespaces Zweier linearer Sensor}}{28}{figure.78}
-\contentsline {figure}{\numberline {5.22}{\ignorespaces Linearer Sensor}}{29}{figure.80}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces P-Anteil von 30 und I-Anteil von 17}}{18}{figure.49}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces P-Anteil von 30 und I-Anteil von 17}}{19}{figure.50}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces P=22 - D=1 - N=1}}{19}{figure.52}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces P=22 - D=1 - N=1}}{20}{figure.53}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces P=20 - I=15 - D=1 - N=1}}{20}{figure.55}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces P=20 - I=16 - D=1 - N=1}}{21}{figure.56}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces P-Adaption\cite {FrKu}}}{22}{figure.59}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces P-Adaption mit neuen Motorparametern}}{23}{figure.64}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Stromh\"ohe w\"ahrend der Regelung}}{24}{figure.68}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces P-Adaption mit Strombegrenzung}}{24}{figure.69}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Stromh\"ohe w\"ahrend der Regelung}}{24}{figure.70}
+\contentsline {figure}{\numberline {5.17}{\ignorespaces P-Adaption mit Strombegrenzung}}{25}{figure.71}
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Angepasste P-Adaption mit Strombegrenzung}}{26}{figure.72}
+\contentsline {figure}{\numberline {5.19}{\ignorespaces Angepasste P-Adaption mit Strombegrenzung}}{26}{figure.74}
+\contentsline {figure}{\numberline {5.20}{\ignorespaces Erster linearer Sensor}}{28}{figure.77}
+\contentsline {figure}{\numberline {5.21}{\ignorespaces Zweier linearer Sensor}}{28}{figure.79}
+\contentsline {figure}{\numberline {5.22}{\ignorespaces Linearer Sensor}}{29}{figure.81}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
