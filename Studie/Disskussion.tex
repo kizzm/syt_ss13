@@ -11,4 +11,89 @@
 \chapter{Disskussion}
 \label{chap:Disskussion}
 
-text
+Die Simulationsstudie wurde mit einem vorgegebenen Gleichstrommotor Abb. \ref{fig:motoraufbau} aus Kap. \ref{chap:ganzermotor} begonnen.
+Für diesen Motor wurde ein PID-Regler in Simulink integriert, Abb. \ref{fig:grundprogramm} aus Kap. \ref{chap:motorinsimulink}, und unterschiedliche Regelparameter getestet.
+Der Sensor wurde noch nicht integriert, um erst einmal eine Regelung für einen Gleichstrommotor zu bekommen, mit der es überhaupt möglich ist, einen Winkel einzustellen.
+
+Bei der reinen P-Regelung, konnte weder die Einregelzeit, noch die Genauigkeit erreicht werden.
+Wie in Abb. \ref{fig:p40} und \ref{fig:p45} aus Kap.\ref{chap:p_regelung} zu erkennen ist, beträgt die Zeit, bis der Winkel in der Nähe des Sollwertes ist, ca. \unit[7]{ms}.
+Jedoch ist ein große Schwankung des Winkels zu erkennen.
+Bei kleinerem P-Anteil von P = 40 ist die Abweichunng noch so groß, dass der Winkel in der unteren Grafik nicht erreicht wird.
+Bei einem etwas größerem P-Anteil P = 45 ist zu erkennen, dass der Sollwinkel zwar überfahren wird, aber nicht stabil bleibt.
+
+Die Erweiterung des reinen P-Reglers um einen I-Anteil ist in den Abb. \ref{fig:p30i17} und \ref{fig:p30i18} aus Kap.\ref{chap:pi_regelung} zu erkennen.
+Durch die Erweiterung mit einem I-Anteil, hat sich die Einregelzeit auf ca. \unit[9]{ms} verlängert.
+Auch wurde der Sollwinkel nicht erreicht.
+Eine Erhöhung des P- oder I-Anteils führte dann wieder zu Schwingungen um den Sollwinkel, wie es in Abb. \ref{fig:p30i18} exemplarsich für einen leicht erhöhten I-Anteil
+dargestellt ist.
+
+Die Erweiterung des reinen P-Reglers um einen D-Anteil ist in den Abb. \ref{fig:p22d1n1} und \ref{fig:p23d1n1} aus Kap.\ref{chap:pd_regelung} zu erkennen.
+Hier ergibt sich das gleiche Problem wie bei der P- und PI-Regelung.
+Bis zu einer Grenze der P- und D- Anteile, ist die Regelung zu weit von dem Sollwinkel entfernt.
+Wird nur ein Anteil leicht erhöht, kommt es zu einem Überschwingen um den Sollwinkel.
+Jedoch hat sich die Zeit, bis der aktuelle Winkel um den Sollwinkel schwingt, auf ca. \unit[6][ms} verkürzt.
+
+Es wurde nun mit einer PID-Regelung versucht, die Vorgaben zu erreichen.
+In den Abb. \ref{fig:p20i15d1n1} und \ref{fig:p20i16d1n1} aus Kap.\ref{chap:pid_regelung} sind die Ergenisse der PID-Regelung dargestellt.
+Es zeigt sich das von der P-, PI- und PD-Regelung bekannte Verhalten, dass bis zu entsprechenden Reglerwerten, der aktuelle Winkel zu weit vom Sollwinkel entfernt ist und
+bei einer nur kleinen Erhöhung eines der Parameter, ein Überschwingen um den Sollwinkel einsetzt.
+Dies ist exemplarisch für den I-Anteil in Abb. \ref{fig:p20i16d1n1} dargestellt.
+Die Zeit bis zum ersten durchstreichen des Sollwinkels ist etwas über \unit[8]{ms}.
+
+Mit dieser noch nicht zufriedenstellenden Regelung, wird der PID-Reglerblock in Simulink entfernt und eine P-Adaption in den Regelkreis eingebaut.
+Abb. \ref{fig:padaptionsimulin} aus Kap. \ref{chap:padaption} zeigen diesen Aufbau.
+Mit der vorgeschalteten Funktion vor den P-Verstärker, soll eine geringere bleibende Regeldiffernz erreicht werden.
+
+Wie aus den Abb. \ref{fig:padp41f1580} und \ref{fig:padp50f3400} aus Kap.\ref{chap:p_adaption} zu erkennen ist, wird der Sollwinkel noch nicht erreicht.
+Der aktuelle Winkel gelangt bei kleineren Parameterwerten nicht in die Nähe des Sollwinkels.
+Bei größeren Parameterwerten dagegen, ergibt sich wieder ein Überschwingen um den Sollwert.
+Auch mit dieser P-Adaption konnten keine Parameterwerte gefunden werden, mit der eine Regelung bei diesem Gleichstrommotor, den Vorgaben entsprechend realisiert werden 
+konnte.
+
+Um eine erfolgreiche Regelung zu erreichen, werden die Motorparameter angepasst, während die P-Adaption als Regelung behalten wird.
+Es wird zuerst die Induktivität und der Innenwiderstand eines Galvos eingesetzt, um so erneut Parameter zu finden, die eine erfolgreiche Regelung ermöglichen.
+
+Mit diesen Parametern konnte zwar ein Überschwingen um den Sollwinkel nicht verhindert werden, jedoch hat sich die Zeit, bis zum ersten durchschreiten des Sollwinkels auf
+ca. \unit[2]{ms} verkürzt.
+Abb. \ref{fig:padwerte} aus Kap. \ref{chap:p_adaptiongalvo} zeigt den Vorgang.
+
+Da die Anpassung des Motors gut Ergebnisse zeigte, wird nun mit weiterer Anpassung der verschiedenen Motor- und Spiegelwerte versucht, eine erfolgreiche Regelung aufzubauen.
+Durch die so erhaltenen Parameter könnte es möglich sein, entsprechende Bauteil fertigen zu lassen, um so eine Umsetzung in die Wirklichkeit zu realisieren.
+
+Nach entsprechenden Anpassungen konnte eine erfolgreiche Regelung aufgebaut werden.
+Abb. \ref{fig:padneuewerte} aus Kap. \ref{chap:p_adaptionwerte} zeigt, dass die Einregelzeit unter \unit[1]{ms} liegt und sich der aktuelle Winkel in den Regeldifferenzen 
+befindet.
+
+Ein Blick auf den Strom zeigte, dass weitere Anpassungen notwendig sind.
+Es wurde eine Strombegrenzung eingebaut und neue Regelparameter probiert.
+Siehe Abb. \ref{fig:stromzuhoch} und \ref{fig:strombegrenztsauber} aus Kap. \ref{chap:p_adaptionstrom}.
+
+Nach einigen Versuchen mit ändern der verschiedenen Parameter, ist wieder eine erfolgreiche Regelung aufgebaut worden.
+Der Strom ist auf \unit[10]{A} begrenzt, die Einregelzeit liegt bei \unit[1]{ms} und der aktuelle Winkel ist in den Regeldifferenzen.
+Abb. \ref{fig:strombegrenztpadsoll} aus Kap. \ref{chap:p_adaptionfertig} zeigt die erfolgreiche Regelung.
+
+Nach dem es nun möglich ist, die Vorgaben zu erfüllen, werden 3 verschiedenen Sensoren in den Regelkreis eingebracht.
+Es wird mit einem idealen linearen Sensor begonnen.
+An den schliesst sich ein linearer Sensor an, der über eine Faltung der Blende mit den Lichtsensoren gebildet wird.
+Der dritte und letzte Sensor stellt einen nichtlinearen Sensor dar.
+
+Abb. \ref{fig:simusensor} zeigt den Simulationsaufbau für die verschiedenen Sensoren.
+Die weitere Implememtierung der verschiedenen Sensoren erfogt über Parameter in den Matlab-Files.
+
+Als der erste lineare Sensor das aktuelle Positionssignal lieferte, musste die Regelung angepasst werden.
+Mit den neuen Regelparametern konnte sogar eine noch kürzere Einregelzeit erreicht werden.
+Abb. \ref{fig:linear1} aus Kap. \ref{chap:sensorregelung1} zeigt die erfolgreiche Regelung.
+
+Ohne die Regelparameter zu ändern, wurde der zweite lineare Sensor getestet.
+Die Regelung ist zwar genauso schnell, jedoch bleibt eine Regeldifferenz übrig.
+In Abb. \ref{fig:linear2} aus Kap. \ref{chap:sensorregelung2} ist der Vorgang dargestellt.
+Die verbleibende Regeldifferenz wird erstmal auf die diskrete Faltung zurückgeführt, bei der Rechenfehler auftreten können.
+
+Nun wurde der dritte Sensor getestet.
+Wie zu erwarten, verbleibt eine Regeldifferenz.
+In Abb. \ref{fig:nonlinear} aus Kap. \ref{chap:sensorregelung3} ist der Vorgang dargestellt.
+Das ist ein Bild, wie es in einem wirklichen Aufbau z.B. mit genau messbarere Laserablenkung zu entdecken wäre.
+Man müsste einen Winkel einstellen, und durch die entsprechende Laserablenkung auf den wirklichen Winkel schliessen.
+In der Simulation gibt es den Vorteil, dass wir uns den wirklichen Winkel anschauen.
+Dieser wird dann über den nichtlinearen Sensor in ein Spannungssignal gewandelt und dem Regler zugeführt.
+Insofern würde eine Veränderung der Regelparameter keine genauere Regelung bewirken.

@@ -14,23 +14,25 @@
 \section{Simulation}
 In diesem Abschnitt werden verschiedene Simulationen durchgeführt.
 Der Motor, der der Regelung zu Grunde liegt, ist der Gleichstrommotor aus der Vorlesung von Prof. Froriep.
-Mit diesem Motor soll von einer Nullposition ausgehend ein Winkel von 20{\textdegree} angefahren werden. 
+Mit diesem Motor soll von einer Nullposition ausgehend ein Winkel von \unit[20]{°} angefahren werden. 
 Dieser Winkel soll innerhalb von einer Millisekunde erreicht werden.
 
-Es wird eine Spannungsbegrenzung von +/- 24 V eingeführt, da diese eine in der Fertigung übliche Versorgungsspannung ist.
+Es wird eine Spannungsbegrenzung von \unit[+/-24]{V} eingeführt, da diese eine in der Fertigung übliche Versorgungsspannung ist.
 
 Zu Beginn wird der Sensor, der das aktuelle Positionssignal liefert, aus der Regelung heraus gelassen. 
 Somit ist es möglich, die Regelung an den Motor anzupassen und sobald
 diese die Sollwerte erfüllt, werden 3 verschiedene Sensoren das Positionssignal liefern.
 
-\subsection{chap:pidregelung}
+\subsection{PID-Regelung}
+\label{chap:pidregelung}
 Für die verschiedenen P-, PI-, PD- und PID-Regelungen wird der PID-Reglerblock von Simulink verwendet.
 
 Es wird mit einer P-Regelung begonnen, die Sollwerte zu erreichen. Wenn die P-Regelung nicht ausreicht, wird die P-Regelung erst nur um einen I-Anteil und dann nur um einen 
 D-Anteil erweiteret. 
 Sollten immernoch keine Zufriedenstellenden Ergebnisse vorliegen, so wird mit einer PID-Regelung versucht, die Vorgaben zu erreichen.
 
-\subsubsection{chap:p_regelung}
+\subsubsection{P-Regelung}
+\label{chap:p_regelung}
 In Abb. \ref{fig:p40} ist das Ergebnis der reinen P-Regelung dargestellt. 
 Es ist zu erkennen, dass nach ca. 7 ms es keine Veränderung des eingesetllten Winkels gibt. 
 Eine Erhöhung des P-Anteils ergibt ein Überschwingen, wie es in Abb. \ref{fig:p45} dargestellt ist.
@@ -51,11 +53,12 @@ Für die folgenden Simulationen wird das Matlab-File "msSpiegel_PID.m" und das Si
 	\label{fig:p45}
 \end{figure}
 
-\subsubsection{chap:pi_regelung}
+\subsubsection{PI-Regelung}
+\label{chap:pi_regelung}
 In Abb. \ref{fig:p30i17} ist das Ergebnis der PI-Regelung dargestellt. 
 Es ist zu erkennen, dass nach ca. 13 ms es keine Veränderung des eingesetllten Winkels gibt. 
-Eine Erhöhung des P- oder I-Anteils ergibt ein Überschwingen, wie es in Abb. \ref{fig:p30i17} dargestellt ist.
-In Abb. \ref{fig:p30i17} und \ref{fig:p30i17} ist in der untersten Grafik der Sollwinkel sowie die angegebene Abweichung angezeigt. 
+Eine Erhöhung des P- oder I-Anteils ergibt ein Überschwingen, wie es in Abb. \ref{fig:p30i18} dargestellt ist.
+In Abb. \ref{fig:p30i17} und \ref{fig:p30i18} ist in der untersten Grafik der Sollwinkel sowie die angegebene Abweichung angezeigt. 
 Wie zu erkennen ist, ist die verbleibende Regeldifferenz noch viel zu groß. 
 Demnach wird der zugefügte I-Anteil herausgenommen und ein D-Anteil zur reinen P-Regelung hinzugenommen, um so ein besseres Regelergebnis zu erreichen.
 \begin{figure}[!h]
@@ -66,12 +69,13 @@ Demnach wird der zugefügte I-Anteil herausgenommen und ein D-Anteil zur reinen P
 \end{figure}
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=0.6\textwidth]{PI-P30I17.jpg}
-	\caption{P-Anteil von 30 und I-Anteil von 17}
-	\label{fig:p30i17}
+	\includegraphics[width=0.6\textwidth]{PI-P30I18.jpg}
+	\caption{P-Anteil von 30 und I-Anteil von 18}
+	\label{fig:p30i18}
 \end{figure}
 
-\subsubsection{chap:pd_regelung}
+\subsubsection{PD-Regelung}
+\label{chap:pd_regelung}
 Auch mit der PD-Regelung werden die Vorgaben noch nicht erfüllt. 
 In Abb. \ref{fig:p22d1n1} ist das Ergebnis der PD-Regelung dargestellt. 
 Es ist zu erkennen, dass nach ca. 7 ms es keine Veränderung des eingesetllten Winkels gibt. 
@@ -91,7 +95,8 @@ Wie zu erkennen ist, ist die verbleibende Regeldifferenz noch viel zu groß.
 	\caption{P=22 - D=1 - N=1}
 	\label{fig:p23d1n1}
 \end{figure}
-\subsubsection{chap:pid_regelung}
+\subsubsection{PID-Regelung}
+\label{chap:pid_regelung}
 Nun wird mit einer Kombination der P-, I- und D-Anteile die Regelung betrieben.
 In Abb. \ref{fig:p20i16d1n1} ist das Ergebnis der PID-Regelung dargestellt. 
 Es ist zu erkennen, dass nach ca. 7 ms es keine Veränderung des eingesetllten Winkels gibt. 
@@ -111,7 +116,8 @@ Durch die große Abweichung vom Sollwinkel ist in dieser Grafik kein Graph zu erk
 	\label{fig:p2oi16d1n1}
 \end{figure}
 
-\subsection{chap:padaption}
+\subsection{P-Adaption}
+\label{chap:padaption}
 Es zeigt sich, dass der P-Anteil den meisten Einfluss, bzw. den größten Erfolg bei der Regelung ausmacht. 
 Durch hinzugefügte I- oder D-Anteile konnte die Regelung nicht verbessert werden.
 Nach dem die verschiedenen Regler die Vorgaben noch nicht erfüllen konnten, wird nun die P-Adapion eingesetzt. 
@@ -129,8 +135,16 @@ Dabei muss der Regelkreis folgendermaßen erweitert werden:
 	\label{fig:padaption}
 \end{figure}
 FrKu: PDF, "Tempo beim Laserzugriff", Artikel im F&M Elektronik, Jahrg.111(2003)5, Lugmair, Froriep, Kuplent, Langhans
+Eine Integration in das bestehende Simulinkprogramm ist in Abb. \ref{} dargestellt.
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.6\textwidth]{sSpiegelPad.jpg}
+	\caption{P-Adaption in Simulink
+	\label{fig:padaptionsimulink}
+\end{figure}
 
-\subsubsection{chap:p_adaption}
+\subsubsection{Regelung mit P-Adaption}
+\label{chap:p_adaption}
 Nun kann mit drei verschiedenenn Parametern verucht werden, die Sollwerte zu erreichen.
 Wobei die beiden f-Parameter zu Beginn auf 1 gesetzt werden und erst mit dem erhöhen des P-Anteils versucht wird, eine gute Regelung zu erhalten. 
 Danach werden die beiden f-Parameter einzeln erhöht bzw. erniedrigt, bis sich das Erebniss verbessert hat. 
@@ -152,7 +166,8 @@ Es kommt zwar zu einem Schwingen um den Sollwinkel, aber dieser kann nicht stabi
 	\label{fig:padp50f3400}
 \end{figure}
 
-\subsubsection{chap:p_adaptiongalvo}
+\subsubsection{P-Adaption mit Galvo-Werten}
+\label{chap:p_adaptiongalvo}
 Durch die Verwendung der P-Adaption konnte die Einregelzeit nicht verbessert werden.
 Es zeigt sich, dass mit dem vorhandenen Gleichstrommoter keine der Vorgaben eingehalten werden können.
 Um heraus zu finden, welche Daten der Motor aufweisen müsste, um mit einer PID- oder P-Adaption geregelt werden zu könnnen, werden jetzt zusätzlich zu den $f_{1}$ und $f_{2}$
@@ -181,7 +196,8 @@ Es sind folgende Werte aktuell eingestellt:
 	\label{fig:padwerte}
 \end{figure}
 
-\subsubsection{chap:p_adaptionwerte}
+\subsubsection{P-Adaption mit neuen Werten}
+\label{chap:p_adaptionwerte}
 Nun werden die Motor- und Spiegelwerte solange verändert, bis sich das gewünschte Ergebniss einstellt. 
 Sollte die Regelung erfolgreich sein, könnte mit den veränderten Werten evtl. ein Motor und Spiegel hergestellt werden, der den Anforderungen entspricht.
 
@@ -207,7 +223,8 @@ Dieser Regelung liegen folgende Werte zu Grunde:
 \item $f_2$: 160
 \end{itemize}
 
-\subsubsection{chap:p_adaptionstrom}
+\subsubsection{Strombegrenzung}
+\label{chap:p_adaptionstrom}
 Ein Blick auf den Strom liefert allerdings Ergebnisse, die weiterer Überarbeitung der Regelung bedürfen.
 In Abb. \ref{fig:stromzuhoch} ist der Strom der aktuellen Regelung dargestellt. 
 Es fliessen Ströme in Höhe von 80 A.
@@ -258,7 +275,8 @@ Abb. \ref{fig:strombegrenztpadfastsoll} zeigt schon ein sehr gutes Ergebnis.
 	\label{fig:strombegrenztpadfastsoll}
 \end{figure}
 
-\subsubsection{chap:p_adaptionfertig}
+\subsubsection{Fertige P-Adaption}
+\label{chap:p_adaptionfertig}
 Die Einregelzeit liegt nur noch knapp über der vorgegebenen Zeit, durch weitere Anpassung der Regelparameter soll die vorgegebene Einregelzeit erreicht werden.
 Abb. \ref{}
 \begin{figure}[!h]
@@ -279,12 +297,19 @@ Regelparameter, trotz Spannungs- und Strombegrenzung, die Regelung erfolgreich i
 Der Spiegel zittert zwar etwas um die Position, dies ist aber im angegebenen 
 Toleranzbereich.
 
-\subsection{chap:sensorregelung}
-Nach dem die Regelung für einen perfekt linear arbeitenden Sensor funktioniert, wird der Sensor aus Kap \ref{chap:???} in die Simulation mit eingebaut.
+\subsection{Regelung mit Sensor}
+\label{chap:sensorregelung}
+Nach dem die Regelung für einen perfekt linear arbeitenden Sensor, der durch ein direktes abgreifen des aktuellen Winkels realisiert wurde, funktioniert, wird der Sensor 
+aus Kap \ref{chap:sensor} in die Simulation mit eingebaut.
 Dafür wird das vorhandene Simulink-File "sSpiegelPadStrom.slx" hergenommen und um den Sensor erweitert.
 Zudem wird der eingegebene Winkel in eine Spannung umgerechnet, da der Sensor eine vom Winkel abhängige Spannung ausgibt.
-In Abb. \ref{} ist der gesamte Simulationsaufbau dargestellt, welcher als "sSpiegelPadStromSensor.slx" gespeichert ist.
-
+In Abb. \ref{fig:simusensor} ist der gesamte Simulationsaufbau dargestellt, welcher als "sSpiegelPadStromSensor.slx" gespeichert ist.
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.6\textwidth]{sSpiegelPadStromSensor.jpg}
+	\caption{Simulinaufbau mit Sensor}
+	\label{fig:simusensor}
+\end{figure}
 Zur Ansteuerung wird das Matlab-File "msSpiegel_Pad_Neue_Werte_Strom.m" modifiziert und als "msSpiegelundSensor.m" gespeichert.
 In diesem Matlab-File ist es möglich, verschiedene Kenndaten für den Sensor einzugeben.
 Es werden folgende Daten hergenommen:
@@ -312,7 +337,8 @@ Bei der dritten und letzten Simulation wird ein nichtlinearer Sensor verwendet.
 Wobei der Nichtlinearitätsfaktor, der Werte zwischen 0 und 1 annehmen kann, auf den Wert 0,0001 gesetzt wird.
 Dies sollte ein nahezu lineares Verhalten zeigen.
 
-\subsubsection{chap:sensorregelung1}
+\subsubsection{Linearer Sensor 1}
+\label{chap:sensorregelung1}
 Abb. \ref{fig:linear1} zeigt das Regelergebnis des ersten linearen Sensors.
 Es ist gut zu erkennen, dass die Regelung sogar schneller Erfolgt als vorher.
 \begin{figure}[!h]
@@ -322,7 +348,8 @@ Es ist gut zu erkennen, dass die Regelung sogar schneller Erfolgt als vorher.
 	\label{fig:linear1}
 \end{figure}
 
-\subsubsection{chap:sensorregelung2}
+\subsubsection{Linearer Sensor 2}
+\label{chap:sensorregelung2}
 Abb. \ref{fig:linear2} zeigt das Regelergebnis des zweiten linearen Sensors.
 Es ist gut zu erkennen, dass eine Regeldifferenz übrig bleibt.
 Diese lässt sich auch nicht durch verändern der Regelparameter reduzieren.
@@ -333,7 +360,8 @@ Diese lässt sich auch nicht durch verändern der Regelparameter reduzieren.
 	\label{fig:linear2}
 \end{figure}
 
-\subsubsection{chap:sensorregelung3}
+\subsubsection{Nichtlinearer Sensor}
+\label{chap:sensorregelung3}
 Abb. \ref{fig:nonlinear} zeigt das Regelergebnis des nicht linearen Sensors.
 Auch hier ist eine restliche Regeldifferenz zu erkennen, die sich wiederum nicht durch anpassen der Regelparemeter begleichen lässt.
 \begin{figure}[!h]
