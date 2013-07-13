@@ -23,14 +23,13 @@ Es werden folgende, willkürlich gewählten Leistungsmerkmale vorgegeben:
 \item  Verstellung des Spiegels aus der Ruhelage (Mitte) um $\unit[\pm10]{°}$. 
 Wobei die Ruhelage des Spiegels den Laserstrahl genau in die Mitte der Fokuslinie auf dem Werkstück ablenkt.
 \item  Um einen maximalen Winkelbereich von \unit[20]{°} abzufahren, darf die Regelung nicht länger als \unit[1]{ms} benötigen.
-\item Der einzustellende Winkel soll mit einer Genauigkeit von \unit[1e-3]{°} \approx \unit[17]{\mu rad} erreicht und gehalten werden.
+\item Der einzustellende Winkel soll mit einer Genauigkeit von \unit[1e-3]{°} erreicht und gehalten werden.
 \end{itemize}
 
 
 In dieser Simulationsstudie wird vorausgesetzt, dass der Abstand des Lasers zum Werkstück keine Rolle spielt. Zudem wird der Fokus des Laserstrahls über den zu regelnden 
 Winkelbereich als konstant angenommen.
-Der aufeinander abgestimmte Vorschub des Werkstücks und abfahren der Fokuslinie des Lasers wird hier nicht betrachtet, da nur die Ablenkung des Laserstrahls im Zentrum der 
-Studie steht.
+Der aufeinander abgestimmte Vorschub des Werkstücks und abfahren der Fokuslinie des Lasers wird hier nicht betrachtet, da nur die Ablenkung des Laserstrahls im Zentrum der Studie steht.
 Ein in der Realität beobachtbarer an- und abstieg der Laserleistung beim an- und abschalten des Lasersstrahls wird hier vernachlässigt.
 
 
@@ -57,5 +56,5 @@ trifft, würde der mittlere Teil des Laserstrahls abgelenkt und der äußere Teil w
 
 Es wird mit einem vorgegebenen Gleichstrommotor begonnen, Werte für die Regelparameter heraus zu finden, mit denen sich erste Ergebnisse zeigen.
 Mit diesen gefundenen Regelparametern wird dann versucht, die Regelergebnisse noch zu verbessern.
-Als Alternative kommt die s.g. P-Adaption in Betracht. Bei der P-Adaption gibt es im Regelkreis nur einen P-Regler. Diesem P-Regler ist eine Funktion vorgeschaltet, die es 
-über zwei einzugebende Parameter erlaubt, näher an den Sollwert zu gelangen.
+Als Alternative kommt die s.g. P-Adaption in Betracht. Bei der P-Adaption gibt es im Regelkreis nur einen P-Regler. Diesem P-Regler ist eine Funktion vorgeschaltet, die es über 
+zwei einzugebende Parameter erlaubt, näher an den Sollwert zu gelangen.
