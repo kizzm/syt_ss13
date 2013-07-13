@@ -18,8 +18,8 @@ Wobei eine Fokusebene durch Werte gleicher Intensität und gleicher Strahldurchme
 Aber auch in der Medizin, beim Laserstrahlschweißen, in der Raumfahrt, beim Militär und in Barcode Scannern finden Spiegelmotoren Verwendung.
 Die Spiegel sind auf einer Welle montiert, die über einen Motor bewegt wird. 
 Es gibt verschiedene Größen der Spiegel und der entsprechenden Motoren. 
-Aber nicht nur durch die Größe der Spiegel und der Motoren, sondern auch in der erreichbaren bzw. geforderten Geschwindigkeit und Genauigkeit unterscheiden sich die 
-verschiedenen Ausührungen.
+Aber nicht nur die Größe der Spiegel und der Motoren unterscheiden sich, sondern auch in der 
+erreichbaren bzw. geforderten Geschwindigkeit und Genauigkeit unterscheiden sich die verschiedenen Ausührungen.
 
 Wird ein Laserstrahl durch zwei Spiegel abgelenkt, so ist die Fokusebene auf eine kleine Fläche beschränkt, siehe Abb. \ref{fig:galvohalter} und \ref{fig:fokusebene}.
 Sollen größere Flächen mit dem Laser bearbeitet werden, so müssen die Anlagen verändert werden.
@@ -50,7 +50,6 @@ Diese Lösung ist für sehr feine bzw. kleine Strukturen und aus wirtschaftlichen 
 
 Eine andere Lösung ist der Einsatz von Robotern in der Fertigung. Dies bringt allerdings den Nachteil, dass die Bewegung drei-dimensional ausgeführt wird und so weitere 
 Ungenauigkeiten miteingebracht werden.
-Ein große finanzielle Investition stellt ein Robotor ebenfalls dar.
 
 Der dritte Lösungsansatz sieht einen fest eingebauten Laser vor, dessen Laserstrahl nur in einer Richtung abgelenkt wird.
 Durch die Auslenkung des Laserstrahls in nur einer Richtung, ergibt sich keine Fokusebene sondern eine Fokuslinie.
@@ -58,8 +57,13 @@ Bewegt sich nun das zu beschriftende Werkstück quer zu der Fokuslinie, kann eine
 
 \begin{figure}[ht]
 	\centering
+<<<<<<< HEAD
 	\includegraphics[width=0.6\textwidth]{Allgmeiner_Aufbau.jpg}
 	\caption{Fokusline}}
+=======
+	\includegraphics[width=1\textwidth]{Allgmeiner_Aufbau.jpg}
+	\caption{Fokuslinie}
+>>>>>>> fecebad13c9626407f1c68a88dac332b3020c506
 	\label{fig:fokuslinie}
 \end{figure}
 
@@ -71,9 +75,8 @@ Die Bearbeitung von Solarpannels oder Werbebeschriftungen auf Folien können so r
 
 Gegenstand dieser Simulationsstudie ist die Regelung eines Motors zur Ablenkung eines Laserstrahls an einem Spiegel.
 
-Grundsätzlich sollen verschiedene Winkel eingestellt werden können, wobei die größte Winkeländerung \unit[20]{°} betragen soll.
+Es sollen verschiedene Winkel eingestellt werden, wobei die größte Winkeländerung \unit[20]{°} betragen soll.
 Die größte Winkeländerung soll mit einer Einstellzeit von \unit[1]{ms} und mit einer Regelgenauigkeit von \unit[1e-3]{°} erreicht werden.
-Die Simulation wird mit einem fest vorgegebenen Winkel von \unit[20]{°} durchgeführt und eine entsprechende Regelung zur Einhaltung der Vorgaben soll entwickelt werden.
 
 Der Spiegel ist auf der Welle eines Gleichstrommotors befestigt.
 Da Gleichstrommotoren auf eine Drehgeschwindigkeit und nicht auf einen festen Winkel geregelt werden, ergibt sich hier eine neue Aufgabenstellung.
@@ -82,7 +85,6 @@ Die Regelung umfasst folgende Bereiche:
  \item Elektronische Steuerung des Motors
  \item Mechanische Umsetzung der elektrischen Steuersignale in Drehbewegungen
  \item Aufnehmen der aktuellen Winkelposition durch einen Sensor und Umwandlung in ein elektrisches Signal
- \item Entwicheln und testen verschiedener Sensoren
 \end{itemize}
 
 Das Aufnehmen der Winkelposition ist von großer Wichtigkeit. 

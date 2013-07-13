@@ -20,6 +20,7 @@ In dieser Simulationsstudie soll untersucht werden, ob es m√∂glich ist eine Rege
 auf eine bestimmte Winkelposition zu bewegen und in entsprechenden Regeldifferenzen zu halten.
 Es werden folgende, willk√ºrlich gew√§hlte Leistungsmerkmale vorgegeben:
 \begin{itemize}
+<<<<<<< HEAD
 \item  Verstellung des Spiegels aus der Ruhelage (Mitte) um $\unit[\pm10]{¬∞}$. 
 Wobei die Ruhelage des Spiegels den Laserstrahl genau in die Mitte der Fokuslinie auf dem Werkst√ºck ablenkt.
 \item  Um einen maximalen Winkelbereich von \unit[20]{¬∞} abzufahren, darf die Regelung nicht l√§nger als \unit[1]{ms} ben√∂tigen.
@@ -32,6 +33,19 @@ Zudem wird der Fokus des Laserstrahls √ºber den zu regelnden Winkelbereich als k
 Der aufeinander abgestimmte Vorschub des Werkst√ºcks und abfahren der Fokuslinie des Lasers wird hier nicht betrachtet, da nur die Ablenkung des Laserstrahls im Zentrum der 
 Studie steht.
 Ein in der Realit√§t beobachtbarer an- und abstieg der Laserleistung beim an- und abschalten des Lasersstrahls wird hier ebenso vernachl√§ssigt.
+=======
+\item  Verstellung des Spiegels aus der Ruhelage (Mitte) um $\unit[\pm10]{∞}$. 
+Wobei die Ruhelage des Spiegels den Laserstrahl genau in die Mitte der Fokuslinie auf dem Werkst¸ck ablenkt.
+\item  Um einen maximalen Winkelbereich von \unit[20]{∞} abzufahren, darf die Regelung nicht l‰nger als \unit[1]{ms} benˆtigen.
+\item Der einzustellende Winkel soll mit einer Genauigkeit von \unit[1e-3]{∞} erreicht und gehalten werden.
+\end{itemize}
+
+
+In dieser Simulationsstudie wird vorausgesetzt, dass der Abstand des Lasers zum Werkst¸ck keine Rolle spielt. Zudem wird der Fokus des Laserstrahls ¸ber den zu regelnden 
+Winkelbereich als konstant angenommen.
+Der aufeinander abgestimmte Vorschub des Werkst¸cks und abfahren der Fokuslinie des Lasers wird hier nicht betrachtet, da nur die Ablenkung des Laserstrahls im Zentrum der Studie steht.
+Ein in der Realit‰t beobachtbarer an- und abstieg der Laserleistung beim an- und abschalten des Lasersstrahls wird hier vernachl‰ssigt.
+>>>>>>> 3520102030dedce8edb795c158f30b15688200b4
 
 
 Die Simulationsstudie deckt folgende Themen ab:
@@ -55,8 +69,15 @@ trifft, w√ºrde der mittlere Teil des Laserstrahls abgelenkt und der √§u√üere Tei
 \item Erw√§rmung und dadurch eine Ver√§nderung der Parameter wird nicht betrachtet
 \end{itemize}
 
+<<<<<<< HEAD
 Es wird mit einem vorgegebenen Gleichstrommotor begonnen, Werte f√ºr die Regelparameter zu evaluieren, mit denen sich erste Ergebnisse zeigen.
 Mit diesen Regelparametern sollen dann die Regelergebnisse verbessert werden.
 Als Alternative kommt die s.g. P-Adaption in Betracht. 
 Bei der P-Adaption gibt es im Regelkreis nur einen P-Regler. 
 Diesem P-Regler ist eine Funktion vorgeschaltet, die es √ºber zwei einzugebende Parameter erlaubt, die verbleibende Regeldifferenz zu minimieren.
+=======
+Es wird mit einem vorgegebenen Gleichstrommotor begonnen, Werte f¸r die Regelparameter heraus zu finden, mit denen sich erste Ergebnisse zeigen.
+Mit diesen gefundenen Regelparametern wird dann versucht, die Regelergebnisse noch zu verbessern.
+Als Alternative kommt die s.g. P-Adaption in Betracht. Bei der P-Adaption gibt es im Regelkreis nur einen P-Regler. Diesem P-Regler ist eine Funktion vorgeschaltet, die es ¸ber 
+zwei einzugebende Parameter erlaubt, n‰her an den Sollwert zu gelangen.
+>>>>>>> 3520102030dedce8edb795c158f30b15688200b4
