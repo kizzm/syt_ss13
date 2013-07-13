@@ -87,7 +87,13 @@ Abb. \ref{fig:linear1} aus Kap. \ref{chap:sensorregelung1} zeigt die erfolgreich
 Ohne die Regelparameter zu ändern, wurde der zweite lineare Sensor getestet.
 Die Regelung ist zwar genauso schnell, jedoch bleibt eine Regeldifferenz übrig.
 In Abb. \ref{fig:linear2} aus Kap. \ref{chap:sensorregelung2} ist der Vorgang dargestellt.
+Die verbleibende Regeldifferenz wird erstmal auf die diskrete Faltung zurückgeführt, bei der Rechenfehler auftreten können.
 
 Nun wurde der dritte Sensor getestet.
 Wie zu erwarten, verbleibt eine Regeldifferenz.
 In Abb. \ref{fig:nonlinear} aus Kap. \ref{chap:sensorregelung3} ist der Vorgang dargestellt.
+Das ist ein Bild, wie es in einem wirklichen Aufbau z.B. mit genau messbarere Laserablenkung zu entdecken wäre.
+Man müsste einen Winkel einstellen, und durch die entsprechende Laserablenkung auf den wirklichen Winkel schliessen.
+In der Simulation gibt es den Vorteil, dass wir uns den wirklichen Winkel anschauen.
+Dieser wird dann über den nichtlinearen Sensor in ein Spannungssignal gewandelt und dem Regler zugeführt.
+Insofern würde eine Veränderung der Regelparameter keine genauere Regelung bewirken.
