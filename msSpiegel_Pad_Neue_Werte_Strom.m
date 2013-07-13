@@ -73,7 +73,7 @@ opts=simset('solver','ode45',...
     'Refine',1,...
     'MaxStep',.00001);
 
-[t,x,y]=sim('sSpiegelPadStrom',[t0 te],opts);
+[t,x,y]=sim('sSpiegelPadStromNeu',[t0 te],opts);
 
 
 % Plots

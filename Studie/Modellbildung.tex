@@ -7,14 +7,14 @@
 %************************************************************************************************
 % Kap.3 Mathematische Modellbildung
 %************************************************************************************************
-
+\unit[1]{ms}
 \chapter{Mathematische Modellbildung}
 \label{chap:modellbildung}
 
 \section{Das System}
 \label{chap:system}
-Der vorliegenden Simulationsstudie wird in folgendes, in Abb. \ref{fig:aufbau_system} dargestellen Systems zugrunde gelegt.
-\begin{figure}[ht]
+Der vorliegenden Simulationsstudie wird folgendes, in Abb. \ref{fig:aufbau_system} dargestellen Systems zugrunde gelegt.
+\begin{figure}[!h]
 	\centering
 	\includegraphics[width=0.6\textwidth]{System_Aufbau.jpg}
 	\caption{Allgemeiner Aufbau des simulierten Systems}
@@ -23,49 +23,58 @@ Der vorliegenden Simulationsstudie wird in folgendes, in Abb. \ref{fig:aufbau_sy
 
 \section{Der Spiegel}
 \label{chap:spiegel}
+Der Spiegel ist das Bauteil, welches durch den Gleichstrommotor bewegt werden soll.
+Für die Integration in die Simulation müssen vorab einige Berechnungen angestellt werden.
+Als erstes wird die benötigte Beschleunigung berechnet, die mit einem Drehmoment auf den Spiegel übertragen werden muss, um den Spiegel mit seinem Trägheitsmoment über 
+seinen maximalen Ablenkwinkel zu bewegen.
 
-Lineares Modell für die Berechnungen:
-
+Dabei werden folgende Vorgaben zu Grunde gelegt:
+\begin{itemize}
+\item Maximale Ablenkung von $\phi$ = \unit[20}{°} \approx \unit[0,349]{rad}
+\item Maximale Zeit für Ablenkung \unit[1]{ms}
+\item Lineares Modell
+\end{itemize}
+Berechnung der Winkelgeschwindigkeit:
 \begin{center}
 \begin{equation}
 \label{equ:lineares_motor_model}
-\Delta \phi = 20{\textdegree} = 0,349 rad\\
-\Delta t = 1 ms = 0,001 s\\
-\omega = \frac {\Delta \phi}{\Delta t} = \frac {0,349 rad}{0,001 s} = 349 rad/s\\
+\Delta \phi = \unit[20]{°} = \unit[0,349]{rad}\\
+\Delta t = \unit[1]{ms} = \unit[0,001]{s}\\
+\omega = \frac {\Delta \phi}{\Delta t} = \frac {\unit[0,349]{rad}}{\unit[0,001]{s}} = \unit[349]{rad/s}\\
 \end{equation}
 \end{center}
 
-Es ergibt sich eine Druchschnittswinkelgeschwindigkeit von 349 rad/s, um einen Winkel von 20{\textdegree} in 1 ms zu überfahren.
+Es ergibt sich eine Druchschnittswinkelgeschwindigkeit von \unit[349]{rad/s}, um einen Winkel von \unit[20}{°} in \unit[1]{ms} zu überfahren.
 Dies würde aber eine Anfangs- und Endgeschwindigkeit voraussetzen. Da der Spiegel aber aus einer Ruhelage beschleunigt und wieder in einer Ruhelage enden soll, 
-wird ein linearer Verlauf der Geschwindigkeit von $\omega = 0 rad/s$ und der doppelten Durchschnittsgeschwindigkeit $\omega = 698 rad/s$ bei der Hälfte der Strecke und bei 
-der Endposition wieder $\omega = 0 rad/s$ der zu fahrenden Strecke angenommen. 
+wird ein linearer Verlauf der Geschwindigkeit von $\omega = \unit{0}{rad/s}$ und der doppelten Durchschnittsgeschwindigkeit $\omega = \unit{698}{rad/s}$ bei der Hälfte der 
+Strecke und bei der Endposition wieder $\omega = \unit{0}{rad/s}$ der zu fahrenden Strecke angenommen. 
 Daraus folgt eine Beschleunigung von:
 \begin{center}
 \begin{equation}
 \label{equ:max_alpha_motor}
-\Delta \omega = 698\ rad/s\\
-\Delta t = 0,5\ ms = 0,0005\ s\\
+\Delta \omega = \unit[698]{rad/s}\\
+\Delta t = \unit[0,5]{ms} = \unit[0,0005]{s}\\
 \\
-\alpha = \frac {\Delta \omega}{\Delta t} = \frac {698\ rad/s}{0,0005\ s} = 1,396 *10^6\ rad/s^2\\
+\alpha = \frac {\Delta \omega}{\Delta t} = \frac {\unit{698}{rad/s}}{\unit{0,0005}{s}} = \unit{1,396 *10^6}{rad/s^2}\\
 \end{equation}
 \end{center}
-Der Spiegel erfährt zu Beginn der Regelung eine Beschleunigung von $\alpha = 1,396 *10^6\ rad/s^2$ um nach der Hälfte der Zeit, also nach 0,5 ms wieder mit dem gleichen
-Betrag der Beschleunigung abgebremst zu werden.
+Der Spiegel erfährt zu Beginn der Regelung eine Beschleunigung von $\alpha = \unit{1,396 *10^6}{rad/s^2}$ um nach der Hälfte der Zeit, also nach \unit[0,5]{ms} wieder mit 
+dem gleichen Betrag der Beschleunigung abgebremst zu werden.
 
 Modell für den Spiegel:
 \begin{itemize}
-\item Durchmesser: 12 mm --> Radius: R = 6 mm
-\item Höhe: h = 2 mm
-\item Gewicht: m = 10 g
+\item Durchmesser: \unit[12]{mm} --> Radius: R = \unit[6]{mm}
+\item Höhe: h = \unit[2]{mm}
+\item Gewicht: m = \unit[10]{g}
 \end{itemize}
 
 Das Trägheitsmoment des Spiegels beträgt demnach: 
 \begin{center}
 \begin{equation}
 \label{equ:J_spiegel}
-J = \frac{1}{4} * m * R^2 + \frac{1}{12} * m * h^2\\
-J = \frac{1}{4}} * 10*10^{-3} * (6*10^{-3})^2 + \frac{1}{12} * 10*10^{-3} * (2*10^{-3})^2\\
-J = 93,3 * 10^{-9} kg m^2
+J = \frac {1} {4} * m * R^2 + \frac{1}{12} * m * h^2\\
+J = \frac {1} {4} * \unit[10e-3]{kg} * (\unit[[6e-3]{m})^2 + \frac{1}{12} * \unit[10e-3]{kg} * (\unit[[2e-3]{m})^2\\
+J = \unit[93,3e-9]{kgm^2}
 \end{equation}
 \end{center}
 
@@ -74,8 +83,8 @@ Aus den oben berechneten Daten ergibt sich ein Lastmoment von:
 \begin{equation}
 \label{equ:M_last}
 M_L = J * \alpha\\
-M_L = 93,3 * 10^{-9} kg m^2 * 1,396 *10^6 rad/s^2 \\
-M_L = 130,25 * 10^{-3} Nm
+M_L = \unit[93,3e-9]{kgm^2} * \unit[1,396e6]{rad/s^2} \\
+M_L = \unit[130,25e-3]{Nm}
 \end{equation}
 \end{center}
 
@@ -84,7 +93,7 @@ Theoretische Maximale Leistung eines Gleichstrommotors:
 \begin{equation}
 \label{equ:max_leistung_motor}
 P = M_L * \omega\\
-P = 130,25 * 10^{-3} Nm * 698 rad/s \\
+P = \unit[130,25 * 10^{-3}]{Nm} * \unit[698]{rad/s} \\
 P = \unit[91]{W}
 \end{equation}
 \end{center}
@@ -93,9 +102,102 @@ P = \unit[91]{W}
 \label{chap:motor}
 In der Regel werden Laserablenkespiegel über einen Galvo gesteuert. Bei der Bearbeitung dieser Simulationsstudie ergaben sich Probleme, Informationen Über die Ansteuerung
 solcher Galvos zu bekommen. Insofern wird die Simulationsstudie auf der Ansteuerung eines Gleichstrommotors beruhen. Aber auch hierbei konnten jedoch keine Informationen 
-über die Gleichstrommotorparameter KPHI und der Reibungskonstanten bei verschiedenen Herstellern gefunden werden. Um dennoch die Studie durchführen zu können, wird auf die
+über die Gleichstrommotorparameter $K_M\phi$ und der Reibungskonstanten bei verschiedenen Herstellern gefunden werden. Um dennoch die Studie durchführen zu können, wird auf die
 Motorvorgaben aus der Vorlesung Systemtechnik von Prof. Froriep zurück gegriffen.
 
+\subsection{Der elektrische Teil}
+\label{chap:elekteil}
+Der elektrische Teil eines Gleichstrommotors besteht aus einer Spule $L_A$, ihrem Innenwiderstand $R_A$, der induzierten Spannung $e_A$ und der Eingangsspannung
+für den Motor $U_e$, siehe Abb. \ref{fig:elekeinzelteil}.
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.6\textwidth]{ElektrischerTeil.jpg}
+	\caption{Elektrischer Teil des Motors}
+	\label{fig:elekeinzelteil}
+\end{figure}
+Es lässt sich folgende Spannungsmasche aufstellen:
+\begin{center}
+\begin{equation}
+\label{equ:motorspannung}
+U_e = u_L + u_R - e_A
+\end{equation}
+\end{center}
+Die Spannung $e_A$ wirkt der Eingangsspannung entgegen und hat ein negatives Vorzeichen.
+Die Teilspannungen $u_L$ und $u_R$ lassen sich folgendermaßen umschreiben:
+\begin{center}
+\begin{equation}
+\label{equ:motorersatzspannung}
+u_L = L_A * si_A \\
+u_R = R_A * i_A
+s = \frac{d}{dt}
+\end{equation}
+\end{center}
+Dieses lässt sich in einer Formel ausdrücken:
+\begin{center}
+\begin{equation}
+\label{equ:motorspannungausfuehrlich}
+U_e = L_A * si_A + R_A * i_A - e_A
+\end{equation}
+\end{center}
+Für die spätere Integration in Simulink wird die Gleichung \ref{equ:motorspannungausfuehrlich} umgeschrieben:
+\begin{center}
+\begin{equation}
+\label{equ:motorspannungsimulink}
+si_A = \frac{1}{L_A} (e_A - R_Ai_A + u_e)
+\end{equation}
+\end{center}
+Wobei
+\begin{center}
+\begin{equation}
+\label{equ:motorspannungsimulinkkonst}
+e_a = K_M * \Phi \omega
+\end{equation}
+\end{center}
+$K_M$ und $\Phi$ Motorkonstanten sind.
+
+\subsection{Der mechanische Teil}
+\label{chap:mechteil}
+Der mechanische Teil eines Gleichstrommotors besteht aus dem gesamten Drehmoment $M_B$, dem Motormoment $M_M$, dem Lastmoment $M_L$ des Spiegels und der 
+Moment-Winkel-Beziehung (Reibung) $M_R = r*\omega$, wobei $\omega = \.\phi$ ist, siehe Abb. \ref{mecheinzelteil}.
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.6\textwidth]{MechanischerTeil.jpg}
+	\caption{Mechanischer Teil des Motors}
+	\label{fig:mecheinzelteil}
+\end{figure}
+Es lässt sich folgende Moment-Bilanzgleichung aufstellen:
+\begin{center}
+\begin{equation}
+\label{equ:motormomentebilanz}
+M_B = M_M - M_R - M_L = \\
+J * s\omega = M_M - r * \omega - M_L\\
+s = \frac{d}{dt}
+\end{equation}
+\end{center}
+Für die spätere Integration in Simulink wird die Gleichung \ref{equ:motormomentebilanz} umgeschrieben:
+\begin{center}
+\begin{equation}
+\label{equ:motormomentsimulink}
+s\omega = \frac{1}{J} (M_M - r * \omega - M_L)
+\end{equation}
+\end{center}
+Wobei
+\begin{center}
+\begin{equation}
+\label{equ:motormomentsimulinkkonst}
+M_M = K_M * \Phi *i_A
+\end{equation}
+\end{center}
+$K_M$ und $\Phi$ Motorkonstanten sind.
+
+\subsection{Der ganze Motor}
+Werden die beiden Einzelaspekte des Motors gleichzeitig betrachtet, so ergbit sich folgender Zusammenhang wie er in Abb. \ref{fig:motoraufbau} dargestellt ist.
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.6\textwidth]{Motoraufbau.jpg}
+	\caption{Aufbau des Motors}
+	\label{fig:motoraufbau}
+\end{figure}
 
 \section{Der Sensor}
 \label{chap:sensor}
