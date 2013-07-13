@@ -30,7 +30,7 @@ seinen maximalen Ablenkwinkel zu bewegen.
 
 Dabei werden folgende Vorgaben zu Grunde gelegt:
 \begin{itemize}
-\item Maximale Ablenkung von \unit[20}{°}
+\item Maximale Ablenkung von $\phi$ = \unit[20}{°} \approx \unit[0,349]{rad}
 \item Maximale Zeit für Ablenkung \unit[1]{ms}
 \item Lineares Modell
 \end{itemize}
@@ -46,8 +46,8 @@ Berechnung der Winkelgeschwindigkeit:
 
 Es ergibt sich eine Druchschnittswinkelgeschwindigkeit von \unit[349]{rad/s}, um einen Winkel von \unit[20}{°} in \unit[1]{ms} zu überfahren.
 Dies würde aber eine Anfangs- und Endgeschwindigkeit voraussetzen. Da der Spiegel aber aus einer Ruhelage beschleunigt und wieder in einer Ruhelage enden soll, 
-wird ein linearer Verlauf der Geschwindigkeit von $\omega = \unit[0]{rad/s}$ und der doppelten Durchschnittsgeschwindigkeit $\omega = \unit[698]{rad/s}$ bei der Hälfte der 
-Strecke und bei der Endposition wieder $\omega = \unit[0]{rad/s}$ der zu fahrenden Strecke angenommen. 
+wird ein linearer Verlauf der Geschwindigkeit von $\omega = \unit{0}{rad/s}$ und der doppelten Durchschnittsgeschwindigkeit $\omega = \unit{698}{rad/s}$ bei der Hälfte der 
+Strecke und bei der Endposition wieder $\omega = \unit{0}{rad/s}$ der zu fahrenden Strecke angenommen. 
 Daraus folgt eine Beschleunigung von:
 \begin{center}
 \begin{equation}
@@ -55,11 +55,11 @@ Daraus folgt eine Beschleunigung von:
 \Delta \omega = \unit[698]{rad/s}\\
 \Delta t = \unit[0,5]{ms} = \unit[0,0005]{s}\\
 \\
-\alpha = \frac {\Delta \omega}{\Delta t} = \frac {\unit[698]{rad/s}}{\unit[0,0005]{s}} = \unit[1,396 *10^6]{rad/s^2}\\
+\alpha = \frac {\Delta \omega}{\Delta t} = \frac {\unit{698}{rad/s}}{\unit{0,0005}{s}} = \unit{1,396 *10^6}{rad/s^2}\\
 \end{equation}
 \end{center}
-Der Spiegel erfährt zu Beginn der Regelung eine Beschleunigung von $\alpha = \unit[1,396 *10^6]{rad/s^2}$ um nach der Hälfte der Zeit, also nach 0,5 ms wieder mit dem gleichen
-Betrag der Beschleunigung abgebremst zu werden.
+Der Spiegel erfährt zu Beginn der Regelung eine Beschleunigung von $\alpha = \unit{1,396 *10^6}{rad/s^2}$ um nach der Hälfte der Zeit, also nach \unit[0,5]{ms} wieder mit 
+dem gleichen Betrag der Beschleunigung abgebremst zu werden.
 
 Modell für den Spiegel:
 \begin{itemize}
@@ -72,9 +72,9 @@ Das Trägheitsmoment des Spiegels beträgt demnach:
 \begin{center}
 \begin{equation}
 \label{equ:J_spiegel}
-J = \frac{1}{4} * m * R^2 + \frac{1}{12} * m * h^2\\
-J = \frac{1}{4} * \unit[10*10^{-3}]{kg} * (\unit[[6*10^{-3}]{m})^2 + \frac{1}{12} * \unit[10*10^{-3}]{kg} * (\unit[[2*10^{-3}]{m})^2\\
-J = \unit[93,3 * 10^{-9}]{kg m^2}
+J = \frac {1} {4} * m * R^2 + \frac{1}{12} * m * h^2\\
+J = \frac {1} {4} * \unit[10e-3]{kg} * (\unit[[6e-3]{m})^2 + \frac{1}{12} * \unit[10e-3]{kg} * (\unit[[2e-3]{m})^2\\
+J = \unit[93,3e-9]{kgm^2}
 \end{equation}
 \end{center}
 
@@ -83,8 +83,8 @@ Aus den oben berechneten Daten ergibt sich ein Lastmoment von:
 \begin{equation}
 \label{equ:M_last}
 M_L = J * \alpha\\
-M_L = \unit[93,3 * 10^{-9}]{kg m^2} * \unit[1,396 *10^6]{rad/s^2} \\
-M_L = \unit[130,25 * 10^{-3}]{Nm}
+M_L = \unit[93,3e-9]{kgm^2} * \unit[1,396e6]{rad/s^2} \\
+M_L = \unit[130,25e-3]{Nm}
 \end{equation}
 \end{center}
 
@@ -150,15 +150,15 @@ Wobei
 \begin{center}
 \begin{equation}
 \label{equ:motorspannungsimulinkkonst}
-e_a = K_M * \phi \omega
+e_a = K_M * \Phi \omega
 \end{equation}
 \end{center}
-$K_M$ und $\phi$ Motorkonstanten sind.
+$K_M$ und $\Phi$ Motorkonstanten sind.
 
 \subsection{Der mechanische Teil}
 \label{chap:mechteil}
 Der mechanische Teil eines Gleichstrommotors besteht aus dem gesamten Drehmoment $M_B$, dem Motormoment $M_M$, dem Lastmoment $M_L$ des Spiegels und der 
-Moment-Winkel-Beziehung (Reibung) $M_R = r*\omega$, siehe Abb. \ref{mecheinzelteil}.
+Moment-Winkel-Beziehung (Reibung) $M_R = r*\omega$, wobei $\omega = \.\phi$ ist, siehe Abb. \ref{mecheinzelteil}.
 \begin{figure}[!h]
 	\centering
 	\includegraphics[width=0.6\textwidth]{MechanischerTeil.jpg}
@@ -185,10 +185,10 @@ Wobei
 \begin{center}
 \begin{equation}
 \label{equ:motormomentsimulinkkonst}
-M_M = K_M * \phi *i_A
+M_M = K_M * \Phi *i_A
 \end{equation}
 \end{center}
-$K_M$ und $\phi$ Motorkonstanten sind.
+$K_M$ und $\Phi$ Motorkonstanten sind.
 
 \subsection{Der ganze Motor}
 Werden die beiden Einzelaspekte des Motors gleichzeitig betrachtet, so ergbit sich folgender Zusammenhang wie er in Abb. \ref{fig:motoraufbau} dargestellt ist.
