@@ -7,22 +7,22 @@
 \contentsline {section}{\numberline {3.3}Der Motor}{9}{section.16}
 \contentsline {section}{\numberline {3.4}Der Sensor}{9}{section.17}
 \contentsline {subsection}{\numberline {3.4.1}Das physikalische Modell des Sensors}{9}{subsection.18}
-\contentsline {subsection}{\numberline {3.4.2}Das lineare Sensormodell}{10}{subsection.21}
-\contentsline {subsection}{\numberline {3.4.3}Das nicht lineare Sensormodell}{10}{subsection.22}
-\contentsline {chapter}{\numberline {4}Programmentwicklung}{11}{chapter.23}
-\contentsline {chapter}{\numberline {5}Simulationsdurchf\"uhrung}{13}{chapter.24}
-\contentsline {chapter}{\numberline {6}Disskussion}{25}{chapter.43}
-\contentsline {chapter}{\numberline {7}Zusammenfassung}{27}{chapter.44}
-\contentsline {chapter}{\numberline {A}Matlab-Files}{29}{appendix.45}
-\contentsline {section}{\numberline {A.1}msSpiegelundSensor.m}{29}{section.46}
-\contentsline {section}{\numberline {A.2}sensorDaten.m}{33}{section.216}
-\contentsline {section}{\numberline {A.3}frect.m}{35}{section.301}
-\contentsline {section}{\numberline {A.4}gekern.m}{35}{section.316}
-\contentsline {section}{\numberline {A.5}sensor.m}{36}{section.330}
-\contentsline {section}{\numberline {A.6}posEingabe.m}{39}{section.443}
-\contentsline {chapter}{\numberline {B}Simulink-Files}{41}{appendix.477}
-\contentsline {section}{\numberline {B.1}1}{41}{section.478}
-\contentsline {chapter}{Literaturverzeichnis}{43}{appendix*.479}
-\contentsline {chapter}{Abbildungsverzeichnis}{45}{appendix*.480}
-\contentsline {chapter}{Tabellenverzeichnis}{47}{appendix*.481}
-\contentsline {chapter}{Eidesstattliche Erkl\"arung}{49}{appendix*.482}
+\contentsline {subsection}{\numberline {3.4.2}Das lineare Sensormodell}{10}{subsection.25}
+\contentsline {subsection}{\numberline {3.4.3}Das nicht lineare Sensormodell}{10}{subsection.26}
+\contentsline {chapter}{\numberline {4}Programmentwicklung}{13}{chapter.27}
+\contentsline {chapter}{\numberline {5}Simulationsdurchf\"uhrung}{15}{chapter.28}
+\contentsline {chapter}{\numberline {6}Disskussion}{27}{chapter.47}
+\contentsline {chapter}{\numberline {7}Zusammenfassung}{29}{chapter.48}
+\contentsline {chapter}{\numberline {A}Matlab-Files}{31}{appendix.49}
+\contentsline {section}{\numberline {A.1}msSpiegelundSensor.m}{31}{section.50}
+\contentsline {section}{\numberline {A.2}sensorDaten.m}{35}{section.220}
+\contentsline {section}{\numberline {A.3}frect.m}{37}{section.305}
+\contentsline {section}{\numberline {A.4}gekern.m}{37}{section.320}
+\contentsline {section}{\numberline {A.5}sensor.m}{38}{section.334}
+\contentsline {section}{\numberline {A.6}posEingabe.m}{41}{section.447}
+\contentsline {chapter}{\numberline {B}Simulink-Files}{43}{appendix.481}
+\contentsline {section}{\numberline {B.1}1}{43}{section.482}
+\contentsline {chapter}{Literaturverzeichnis}{45}{appendix*.483}
+\contentsline {chapter}{Abbildungsverzeichnis}{47}{appendix*.484}
+\contentsline {chapter}{Tabellenverzeichnis}{49}{appendix*.485}
+\contentsline {chapter}{Eidesstattliche Erkl\"arung}{51}{appendix*.486}
