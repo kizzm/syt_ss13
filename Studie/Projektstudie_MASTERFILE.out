@@ -10,19 +10,41 @@
 \BOOKMARK [2][]{subsection.25}{3.4.2 Das lineare Sensormodell}{section.17}
 \BOOKMARK [2][]{subsection.26}{3.4.3 Das nicht lineare Sensormodell}{section.17}
 \BOOKMARK [0][]{chapter.27}{4 Programmentwicklung}{}
-\BOOKMARK [0][]{chapter.28}{5 Simulationsdurchf\374hrung}{}
-\BOOKMARK [0][]{chapter.47}{6 Disskussion}{}
-\BOOKMARK [0][]{chapter.48}{7 Zusammenfassung}{}
-\BOOKMARK [0][]{appendix.49}{A Matlab-Files}{}
-\BOOKMARK [1][]{section.50}{A.1 msSpiegelundSensor.m}{appendix.49}
-\BOOKMARK [1][]{section.220}{A.2 sensorDaten.m}{appendix.49}
-\BOOKMARK [1][]{section.305}{A.3 frect.m}{appendix.49}
-\BOOKMARK [1][]{section.320}{A.4 gekern.m}{appendix.49}
-\BOOKMARK [1][]{section.334}{A.5 sensor.m}{appendix.49}
-\BOOKMARK [1][]{section.447}{A.6 posEingabe.m}{appendix.49}
-\BOOKMARK [0][]{appendix.481}{B Simulink-Files}{}
-\BOOKMARK [1][]{section.482}{B.1 1}{appendix.481}
-\BOOKMARK [0][]{appendix*.483}{Literaturverzeichnis}{}
-\BOOKMARK [0][]{appendix*.484}{Abbildungsverzeichnis}{}
-\BOOKMARK [0][]{appendix*.485}{Tabellenverzeichnis}{}
-\BOOKMARK [0][]{appendix*.486}{Eidesstattliche Erkl\344rung}{}
+\BOOKMARK [1][]{section.28}{4.1 Motor in Simulink}{chapter.27}
+\BOOKMARK [1][]{section.36}{4.2 Matlab}{chapter.27}
+\BOOKMARK [2][]{subsection.37}{4.2.1 Motor in Matlab}{section.36}
+\BOOKMARK [2][]{subsection.38}{4.2.2 Sensor in Matlab}{section.36}
+\BOOKMARK [3][]{subsubsection.39}{4.2.2.1 Vorbereitungen}{subsection.38}
+\BOOKMARK [3][]{subsubsection.40}{4.2.2.2 Files}{subsection.38}
+\BOOKMARK [0][]{chapter.41}{5 Simulationsdurchf\374hrung}{}
+\BOOKMARK [1][]{section.42}{5.1 Simulation}{chapter.41}
+\BOOKMARK [2][]{subsection.43}{5.1.1 chap:pidregelung}{section.42}
+\BOOKMARK [3][]{subsubsection.44}{5.1.1.1 chap:pregelung}{subsection.43}
+\BOOKMARK [3][]{subsubsection.47}{5.1.1.2 chap:piregelung}{subsection.43}
+\BOOKMARK [3][]{subsubsection.50}{5.1.1.3 chap:pdregelung}{subsection.43}
+\BOOKMARK [3][]{subsubsection.53}{5.1.1.4 chap:pidregelung}{subsection.43}
+\BOOKMARK [2][]{subsection.56}{5.1.2 chap:padaption}{section.42}
+\BOOKMARK [3][]{subsubsection.59}{5.1.2.1 chap:padaption}{subsection.56}
+\BOOKMARK [3][]{subsubsection.62}{5.1.2.2 chap:padaptiongalvo}{subsection.56}
+\BOOKMARK [3][]{subsubsection.64}{5.1.2.3 chap:padaptionwerte}{subsection.56}
+\BOOKMARK [3][]{subsubsection.66}{5.1.2.4 chap:padaptionstrom}{subsection.56}
+\BOOKMARK [3][]{subsubsection.72}{5.1.2.5 chap:padaptionfertig}{subsection.56}
+\BOOKMARK [2][]{subsection.74}{5.1.3 chap:sensorregelung}{section.42}
+\BOOKMARK [3][]{subsubsection.75}{5.1.3.1 chap:sensorregelung1}{subsection.74}
+\BOOKMARK [3][]{subsubsection.77}{5.1.3.2 chap:sensorregelung2}{subsection.74}
+\BOOKMARK [3][]{subsubsection.79}{5.1.3.3 chap:sensorregelung3}{subsection.74}
+\BOOKMARK [0][]{chapter.81}{6 Disskussion}{}
+\BOOKMARK [0][]{chapter.82}{7 Zusammenfassung}{}
+\BOOKMARK [0][]{appendix.83}{A Matlab-Files}{}
+\BOOKMARK [1][]{section.84}{A.1 msSpiegelundSensor.m}{appendix.83}
+\BOOKMARK [1][]{section.264}{A.2 sensorDaten.m}{appendix.83}
+\BOOKMARK [1][]{section.349}{A.3 frect.m}{appendix.83}
+\BOOKMARK [1][]{section.364}{A.4 gekern.m}{appendix.83}
+\BOOKMARK [1][]{section.378}{A.5 sensor.m}{appendix.83}
+\BOOKMARK [1][]{section.491}{A.6 posEingabe.m}{appendix.83}
+\BOOKMARK [0][]{appendix.525}{B Simulink-Files}{}
+\BOOKMARK [1][]{section.526}{B.1 1}{appendix.525}
+\BOOKMARK [0][]{appendix*.527}{Literaturverzeichnis}{}
+\BOOKMARK [0][]{appendix*.528}{Abbildungsverzeichnis}{}
+\BOOKMARK [0][]{appendix*.529}{Tabellenverzeichnis}{}
+\BOOKMARK [0][]{appendix*.530}{Eidesstattliche Erkl\344rung}{}
