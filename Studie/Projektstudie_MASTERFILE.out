@@ -4,47 +4,24 @@
 \BOOKMARK [0][]{chapter.7}{3 Mathematische Modellbildung}{}
 \BOOKMARK [1][]{section.8}{3.1 Das System}{chapter.7}
 \BOOKMARK [1][]{section.10}{3.2 Der Spiegel}{chapter.7}
-\BOOKMARK [1][]{section.16}{3.3 Der Motor}{chapter.7}
-\BOOKMARK [1][]{section.17}{3.4 Der Sensor}{chapter.7}
-\BOOKMARK [2][]{subsection.18}{3.4.1 Das physikalische Modell des Sensors}{section.17}
-\BOOKMARK [2][]{subsection.26}{3.4.2 Das lineare Sensormodell}{section.17}
-\BOOKMARK [2][]{subsection.27}{3.4.3 Das nicht lineare Sensormodell}{section.17}
-\BOOKMARK [0][]{chapter.28}{4 Programmentwicklung}{}
-\BOOKMARK [1][]{section.29}{4.1 Motor in Simulink}{chapter.28}
-\BOOKMARK [1][]{section.37}{4.2 Matlab}{chapter.28}
-\BOOKMARK [2][]{subsection.38}{4.2.1 Motor in Matlab}{section.37}
-\BOOKMARK [2][]{subsection.39}{4.2.2 Sensor in Matlab}{section.37}
-\BOOKMARK [3][]{subsubsection.40}{4.2.2.1 Vorbereitungen}{subsection.39}
-\BOOKMARK [3][]{subsubsection.41}{4.2.2.2 Files}{subsection.39}
-\BOOKMARK [0][]{chapter.42}{5 Simulationsdurchf\374hrung}{}
-\BOOKMARK [1][]{section.43}{5.1 Simulation}{chapter.42}
-\BOOKMARK [2][]{subsection.44}{5.1.1 chap:pidregelung}{section.43}
-\BOOKMARK [3][]{subsubsection.45}{5.1.1.1 chap:pregelung}{subsection.44}
-\BOOKMARK [3][]{subsubsection.48}{5.1.1.2 chap:piregelung}{subsection.44}
-\BOOKMARK [3][]{subsubsection.51}{5.1.1.3 chap:pdregelung}{subsection.44}
-\BOOKMARK [3][]{subsubsection.54}{5.1.1.4 chap:pidregelung}{subsection.44}
-\BOOKMARK [2][]{subsection.57}{5.1.2 chap:padaption}{section.43}
-\BOOKMARK [3][]{subsubsection.60}{5.1.2.1 chap:padaption}{subsection.57}
-\BOOKMARK [3][]{subsubsection.63}{5.1.2.2 chap:padaptiongalvo}{subsection.57}
-\BOOKMARK [3][]{subsubsection.65}{5.1.2.3 chap:padaptionwerte}{subsection.57}
-\BOOKMARK [3][]{subsubsection.67}{5.1.2.4 chap:padaptionstrom}{subsection.57}
-\BOOKMARK [3][]{subsubsection.73}{5.1.2.5 chap:padaptionfertig}{subsection.57}
-\BOOKMARK [2][]{subsection.75}{5.1.3 chap:sensorregelung}{section.43}
-\BOOKMARK [3][]{subsubsection.76}{5.1.3.1 chap:sensorregelung1}{subsection.75}
-\BOOKMARK [3][]{subsubsection.78}{5.1.3.2 chap:sensorregelung2}{subsection.75}
-\BOOKMARK [3][]{subsubsection.80}{5.1.3.3 chap:sensorregelung3}{subsection.75}
-\BOOKMARK [0][]{chapter.82}{6 Disskussion}{}
-\BOOKMARK [0][]{chapter.83}{7 Zusammenfassung}{}
-\BOOKMARK [0][]{appendix.84}{A Matlab-Files}{}
-\BOOKMARK [1][]{section.85}{A.1 msSpiegelundSensor.m}{appendix.84}
-\BOOKMARK [1][]{section.265}{A.2 sensorDaten.m}{appendix.84}
-\BOOKMARK [1][]{section.350}{A.3 frect.m}{appendix.84}
-\BOOKMARK [1][]{section.365}{A.4 gekern.m}{appendix.84}
-\BOOKMARK [1][]{section.379}{A.5 sensor.m}{appendix.84}
-\BOOKMARK [1][]{section.492}{A.6 posEingabe.m}{appendix.84}
-\BOOKMARK [0][]{appendix.526}{B Simulink-Files}{}
-\BOOKMARK [1][]{section.527}{B.1 1}{appendix.526}
-\BOOKMARK [0][]{appendix*.528}{Literaturverzeichnis}{}
-\BOOKMARK [0][]{appendix*.529}{Abbildungsverzeichnis}{}
-\BOOKMARK [0][]{appendix*.530}{Tabellenverzeichnis}{}
-\BOOKMARK [0][]{appendix*.531}{Eidesstattliche Erkl\344rung}{}
+\BOOKMARK [1][]{section.26}{3.3 Der Motor}{chapter.7}
+\BOOKMARK [2][]{subsection.27}{3.3.1 Der elektrische Teil}{section.26}
+\BOOKMARK [2][]{subsection.35}{3.3.2 Der mechanische Teil}{section.26}
+\BOOKMARK [1][]{section.42}{3.4 Der Sensor}{chapter.7}
+\BOOKMARK [2][]{subsection.43}{3.4.1 Das physikalische Modell des Sensors}{section.42}
+\BOOKMARK [2][]{subsection.51}{3.4.2 Das lineare Sensormodell}{section.42}
+\BOOKMARK [2][]{subsection.52}{3.4.3 Das nicht lineare Sensormodell}{section.42}
+\BOOKMARK [0][]{chapter.53}{4 Programmentwicklung}{}
+\BOOKMARK [1][]{section.54}{4.1 Motor in Simulink}{chapter.53}
+\BOOKMARK [1][]{section.62}{4.2 Matlab}{chapter.53}
+\BOOKMARK [2][]{subsection.63}{4.2.1 Motor in Matlab}{section.62}
+\BOOKMARK [2][]{subsection.64}{4.2.2 Sensor in Matlab}{section.62}
+\BOOKMARK [3][]{subsubsection.65}{4.2.2.1 Vorbereitungen}{subsection.64}
+\BOOKMARK [3][]{subsubsection.66}{4.2.2.2 Files}{subsection.64}
+\BOOKMARK [0][]{chapter.67}{5 Simulationsdurchf\303\274hrung}{}
+\BOOKMARK [1][]{section.68}{5.1 Simulation}{chapter.67}
+\BOOKMARK [2][]{subsection.69}{5.1.1 PID-Regelung}{section.68}
+\BOOKMARK [3][]{subsubsection.70}{5.1.1.1 P-Regelung}{subsection.69}
+\BOOKMARK [3][]{subsubsection.73}{5.1.1.2 PI-Regelung}{subsection.69}
+\BOOKMARK [3][]{subsubsection.76}{5.1.1.3 PD-Regelung}{subsection.69}
+\BOOKMARK [3][]{subsubsection.79}{5.1.1.4 PID-Regelung}{subsection.69}

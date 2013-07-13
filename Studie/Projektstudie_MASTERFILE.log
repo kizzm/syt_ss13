@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.10.25)  13 JUL 2013 11:17
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.10.25)  13 JUL 2013 16:48
 entering extended mode
  %&-line parsing enabled.
 **Projektstudie_MASTERFILE.tex
@@ -546,9 +546,6 @@ Package: nicefrac 1998/08/04 v0.9b Nice fractions
 
 LaTeX Warning: Label `equ:motormomentsimulink2' multiply defined.
 
-
-LaTeX Warning: Label `fig:p30i17' multiply defined.
-
 )
 \openout1 = `Projektstudie_MASTERFILE.aux'.
 
@@ -684,413 +681,22 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 12.
+(scrreprt)            on input line 14.
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 19.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.22 ...1.1}chap:p_regelung}{17}{subsubsection.44}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-<argument> ...numberline {5.1.1.1}chap:p_regelung}
-                                                  \hyper@linkend 
-l.22 ...1.1}chap:p_regelung}{17}{subsubsection.44}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.22 ...1.1}chap:p_regelung}{17}{subsubsection.44}
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.22 ...1.1}chap:p_regelung}{17}{subsubsection.44}
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.23 ....2}chap:pi_regelung}{17}{subsubsection.47}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-<argument> ...umberline {5.1.1.2}chap:pi_regelung}
-                                                  \hyper@linkend 
-l.23 ....2}chap:pi_regelung}{17}{subsubsection.47}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.23 ....2}chap:pi_regelung}{17}{subsubsection.47}
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.23 ....2}chap:pi_regelung}{17}{subsubsection.47}
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.24 ....3}chap:pd_regelung}{18}{subsubsection.50}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-<argument> ...umberline {5.1.1.3}chap:pd_regelung}
-                                                  \hyper@linkend 
-l.24 ....3}chap:pd_regelung}{18}{subsubsection.50}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.24 ....3}chap:pd_regelung}{18}{subsubsection.50}
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.24 ....3}chap:pd_regelung}{18}{subsubsection.50}
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.25 ...4}chap:pid_regelung}{18}{subsubsection.53}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-<argument> ...mberline {5.1.1.4}chap:pid_regelung}
-                                                  \hyper@linkend 
-l.25 ...4}chap:pid_regelung}{18}{subsubsection.53}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.25 ...4}chap:pid_regelung}{18}{subsubsection.53}
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.25 ...4}chap:pid_regelung}{18}{subsubsection.53}
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.27 ...2.1}chap:p_adaption}{21}{subsubsection.59}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-<argument> ...numberline {5.1.2.1}chap:p_adaption}
-                                                  \hyper@linkend 
-l.27 ...2.1}chap:p_adaption}{21}{subsubsection.59}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.27 ...2.1}chap:p_adaption}{21}{subsubsection.59}
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.27 ...2.1}chap:p_adaption}{21}{subsubsection.59}
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.28 ...hap:p_adaptiongalvo}{22}{subsubsection.62}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-<argument> ...rline {5.1.2.2}chap:p_adaptiongalvo}
-                                                  \hyper@linkend 
-l.28 ...hap:p_adaptiongalvo}{22}{subsubsection.62}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.28 ...hap:p_adaptiongalvo}{22}{subsubsection.62}
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.28 ...hap:p_adaptiongalvo}{22}{subsubsection.62}
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.29 ...hap:p_adaptionwerte}{22}{subsubsection.64}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-<argument> ...rline {5.1.2.3}chap:p_adaptionwerte}
-                                                  \hyper@linkend 
-l.29 ...hap:p_adaptionwerte}{22}{subsubsection.64}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.29 ...hap:p_adaptionwerte}{22}{subsubsection.64}
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.29 ...hap:p_adaptionwerte}{22}{subsubsection.64}
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.30 ...hap:p_adaptionstrom}{23}{subsubsection.66}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-<argument> ...rline {5.1.2.4}chap:p_adaptionstrom}
-                                                  \hyper@linkend 
-l.30 ...hap:p_adaptionstrom}{23}{subsubsection.66}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.30 ...hap:p_adaptionstrom}{23}{subsubsection.66}
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.30 ...hap:p_adaptionstrom}{23}{subsubsection.66}
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.31 ...ap:p_adaptionfertig}{25}{subsubsection.72}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-<argument> ...line {5.1.2.5}chap:p_adaptionfertig}
-                                                  \hyper@linkend 
-l.31 ...ap:p_adaptionfertig}{25}{subsubsection.72}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.31 ...ap:p_adaptionfertig}{25}{subsubsection.72}
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.31 ...ap:p_adaptionfertig}{25}{subsubsection.72}
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-[1
-
-
-]
-Class scrreprt Info: You've told me to use the font selection of the element
-(scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 36.
-Class scrreprt Info: You've told me to use the font selection of the element
-(scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 37.
-Class scrreprt Info: You've told me to use the font selection of the element
-(scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 38.
-Class scrreprt Info: You've told me to use the font selection of the element
-(scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 45.
-Class scrreprt Info: You've told me to use the font selection of the element
-(scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 47.
-Class scrreprt Info: You've told me to use the font selection of the element
-(scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 48.
-Class scrreprt Info: You've told me to use the font selection of the element
-(scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 49.
-Class scrreprt Info: You've told me to use the font selection of the element
-(scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 50.
+(scrreprt)            on input line 21.
 )
 \tf@toc=\write4
 \openout4 = `Projektstudie_MASTERFILE.toc'.
 
- [2] (./Einfuehrung.tex
+ [1
+
+
+] [2
+
+
+]
+(./Einfuehrung.tex
 Kapitel 1.
 
 Class scrreprt Warning: \float@addtolists detected!
@@ -1099,7 +705,7 @@ Class scrreprt Warning: \float@addtolists detected!
 (scrreprt)              Support for \float@addtolists may be removed from
 (scrreprt)              `scrreprt' soon .
 
-<Plexi_Galvohalter.jpg, id=283, 256.7994pt x 298.2342pt>
+<Plexi_Galvohalter.jpg, id=166, 256.7994pt x 298.2342pt>
 File: Plexi_Galvohalter.jpg Graphic file (type jpg)
 
 <use Plexi_Galvohalter.jpg>
@@ -1109,7 +715,7 @@ LaTeX Warning: Citation `wiki' on page 1 undefined on input line 30.
 
 LaTeX Warning: Citation `wiki' on page 1 undefined on input line 30.
 
-<Strahlfuehrung.jpg, id=284, 734.745pt x 489.83pt>
+<Strahlfuehrung.jpg, id=167, 734.745pt x 489.83pt>
 File: Strahlfuehrung.jpg Graphic file (type jpg)
  <use Strahlfuehrung.jpg>
 
@@ -1118,36 +724,23 @@ LaTeX Warning: Citation `lasercommunity' on page 1 undefined on input line 38.
 
 LaTeX Warning: Citation `lasercommunity' on page 1 undefined on input line 38.
 
-<Allgmeiner_Aufbau.jpg, id=286, 1127.21124pt x 796.9775pt>
+<Allgmeiner_Aufbau.jpg, id=169, 1127.21124pt x 796.9775pt>
 File: Allgmeiner_Aufbau.jpg Graphic file (type jpg)
 
-<use Allgmeiner_Aufbau.jpg>
-! Extra }, or forgotten \endgroup.
-\@endfloatbox ...pagefalse \outer@nobreak \egroup 
-                                                  \color@endbox 
-l.63 \end{figure}
-                 
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-[1
-
-
+<use Allgmeiner_Aufbau.jpg> [1
 
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 80.
- (/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 82.
+
+(/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 80.
-)
-(./Aufgabenstellung.tex [2 <./Plexi_Galvohalter.jpg>] [3 <./Strahlfuehrung.jpg>
- <./Allgmeiner_Aufbau.jpg>] [4
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 82.
+) (./Aufgabenstellung.tex
+[2 <./Plexi_Galvohalter.jpg>] [3 <./Strahlfuehrung.jpg> <./Allgmeiner_Aufbau.jp
+g>] [4
 
 
 ]
@@ -1159,847 +752,560 @@ ob es m�glich ist eine Regelung aufzubauen,
  []
 
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 23.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 24.
 
-[5]) (./Modellbildung.tex [6]
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 27.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 38.
+
+[5]) (./Modellbildung.tex [6] [7] [8
+
+
+]
 Kapitel 3.
-<System_Aufbau.jpg, id=321, 509.905pt x 354.32375pt>
+<System_Aufbau.jpg, id=214, 509.905pt x 354.32375pt>
 File: System_Aufbau.jpg Graphic file (type jpg)
  <use System_Aufbau.jpg>
 
 LaTeX Warning: Command \textdegree invalid in math mode on input line 32.
 
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.32 \Delta \phi = 20{\textdegree} = 0,349 rad\\
-                                                
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.32 \Delta \phi = 20{\textdegree} = 0,349 rad\\
-                                                
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.32 \Delta \phi = 20{\textdegree} = 0,349 rad\\
-                                                
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Display math should end with $$.
-<to be read again> 
-                   \@@par 
-l.32 \Delta \phi = 20{\textdegree} = 0,349 rad\\
-                                                
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.32 \Delta \phi = 20{\textdegree} = 0,349 rad\\
-                                                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.33 \Delta
-            t = 1 ms = 0,001 s\\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.33 \Delta t = 1 ms = 0,001 s\\
-                                
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.33 \Delta t = 1 ms = 0,001 s\\
-                                
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.33 \Delta t = 1 ms = 0,001 s\\
-                                
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.33 \Delta t = 1 ms = 0,001 s\\
-                                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.34 \omega
-            = \frac {\Delta \phi}{\Delta t} = \frac {0,349 rad}{0,001 s} = 3...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.34 ...= \frac {0,349 rad}{0,001 s} = 349 rad/s\\
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.34 ...= \frac {0,349 rad}{0,001 s} = 349 rad/s\\
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.34 ...= \frac {0,349 rad}{0,001 s} = 349 rad/s\\
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.34 ...= \frac {0,349 rad}{0,001 s} = 349 rad/s\\
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-! LaTeX Error: Bad math environment delimiter.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.35 \end{equation}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! You can't use `\eqno' in vertical mode.
-\endmathdisplay@a ...\df@tag \@empty \else \veqno 
-                                                  \alt@tag \df@tag \fi \ifx ...
-l.35 \end{equation}
-                   
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.35 \end{equation}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Display math should end with $$.
-<to be read again> 
-                   \endgroup 
-l.35 \end{equation}
-                   
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-[7
-
-
- <./System_Aufbau.jpg>]
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.46 \Delta \omega = 698\ rad/s\\
-                                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.46 \Delta \omega = 698\ rad/s\\
-                                 
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.46 \Delta \omega = 698\ rad/s\\
-                                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Display math should end with $$.
-<to be read again> 
-                   \@@par 
-l.46 \Delta \omega = 698\ rad/s\\
-                                 
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.46 \Delta \omega = 698\ rad/s\\
-                                 
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.47 \Delta
-            t = 0,5\ ms = 0,0005\ s\\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.47 \Delta t = 0,5\ ms = 0,0005\ s\\
-                                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.47 \Delta t = 0,5\ ms = 0,0005\ s\\
-                                     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.47 \Delta t = 0,5\ ms = 0,0005\ s\\
-                                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.47 \Delta t = 0,5\ ms = 0,0005\ s\\
-                                     
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.48 \\
-       
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.49 \alpha
-            = \frac {\Delta \omega}{\Delta t} = \frac {698\ rad/s}{0,0005\ s...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.49 ...rad/s}{0,0005\ s} = 1,396 *10^6\ rad/s^2\\
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.49 ...rad/s}{0,0005\ s} = 1,396 *10^6\ rad/s^2\\
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.49 ...rad/s}{0,0005\ s} = 1,396 *10^6\ rad/s^2\\
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.49 ...rad/s}{0,0005\ s} = 1,396 *10^6\ rad/s^2\\
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-! LaTeX Error: Bad math environment delimiter.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.50 \end{equation}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! You can't use `\eqno' in vertical mode.
-\endmathdisplay@a ...\df@tag \@empty \else \veqno 
-                                                  \alt@tag \df@tag \fi \ifx ...
-l.50 \end{equation}
-                   
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.50 \end{equation}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Display math should end with $$.
-<to be read again> 
-                   \endgroup 
-l.50 \end{equation}
-                   
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.66 ...1}{4} * m * R^2 + \frac{1}{12} * m * h^2\\
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.66 ...1}{4} * m * R^2 + \frac{1}{12} * m * h^2\\
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.66 ...1}{4} * m * R^2 + \frac{1}{12} * m * h^2\\
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Display math should end with $$.
-<to be read again> 
-                   \@@par 
-l.66 ...1}{4} * m * R^2 + \frac{1}{12} * m * h^2\\
-                                                  
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.66 ...1}{4} * m * R^2 + \frac{1}{12} * m * h^2\\
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.67 J = \frac{1}{4}
-                    } * 10*10^{-3} * (6*10^{-3})^2 + \frac{1}{12} * 10*10^{-...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-\frac  #1#2->{\begingroup #1\endgroup \@@over #2}
-                                                 
-l.67 J = \frac{1}{4}
-                    } * 10*10^{-3} * (6*10^{-3})^2 + \frac{1}{12} * 10*10^{-...
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-l.67 J = \frac{1}{4}}
-                      * 10*10^{-3} * (6*10^{-3})^2 + \frac{1}{12} * 10*10^{-...
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.67 ...frac{1}{12} * 10*10^{-3} * (2*10^{-3})^2\\
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.67 ...frac{1}{12} * 10*10^{-3} * (2*10^{-3})^2\\
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.67 ...frac{1}{12} * 10*10^{-3} * (2*10^{-3})^2\\
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.68 J = 93,3 * 10^
-                   {-9} kg m^2
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! You can't use `\eqno' in math mode.
-\endmathdisplay@a ...\df@tag \@empty \else \veqno 
-                                                  \alt@tag \df@tag \fi \ifx ...
-l.69 \end{equation}
-                   
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.69 \end{equation}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.76 M_L = J * \alpha\\
-                       
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.76 M_L = J * \alpha\\
-                       
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.76 M_L = J * \alpha\\
-                       
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Display math should end with $$.
-<to be read again> 
-                   \@@par 
-l.76 M_L = J * \alpha\\
-                       
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.76 M_L = J * \alpha\\
-                       
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.77 M_
-       L = 93,3 * 10^{-9} kg m^2 * 1,396 *10^6 rad/s^2 \\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.77 ... * 10^{-9} kg m^2 * 1,396 *10^6 rad/s^2 \\
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.77 ... * 10^{-9} kg m^2 * 1,396 *10^6 rad/s^2 \\
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.77 ... * 10^{-9} kg m^2 * 1,396 *10^6 rad/s^2 \\
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.77 ... * 10^{-9} kg m^2 * 1,396 *10^6 rad/s^2 \\
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.78 M_
-       L = 130,25 * 10^{-3} Nm
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! You can't use `\eqno' in math mode.
-\endmathdisplay@a ...\df@tag \@empty \else \veqno 
-                                                  \alt@tag \df@tag \fi \ifx ...
-l.79 \end{equation}
-                   
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.79 \end{equation}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.86 P = M_L * \omega\\
-                       
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.86 P = M_L * \omega\\
-                       
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.86 P = M_L * \omega\\
-                       
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Display math should end with $$.
-<to be read again> 
-                   \@@par 
-l.86 P = M_L * \omega\\
-                       
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-[8]
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.86 P = M_L * \omega\\
-                       
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.87 P = 130,25 * 10^
-                     {-3} Nm * 698 rad/s \\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.87 P = 130,25 * 10^{-3} Nm * 698 rad/s \\
-                                           
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.87 P = 130,25 * 10^{-3} Nm * 698 rad/s \\
-                                           
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.87 P = 130,25 * 10^{-3} Nm * 698 rad/s \\
-                                           
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.87 P = 130,25 * 10^{-3} Nm * 698 rad/s \\
-                                           
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-! LaTeX Error: Bad math environment delimiter.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.89 \end{equation}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! You can't use `\eqno' in horizontal mode.
-\endmathdisplay@a ...\df@tag \@empty \else \veqno 
-                                                  \alt@tag \df@tag \fi \ifx ...
-l.89 \end{equation}
-                   
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.89 \end{equation}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Display math should end with $$.
-<to be read again> 
-                   \endgroup 
-l.89 \end{equation}
-                   
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-
-Overfull \hbox (1.1018pt too wide) in paragraph at lines 94--98
+[9 <./System_Aufbau.jpg>] [10]
+Overfull \hbox (1.1018pt too wide) in paragraph at lines 134--138
 \T1/cmr/m/n/10.95 dieser Sim-u-la-tion-sstudie er-gaben sich Prob-leme, In-for-
 ma-tio-nen �ber die Ans-teuerung solch-
  []
 
+<ElektrischerTeil.jpg, id=236, 240.9pt x 224.33812pt>
+File: ElektrischerTeil.jpg Graphic file (type jpg)
 
-LaTeX Warning: File `Sensor_Funktion.jpg' not found on input line 115.
+<use ElektrischerTeil.jpg>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[11] [12 <./ElektrischerTeil.jpg>]
+
+LaTeX Warning: Command \. invalid in math mode on input line 198.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.198 ...) $M_R = r*\omega$, mit $\omega = \. \phi
+                                                  $ (siehe Abb. \ref{mechein...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Improper \spacefactor.
+<recently read> \spacefactor 
+                             
+l.198 ...) $M_R = r*\omega$, mit $\omega = \. \phi
+                                                  $ (siehe Abb. \ref{mechein...
+You can refer to \spacefactor only in horizontal mode;
+you can refer to \prevdepth only in vertical mode; and
+neither of these is meaningful inside \write. So
+I'm forgetting what you said and using zero instead.
+
+! Extra }, or forgotten $.
+\add@accent ... \accent@spacefactor \spacefactor }
+                                                  \accent #1 #2\egroup \spac...
+l.198 ...) $M_R = r*\omega$, mit $\omega = \. \phi
+                                                  $ (siehe Abb. \ref{mechein...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ...@spacefactor \spacefactor }\accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.198 ...) $M_R = r*\omega$, mit $\omega = \. \phi
+                                                  $ (siehe Abb. \ref{mechein...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+! Extra }, or forgotten $.
+\add@accent ...\spacefactor }\accent #1 #2\egroup 
+                                                  \spacefactor \accent@space...
+l.198 ...) $M_R = r*\omega$, mit $\omega = \. \phi
+                                                  $ (siehe Abb. \ref{mechein...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! You can't use `\spacefactor' in math mode.
+\add@accent ...}\accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.198 ...) $M_R = r*\omega$, mit $\omega = \. \phi
+                                                  $ (siehe Abb. \ref{mechein...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+LaTeX Warning: Reference `mecheinzelteil' on page 13 undefined on input line 19
+8.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.199 \begin{figure}[!h]
+                        
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\latex@xfloat ...vf \fi \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.199 \begin{figure}[!h]
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.199 \begin{figure}[!h]
+                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<MechanischerTeil.jpg, id=260, 201.75375pt x 196.48407pt>
+File: MechanischerTeil.jpg Graphic file (type jpg)
+
+<use MechanischerTeil.jpg>
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.206 \begin{center}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.206 \begin{center}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.206 \begin{center}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.209 M_
+        B = M_M - M_R - M_L = \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.209 M_B = M_M - M_R - M_L = \\
+                                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.209 M_B = M_M - M_R - M_L = \\
+                                
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.210 J * s\omega = M_M - r * \omega - M_L\\
+                                            
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.210 J * s\omega = M_M - r * \omega - M_L\\
+                                            
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! You can't use `\eqno' in math mode.
+\endmathdisplay@a ...\df@tag \@empty \else \veqno 
+                                                  \alt@tag \df@tag \fi \ifx ...
+l.212 \end{equation}
+                    
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.212 \end{equation}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.213 \end{center}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.213 \end{center}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.213 \end{center}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Reference `equ:motormomentebilanz' on page 13 undefined on input
+ line 214.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.215 \begin{center}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.215 \begin{center}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.215 \begin{center}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.218 s\omega
+              = \frac{1}{J} (M_M - r * \omega - M_L)
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! You can't use `\eqno' in math mode.
+\endmathdisplay@a ...\df@tag \@empty \else \veqno 
+                                                  \alt@tag \df@tag \fi \ifx ...
+l.219 \end{equation}
+                    
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.219 \end{equation}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.220 \end{center}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.220 \end{center}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.220 \end{center}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.222 \begin{center}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.222 \begin{center}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.222 \begin{center}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.225 M_
+        M = K_M * \Phi *i_A
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! You can't use `\eqno' in math mode.
+\endmathdisplay@a ...\df@tag \@empty \else \veqno 
+                                                  \alt@tag \df@tag \fi \ifx ...
+l.226 \end{equation}
+                    
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.226 \end{equation}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.227 \end{center}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.227 \end{center}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.227 \end{center}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.230 \subsection
+                 {Der ganze Motor}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.230 \subsection
+                 {Der ganze Motor}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.230 \subsection{Der ganze Motor}
+                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.230 \subsection{Der ganze Motor}
+                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.230 \subsection{Der ganze Motor}
+                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+<Motoraufbau.jpg, id=262, 478.03593pt x 262.73157pt>
+File: Motoraufbau.jpg Graphic file (type jpg)
+ <use Motoraufbau.jpg>
+
+LaTeX Warning: Reference `fig:aufbau_sensor' on page 13 undefined on input line
+ 248.
+
+
+LaTeX Warning: File `Sensor_Funktion.jpg' not found on input line 257.
 
 
 ! Package pdftex.def Error: File `Sensor_Funktion.jpg' not found.
@@ -2008,13 +1314,13 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.115 ...width=0.8\textwidth]{Sensor_Funktion.jpg}
+l.257 ...width=0.8\textwidth]{Sensor_Funktion.jpg}
                                                   
 Using draft setting for this image.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 115.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 257.
 
 (/usr/share/texmf-texlive/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
@@ -2022,52 +1328,37 @@ File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Sensor_Aufbau_schichten.jpg, id=341, 445.665pt x 256.96pt>
+<Sensor_Aufbau_schichten.jpg, id=264, 445.665pt x 256.96pt>
 File: Sensor_Aufbau_schichten.jpg Graphic file (type jpg)
 
 <use Sensor_Aufbau_schichten.jpg>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Sensor_DIODEN.jpg, id=342, 304.13625pt x 304.13625pt>
+[13 <./Motoraufbau.jpg>] [14 <./Sensor_Aufbau_schichten.jpg>]
+<Sensor_DIODEN.jpg, id=278, 304.13625pt x 304.13625pt>
 File: Sensor_DIODEN.jpg Graphic file (type jpg)
  <use Sensor_DIODEN.jpg>
-<Sensor_BLENDE.jpg, id=343, 304.13625pt x 304.13625pt>
+<Sensor_BLENDE.jpg, id=279, 304.13625pt x 304.13625pt>
 File: Sensor_BLENDE.jpg Graphic file (type jpg)
  <use Sensor_BLENDE.jpg>
-<Sensor_Abdunklung_0.jpg, id=344, 304.13625pt x 304.13625pt>
+<Sensor_Abdunklung_0.jpg, id=280, 304.13625pt x 304.13625pt>
 File: Sensor_Abdunklung_0.jpg Graphic file (type jpg)
 
 <use Sensor_Abdunklung_0.jpg>
-<Sensor_Abdunklung_40.jpg, id=345, 304.13625pt x 304.13625pt>
+<Sensor_Abdunklung_40.jpg, id=281, 304.13625pt x 304.13625pt>
 File: Sensor_Abdunklung_40.jpg Graphic file (type jpg)
 
-<use Sensor_Abdunklung_40.jpg>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) (./Programmentwicklung.tex [9] [10 <./Sensor_Aufbau_schichten.jpg>] [11 <./Se
-nsor_DIODEN.jpg> <./Sensor_BLENDE.jpg> <./Sensor_Abdunklung_0.jpg> <./Sensor_Ab
-dunklung_40.jpg>] [12
+<use Sensor_Abdunklung_40.jpg>) (./Programmentwicklung.tex [15 <./Sensor_DIODEN
+.jpg> <./Sensor_BLENDE.jpg> <./Sensor_Abdunklung_0.jpg> <./Sensor_Abdunklung_40
+.jpg>] [16
 
 
 ]
 Kapitel 4.
 
-LaTeX Warning: Reference `equ:motorspannungsimulink' on page 13 undefined on in
-put line 20.
-
-
-LaTeX Warning: Reference `equ:motormomentsimulink' on page 13 undefined on inpu
-t line 20.
-
-
-LaTeX Warning: Reference `chap:elekteil' on page 13 undefined on input line 20.
-
-
-
-LaTeX Warning: Reference `chap:mechteil' on page 13 undefined on input line 20.
-
+LaTeX Warning: Reference `equ:motormomentsimulink' on page 17 undefined on inpu
+t line 21.
 
 
 ! Package inputenc Error: Keyboard character used is undefined
@@ -2077,11 +1368,17 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.23 Um einen besseren Ü
+l.24 Um einen besseren Ü
                          berblick zu bekommen, werden die Formeln hier noch ...
 
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
+
+
+Overfull \hbox (4.36519pt too wide) in paragraph at lines 21--25
+\T1/cmr/m/n/10.95 vorkom-men, lasen sie sich kom-binieren und in Simulink ein-b
+inden, da so ein Gle-ichungssytem
+ []
 
 
 ! LaTeX Error: There's no line here to end.
@@ -2090,7 +1387,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.54 x_1 := \omega\\
+l.55 x_1 := \omega\\
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2099,7 +1396,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.54 x_1 := \omega\\
+l.55 x_1 := \omega\\
                     
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2107,7 +1404,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.54 x_1 := \omega\\
+l.55 x_1 := \omega\\
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2118,16 +1415,16 @@ my insertion and my current dilemma will both disappear.
 ! Display math should end with $$.
 <to be read again> 
                    \@@par 
-l.54 x_1 := \omega\\
+l.55 x_1 := \omega\\
                     
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
 
-[13]
+[17]
 ! Extra }, or forgotten \endgroup.
 \par ...m \@noitemerr {\@@par }\fi \else {\@@par }
                                                   \fi 
-l.54 x_1 := \omega\\
+l.55 x_1 := \omega\\
                     
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2138,7 +1435,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.55 x_
+l.56 x_
        2 := i_A
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2146,7 +1443,7 @@ you left one out. Proceed, with fingers crossed.
 ! You can't use `\eqno' in math mode.
 \endmathdisplay@a ...\df@tag \@empty \else \veqno 
                                                   \alt@tag \df@tag \fi \ifx ...
-l.56 \end{equation}
+l.57 \end{equation}
                    
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -2156,7 +1453,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.56 \end{equation}
+l.57 \end{equation}
                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2171,19 +1468,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.58 ist, lä
+l.59 ist, lä
              sst sich folgendes Gleichungssytem aufstellen:
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-LaTeX Warning: Command \. invalid in math mode on input line 62.
+LaTeX Warning: Command \. invalid in math mode on input line 63.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ...@spacefactor \spacefactor }\accent 
                                                   #1 #2\egroup \spacefactor ...
-l.62 \.x
+l.63 \.x
         _1 = \frac{1}{J} (K_M \Phi x_2 - r * x_1 - M_L)\\
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
@@ -2191,7 +1488,7 @@ I'm changing \accent to \mathaccent here; wish me luck.
 ! You can't use `\spacefactor' in display math mode.
 \add@accent ...}\accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.62 \.x
+l.63 \.x
         _1 = \frac{1}{J} (K_M \Phi x_2 - r * x_1 - M_L)\\
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -2205,7 +1502,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.62 ...rac{1}{J} (K_M \Phi x_2 - r * x_1 - M_L)\\
+l.63 ...rac{1}{J} (K_M \Phi x_2 - r * x_1 - M_L)\\
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2214,7 +1511,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.62 ...rac{1}{J} (K_M \Phi x_2 - r * x_1 - M_L)\\
+l.63 ...rac{1}{J} (K_M \Phi x_2 - r * x_1 - M_L)\\
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2222,7 +1519,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.62 ...rac{1}{J} (K_M \Phi x_2 - r * x_1 - M_L)\\
+l.63 ...rac{1}{J} (K_M \Phi x_2 - r * x_1 - M_L)\\
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2233,7 +1530,7 @@ my insertion and my current dilemma will both disappear.
 ! Display math should end with $$.
 <to be read again> 
                    \@@par 
-l.62 ...rac{1}{J} (K_M \Phi x_2 - r * x_1 - M_L)\\
+l.63 ...rac{1}{J} (K_M \Phi x_2 - r * x_1 - M_L)\\
                                                   
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
@@ -2242,7 +1539,7 @@ Missing character: There is no � in font cmex10!
 ! Extra }, or forgotten \endgroup.
 \par ...m \@noitemerr {\@@par }\fi \else {\@@par }
                                                   \fi 
-l.62 ...rac{1}{J} (K_M \Phi x_2 - r * x_1 - M_L)\\
+l.63 ...rac{1}{J} (K_M \Phi x_2 - r * x_1 - M_L)\\
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2253,7 +1550,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.63 \.x_
+l.64 \.x_
          2 = \frac{1}{L_A} (K_M * \Phi x_1 - R_Ax_2 + u_e)
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2261,7 +1558,7 @@ you left one out. Proceed, with fingers crossed.
 ! You can't use `\eqno' in math mode.
 \endmathdisplay@a ...\df@tag \@empty \else \veqno 
                                                   \alt@tag \df@tag \fi \ifx ...
-l.64 \end{equation}
+l.65 \end{equation}
                    
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -2271,7 +1568,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.64 \end{equation}
+l.65 \end{equation}
                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2286,7 +1583,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 Dieses Gleichungssytem lä
+l.67 Dieses Gleichungssytem lä
                                sst sich jetzt durch die grafischen Elemente ...
 
 Your command was ignored.
@@ -2300,14 +1597,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.68 Wie zu Begin des Kap. \ref{chap:motor} erwä
+l.69 Wie zu Begin des Kap. \ref{chap:motor} erwä
                                                  hnt, war es nicht möglich ...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<sSpiegel.jpg, id=388, 902.6222pt x 358.33875pt>
+<sSpiegel.jpg, id=311, 902.6222pt x 358.33875pt>
 File: sSpiegel.jpg Graphic file (type jpg)
  <use sSpiegel.jpg>
 
@@ -2317,7 +1614,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.85 ...or als relativ einfach, da, wie oben erwä
+l.86 ...or als relativ einfach, da, wie oben erwä
                                                   hnt, keien Motordaten gefu...
 
 Your command was ignored.
@@ -2331,7 +1628,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.87 ...en die Motorkenndaten, die berechnete Trä
+l.88 ...en die Motorkenndaten, die berechnete Trä
                                                   gheit des Spiegels, das be...
 
 Your command was ignored.
@@ -2345,14 +1642,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.89 ... Grundlage für die Simuation, welches wä
+l.90 ... Grundlage für die Simuation, welches wä
                                                   hrend der Simulation entsp...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[14 <./sSpiegel.jpg>]
+[18 <./sSpiegel.jpg>]
 
 ! Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `latin1'.
@@ -2361,7 +1658,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.91 Als Größ
+l.92 Als Größ
                en zur Ausgabe in einem Diagramm, interessieren vor allem die...
 
 You need to provide a definition with \DeclareInputText 
@@ -2374,7 +1671,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.95 Der dritte Plot enthä
+l.96 Der dritte Plot enthä
                            lt auch wieder den aktuellen Winkel $\phi$, jedoc...
 
 Your command was ignored.
@@ -2389,7 +1686,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.99 ...en in das Hauptprogramm einzubinden und Ä
+l.100 ...n in das Hauptprogramm einzubinden und Ä
                                                   nderungen an z.B. den Ausm...
 
 You need to provide a definition with \DeclareInputText 
@@ -2403,7 +1700,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.99 ...binden und Änderungen an z.B. den Ausmaß
+l.100 ...inden und Änderungen an z.B. den Ausmaß
                                                   en des Sensors vorzunehmen...
 
 You need to provide a definition with \DeclareInputText 
@@ -2416,14 +1713,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.99 ...ors vorzunehmen, ohne das Hauptprogramm ä
+l.100 ...rs vorzunehmen, ohne das Hauptprogramm ä
                                                   ndern zu müssen.
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (3.10286pt too wide) in paragraph at lines 98--100
+Overfull \hbox (3.10286pt too wide) in paragraph at lines 99--101
 \T1/cmr/m/n/10.95 Der Sen-sor selb-st wird nur mit Mat-labpro-gram-men simulier
 t. Dies er-m�\OMS/cmsy/m/n/10.95 {\T1/cmr/m/n/10.95 glicht ver-schiedene
  []
@@ -2436,7 +1733,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.102 ...ensor mit seinen verschiedenen Kenngröß
+l.103 ...ensor mit seinen verschiedenen Kenngröß
                                                   en wie Sensorfläche, Übe...
 
 You need to provide a definition with \DeclareInputText 
@@ -2449,7 +1746,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.102 ...verschiedenen Kenngrößen wie Sensorflä
+l.103 ...verschiedenen Kenngrößen wie Sensorflä
                                                   che, Übertragungsverhalte...
 
 Your command was ignored.
@@ -2464,14 +1761,14 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.102 ...edenen Kenngrößen wie Sensorfläche, Ü
+l.103 ...edenen Kenngrößen wie Sensorfläche, Ü
                                                   bertragungsverhalten, und ...
 
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
 
-Overfull \hbox (9.37654pt too wide) in paragraph at lines 102--105
+Overfull \hbox (9.37654pt too wide) in paragraph at lines 103--106
 \T1/cmr/m/n/10.95 Um einen Sen-sor mit seinen ver-schiede-nen Ken-ngr�\OMS/cmsy
 /m/n/10.95 {\T1/cmr/m/n/10.95 �en wie Sen-sor-fl�che, �ber-tra-gungsver-
  []
@@ -2483,7 +1780,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.108 Auch sollten Deine Versuchsprogramme erwä
+l.109 Auch sollten Deine Versuchsprogramme erwä
                                                 hnt und mit in den Anhang ko...
 
 Your command was ignored.
@@ -2497,7 +1794,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.109 ...it drin und war/ist für die Simuation ä
+l.110 ...it drin und war/ist für die Simuation ä
                                                   ußerst wichtig.
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2511,52 +1808,87 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.109 ...drin und war/ist für die Simuation äuß
+l.110 ...drin und war/ist für die Simuation äuß
                                                   erst wichtig.
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
-) (./Simulationsdurchfuehrung.tex [15] [16
+) (./Simulationsdurchfuehrung.tex [19] [20
 
 
 ]
 Kapitel 5.
-! Missing $ inserted.
-<inserted text> 
-                $
-l.33 \subsubsection{chap:p_regelung}
-                                    
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+
+LaTeX Warning: Reference `fig:p40' on page 21 undefined on input line 36.
+
+
+! LaTeX Error: Command \textcurrency unavailable in encoding T1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.37 ...rkennen, dass nach ca. 7 ms es keine Verä
+                                                  nderung des eingesetllten ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 Eine Erhöhung des P-Anteils ergibt ein Ü
+                                               berschwingen, wie es in Abb. ...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+LaTeX Warning: Reference `fig:p45' on page 21 undefined on input line 38.
+
+
+LaTeX Warning: Reference `fig:p40' on page 21 undefined on input line 39.
+
+
+LaTeX Warning: Reference `fig:p45' on page 21 undefined on input line 39.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.40 ...leibende Regeldifferenz noch viel zu groß
+                                                  .
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 ...n P-Regelung versucht, die restliche groß
+                                                  e Regeldifferenz auszuglei...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.33 \subsubsection{chap:p_regelung}
-                                    
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 33.
-
-
-LaTeX Warning: Reference `fig:p40' on page 17 undefined on input line 34.
-
-
-LaTeX Warning: Reference `fig:p45' on page 17 undefined on input line 36.
-
-
-LaTeX Warning: Reference `fig:p40' on page 17 undefined on input line 37.
-
-
-LaTeX Warning: Reference `fig:p45' on page 17 undefined on input line 37.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.40 ...ulationen wird das Matlab-File "msSpiegel_
+l.42 ...ulationen wird das Matlab-File "msSpiegel_
                                                   PID.m" und das Simulink-Fi...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2568,7 +1900,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.41 \begin{figure}[!h]
+l.43 \begin{figure}[!h]
                        
 You've lost some text.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2576,7 +1908,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Undefined control sequence.
 \latex@xfloat ...vf \fi \global \setbox \@currbox 
                                                   \color@vbox \normalcolor \...
-l.41 \begin{figure}[!h]
+l.43 \begin{figure}[!h]
                        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2587,13 +1919,13 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    \vbox 
-l.41 \begin{figure}[!h]
+l.43 \begin{figure}[!h]
                        
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-<NurP40.jpg, id=411, 642.4pt x 693.59125pt>
+<NurP40.jpg, id=329, 642.4pt x 693.59125pt>
 File: NurP40.jpg Graphic file (type jpg)
  <use NurP40.jpg>
 
@@ -2603,7 +1935,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.47 \begin{figure}[!h]
+l.49 \begin{figure}[!h]
                        
 You've lost some text.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2611,7 +1943,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Undefined control sequence.
 \latex@xfloat ...vf \fi \global \setbox \@currbox 
                                                   \color@vbox \normalcolor \...
-l.47 \begin{figure}[!h]
+l.49 \begin{figure}[!h]
                        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2622,130 +1954,194 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    \vbox 
-l.47 \begin{figure}[!h]
+l.49 \begin{figure}[!h]
                        
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-<NurP45.jpg, id=412, 642.4pt x 693.59125pt>
+<NurP45.jpg, id=330, 642.4pt x 693.59125pt>
 File: NurP45.jpg Graphic file (type jpg)
  <use NurP45.jpg>
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.53 
+l.55 
      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (28.6383pt too wide) in paragraph at lines 34--53
-\T1/cmr/m/n/10.95 ichen. F�r die fol-gen-den Sim-u-la-tio-nen wird das Matlab-F
-ile "msSpiegel$[]\OML/cmm/m/it/10.95 ID:m[]nddasSimulink \OMS/cmsy/m/n/10.95 ^^
-@
+Overfull \hbox (76.17723pt too wide) in paragraph at lines 36--55
+\T1/cmr/m/n/10.95 auszu-gle-ichen. F�$[]$r die fol-gen-den Sim-u-la-tio-nen wir
+d das Matlab-File "msSpiegel$[]\OML/cmm/m/it/10.95 ID:m[]nddasSimulink \OMS/cms
+y/m/n/10.95 ^^@
  []
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.54 \subsubsection{chap:pi_regelung}
-                                     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.54 \subsubsection{chap:pi_regelung}
-                                     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+! LaTeX Error: Command \textcurrency unavailable in encoding T1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 ...kennen, dass nach ca. 13 ms es keine Verä
+                                                  nderung des eingesetllten ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 54.
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
 
-<PI-P30I17.jpg, id=417, 636.3775pt x 693.59125pt>
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 ...öhung des P- oder I-Anteils ergibt ein Ü
+                                                  berschwingen, wie es in Ab...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 ...leibende Regeldifferenz noch viel zu groß
+                                                  .
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+<PI-P30I17.jpg, id=335, 636.3775pt x 693.59125pt>
 File: PI-P30I17.jpg Graphic file (type jpg)
  <use PI-P30I17.jpg>
-File: PI-P30I17.jpg Graphic file (type jpg)
-
-<use PI-P30I17.jpg> [17]
+<PI-P30I18.jpg, id=336, 642.4pt x 693.59125pt>
+File: PI-P30I18.jpg Graphic file (type jpg)
+ <use PI-P30I18.jpg> [21]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.74 \subsubsection{chap:pd_regelung}
-                                     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.74 \subsubsection{chap:pd_regelung}
-                                     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+! LaTeX Error: Command \textcurrency unavailable in encoding T1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.81 ...rkennen, dass nach ca. 7 ms es keine Verä
+                                                  nderung des eingesetllten ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 74.
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
 
-<PD-P22D1N1.jpg, id=432, 642.4pt x 693.59125pt>
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82 ...öhung des P- oder D-Anteils ergibt ein Ü
+                                                  berschwingen, wie es in Ab...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.84 ...leibende Regeldifferenz noch viel zu groß
+                                                  .
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+<PD-P22D1N1.jpg, id=348, 642.4pt x 693.59125pt>
 File: PD-P22D1N1.jpg Graphic file (type jpg)
  <use PD-P22D1N1.jpg>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<PD-P23D1N1.jpg, id=433, 642.4pt x 693.59125pt>
+<PD-P23D1N1.jpg, id=349, 642.4pt x 693.59125pt>
 File: PD-P23D1N1.jpg Graphic file (type jpg)
  <use PD-P23D1N1.jpg>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.94 \subsubsection{chap:pid_regelung}
-                                      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.94 \subsubsection{chap:pid_regelung}
-                                      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+LaTeX Warning: Reference `fig:p20i16d1n1' on page 22 undefined on input line 10
+1.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 94.
+! LaTeX Error: Command \textcurrency unavailable in encoding T1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.102 ...kennen, dass nach ca. 7 ms es keine Verä
+                                                  nderung des eingesetllten ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 
-LaTeX Warning: Reference `fig:p20i16d1n1' on page 18 undefined on input line 96
-.
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.103 ...denen Reglerparamteranteile ergibt ein Ü
+                                                  berschwingen, wie es in Ab...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
 
 
-LaTeX Warning: Reference `fig:p20i16d1n1' on page 18 undefined on input line 98
-.
+LaTeX Warning: Reference `fig:p20i16d1n1' on page 22 undefined on input line 10
+3.
 
 
-LaTeX Warning: Reference `fig:p20i16d1n1' on page 18 undefined on input line 99
-.
+LaTeX Warning: Reference `fig:p20i16d1n1' on page 22 undefined on input line 10
+4.
 
-<PID-P20I15D1N1.jpg, id=434, 642.4pt x 693.59125pt>
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.105 Durch die groß
+                     e Abweichung vom Sollwinkel ist in dieser Grafik kein G...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+<PID-P20I15D1N1.jpg, id=350, 642.4pt x 693.59125pt>
 File: PID-P20I15D1N1.jpg Graphic file (type jpg)
  <use PID-P20I15D1N1.jpg>
-<PID-P20I16D1N1.jpg, id=435, 642.4pt x 693.59125pt>
+<PID-P20I16D1N1.jpg, id=351, 642.4pt x 693.59125pt>
 File: PID-P20I16D1N1.jpg Graphic file (type jpg)
  <use PID-P20I16D1N1.jpg>
-[18 <./PI-P30I17.jpg>]
+[22 <./PI-P30I17.jpg>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -2753,23 +2149,63 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.121 ...eil den meisten Einfluss, bzw. den größ
+                                                  ten Erfolg bei der Regelun...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! LaTeX Error: Command \textcurrency unavailable in encoding T1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.124 ...on wird folgende Formel vor den P-Verstä
+                                                  rker geschaltet:
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19 <./PD-P22D1N1.jpg>]
+ [23 <./PI-P30I18.jpg> <./PD-P22D1N1.jpg>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [20 <./PD-P23D1N1.jpg> <./PID-P20I15D1N1.jpg>]
-<P-Adaption.jpg, id=456, 743.02594pt x 424.58624pt>
+ [24 <./PD-P23D1N1.jpg> <./PID-P20I15D1N1.jpg>]
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.130 Dabei muss der Regelkreis folgendermaß
+                                             en erweitert werden:
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+<P-Adaption.jpg, id=369, 743.02594pt x 424.58624pt>
 File: P-Adaption.jpg Graphic file (type jpg)
  <use P-Adaption.jpg>
 
-LaTeX Warning: Citation `FrKu' on page 21 undefined on input line 128.
+LaTeX Warning: Citation `FrKu' on page 25 undefined on input line 134.
 
 
-LaTeX Warning: Citation `FrKu' on page 21 undefined on input line 128.
+LaTeX Warning: Citation `FrKu' on page 25 undefined on input line 134.
 
 ! Misplaced alignment tab character &.
-l.131 ... "Tempo beim Laserzugriff", Artikel im F&
+l.137 ... "Tempo beim Laserzugriff", Artikel im F&
                                                   M Elektronik, Jahrg.111(20...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2779,1069 +2215,397 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+LaTeX Warning: Reference `' on page 25 undefined on input line 138.
 
-! Missing $ inserted.
+<sSpiegelPad.jpg, id=370, 911.65594pt x 320.69812pt>
+File: sSpiegelPad.jpg Graphic file (type jpg)
+ <use sSpiegelPad.jpg>)
+Runaway argument?
+{P-Adaption in Simulink \label {fig:padaptionsimulink} \end {figure} \ETC.
+! File ended while scanning use of \@xdblarg.
 <inserted text> 
-                $
-l.133 \subsubsection{chap:p_adaption}
-                                     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.133 \subsubsection{chap:p_adaption}
-                                     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 133.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.138 ...lationen wird das Matlab-File "msSpiegel_
-                                                  Pad.m" und das Simulink-Fi...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-! LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.139 \begin{figure}[!h]
-                        
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Undefined control sequence.
-\latex@xfloat ...vf \fi \global \setbox \@currbox 
-                                                  \color@vbox \normalcolor \...
-l.139 \begin{figure}[!h]
-                        
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \vbox 
-l.139 \begin{figure}[!h]
-                        
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-<Pad-P41F1_1,5F2_80.jpg, id=457, 642.4pt x 693.59125pt>
-File: Pad-P41F1_1,5F2_80.jpg Graphic file (type jpg)
-
-<use Pad-P41F1_1,5F2_80.jpg>
-
-LaTeX Warning: Reference `fig:padp41f1580' on page 21 undefined on input line 1
-45.
-
-
-LaTeX Warning: Command \" invalid in math mode on input line 146.
-
-
-LaTeX Warning: Reference `fig:padp50f3400' on page 21 undefined on input line 1
-47.
-
-
-! LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.148 \begin{figure}[!h]
-                        
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Undefined control sequence.
-\latex@xfloat ...vf \fi \global \setbox \@currbox 
-                                                  \color@vbox \normalcolor \...
-l.148 \begin{figure}[!h]
-                        
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \vbox 
-l.148 \begin{figure}[!h]
-                        
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-<Pad-P50F1_3F2_400.jpg, id=458, 636.3775pt x 693.59125pt>
-File: Pad-P50F1_3F2_400.jpg Graphic file (type jpg)
-
-<use Pad-P50F1_3F2_400.jpg>
-! Missing $ inserted.
-<inserted text> 
-                $
-l.154 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-Missing character: There is no � in font cmr10!
-
-Overfull \hbox (318.54863pt too wide) in paragraph at lines 134--154
-\T1/cmr/m/n/10.95 "msSpiegel$[]\OML/cmm/m/it/10.95 ad:m[]nddasSimulink \OMS/cms
-y/m/n/10.95 ^^@ \OML/cmm/m/it/10.95 File\OT1/cmr/m/n/10.95 ^^Y[]\OML/cmm/m/it/1
-0.95 SpiegelPad:slx\OT1/cmr/m/n/10.95 "\OML/cmm/m/it/10.95 hergenommen:InAbb:[]
-istzuerkennen; dassderSollwinkelnichterreichtwird:WirdjedochderP \OMS/cmsy/m/n/
-10.95 ^^@
- []
-
-
-Overfull \hbox (631.10889pt too wide) in paragraph at lines 134--154
-\OML/cmm/m/it/10.95 Anteilerhhtundmitdenbeidenf \OMS/cmsy/m/n/10.95 ^^@ \OML/cm
-m/m/it/10.95 ParameternweitereEinstellungenprobiert; sowirdderSollwinkelnieerre
-icht:EskommtzwarzueinemSchwingenumdenSollwinkel; aberdieserkannnichtstabilerrei
-chtwerden; sieheAbb:[]:$ 
- []
-
-[21 <./PID-P20I16D1N1.jpg>]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.155 \subsubsection{chap:p_adaptiongalvo}
-                                          
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.155 \subsubsection{chap:p_adaptiongalvo}
-                                          
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 155.
-
-
-LaTeX Warning: Citation `CaTe' on page 22 undefined on input line 160.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.164 ...lationen wird das Matlab-File "msSpiegel_
-                                                  Pad_Werte.m" und das Simul...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.165 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Overfull \hbox (24.2305pt too wide) in paragraph at lines 164--165
-[]\T1/cmr/m/n/10.95 F�r die fol-gen-den Sim-u-la-tio-nen wird das Matlab-File "
-msSpiegel$[]\OML/cmm/m/it/10.95 ad[]erte:m[]nddasSimulink \OMS/cmsy/m/n/10.95 ^
-^@
- []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.170 \item Innenwiderstand der Spule: 1.07 \Omega
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-! LaTeX Error: Command \item invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.171 \item
-            Induktivit�t der Spule: 173 \mu H
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.171 \item I
-             nduktivit�t der Spule: 173 \mu H
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.171 \item I
-             nduktivit�t der Spule: 173 \mu H
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Command \" invalid in math mode on input line 171.
-
-
-! LaTeX Error: Command \item invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.172 \item
-            P-Anteil: 330
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.172 \item P
-             -Anteil: 330
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.172 \item P
-             -Anteil: 330
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-Missing character: There is no � in font cmr10!
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.172 \item P
-             -Anteil: 330
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-! LaTeX Error: \begin{itemize} on input line 169 ended by \end{itemize }.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.176 }
-       
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-<Pad-Werte-P330F1_5F2_370.jpg, id=468, 642.4pt x 693.59125pt>
-File: Pad-Werte-P330F1_5F2_370.jpg Graphic file (type jpg)
-
-<use Pad-Werte-P330F1_5F2_370.jpg>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.184 \subsubsection{chap:p_adaptionwerte}
-                                          
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.184 \subsubsection{chap:p_adaptionwerte}
-                                          
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 184.
-
-[22 <./P-Adaption.jpg>]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.188 ...lationen wird das Matlab-File "msSpiegel_
-                                                  Pad_Neue_Werte.m" und das ...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-! LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.189 \begin{figure}[!h]
-                        
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Undefined control sequence.
-\latex@xfloat ...vf \fi \global \setbox \@currbox 
-                                                  \color@vbox \normalcolor \...
-l.189 \begin{figure}[!h]
-                        
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \vbox 
-l.189 \begin{figure}[!h]
-                        
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-<Pad-Neue-Werte-P320F1_2F2_65.jpg, id=477, 642.4pt x 693.59125pt>
-File: Pad-Neue-Werte-P320F1_2F2_65.jpg Graphic file (type jpg)
-
-<use Pad-Neue-Werte-P320F1_2F2_65.jpg>
-
-LaTeX Warning: Reference `fig:padneuewerte' on page 23 undefined on input line 
-195.
-
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 196.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.198 \begin{itemize}
-                     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.198 \begin{itemize}
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Overfull \hbox (48.7948pt too wide) in paragraph at lines 188--198
-[]\T1/cmr/m/n/10.95 F�r die fol-gen-den Sim-u-la-tio-nen wird das Matlab-File "
-msSpiegel$[]\OML/cmm/m/it/10.95 ad[]eue[]erte:m[]nddasSimulink \OMS/cmsy/m/n/10
-.95 ^^@
- []
-
-
-Overfull \hbox (766.89528pt too wide) in paragraph at lines 188--198
-\OML/cmm/m/it/10.95 File\OT1/cmr/m/n/10.95 ^^Y[]\OML/cmm/m/it/10.95 SpiegelPad:
-slx\OT1/cmr/m/n/10.95 "\OML/cmm/m/it/10.95 hergenommen:WieinAbb:[]zuerkennen; i
-stdieRegelungindengefordertenBereichenerfolgreich:DergeforderteWinkelvon\OT1/cm
-r/m/n/10.95 20[]\OML/cmm/m/it/10.95 istunter\OT1/cmr/m/n/10.95 1\OML/cmm/m/it/1
-0.95 msinseinenRegeldifferenzenerreicht:DieserRegelungliegenfolgendeWertezuGrun
-de \OT1/cmr/m/n/10.95 :$ 
- []
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.199 \item I
-             nnenwiderstand der Spule: 0.1 \Omega
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 199
-[][]
- []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.199 \item Innenwiderstand der Spule: 0.1 \Omega
-                                                 
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-! LaTeX Error: Command \item invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.200 \item
-            Induktivit�t der Spule: 3 \mu H
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.200 \item I
-             nduktivit�t der Spule: 3 \mu H
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.200 \item I
-             nduktivit�t der Spule: 3 \mu H
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.200 \item I
-             nduktivit�t der Spule: 3 \mu H
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 200
-[][]
- []
-
-
-LaTeX Warning: Command \" invalid in math mode on input line 200.
-
-
-! LaTeX Error: Command \item invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.201 \item
-            Motorkonstante KMPHI: 35e-3 Vs
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.201 \item M
-             otorkonstante KMPHI: 35e-3 Vs
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.201 \item M
-             otorkonstante KMPHI: 35e-3 Vs
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-Missing character: There is no � in font cmr10!
-! Too many }'s.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.201 \item M
-             otorkonstante KMPHI: 35e-3 Vs
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.201 \item M
-             otorkonstante KMPHI: 35e-3 Vs
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 201
-[][]
- []
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.202 \item R
-             eibungskoeffizient: 6e-5 Nm*s
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 202
-[][]
- []
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.203 \item T
-             r�gheitsmoment des Spiegels: 93.3e-9 $kg*m^2$
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 203
-[][]
- []
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.204 \item D
-             rehmoment auf den Spiegel:130.25e-6 Nm
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 204
-[][]
- []
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.205 \item P
-             -Anteil: 320
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 205
-[][]
- []
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.206 \item $
-             f_1$: 2
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 206
-[][]
- []
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.207 \item $
-             f_2$: 160
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 207
-[][]
- []
-
-
-! LaTeX Error: \begin{document} ended by \end{itemize}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.208 \end{itemize}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.208 \end{itemize}
-                   
-Things are pretty mixed up, but I think the worst is over.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.210 \subsubsection{chap:p_adaptionstrom}
-                                          
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.210 \subsubsection{chap:p_adaptionstrom}
-                                          
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 210.
-
-<Strom_zu_hoch.jpg, id=479, 562.1pt x 421.575pt>
-File: Strom_zu_hoch.jpg Graphic file (type jpg)
- <use Strom_zu_hoch.jpg>
-<P-Adaption-Strom.jpg, id=480, 912.40875pt x 404.26031pt>
-File: P-Adaption-Strom.jpg Graphic file (type jpg)
-
-<use P-Adaption-Strom.jpg>
-<sSpiegelPadStrom.jpg, id=483, 910.15031pt x 306.39468pt>
-File: sSpiegelPadStrom.jpg Graphic file (type jpg)
-
-<use sSpiegelPadStrom.jpg>
-! Missing $ inserted.
-<inserted text> 
-                $
-l.236 ...lationen wird das Matlab-File "msSpiegel_
-                                                  Pad_Neue_Werte_Strom.m" un...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.237 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.237 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Overfull \hbox (41.34816pt too wide) in paragraph at lines 211--237
-\T1/cmr/m/n/10.95 "msSpiegel$[]\OML/cmm/m/it/10.95 ad[]eue[]erte[]trom:m[]nddas
-Simulink \OMS/cmsy/m/n/10.95 ^^@ \OML/cmm/m/it/10.95 File\OT1/cmr/m/n/10.95 ^^Y
-[]\OML/cmm/m/it/10.95 SpiegelPadStrom:slx\OT1/cmr/m/n/10.95 "\OML/cmm/m/it/10.9
-5 hergenommen:[]$ 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[23 <./Pad-Werte-P330F1_5F2_370.jpg>]
-! Too many }'s.
-\@par ... \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.237 
-      
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-<Strom-Pad-Neue-Werte-P320F1_2F2_160.jpg, id=492, 642.4pt x 693.59125pt>
-File: Strom-Pad-Neue-Werte-P320F1_2F2_160.jpg Graphic file (type jpg)
-
-<use Strom-Pad-Neue-Werte-P320F1_2F2_160.jpg>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[24 <./Strom_zu_hoch.jpg> <./P-Adaption-Strom.jpg> <./sSpiegelPadStrom.jpg>]
-<Strom-Pad-Neue-Werte-P218F1_5F2_400.jpg, id=502, 642.4pt x 690.58pt>
-File: Strom-Pad-Neue-Werte-P218F1_5F2_400.jpg Graphic file (type jpg)
-
-<use Strom-Pad-Neue-Werte-P218F1_5F2_400.jpg>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.261 \subsubsection{chap:p_adaptionfertig}
-                                           
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.261 \subsubsection{chap:p_adaptionfertig}
-                                           
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 261.
-
-
-LaTeX Warning: Reference `' on page 25 undefined on input line 263.
-
-
-LaTeX Warning: File `Strom-Pad-Neue-Werte-P250F1_3F2_160.jpg' not found on inpu
-t line 266.
-
-
-! Package pdftex.def Error: File `Strom-Pad-Neue-Werte-P250F1_3F2_160.jpg' not 
-found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.266 ...{Strom-Pad-Neue-Werte-P250F1_3F2_160.jpg}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-! Undefined control sequence.
-l.273 \itemP
-            -Anteil: 250
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `chap:???' on page 25 undefined on input line 283.
-
-
-LaTeX Warning: Reference `' on page 25 undefined on input line 286.
-
-[25 <./Strom-Pad-Neue-Werte-P320F1_2F2_160.jpg>] [26 <./Strom-Pad-Neue-Werte-P2
-18F1_5F2_400.jpg>]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.288 ...teuerung wird das Matlab-File "msSpiegel_
-                                                  Pad_Neue_Werte_Strom.m" mo...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-LaTeX Warning: Command \" invalid in math mode on input line 289.
-
-
-LaTeX Warning: Command \" invalid in math mode on input line 289.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.291 \begin{itemize}
-                     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.291 \begin{itemize}
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.291 \begin{itemize}
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-Missing character: There is no � in font cmr10!
-Missing character: There is no � in font cmr10!
-
-Overfull \hbox (295.4443pt too wide) in paragraph at lines 288--291
-[]\T1/cmr/m/n/10.95 Zur Ans-teuerung wird das Matlab-File "msSpiegel$[]\OML/cmm
-/m/it/10.95 ad[]eue[]erte[]trom:m\OT1/cmr/m/n/10.95 "\OML/cmm/m/it/10.95 modifi
-ziertundals\OT1/cmr/m/n/10.95 "\OML/cmm/m/it/10.95 msSpiegelundSensor:m\OT1/cmr
-/m/n/10.95 "\OML/cmm/m/it/10.95 gespeichert:IndiesemMatlab \OMS/cmsy/m/n/10.95 
-^^@
- []
-
-
-Overfull \hbox (96.0089pt too wide) in paragraph at lines 288--291
-\OML/cmm/m/it/10.95 Fileistesmglich; verschiedeneKenndatenfrdenSensoreinzugeben
-:EswerdenfolgendeDatenhergenommen \OT1/cmr/m/n/10.95 :
- []
-
-! Too many }'s.
-\@par ... \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.291 \begin{itemize}
-                     
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.292 \item I
-             nnenradius = 5 mm
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 292
-[][]
- []
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.293 \item A
-             ussenradius = 10 mm
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 293
-[][]
- []
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.294 \item L
-             astwiederstand = 6000 Ohm
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 294
-[][]
- []
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.295 \item M
-             essbereich = 20/180*pi (20�)
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 295
-[][]
- []
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.296 \item L
-             EDLeistung = 1 W
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 296
-[][]
- []
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.297 \item U
-             mgebungstemperatur = 300 K
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 297
-[][]
- []
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.298 \item n
-             onlinear = 0.0001 (falls ein nichtlinearer Sensor simuliert wer...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 298
-[][]
- []
-
-
-! LaTeX Error: \begin{document} ended by \end{itemize}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.299 \end{itemize}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.299 \end{itemize}
-                   
-Things are pretty mixed up, but I think the worst is over.
-
-<Sensor_10_1_100_linear1.jpg, id=518, 642.4pt x 693.59125pt>
-File: Sensor_10_1_100_linear1.jpg Graphic file (type jpg)
-
-<use Sensor_10_1_100_linear1.jpg>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Sensor_10_1_100_linear2.jpg, id=520, 642.4pt x 693.59125pt>
-File: Sensor_10_1_100_linear2.jpg Graphic file (type jpg)
-
-<use Sensor_10_1_100_linear2.jpg>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Sensor_10_1_100_nonlinear00001.jpg, id=522, 642.4pt x 693.59125pt>
-File: Sensor_10_1_100_nonlinear00001.jpg Graphic file (type jpg)
-
-<use Sensor_10_1_100_nonlinear00001.jpg>) (./Disskussion.tex [27]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [28 <./Sensor_10_1_100_linear1.jpg> <./Sensor_10_1_100_linear2.jpg>] [29 <./Se
-nsor_10_1_100_nonlinear00001.jpg>] [30
-
-
-]
+                \par 
+l.213 \input{Simulationsdurchfuehrung}
+                                      
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+(./Disskussion.tex
 Kapitel 6.
-) (./Zusammenfassung.tex [31] [32
+
+LaTeX Warning: Reference `fig:p40' on page 25 undefined on input line 19.
 
 
-]
+LaTeX Warning: Reference `fig:p45' on page 25 undefined on input line 19.
+
+
+! LaTeX Error: Command \textcurrency unavailable in encoding T1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...f{chap:p_regelung} zu erkennen ist, beträ
+                                                  gt die Zeit, bis der Winke...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \textcurrency unavailable in encoding T1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...trägt die Zeit, bis der Winkel in der Nä
+                                                  he des Sollwertes ist, ca....
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 Jedoch ist ein groß
+                         e Schwankung des Winkels zu erkennen.
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 ...n P = 40 ist die Abweichunng noch so groß
+                                                  , dass der Winkel in der u...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.22 Bei einem etwas größ
+                           erem P-Anteil P = 45 ist zu erkennen, dass der So...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! LaTeX Error: Command \textcurrency unavailable in encoding T1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 ...e Einregelzeit auf ca. \unit[9]{ms} verlä
+                                                  ngert.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.33 ...nteil leicht erhöht, kommt es zu einem Ü
+                                                  berschwingen um den Sollwi...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+LaTeX Warning: Reference `fig:p20i16d1n1' on page 25 undefined on input line 37
+.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 ...inen Erhöhung eines der Parameter, ein Ü
+                                                  berschwingen um den Sollwi...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+LaTeX Warning: Reference `fig:p20i16d1n1' on page 25 undefined on input line 40
+.
+
+
+LaTeX Warning: Reference `fig:padaptionsimulin' on page 25 undefined on input l
+ine 44.
+
+
+LaTeX Warning: Reference `chap:padaption' on page 25 undefined on input line 44
+.
+
+
+! LaTeX Error: Command \textcurrency unavailable in encoding T1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.45 ...vorgeschalteten Funktion vor den P-Verstä
+                                                  rker, soll eine geringere ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Reference `fig:padp41f1580' on page 25 undefined on input line 4
+7.
+
+
+LaTeX Warning: Reference `fig:padp50f3400' on page 25 undefined on input line 4
+7.
+
+
+LaTeX Warning: Reference `chap:p_adaption' on page 25 undefined on input line 4
+7.
+
+
+! LaTeX Error: Command \textcurrency unavailable in encoding T1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48 ...kleineren Parameterwerten nicht in die Nä
+                                                  he des Sollwinkels.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.49 Bei größ
+               eren Parameterwerten dagegen, ergibt sich wieder ein Übersch...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.49 ...rwerten dagegen, ergibt sich wieder ein Ü
+                                                  berschwingen um den Sollwert.
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! LaTeX Error: Command \textcurrency unavailable in encoding T1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.53 ..., werden die Motorparameter angepasst, wä
+                                                  hrend die P-Adaption als R...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \textcurrency unavailable in encoding T1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 Es wird zuerst die Induktivitä
+                                    t und der Innenwiderstand eines Galvos e...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (5.08884pt too wide) in paragraph at lines 53--55
+[]\T1/cmr/m/n/10.95 Um eine er-fol-gre-iche Regelung zu er-re-ichen, wer-den di
+e Mo-tor-pa-ram-e-ter angepasst, w�hrend
+ []
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.56 Mit diesen Parametern konnte zwar ein Ü
+                                             berschwingen um den Sollwinkel ...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+LaTeX Warning: Reference `fig:padwerte' on page 25 undefined on input line 58.
+
+
+LaTeX Warning: Reference `chap:p_adaptiongalvo' on page 25 undefined on input l
+ine 58.
+
+
+LaTeX Warning: Reference `fig:padneuewerte' on page 25 undefined on input line 
+64.
+
+
+LaTeX Warning: Reference `chap:p_adaptionwerte' on page 25 undefined on input l
+ine 64.
+
+
+LaTeX Warning: Reference `fig:stromzuhoch' on page 25 undefined on input line 6
+9.
+
+
+LaTeX Warning: Reference `fig:strombegrenztsauber' on page 25 undefined on inpu
+t line 69.
+
+
+LaTeX Warning: Reference `chap:p_adaptionstrom' on page 25 undefined on input l
+ine 69.
+
+
+! LaTeX Error: Command \textcurrency unavailable in encoding T1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 Nach einigen Versuchen mit ä
+                                  ndern der verschiedenen Parameter, ist wie...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Reference `fig:strombegrenztpadsoll' on page 25 undefined on inp
+ut line 73.
+
+
+LaTeX Warning: Reference `chap:p_adaptionfertig' on page 25 undefined on input 
+line 73.
+
+
+LaTeX Warning: Reference `fig:simusensor' on page 25 undefined on input line 80
+.
+
+
+LaTeX Warning: Reference `fig:linear1' on page 25 undefined on input line 85.
+
+
+LaTeX Warning: Reference `chap:sensorregelung1' on page 25 undefined on input l
+ine 85.
+
+
+! LaTeX Error: Command \textcurrency unavailable in encoding T1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.87 Ohne die Regelparameter zu ä
+                                  ndern, wurde der zweite lineare Sensor get...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Reference `fig:linear2' on page 25 undefined on input line 89.
+
+
+LaTeX Warning: Reference `chap:sensorregelung2' on page 25 undefined on input l
+ine 89.
+
+
+Overfull \hbox (1.16663pt too wide) in paragraph at lines 87--91
+[]\T1/cmr/m/n/10.95 Ohne die Regel-pa-ram-e-ter zu �n-dern, wurde der zweite li
+n-eare Sen-sor getestet. Die Regelung
+ []
+
+
+LaTeX Warning: Reference `fig:nonlinear' on page 25 undefined on input line 94.
+
+
+
+LaTeX Warning: Reference `chap:sensorregelung3' on page 25 undefined on input l
+ine 94.
+
+
+! LaTeX Error: Command \textcurrency unavailable in encoding T1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.95 ...messbarere Laserablenkung zu entdecken wä
+                                                  re.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \textcurrency unavailable in encoding T1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.99 Insofern würde eine Verä
+                               nderung der Regelparameter keine genauere Reg...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+) (./Zusammenfassung.tex
 Kapitel 7.
-) (./Anhaenge.tex [33] [34
-
-
-
-]
+) (./Anhaenge.tex
 Anhang A.
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 13.
@@ -3867,14 +2631,7 @@ LaTeX Font Warning: Font shape `OMS/cmtt/m/it' undefined
 (Font)              using `OMS/cmsy/m/n' instead
 (Font)              for symbol `textparagraph' on input line 24.
 
-[35]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [36]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [37])
-[38] (../sensorDaten.m
+) (../sensorDaten.m
 
 ! Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `latin1'.
@@ -3901,62 +2658,53 @@ l.20 %           2   Äußererradius
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
-[39]) [40] (../frect.m) (../gekern.m) [41] (../sensor.m [42]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [43])
-[44] (../posEingabe.m) [45] [46
-
-
-]
+) (../frect.m) (../gekern.m) (../sensor.m) (../posEingabe.m)
 Anhang B.
-) (./Literatur.tex [47] (./Projektstudie_MASTERFILE.bbl [48
-
-
-]
+) (./Literatur.tex (./Projektstudie_MASTERFILE.bbl
 
 LaTeX Warning: Empty `thebibliography' environment or \BreakBibliography
                before end of `thebibliography' environment on input line 3.
 
-)) (./Abbildungen.tex [49] [50
+)) (./Abbildungen.tex (./Projektstudie_MASTERFILE.lof
+
+LaTeX Warning: Citation `wiki' on page 25 undefined on input line 3.
 
 
-] (./Projektstudie_MASTERFILE.lof
-
-LaTeX Warning: Citation `wiki' on page 51 undefined on input line 3.
-
-
-LaTeX Warning: Citation `lasercommunity' on page 51 undefined on input line 4.
-
-
-LaTeX Warning: Citation `FrKu' on page 51 undefined on input line 24.
+LaTeX Warning: Citation `lasercommunity' on page 25 undefined on input line 4.
 
 )
 \tf@lof=\write5
 \openout5 = `Projektstudie_MASTERFILE.lof'.
 
-) (./Tabellen.tex [51] [52
-
-
-] (./Projektstudie_MASTERFILE.lot)
+) (./Tabellen.tex (./Projektstudie_MASTERFILE.lot)
 \tf@lot=\write6
 \openout6 = `Projektstudie_MASTERFILE.lot'.
 
+) (./Erklaerung.tex
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--15
+
+ []
+
 )
-(./Erklaerung.tex [53] [54
 
+! LaTeX Error: \begin{figure} on input line 139 ended by \end{document}.
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 11--13
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.230 \end{document}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--21
-
- []
-
-) [55] (./Projektstudie_MASTERFILE.aux)
+(./Projektstudie_MASTERFILE.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -3966,180 +2714,42 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
- ) 
+! You can't use `\end' in internal vertical mode.
+\enddocument ... \endgroup \deadcycles \z@ \@@end 
+                                                  
+l.230 \end{document}
+                    
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+! LaTeX Error: \begin{figure} on input line 139 ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.230 \end{document}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+)
+! Emergency stop.
+<*> Projektstudie_MASTERFILE.tex
+                                
+*** (job aborted, no legal \end found)
+
+ 
 Here is how much of TeX's memory you used:
- 12475 strings out of 495062
- 178000 string characters out of 1182643
- 630389 words of memory out of 3000000
- 14669 multiletter control sequences out of 15000+50000
- 30490 words of font info for 73 fonts, out of 3000000 for 9000
+ 11922 strings out of 495062
+ 170349 string characters out of 1182643
+ 1670207 words of memory out of 3000000
+ 14653 multiletter control sequences out of 15000+50000
+ 32805 words of font info for 88 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 46i,12n,52p,331b,2358s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{figure.58} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.54} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.48} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.24} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.80} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.78} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.76} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.73} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.67} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.63} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.51} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.35} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{appendix*.527} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.526} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{appendix.525} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.491} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.378} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.364} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.349} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.264} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.84} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{appendix.83} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.81} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.79} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.77} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.75} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.74} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.72} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.66} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.64} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.62} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.59} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.56} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.53} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.50} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.47} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.44} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.43} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.42} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.41} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.39} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.37} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.36} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{section.28} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.27} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.25} has been referenced but does not exi
-st, replaced by a fixed one
-
- </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1000.600pk> </home/kiz
-zm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/kizzm/.texmf-v
-ar/fonts/pk/ljfour/jknappen/ec/ectt0900.600pk> </home/kizzm/.texmf-var/fonts/pk
-/ljfour/jknappen/ec/ecit0900.600pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jkn
-appen/ec/ectt0800.450pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ec
-rm0900.600pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1095.600p
-k> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1200.600pk> </home/k
-izzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1440.600pk> </home/kizzm/.texmf
--var/fonts/pk/ljfour/jknappen/ec/ecsl1095.600pk> </home/kizzm/.texmf-var/fonts/
-pk/ljfour/jknappen/ec/ecsx1095.600pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/j
-knappen/ec/ecsx2074.600pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/
-ecrm1095.600pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1095.60
-0pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1095.600pk> </home
-/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/kizzm/.tex
-mf-var/fonts/pk/ljfour/jknappen/ec/ecbx2074.600pk> </home/kizzm/.texmf-var/font
-s/pk/ljfour/jknappen/ec/ecbx2488.600pk></usr/share/texmf-texlive/fonts/type1/pu
-blic/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfon
-ts/cm/cmmi6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.
-pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/sh
-are/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-tex
-live/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/ty
-pe1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/
-amsfonts/cm/cmsy6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/
-cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on Projektstudie_MASTERFILE.pdf (59 pages, 2539972 bytes).
-PDF statistics:
- 1987 PDF objects out of 2073 (max. 8388607)
- 633 named destinations out of 1000 (max. 500000)
- 551 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 46i,12n,52p,331b,1977s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!

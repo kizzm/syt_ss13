@@ -28,10 +28,18 @@ Lineares Modell für die Berechnungen:
 
 \begin{center}
 \begin{equation}
-\label{equ:lineares_motor_model}
-\Delta \phi = \unit[20]{°} = \unit[0,349]{rad}\\
-\Delta t = \unit[1]{ms} = \unit[0,001]{s}\\
-\omega = \frac {\Delta \phi}{\Delta t} = \frac {\unit[0,349]{rad}}{\unit[0,001]{s}} = \unit[349]{rad/s}\\
+\label{equ:lineares_motor_model1}
+\Delta \phi = \unit[20]{°} = \unit[0,349]{rad}
+\end{equation}
+
+\begin{equation}
+\label{equ:lineares_motor_model2}
+\Delta t = \unit[1]{ms} = \unit[0,001]{s}
+\end{equation}
+
+\begin{equation}
+\label{equ:lineares_motor_model3}
+\omega = \frac {\Delta \phi}{\Delta t} = \frac {\unit[0,349]{rad}}{\unit[0,001]{s}} = \unit[349]{rad/s}
 \end{equation}
 \end{center}
 
@@ -42,13 +50,21 @@ der Strecke und bei der Endposition wieder $\omega = \unit[0]{rad/s}$ der zu fah
 Daraus folgt eine Beschleunigung von:
 \begin{center}
 \begin{equation}
-\label{equ:max_alpha_motor}
-\Delta \omega = \unit[698]{rad/s}\\
-\Delta t = \unit[0,5]{ms} = \unit[0,0005]{s}\\
-\\
-\alpha = \frac {\Delta \omega}{\Delta t} = \frac {\unit[698]{rad/s}}{\unit[0,0005]{s}} = \unit[1,396 *10^6]{rad/s^2}\\
+\label{equ:max_alpha_motor1}
+\Delta \omega = \unit[698]{rad/s}
+\end{equation}
+
+\begin{equation}
+\label{equ:max_alpha_motor2}
+\Delta t = \unit[0,5]{ms} = \unit[0,0005]{s}
+\end{equation}
+
+\begin{equation}
+\label{equ:max_alpha_motor3}
+\alpha = \frac {\Delta \omega}{\Delta t} = \frac {\unit[698]{rad/s}}{\unit[0,0005]{s}} = \unit[1,396 *10^6]{rad/s^2}
 \end{equation}
 \end{center}
+
 Der Spiegel erfährt zu Beginn der Regelung eine Beschleunigung von $\alpha = \unit[1,396 *10^6]{rad/s^2}$ um nach der Hälfte der Zeit, also nach 0,5 ms wieder mit dem 
 gleichen Betrag der Beschleunigung abgebremst zu werden.
 
@@ -62,9 +78,17 @@ Modell für den Spiegel:
 Das Trägheitsmoment des Spiegels beträgt demnach: 
 \begin{center}
 \begin{equation}
-\label{equ:J_spiegel}
-J = \frac{1}{4} * m * R^2 + \frac{1}{12} * m * h^2\\
-J = \frac{1}{4} * \unit[10*10^{-3}]{kg} * (\unit[6*10^{-3}]{m})^2 + \frac{1}{12} * \unit[10*10^{-3}]{kg} * (\unit[2*10^{-3}]{m})^2\\
+\label{equ:J_spiegel1}
+J = \frac{1}{4} * m * R^2 + \frac{1}{12} * m * h^2
+\end{equation}
+
+\begin{equation}
+\label{equ:J_spiegel2}
+J = \frac{1}{4} * \unit[10*10^{-3}]{kg} * (\unit[6*10^{-3}]{m})^2 + \frac{1}{12} * \unit[10*10^{-3}]{kg} * (\unit[2*10^{-3}]{m})^2
+\end{equation}
+
+\begin{equation}
+\label{equ:J_spiegel3}
 J = \unit[93,3 * 10^{-9}]{kgm^2}
 \end{equation}
 \end{center}
@@ -72,9 +96,17 @@ J = \unit[93,3 * 10^{-9}]{kgm^2}
 Aus den oben berechneten Daten ergibt sich ein Lastmoment von:
 \begin{center}
 \begin{equation}
-\label{equ:M_last}
-M_L = J * \alpha\\
-M_L = \unit[93,3 * 10^{-9}]{kgm^2} * \unit[1,396 *10^6]{rad/s^2} \\
+\label{equ:M_last1}
+M_L = J * \alpha
+\end{equation}
+
+\begin{equation}
+\label{equ:M_last2}
+M_L = \unit[93,3 * 10^{-9}]{kgm^2} * \unit[1,396 *10^6]{rad/s^2}
+\end{equation}
+
+\begin{equation}
+\label{equ:M_last3}
 M_L = \unit[130,25 * 10^{-3}]{Nm}
 \end{equation}
 \end{center}
@@ -82,9 +114,17 @@ M_L = \unit[130,25 * 10^{-3}]{Nm}
 Theoretische Maximale Leistung eines Gleichstrommotors:
 \begin{center}
 \begin{equation}
-\label{equ:max_leistung_motor}
-P = M_L * \omega\\
-P = \unit[130,25 * 10^{-3}]{Nm} * \unit[698]{rad/s} \\
+\label{equ:max_leistung_motor1}
+P = M_L * \omega
+\end{equation}
+
+\begin{equation}
+\label{equ:max_leistung_motor2}
+P = \unit[130,25 * 10^{-3}]{Nm} * \unit[698]{rad/s}
+\end{equation}
+
+\begin{equation}
+\label{equ:max_leistung_motor3}
 P = \unit[91]{W}
 \end{equation}
 \end{center}
@@ -96,7 +136,6 @@ solcher Galvos zu bekommen. Insofern wird die Simulationsstudie auf der Ansteuer
 über die Gleichstrommotorparameter KPHI und der Reibungskonstanten bei verschiedenen Herstellern gefunden werden. Um dennoch die Studie durchführen zu können, wird auf die
 Motorvorgaben aus der Vorlesung Systemtechnik von Prof. Froriep zurück gegriffen.
 
-<<<<<<< HEAD
 \subsection{Der elektrische Teil}
 \label{chap:elekteil}
 Der elektrische Teil eines Gleichstrommotors besteht aus einer Spule $L_A$, ihrem Innenwiderstand $R_A$, der induzierten Spannung $e_A$ und der Eingangsspannung
@@ -118,12 +157,17 @@ Die Spannung $e_A$ wirkt der Eingangsspannung entgegen und hat ein negatives Vor
 Die Teilspannungen $u_L$ und $u_R$ lassen sich folgendermaßen umschreiben:
 \begin{center}
 \begin{equation}
-\label{equ:motorersatzspannung}
-u_L = L_A * si_A \\
+\label{equ:motorersatzspannung1}
+u_L = L_A * si_A
+\end{equation}
+
+\begin{equation}
+\label{equ:motorersatzspannung2}
 u_R = R_A * i_A
 s = \frac{d}{dt}
 \end{equation}
 \end{center}
+
 Dieses lässt sich in einer Formel ausdrücken:
 \begin{center}
 \begin{equation}
@@ -149,8 +193,8 @@ $K_M$ und $\Phi$ Motorkonstanten sind.
 
 \subsection{Der mechanische Teil}
 \label{chap:mechteil}
-Der mechanische Teil eines Gleichstrommotors besteht aus dem gesamten Drehmoment $M_B$, dem Motormoment $M_M$, dem Lastmoment $M_L$ des Spiegels und der 
-Moment-Winkel-Beziehung (Reibung) $M_R = r*\omega$, wobei $\omega = \.\phi$ ist, siehe Abb. \ref{mecheinzelteil}.
+Der mechanische Teil eines Gleichstrommotors besteht aus dem gesamten Drehmoment $M_B$, dem Motormoment $M_M$, dem Lastmoment $M_L$ des Spiegels. 
+Sowie der Moment-Winkel-Beziehung (Reibung) $M_R = r*\omega$, mit $\omega = \. \phi$ (siehe Abb. \ref{mecheinzelteil})
 \begin{figure}[!h]
 	\centering
 	\includegraphics[width=0.6\textwidth]{MechanischerTeil.jpg}
