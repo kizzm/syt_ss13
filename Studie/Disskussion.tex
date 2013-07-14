@@ -10,7 +10,8 @@
 
 \chapter{Disskussion}
 \label{chap:Disskussion}
-
+Die Verstellung von Laserablenkspiegeln erfolgt i.d.R. durch Galvos.
+In dieser Simulationsstudie sollte die Regelung eines Gleichstrommmotors zur Spiegelverstellung untersucht werden.
 Die Simulationsstudie wurde mit einem vorgegebenen Gleichstrommotor Abb. \ref{fig:motoraufbau} aus Kap. \ref{chap:ganzermotor} begonnen.
 Für diesen Motor wurde ein PID-Regler in Simulink integriert, Abb. \ref{fig:grundprogramm} aus Kap. \ref{chap:motorinsimulink}, und unterschiedliche Regelparameter getestet.
 Der Sensor wurde noch nicht integriert, um erst einmal eine Regelung für einen Gleichstrommotor zu bekommen, mit der es überhaupt möglich ist, einen Winkel einzustellen.
@@ -20,11 +21,12 @@ Wie in Abb. \ref{fig:p40} und \ref{fig:p45} aus Kap.\ref{chap:p_regelung} zu erk
 Jedoch ist ein große Schwankung des Winkels zu erkennen.
 Bei kleinerem P-Anteil von P = 40 ist die Abweichunng noch so groß, dass der Winkel in der unteren Grafik nicht erreicht wird.
 Bei einem etwas größerem P-Anteil P = 45 ist zu erkennen, dass der Sollwinkel zwar überfahren wird, aber nicht stabil bleibt.
+Die Abb. \ref{fig:p40} und \ref{fig:p45} sind hier dafür exemplarisch, dass auch bei anderen Werten keine erfolgreiche Regelung erreicht werden konnte.
 
 Die Erweiterung des reinen P-Reglers um einen I-Anteil ist in den Abb. \ref{fig:p30i17} und \ref{fig:p30i18} aus Kap.\ref{chap:pi_regelung} zu erkennen.
 Durch die Erweiterung mit einem I-Anteil, hat sich die Einregelzeit auf ca. \unit[9]{ms} verlängert.
 Auch wurde der Sollwinkel nicht erreicht.
-Eine Erhöhung des P- oder I-Anteils führte dann wieder zu Schwingungen um den Sollwinkel, wie es in Abb. \ref{fig:p30i18} exemplarsich für einen leicht erhöhten I-Anteil
+Eine Erhöhung des P- oder I-Anteils führte dann wieder zu Schwingungen um den Sollwinkel, wie es in Abb. \ref{fig:p30i18} exemplarisch für einen leicht erhöhten I-Anteil
 dargestellt ist.
 
 Die Erweiterung des reinen P-Reglers um einen D-Anteil ist in den Abb. \ref{fig:p22d1n1} und \ref{fig:p23d1n1} aus Kap.\ref{chap:pd_regelung} zu erkennen.
@@ -97,3 +99,30 @@ Man müsste einen Winkel einstellen, und durch die entsprechende Laserablenkung 
 In der Simulation gibt es den Vorteil, dass wir uns den wirklichen Winkel anschauen.
 Dieser wird dann über den nichtlinearen Sensor in ein Spannungssignal gewandelt und dem Regler zugeführt.
 Insofern würde eine Veränderung der Regelparameter keine genauere Regelung bewirken.
+
+Nur durch die Anpassung der Motorwerte, des Spiegels und mit der Verwendung eines linearen Sensors, konnte eine den Vorgaben entsprechende Regelung evaluiert werden.
+Der Innenwiderstand und die Induktivität des Motors mussten verringert werden, um eine kleinere Zeitkonstante zu erhalten.
+Dies liesse sich mit entsprechend weniger Windungen im Motor realisieren.
+Dies würde dann gleichzeitig dazu führen, dass die durch die Drehung verursachte Spannung geringer wäre.
+Durch eine bessere Ausführung der Lager, könnte der Reibungskoeffizient verringert werden.
+Somit sind die in dieser Simulationsstudie getätigten Änderungen am Motor nicht nur ein ideales Wunschverhalten, sondern könnte realisiert werden.
+
+Es wurde zudem das Drehmoment und die Trägheit des Spiegels verringert.
+Beides liesse sich realisieren.
+Die Trägheit des Spiegels aus auf verschiedenen Vorgaben berechnet worden.
+Diese Vorgaben waren aber willkürlich.
+Durch eine Verkleinerung des Masse, der Höhe oder des Durchmessers, könnte die Trägheit des Spiegels verringert werden, siehe Form. \ref{equ:J_spiegel1} aus
+Kap. \ref{chap:spiegel}.
+Da der Strahldurchmesser, der auf den Spiegel trifft, in dieser Studie nicht vorgegeben ist, kann ein Spiegel mit kleinerem Durchmesser und evtl. dünnerer Ausführung
+verwendet werden.
+Durch die Wahl eines anderen Materials könnte das Gewicht verringert werden.
+Sollte der Spiegel keine geringere Trägheit aufweisen können, so wird zur Berechnung des Drehmomentes, die Beschleunigung verringert, siehe Form. \ref{equ:M_last1} aus
+Kap. \ref{chap:spiegel}.
+
+Als eine sehr strenge Bedingung ist ein linearer Sensor aufzuführen.
+Es zeigte sich, dass auch bei kleinen Abweichungen von der Linearität, eine genaue Regelung nicht mehr möglich ist.
+Bei Galvos, die eigentlich für solche Aufgaben verwendet werden, hat der Sensor eine Linearität von 99,9\% \cite{CaTe}.
+
+Der hier verwendetet Integrationsalgorithmus "ode45" wurde nicht verändert.
+Der Aufbau der Sensors, der ganzen Simulation und um entsprechende Regelparameter zu evaluieren, nahm schon sehr viel Zeit in Anspruch, so dass es nicht möglich war, andere
+Integrationsalgorithmusse zu testen.
