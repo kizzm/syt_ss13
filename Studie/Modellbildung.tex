@@ -21,6 +21,15 @@ Der vorliegenden Simulationsstudie wird in folgendes, in Abb. \ref{fig:aufbau_sy
 	\label{fig:aufbau_system}
 \end{figure}
 
+Abb. \ref{fig:aufbau_system} zeigt also einen Regelkreis.
+Der Motor bringt die Bewegungsenergie über elektromagischisch/mechanische Wechselwirkung ins System ein.
+Die Modellbildung hierfür wird im Abschnitt \ref{chap:motor}.
+Der Spiegel reagiert auf die Zustandsänderungen der Motorwelle gemäß dem Modell aus Abschnitt \ref{chap:spiegel}.
+Der Sensor überwacht den Bewegungszustand, genauer die Winkelposition der Motorwelle und wandelt diese in ein Spannungssignal um.
+Das Übertragungsverhalten dieses Sensors, kann mit dem Modellen aus Abschnitt \ref{chap:sensor} beschrieben werden.
+Das Spannungssignal des Sensors liefert den Sollwert der Regeleinrichtung.
+Die Ermittlung der Reglerparameter erfolgt wärend der Simulationsdurchführung in Abschnitt \ref{chap:Simulationsdurchfuehrung}.
+
 \section{Der Spiegel}
 \label{chap:spiegel}
 
@@ -269,20 +278,30 @@ Der in Abb. \ref{fig:aufbau_system} dargestellte Sensor, gliedert sich nach folg
 	\label{fig:sensor_aufbau_schichten}
 \end{figure}
 
+\textbf{Die Photodioden}
+In Abb. \ref{fig:sensor_aufbau_schichten} ist die Anordnung der Dioden Skizziert. 
+Diese Setzt sich aus 4 Photodioden zusammen, von denen jeweils zwei gegenüberliegende mittels dem Differenzenprinzip verschaltet sind.
+Störeinflüsse, wie z.B. thermisches Rauschen, sollen somit vermindert werden. 
+Die beiden sich somit ergebenen Diodengruppen, sind symetrisch zur Position $\varphi = \unit[0]{°} $ angeordnet.
+Diese Liefern ein Spannungssignal $U(\phi)$, welches von der auftreffenden Lichtleistung $\phi$ abhängt da sie im quasi Kurzschluss betrieben werden\cite{JoSi08}.
+Die Dioden sind als Kreissegmente gleicher Form und Größe ausgeführt. \\
+\\
+\textbf{Die Blende}\\
+Die Blende wird im folgenden als masselos und völlig lichtundurchlässig angenommen.
+Die Bewegung der Motorwelle wird auf die Blende übertragen, sodass die Abdeckung der Dioden mit der Winkelposition variert.
+Die Geometrie der Blende ist dabei auf die Geometrie der Photodioden abgestimmt, sodass für Randwerte des Messbereichs des Sensors völlige Abschattung bzw völlige Ausleuchtung je einer Diodengruppe erreicht wird.
 \textbf{Die LED}\\
 Die LED wird im folgenden als ein punktförmiger, lambert'scher Strahler betrachtet.
 Die gesamte Strahlungsleistung $\phi_e$ wird in den Halbraum $\omega = 2\pi$ abgestrahlt. 
 Das Spektrum der LED wird in dieser Simulationsstudie nicht berücksichtigt.\\
-\textbf{Die Blende}\\
-Die Blende wir im folgenden als masselos und völlig lichtundurchlässig angenommen.
+\\
+Das Sensor-System bildet demnach die Bewegungen der Motorwelle als Spannungssignal ab, in dem die Einfallende Lichtleistung der LED durch Abschattung der Photodioden mittels der dazwischen liegenden Blende verändert wird.
 
 \begin{figure}[!h]
 \centering
-\subfigure[a]{\includegraphics[height=45mm]{Sensor_DIODEN.jpg}}
-\subfigure[b]{\includegraphics[height=45mm]{Sensor_BLENDE.jpg}}\vfill
-\subfigure[c]{\includegraphics[height=45mm]{Sensor_Abdunklung_0.jpg}}
-\subfigure[d]{\includegraphics[height=45mm]{Sensor_Abdunklung_40.jpg}}
-\caption{Sensor Funktions}
+\subfigure[Abdunklung bei ca. $\unit[0]{°}$ Azimutwinkel]{\includegraphics[height=45mm]{Sensor_Abdunklung_0.jpg}}
+\subfigure[Abdunklung bei ca. $\unit[40]{°}$ Azimutwinkel]{\includegraphics[height=45mm]{Sensor_Abdunklung_40.jpg}}
+\caption{Skizze des Funktionsprinzips des Sensors}
 \label{abb:sensor_funktion}
 \end{figure}
 

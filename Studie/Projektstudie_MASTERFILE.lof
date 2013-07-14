@@ -11,38 +11,36 @@
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Aufbau des Motors}}{14}{figure.43}
 \contentsline {figure}{\numberline {3.5}{\ignorespaces Allgemeines Funktionsdiagramm des Sensors}}{15}{figure.46}
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Allgemeiner Aufbau des Sensors}}{15}{figure.47}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Sensor Funktions}}{16}{figure.52}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {a}}}{16}{figure.52}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {b}}}{16}{figure.52}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {c}}}{16}{figure.52}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {d}}}{16}{figure.52}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Skizze des Funktionsprinzips des Sensors}}{16}{figure.50}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Abdunklung bei ca. $\unit [0}}}{16}{figure.50}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Abdunklung bei ca. $\unit [40}}}{16}{figure.50}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Simulink Grundprogramm}}{18}{figure.65}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Simulink Grundprogramm}}{18}{figure.63}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces P-Anteil von 40}}{22}{figure.75}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces P-Anteil von 45}}{22}{figure.76}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces P-Anteil von 30 und I-Anteil von 17}}{23}{figure.78}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces P-Anteil von 30 und I-Anteil von 18}}{24}{figure.79}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces P=22 - D=1 - N=1}}{24}{figure.81}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces P=22 - D=1 - N=1}}{25}{figure.82}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces P=20 - I=15 - D=1 - N=1}}{25}{figure.84}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces P=20 - I=16 - D=1 - N=1}}{26}{figure.85}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces P-Adaption\cite {FrKu}}}{26}{figure.88}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces P-Adaption in Simulink}}{27}{figure.89}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces P-Adaption mit Parametern}}{27}{figure.91}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces P-Adaption mit Parametern}}{28}{figure.92}
-\contentsline {figure}{\numberline {5.13}{\ignorespaces P-Adaption mit neuen Motorparametern}}{29}{figure.94}
-\contentsline {figure}{\numberline {5.14}{\ignorespaces P-Adaption mit neuen Parametern}}{30}{figure.96}
-\contentsline {figure}{\numberline {5.15}{\ignorespaces Stromh\"ohe w\"ahrend der Regelung}}{31}{figure.98}
-\contentsline {figure}{\numberline {5.16}{\ignorespaces P-Adaption mit Strombegrenzung}}{31}{figure.99}
-\contentsline {figure}{\numberline {5.17}{\ignorespaces Stromh\"ohe w\"ahrend der Regelung}}{31}{figure.100}
-\contentsline {figure}{\numberline {5.18}{\ignorespaces P-Adaption mit Strombegrenzung}}{32}{figure.101}
-\contentsline {figure}{\numberline {5.19}{\ignorespaces Angepasste P-Adaption mit Strombegrenzung}}{32}{figure.102}
-\contentsline {figure}{\numberline {5.20}{\ignorespaces Angepasste P-Adaption mit Strombegrenzung}}{33}{figure.104}
-\contentsline {figure}{\numberline {5.21}{\ignorespaces Simulinaufbau mit Sensor}}{34}{figure.106}
-\contentsline {figure}{\numberline {5.22}{\ignorespaces Erster linearer Sensor}}{35}{figure.108}
-\contentsline {figure}{\numberline {5.23}{\ignorespaces Zweier linearer Sensor}}{35}{figure.110}
-\contentsline {figure}{\numberline {5.24}{\ignorespaces Linearer Sensor}}{36}{figure.112}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces P-Anteil von 40}}{22}{figure.73}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces P-Anteil von 45}}{22}{figure.74}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces P-Anteil von 30 und I-Anteil von 17}}{23}{figure.76}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces P-Anteil von 30 und I-Anteil von 18}}{24}{figure.77}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces P=22 - D=1 - N=1}}{24}{figure.79}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces P=22 - D=1 - N=1}}{25}{figure.80}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces P=20 - I=15 - D=1 - N=1}}{25}{figure.82}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces P=20 - I=16 - D=1 - N=1}}{26}{figure.83}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces P-Adaption\cite {FrKu}}}{26}{figure.86}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces P-Adaption in Simulink}}{27}{figure.87}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces P-Adaption mit Parametern}}{27}{figure.89}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces P-Adaption mit Parametern}}{28}{figure.90}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces P-Adaption mit neuen Motorparametern}}{29}{figure.92}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces P-Adaption mit neuen Parametern}}{30}{figure.94}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Stromh\"ohe w\"ahrend der Regelung}}{31}{figure.96}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces P-Adaption mit Strombegrenzung}}{31}{figure.97}
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Stromh\"ohe w\"ahrend der Regelung}}{31}{figure.98}
+\contentsline {figure}{\numberline {5.18}{\ignorespaces P-Adaption mit Strombegrenzung}}{32}{figure.99}
+\contentsline {figure}{\numberline {5.19}{\ignorespaces Angepasste P-Adaption mit Strombegrenzung}}{32}{figure.100}
+\contentsline {figure}{\numberline {5.20}{\ignorespaces Angepasste P-Adaption mit Strombegrenzung}}{33}{figure.102}
+\contentsline {figure}{\numberline {5.21}{\ignorespaces Simulinaufbau mit Sensor}}{34}{figure.104}
+\contentsline {figure}{\numberline {5.22}{\ignorespaces Erster linearer Sensor}}{35}{figure.106}
+\contentsline {figure}{\numberline {5.23}{\ignorespaces Zweier linearer Sensor}}{35}{figure.108}
+\contentsline {figure}{\numberline {5.24}{\ignorespaces Linearer Sensor}}{36}{figure.110}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
