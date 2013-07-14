@@ -9,6 +9,16 @@
   url = {http://www.laser-community.de/technologie/vw-laser-wobbeln-golf-vii_496/}
 }
 
+@ARTICLE{FrKu,
+  author = {Lugmair, Froriep, Kuplent, Langhans},
+  title = {Tempo beim Laserzugriff},
+  journal = {F\&M Elektronik},
+  year = {2003},
+  volume = {111(Nr.5)},
+  owner = {kizzm},
+  timestamp = {2013.07.14}
+}
+
 @BOOK{JoSi08,
   title = {Schaltungstechnik - analog und gemischt analog-digital},
   publisher = {Springer Verlag},

@@ -194,7 +194,11 @@ $K_M$ und $\Phi$ Motorkonstanten sind.
 \subsection{Der mechanische Teil}
 \label{chap:mechteil}
 Der mechanische Teil eines Gleichstrommotors besteht aus dem gesamten Drehmoment $M_B$, dem Motormoment $M_M$, dem Lastmoment $M_L$ des Spiegels. 
-Sowie der Moment-Winkel-Beziehung (Reibung) $M_R = r*\omega$, mit $\omega = \. \phi$ (siehe Abb. \ref{mecheinzelteil})
+Sowie der Moment-Winkel-Beziehung (Reibung) (siehe Abb. \ref{mecheinzelteil}):
+\begin{equation}
+\label{equ:reibmoment}
+M_R = r * \omega \text{, mit } \omega = \frac{d}{d t} \varphi
+\end{equation}
 \begin{figure}[!h]
 	\centering
 	\includegraphics[width=0.6\textwidth]{MechanischerTeil.jpg}
@@ -204,13 +208,15 @@ Sowie der Moment-Winkel-Beziehung (Reibung) $M_R = r*\omega$, mit $\omega = \. \
 Es lässt sich folgende Moment-Bilanzgleichung aufstellen:
 \begin{center}
 \begin{equation}
-\label{equ:motormomentebilanz}
-M_B = M_M - M_R - M_L = \\
-J * s\omega = M_M - r * \omega - M_L\\
-s = \frac{d}{dt}
+\label{equ:motormomentebilanz1}
+M_B = M_M - M_R - M_L
+\end{equation}
+\begin{equation}
+\label{equ:motormomentebilanz2}
+J * \frac{d}{dt} \omega = M_M - r * \omega - M_L
 \end{equation}
 \end{center}
-Für die spätere Integration in Simulink wird die Gleichung \ref{equ:motormomentebilanz} umgeschrieben:
+Für die spätere Integration in Simulink wird die Gleichung \ref{equ:motormomentebilanz2} umgeschrieben:
 \begin{center}
 \begin{equation}
 \label{equ:motormomentsimulink}
@@ -235,8 +241,6 @@ Werden die beiden Einzelaspekte des Motors gleichzeitig betrachtet, so ergbit si
 	\caption{Aufbau des Motors}
 	\label{fig:motoraufbau}
 \end{figure}
-=======
->>>>>>> 3520102030dedce8edb795c158f30b15688200b4
 
 \section{Der Sensor}
 \label{chap:sensor}
@@ -253,7 +257,7 @@ Der in Abb. \ref{fig:aufbau_system} dargestellte Sensor, gliedert sich nach folg
 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=0.8\textwidth]{Sensor_Funktion.jpg}
+	\includegraphics[width=0.8\textwidth]{Sensor_Funktionsdiagramm.jpg}
 	\caption{Allgemeines Funktionsdiagramm des Sensors}
 	\label{fig:funktions_diagramm_sensor}
 \end{figure}

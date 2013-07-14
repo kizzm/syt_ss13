@@ -14,14 +14,14 @@ Bei der Programmentwicklung werden die in Kap. \ref{chap:modellbildung} aufgeste
 Es wird begonnen, die Gleichungen des elektrischen und des mechanischen Teils des Motors in Simulink umzusetzen.
 Im Anschluss folgt die Implementierung der Werte, des Simulinkprogrammes und des Motors in Matlab.
 Daran schliesst sich die Umsetzung der Sensoren in Matlab.
-Wenn die Sensoren mit Matlabfiles eingebunden werden kÃ¶nnen, werden die Simulink- und Matlabprogramme des Motors entsprechend erweitert.
+Wenn die Sensoren mit Matlabfiles eingebunden werden können, werden die Simulink- und Matlabprogramme des Motors entsprechend erweitert.
 
 \section{Motor in Simulink}
 \label{chap:motorinsimulink}
 Es werden die Formeln \ref{equ:motorspannungsimulink} und \ref{equ:motormomentsimulink} aus den Kap. \ref{chap:elekteil} und \ref{chap:mechteil} hergenommen.
 Durch ein umstellen der beiden Formeln, so dass nur noch erste Ableitungen in beiden Formeln vorkommen, lasen sie sich kombinieren und in Simulink einbinden, da so ein
 Gleichungssytem nur mit ersten Ableitungen entstanden ist.
-Um einen besseren Ãœberblick zu bekommen, werden die Formeln hier noch einmal aufgefÃ¼hrt.
+Um einen besseren Überblick zu bekommen, werden die Formeln hier noch einmal aufgeführt.
 \begin{center}
 \begin{equation}
 \label{equ:motorspannungsimulink2}
@@ -51,28 +51,34 @@ $K_M$ und $\Phi$ sind Motorkonstanten.
 Mit der Annahme das 
 \begin{center}
 \begin{equation}
-\label{equ:variablensimulink}
-x_1 := \omega\\
+\label{equ:variablensimulink1}
+x_1 := \omega
+\end{equation}
+\begin{equation}
+\label{equ:variablensimulink2}
 x_2 := i_A
 \end{equation}
 \end{center}
-ist, lÃ¤sst sich folgendes Gleichungssytem aufstellen:
+ist, lässt sich folgendes Gleichungssytem aufstellen:
 \begin{center}
 \begin{equation}
-\label{equ:motormomentsimulink2}
-\.x_1 = \frac{1}{J} (K_M \Phi x_2 - r * x_1 - M_L)\\
-\.x_2 = \frac{1}{L_A} (K_M * \Phi x_1 - R_Ax_2 + u_e)
+\label{equ:motormomentsimulink1}
+\dot{x_1} = \frac{1}{J} (K_M \Phi x_Sensor_Funktion2 - r * x_1 - M_L)
+\end{equation}
+\begin{equation}
+\label{equ:motormomentsimulink1}
+\dot{x_2} = \frac{1}{L_A} (K_M * \Phi x_1 - R_Ax_2 + u_e)
 \end{equation}
 \end{center}
-Dieses Gleichungssytem lÃ¤sst sich jetzt durch die grafischen Elemente in Simulink sehr einfach modellieren.
+Dieses Gleichungssytem lässt sich jetzt durch die grafischen Elemente in Simulink sehr einfach modellieren.
 
-Wie zu Begin des Kap. \ref{chap:motor} erwÃ¤hnt, war es nicht mÃ¶glich an verschiedene Werte der Motorkonstanten $K_M$ und $\phi$ zu gelangen.
-Aus diesem Grund wird auf die begleitenden Unterlagen der Vorlesung "Systemtechniken" von Prof. Froriep zurÃ¼ck gegriffen.
+Wie zu Begin des Kap. \ref{chap:motor} erwähnt, war es nicht möglich an verschiedene Werte der Motorkonstanten $K_M$ und $\phi$ zu gelangen.
+Aus diesem Grund wird auf die begleitenden Unterlagen der Vorlesung Systemtechniken von Prof. Froriep zurück gegriffen.
 
 Auf dieser Grundlage werden die weiteren Programme entwickelt.
 
-Um eine Regelung aufzubauen, wird noch ein Regler, ein Sollwertgeber und ein Subtrahierer von Ist- und Sollwert benÃ¶tigt.
-Diese werden Ã¼ber die Simulinkbibliothek eingebunden und entsprechende Verbindungen werden angelegt.
+Um eine Regelung aufzubauen, wird noch ein Regler, ein Sollwertgeber und ein Subtrahierer von Ist- und Sollwert benötigt.
+Diese werden Über die Simulinkbibliothek eingebunden und entsprechende Verbindungen werden angelegt.
 Das fertige Grundprogramm ist in Abb. \ref{fig:grundprogramm} dargestellt.
 \begin{figure}[!h]
 	\centering
@@ -83,28 +89,35 @@ Das fertige Grundprogramm ist in Abb. \ref{fig:grundprogramm} dargestellt.
 
 \section{Matlab}
 \subsection{Motor in Matlab}
-Die Programmentwicklung in Matlab gestaltet sich fÃ¼r den Motor als relativ einfach, da, wie oben erwÃ¤hnt, keien Motordaten gefunden wurden, wird auf das Matlabfile von 
-Prof. Froriep aus der Vorlesung "Systemtechniken" zurÃ¼ck gegriffen.
-In diesem Matlabfile stehen die Motorkenndaten, die berechnete TrÃ¤gheit des Spiegels, das berechnete Drehmoment, die Grenzen fÃ¼r die Plots, Anweisungen fÃ¼r die Plots und
-fÃ¼r den Integrationsalgorithmus.
-Dieses File ist eine sehr gute Grundlage fÃ¼r die Simuation, welches wÃ¤hrend der Simulation entsprechend angepasst werden kann.
+Die Programmentwicklung in Matlab gestaltet sich für den Motor als relativ einfach, da, wie oben erwähnt, keien Motordaten gefunden wurden, wird auf das Matlabfile von Prof. Froriep aus der Vorlesung "Systemtechniken" zurück gegriffen.
+In diesem Matlabfile stehen:
+\begin{itemize}
+\item Die Motorkenndaten
+\item Die berechnete Trägheit des Spiegels
+\item Das berechnete Drehmoment
+\item Die Grenzen für die Plots
+\item Die Anweisungen für die Plots
+\item Die Anweisungen für den Integrationsalgorithmus.
+\end{itemize}
 
-Als GrÃ¶ÃŸen zur Ausgabe in einem Diagramm, interessieren vor allem die Eingangsspannung $u_e$, der aktuelle Winkel $\phi$, sowie der Sollwinkel mit seinen Toleranzen.
+Dieses File ist eine sehr gute Grundlage für die Simuation, welches während der Simulation entsprechend angepasst werden kann.
+
+Als Größen zur Ausgabe in einem Diagramm, interessieren vor allem die Eingangsspannung $u_e$, der aktuelle Winkel $\phi$, sowie der Sollwinkel mit seinen Toleranzen.
 Es werden drei Plots dargestellt.
 In dem ersten Plot ist die Motorspannung dargestellt.
 In dem zweiten Plot der aktuelle Winkel $\phi$, der direkt von dem Motor abgegriffen wird, sowie der einzustellende Sollwinkel dargestellt.
-Der dritte Plot enthÃ¤lt auch wieder den aktuellen Winkel $\phi$, jedoch mit einer feineren AuflÃ¶sung um den Sollwinkel, um die Toleranzgrenzen besser erkennen zu kÃ¶nnen.
+Der dritte Plot enthält auch wieder den aktuellen Winkel $\phi$, jedoch mit einer feineren Auflösung um den Sollwinkel, um die Toleranzgrenzen besser erkennen zu können.
 
 \subsection{Sensor in Matlab}
 Der Sensor selbst wird nur mit Matlabprogrammen simuliert.
-Dies ermÃ¶glicht verschiedene Sensoren in das Hauptprogramm einzubinden und Ã„nderungen an z.B. den AusmaÃŸen des Sensors vorzunehmen, ohne das Hauptprogramm Ã¤ndern zu mÃ¼ssen.
+Dies ermöglicht verschiedene Sensoren in das Hauptprogramm einzubinden und Änderungen an z.B. den Ausmaßen und dem Verhalten des Sensors vorzunehmen, ohne das Hauptprogramm ändern zu müssen.
 
 \subsubsection{Vorbereitungen}
-Um einen Sensor mit seinen verschiedenen KenngrÃ¶ÃŸen wie SensorflÃ¤che, Ãœbertragungsverhalten, und weiteres simulieren zu kÃ¶nnen, werden die verschiedenen Funktionen aus
+Um einen Sensor mit seinen verschiedenen Kenngrößen wie Sensorfläche, Übertragungsverhalten, und weiteres simulieren zu können, werden die verschiedenen Funktionen aus
 Kap. \ref{chap:sensor}in einzelnen Matlabfiles gespeichert. 
-Dieses macht die AufgabenlÃ¶sung zwar komplexer, bietet aber den Vorteil, einzelne Bereiche fÃ¼r sich testen zu kÃ¶nnen, bevor sie in den Sensor eingebunden werden.
+Dieses macht die Aufgabenlösung zwar komplexer, bietet aber den Vorteil, einzelne Bereiche für sich testen zu können, bevor sie in den Sensor eingebunden werden.
 
 \subsubsection{Files}
-Ich wÃ¼rde hier evtl. schreiben, in welche Unterprogramme Du den Sensor aufgeteilt hast.
-Auch sollten Deine Versuchsprogramme erwÃ¤hnt und mit in den Anhang kommen.
-Da steckt viel Arbeit drin und war/ist fÃ¼r die Simuation Ã¤uÃŸerst wichtig.
+Ich würde hier evtl. schreiben, in welche Unterprogramme Du den Sensor aufgeteilt hast.
+Auch sollten Deine Versuchsprogramme erwähnt und mit in den Anhang kommen.
+Da steckt viel Arbeit drin und war/ist für die Simuation äußerst wichtig.
