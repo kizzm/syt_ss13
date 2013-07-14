@@ -14,7 +14,7 @@
 \section{Das System}
 \label{chap:system}
 Der vorliegenden Simulationsstudie wird in folgendes, in Abb. \ref{fig:aufbau_system} dargestellen Systems zugrunde gelegt.
-\begin{figure}[ht]
+\begin{figure}[!htb]
 	\centering
 	\includegraphics[width=0.6\textwidth]{System_Aufbau.jpg}
 	\caption{Allgemeiner Aufbau des simulierten Systems}
@@ -22,13 +22,13 @@ Der vorliegenden Simulationsstudie wird in folgendes, in Abb. \ref{fig:aufbau_sy
 \end{figure}
 
 Abb. \ref{fig:aufbau_system} zeigt also einen Regelkreis.
-Der Motor bringt die Bewegungsenergie über elektromagischisch/mechanische Wechselwirkung ins System ein.
+Der Motor bringt die Bewegungsenergie über elektromagnetisch/mechanische Wechselwirkung ins System ein.
 Die Modellbildung hierfür wird im Abschnitt \ref{chap:motor}.
 Der Spiegel reagiert auf die Zustandsänderungen der Motorwelle gemäß dem Modell aus Abschnitt \ref{chap:spiegel}.
 Der Sensor überwacht den Bewegungszustand, genauer die Winkelposition der Motorwelle und wandelt diese in ein Spannungssignal um.
 Das Übertragungsverhalten dieses Sensors, kann mit dem Modellen aus Abschnitt \ref{chap:sensor} beschrieben werden.
 Das Spannungssignal des Sensors liefert den Sollwert der Regeleinrichtung.
-Die Ermittlung der Reglerparameter erfolgt wärend der Simulationsdurchführung in Abschnitt \ref{chap:Simulationsdurchfuehrung}.
+Die Ermittlung der Reglerparameter erfolgt während der Simulationsdurchführung in Abschnitt \ref{chap:Simulationsdurchfuehrung}.
 
 \section{Der Spiegel}
 \label{chap:spiegel}
@@ -142,14 +142,14 @@ P = \unit[91]{W}
 \label{chap:motor}
 In der Regel werden Laserablenkespiegel über einen Galvo gesteuert. Bei der Bearbeitung dieser Simulationsstudie ergaben sich Probleme, Informationen Über die Ansteuerung
 solcher Galvos zu bekommen. Insofern wird die Simulationsstudie auf der Ansteuerung eines Gleichstrommotors beruhen. Aber auch hierbei konnten jedoch keine Informationen 
-über die Gleichstrommotorparameter KPHI und der Reibungskonstanten bei verschiedenen Herstellern gefunden werden. Um dennoch die Studie durchführen zu können, wird auf die
+über die Gleichstrommotorparameter $K_M \Phi$ und der Reibungskonstanten bei verschiedenen Herstellern gefunden werden. Um dennoch die Studie durchführen zu können, wird auf die
 Motorvorgaben aus der Vorlesung Systemtechnik von Prof. Froriep zurück gegriffen.
 
 \subsection{Der elektrische Teil}
 \label{chap:elekteil}
 Der elektrische Teil eines Gleichstrommotors besteht aus einer Spule $L_A$, ihrem Innenwiderstand $R_A$, der induzierten Spannung $e_A$ und der Eingangsspannung
 für den Motor $U_e$, siehe Abb. \ref{fig:elekeinzelteil}.
-\begin{figure}[!h]
+\begin{figure}[!htb]
 	\centering
 	\includegraphics[width=0.6\textwidth]{ElektrischerTeil.jpg}
 	\caption{Elektrischer Teil des Motors}
@@ -195,7 +195,7 @@ Wobei
 \begin{center}
 \begin{equation}
 \label{equ:motorspannungsimulinkkonst}
-e_a = K_M * \Phi \omega
+e_a = K_M  \Phi \omega
 \end{equation}
 \end{center}
 $K_M$ und $\Phi$ Motorkonstanten sind.
@@ -203,12 +203,12 @@ $K_M$ und $\Phi$ Motorkonstanten sind.
 \subsection{Der mechanische Teil}
 \label{chap:mechteil}
 Der mechanische Teil eines Gleichstrommotors besteht aus dem gesamten Drehmoment $M_B$, dem Motormoment $M_M$, dem Lastmoment $M_L$ des Spiegels. 
-Sowie der Moment-Winkel-Beziehung (Reibung) (siehe Abb. \ref{mecheinzelteil}):
+Sowie der Moment-Winkel-Beziehung (Reibung) (siehe Abb. \ref{fig:mecheinzelteil}):
 \begin{equation}
 \label{equ:reibmoment}
-M_R = r * \omega \text{, mit } \omega = \frac{d}{d t} \varphi
+M_R = r  \omega \text{, mit } \omega = \frac{d}{d t} \varphi
 \end{equation}
-\begin{figure}[!h]
+\begin{figure}[!htb]
 	\centering
 	\includegraphics[width=0.6\textwidth]{MechanischerTeil.jpg}
 	\caption{Mechanischer Teil des Motors}
@@ -222,7 +222,7 @@ M_B = M_M - M_R - M_L
 \end{equation}
 \begin{equation}
 \label{equ:motormomentebilanz2}
-J * \frac{d}{dt} \omega = M_M - r * \omega - M_L
+J * \frac{d}{dt} \omega = M_M - r  \omega - M_L
 \end{equation}
 \end{center}
 Für die spätere Integration in Simulink wird die Gleichung \ref{equ:motormomentebilanz2} umgeschrieben:
@@ -244,7 +244,7 @@ $K_M$ und $\Phi$ Motorkonstanten sind.
 \subsection{Der ganze Motor}
 \label{chap:ganzermotor}
 Werden die beiden Einzelaspekte des Motors gleichzeitig betrachtet, so ergbit sich folgender Zusammenhang wie er in Abb. \ref{fig:motoraufbau} dargestellt ist.
-\begin{figure}[!h]
+\begin{figure}[!htb]
 	\centering
 	\includegraphics[width=0.6\textwidth]{Motoraufbau.jpg}
 	\caption{Aufbau des Motors}
@@ -253,32 +253,32 @@ Werden die beiden Einzelaspekte des Motors gleichzeitig betrachtet, so ergbit si
 
 \section{Der Sensor}
 \label{chap:sensor}
-Im Folgenden werden der Aufbau, das physikalische Modell, sowie verschiedene mathematische Modelle des Sensors vorgestellt und erläutert.
+Im Folgenden werden der Aufbau, das physikalische Modell sowie verschiedene mathematische Modelle des Sensors vorgestellt und erläutert.
 
 \subsection{Das physikalische Modell des Sensors}
 \label{chap:physik_modell_sensor}
-Der in Abb. \ref{fig:aufbau_system} dargestellte Sensor, gliedert sich nach folgender Darstellung in Abb. \ref{fig:aufbau_sensor} auf in:
+Der in Abb. \ref{fig:aufbau_system} dargestellte Sensor gliedert sich nach folgender Darstellung in Abb. \ref{fig:funktions_diagramm_sensor} auf in:
 \begin{itemize}
 	\item{Einer Lichtquelle: LED mit einer Strahlungsleistung $\phi_e(\theta)$}
 	\item{Einer Blende mit einer Transmissionsfunktion $T(\varphi)$}
 	\item{Einer Anordnung aus Photodioden, welche die transmittierte Lichtleistung als Spannungssignal $U_{ph} (\phi)$ bzw. $U_{ph} (\varphi)$ darstellt}
 \end{itemize}
 
-\begin{figure}[!h]
+\begin{figure}[!htb]
 	\centering
 	\includegraphics[width=0.8\textwidth]{Sensor_Funktionsdiagramm.jpg}
 	\caption{Allgemeines Funktionsdiagramm des Sensors}
 	\label{fig:funktions_diagramm_sensor}
 \end{figure}
 
-\begin{figure}[!h]
+\begin{figure}[!htb]
 	\centering
 	\includegraphics[width=0.8\textwidth]{Sensor_Aufbau_schichten.jpg}
 	\caption{Allgemeiner Aufbau des Sensors}
 	\label{fig:sensor_aufbau_schichten}
 \end{figure}
 
-\textbf{Die Photodioden}
+\textbf{Die Photodioden}\\
 In Abb. \ref{fig:sensor_aufbau_schichten} ist die Anordnung der Dioden Skizziert. 
 Diese Setzt sich aus 4 Photodioden zusammen, von denen jeweils zwei gegenüberliegende mittels dem Differenzenprinzip verschaltet sind.
 Störeinflüsse, wie z.B. thermisches Rauschen, sollen somit vermindert werden. 
@@ -297,7 +297,7 @@ Das Spektrum der LED wird in dieser Simulationsstudie nicht berücksichtigt.\\
 \\
 Das Sensor-System bildet demnach die Bewegungen der Motorwelle als Spannungssignal ab, in dem die Einfallende Lichtleistung der LED durch Abschattung der Photodioden mittels der dazwischen liegenden Blende verändert wird. 
 
-\begin{figure}[!h]
+\begin{figure}[!htb]
 \centering
 \subfigure[Abdunklung bei ca. $\unit[0]{°}$ Azimutwinkel]{\includegraphics[height=45mm]{Sensor_Abdunklung_0.jpg}}
 \subfigure[Abdunklung bei ca. $\unit[40]{°}$ Azimutwinkel]{\includegraphics[height=45mm]{Sensor_Abdunklung_40.jpg}}

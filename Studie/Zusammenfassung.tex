@@ -16,19 +16,17 @@ Gleichstrommotoren werden i.d.R. auf eine vorgegebene Winkelgeschwindigkeit gere
 Um eine in der Realit√§t vorhandene Information √ºber den aktuellen Winkel zu erhalten, wurde zudem ein Sensor implementiert, mit dem unterschiedliche Verhalten simuliert 
 werden konnten.
 
-<<<<<<< HEAD
 Es galt die Vorgaben, den maximalen Verstellwinkel von \unit[20]{¬∞} innerhalb einer Einstellzeit von \unit[1]{ms} auf eine Genauigkeit von \unit[1e-3]{¬∞} einzustellen.
 
 Nach dem ein elektrisches und mechanisches Modell von einem Gleichstrommotor erstellt war, wurde dieses Modell in Simulink umgesetzt.
 Zu Beginn wurden mit einem PID-Regler verschiedene P-, PI-, PD- und PID-Reglersimulationen durchgef√ºhrt, mit denen keine der Vorgaben erf√ºllt werden konnte.
 Die Einregelzeit lag bei ca. \unit[6]{ms}, wobei der aktuelle Winkel viel zu stark um den Sollwinkel schwankte.
-=======
+
 Es konnte eine Regelung und ein Sensor simuliert werden, mit denen es mˆglich ist, die Vorgaben aus Kap. \ref{chap:Aufgabenstellung} zu erf¸llen.
 
 Die Simulationsstudie wurde mit einem vorgegebenen Gleichstrommotor begonnen.
 F¸r diesen Motor wurde ein PID-Regler in Simulink integriert und unterschiedliche Regelparameter getestet.
 Der Sensor wurde noch nicht integriert, um erst einmal eine Regelung f¸r einen Gleichstrommotor zu bekommen, mit der es ‹berhaupt mˆglich ist, einen Winkel einzustellen.
->>>>>>> basti1
 
 Durch entfernen des PID-Reglers und implementieren einer P-Adaption sollte die verbleibende Regeldifferenz verringert werden.
 Es wurden verschiedene Simulationen durchgef√ºhrt, bei denen die Vorgaben auch nicht erreicht wurden.

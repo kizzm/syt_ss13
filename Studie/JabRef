@@ -30,6 +30,15 @@
   url = {http://books.google.de/books?id=PS8RQYicjhYC&dq=photodiode+stromquelle+lichtleistung&hl=de&source=gbs_navlinks_s}
 }
 
+@MANUAL{,
+  title = {Model 6230H Optical Scanner (Mechanical and Electrical Specifications)},
+  author = {Cambridge Technology},
+  organization = {Cambridge Technology},
+  month = {03/07},
+  owner = {kizzm},
+  timestamp = {2013.07.14}
+}
+
 @BOOK{HaWa85,
   title = {Position Sensing},
   publisher = {Butterworth-Heinemann},

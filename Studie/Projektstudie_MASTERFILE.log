@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.10.25)  14 JUL 2013 18:40
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.10.25)  14 JUL 2013 20:34
 entering extended mode
  %&-line parsing enabled.
 **Projektstudie_MASTERFILE.tex
@@ -797,27 +797,19 @@ ma-tio-nen ‹ber die Ans-teuerung solch-
 File: ElektrischerTeil.jpg Graphic file (type jpg)
 
 <use ElektrischerTeil.jpg> [11] [12 <./ElektrischerTeil.jpg>]
-
-LaTeX Warning: Reference `mecheinzelteil' on page 13 undefined on input line 20
-6.
-
-<MechanischerTeil.jpg, id=388, 201.75375pt x 196.48407pt>
+<MechanischerTeil.jpg, id=389, 201.75375pt x 196.48407pt>
 File: MechanischerTeil.jpg Graphic file (type jpg)
 
 <use MechanischerTeil.jpg> [13 <./MechanischerTeil.jpg>]
-<Motoraufbau.jpg, id=400, 478.03593pt x 262.73157pt>
+<Motoraufbau.jpg, id=401, 478.03593pt x 262.73157pt>
 File: Motoraufbau.jpg Graphic file (type jpg)
  <use Motoraufbau.jpg>
-
-LaTeX Warning: Reference `fig:aufbau_sensor' on page 14 undefined on input line
- 260.
-
 [14 <./Motoraufbau.jpg>]
-<Sensor_Funktionsdiagramm.jpg, id=410, 1025.8325pt x 316.18124pt>
+<Sensor_Funktionsdiagramm.jpg, id=413, 1025.8325pt x 316.18124pt>
 File: Sensor_Funktionsdiagramm.jpg Graphic file (type jpg)
 
 <use Sensor_Funktionsdiagramm.jpg>
-<Sensor_Aufbau_schichten.jpg, id=411, 445.665pt x 256.96pt>
+<Sensor_Aufbau_schichten.jpg, id=414, 445.665pt x 256.96pt>
 File: Sensor_Aufbau_schichten.jpg Graphic file (type jpg)
 
 <use Sensor_Aufbau_schichten.jpg>
@@ -935,7 +927,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 302--302
 
  []
 
-<Sensor_Abdunklung_0.jpg, id=420, 304.13625pt x 304.13625pt>
+<Sensor_Abdunklung_0.jpg, id=422, 304.13625pt x 304.13625pt>
 File: Sensor_Abdunklung_0.jpg Graphic file (type jpg)
 
 <use Sensor_Abdunklung_0.jpg>
@@ -1036,7 +1028,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 303--303
 
  []
 
-<Sensor_Abdunklung_40.jpg, id=421, 304.13625pt x 304.13625pt>
+<Sensor_Abdunklung_40.jpg, id=423, 304.13625pt x 304.13625pt>
 File: Sensor_Abdunklung_40.jpg Graphic file (type jpg)
 
 <use Sensor_Abdunklung_40.jpg>) (./Programmentwicklung.tex [16 <./Sensor_Abdunk
@@ -1051,7 +1043,7 @@ inden, da so ein Gle-ichungssytem
 [17
 
 
-] <sSpiegel.jpg, id=449, 902.6222pt x 358.33875pt>
+] <sSpiegel.jpg, id=447, 902.6222pt x 358.33875pt>
 File: sSpiegel.jpg Graphic file (type jpg)
  <use sSpiegel.jpg>
 [18 <./sSpiegel.jpg>]) (./Simulationsdurchfuehrung.tex [19] [20
@@ -1063,35 +1055,35 @@ LaTeX Font Info:    Try loading font information for T1+cmtt on input line 42.
 (/usr/share/texmf-texlive/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-<NurP40.jpg, id=478, 642.4pt x 693.59125pt>
+<NurP40.jpg, id=470, 642.4pt x 693.59125pt>
 File: NurP40.jpg Graphic file (type jpg)
  <use NurP40.jpg>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<NurP45.jpg, id=479, 642.4pt x 693.59125pt>
+<NurP45.jpg, id=471, 642.4pt x 693.59125pt>
 File: NurP45.jpg Graphic file (type jpg)
  <use NurP45.jpg>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<PI-P30I17.jpg, id=484, 636.3775pt x 693.59125pt>
+<PI-P30I17.jpg, id=476, 636.3775pt x 693.59125pt>
 File: PI-P30I17.jpg Graphic file (type jpg)
  <use PI-P30I17.jpg> [21]
 [22 <./NurP40.jpg> <./NurP45.jpg>]
-<PI-P30I18.jpg, id=506, 642.4pt x 693.59125pt>
+<PI-P30I18.jpg, id=491, 642.4pt x 693.59125pt>
 File: PI-P30I18.jpg Graphic file (type jpg)
  <use PI-P30I18.jpg>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<PD-P22D1N1.jpg, id=511, 642.4pt x 693.59125pt>
+<PD-P22D1N1.jpg, id=496, 642.4pt x 693.59125pt>
 File: PD-P22D1N1.jpg Graphic file (type jpg)
  <use PD-P22D1N1.jpg>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<PD-P23D1N1.jpg, id=512, 642.4pt x 693.59125pt>
+<PD-P23D1N1.jpg, id=497, 642.4pt x 693.59125pt>
 File: PD-P23D1N1.jpg Graphic file (type jpg)
  <use PD-P23D1N1.jpg>
 
@@ -1109,13 +1101,13 @@ LaTeX Warning: Reference `fig:p20i16d1n1' on page 23 undefined on input line 10
 LaTeX Warning: Reference `fig:p20i16d1n1' on page 23 undefined on input line 10
 8.
 
-<PID-P20I15D1N1.jpg, id=513, 642.4pt x 693.59125pt>
+<PID-P20I15D1N1.jpg, id=498, 642.4pt x 693.59125pt>
 File: PID-P20I15D1N1.jpg Graphic file (type jpg)
  <use PID-P20I15D1N1.jpg>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<PID-P20I16D1N1.jpg, id=514, 642.4pt x 693.59125pt>
+<PID-P20I16D1N1.jpg, id=499, 642.4pt x 693.59125pt>
 File: PID-P20I16D1N1.jpg Graphic file (type jpg)
  <use PID-P20I16D1N1.jpg>
 
@@ -1129,7 +1121,7 @@ Overfull \vbox (11.07274pt too high) has occurred while \output is active []
 
 
 [25 <./PD-P23D1N1.jpg> <./PID-P20I15D1N1.jpg>]
-<P-Adaption.jpg, id=534, 743.02594pt x 424.58624pt>
+<P-Adaption.jpg, id=515, 743.02594pt x 424.58624pt>
 File: P-Adaption.jpg Graphic file (type jpg)
  <use P-Adaption.jpg>
 
@@ -1141,17 +1133,17 @@ LaTeX Warning: Citation `FrKu' on page 26 undefined on input line 139.
 
 LaTeX Warning: Reference `' on page 26 undefined on input line 143.
 
-<sSpiegelPad.jpg, id=535, 911.65594pt x 320.69812pt>
+<sSpiegelPad.jpg, id=516, 911.65594pt x 320.69812pt>
 File: sSpiegelPad.jpg Graphic file (type jpg)
  <use sSpiegelPad.jpg>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Pad-P41F1_1,5F2_80.jpg, id=536, 642.4pt x 693.59125pt>
+<Pad-P41F1_1,5F2_80.jpg, id=517, 642.4pt x 693.59125pt>
 File: Pad-P41F1_1,5F2_80.jpg Graphic file (type jpg)
 
 <use Pad-P41F1_1,5F2_80.jpg>
-<Pad-P50F1_3F2_400.jpg, id=539, 636.3775pt x 693.59125pt>
+<Pad-P50F1_3F2_400.jpg, id=520, 636.3775pt x 693.59125pt>
 File: Pad-P50F1_3F2_400.jpg Graphic file (type jpg)
 
 <use Pad-P50F1_3F2_400.jpg> [26 <./PID-P20I16D1N1.jpg> <./P-Adaption.jpg>]
@@ -1162,11 +1154,11 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Warning: Citation `CaTe' on page 27 undefined on input line 180.
 
 [27 <./sSpiegelPad.jpg> <./Pad-P41F1_1,5F2_80.jpg>] [28 <./Pad-P50F1_3F2_400.jp
-g>] <Pad-Werte-P330F1_5F2_370.jpg, id=565, 642.4pt x 693.59125pt>
+g>] <Pad-Werte-P330F1_5F2_370.jpg, id=542, 642.4pt x 693.59125pt>
 File: Pad-Werte-P330F1_5F2_370.jpg Graphic file (type jpg)
 
 <use Pad-Werte-P330F1_5F2_370.jpg>
-<Pad-Neue-Werte-P320F1_2F2_65.jpg, id=566, 642.4pt x 693.59125pt>
+<Pad-Neue-Werte-P320F1_2F2_65.jpg, id=543, 642.4pt x 693.59125pt>
 File: Pad-Neue-Werte-P320F1_2F2_65.jpg Graphic file (type jpg)
 
 <use Pad-Neue-Werte-P320F1_2F2_65.jpg>
@@ -1177,48 +1169,21 @@ LaTeX Warning: Command \textdegree invalid in math mode on input line 217.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [29 <./Pad-Werte-P330F1_5F2_370.jpg>]
-<Strom_zu_hoch.jpg, id=574, 562.1pt x 421.575pt>
+<Strom_zu_hoch.jpg, id=551, 562.1pt x 421.575pt>
 File: Strom_zu_hoch.jpg Graphic file (type jpg)
  <use Strom_zu_hoch.jpg>
-<P-Adaption-Strom.jpg, id=575, 912.40875pt x 404.26031pt>
+<P-Adaption-Strom.jpg, id=552, 912.40875pt x 404.26031pt>
 File: P-Adaption-Strom.jpg Graphic file (type jpg)
 
 <use P-Adaption-Strom.jpg>
-<sSpiegelPadStrom.jpg, id=578, 910.15031pt x 306.39468pt>
+<sSpiegelPadStrom.jpg, id=555, 910.15031pt x 306.39468pt>
 File: sSpiegelPadStrom.jpg Graphic file (type jpg)
 
 <use sSpiegelPadStrom.jpg>
-! Missing $ inserted.
-<inserted text> 
-                $
-l.257 ...sSpiegel{\_}Pad{\_}Neue{\_}Werte_Strom.m}
-                                                   und das Simulink-File \te...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-<recently read> \egroup 
-                        
-l.257 ...sSpiegel{\_}Pad{\_}Neue{\_}Werte_Strom.m}
-                                                   und das Simulink-File \te...
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.258 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Overfull \hbox (49.72478pt too wide) in paragraph at lines 233--258
-\T1/cmtt/m/n/10.95 msSpiegel_Pad_Neue_Werte$[]\OML/cmm/m/it/10.95 trom:munddasS
-imulink \OMS/cmsy/m/n/10.95 ^^@ \OML/cmm/m/it/10.95 File[]hergenommen:$ 
+Overfull \hbox (26.44984pt too wide) in paragraph at lines 233--258
+\T1/cmtt/m/n/10.95 msSpiegel_Pad_Neue_Werte_Strom.m \T1/cmr/m/n/10.95 und das S
+imulink-File \T1/cmtt/m/n/10.95 sSpiegelPadStrom.slx \T1/cmr/m/n/10.95 hergenom
+-
  []
 
 
@@ -1230,34 +1195,15 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Strom-Pad-Neue-Werte-P320F1_2F2_160.jpg, id=580, 642.4pt x 693.59125pt>
+<Strom-Pad-Neue-Werte-P320F1_2F2_160.jpg, id=557, 642.4pt x 693.59125pt>
 File: Strom-Pad-Neue-Werte-P320F1_2F2_160.jpg Graphic file (type jpg)
 
 <use Strom-Pad-Neue-Werte-P320F1_2F2_160.jpg>
-Overfull \hbox (54.17018pt too wide) in paragraph at lines 259--268
-[]\T1/cmtt/m/n/10.95 Eine Regelung mit den aktuellen Werten zeigt das in Abb. [
-][]5.18[][] zu erkennende Ergebnis.
- []
-
-
-Overfull \hbox (14.56158pt too wide) in paragraph at lines 259--268
-\T1/cmtt/m/n/10.95 Durch weiteres Anpassen der unterschiedlichen Parameter, kon
-nten die Sollwerte
- []
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-LaTeX Font Info:    Try loading font information for OMS+cmtt on input line 269
-.
-LaTeX Font Info:    No file OMScmtt.fd. on input line 269.
-
-LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
-(Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 269.
-
 [30 <./Pad-Neue-Werte-P320F1_2F2_65.jpg>]
-<Strom-Pad-Neue-Werte-P218F1_5F2_400.jpg, id=591, 642.4pt x 690.58pt>
+<Strom-Pad-Neue-Werte-P218F1_5F2_400.jpg, id=568, 642.4pt x 690.58pt>
 File: Strom-Pad-Neue-Werte-P218F1_5F2_400.jpg Graphic file (type jpg)
 
 <use Strom-Pad-Neue-Werte-P218F1_5F2_400.jpg>
@@ -1286,101 +1232,35 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.21996pt too wide) in paragraph at lines 285--293
-\T1/cmtt/m/n/10.95 Die Einregelzeit liegt nur noch knapp ‹ber der vorgegebenen 
-Zeit, durch weitere
- []
-
-
-Overfull \hbox (20.21996pt too wide) in paragraph at lines 285--293
-\T1/cmtt/m/n/10.95 Anpassung der Regelparameter soll die vorgegebene Einregelze
-it erreicht werden.
- []
-
-
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [31 <./Strom_zu_hoch.jpg> <./P-Adaption-Strom.jpg> <./sSpiegelPadStrom.jpg>]
 [32 <./Strom-Pad-Neue-Werte-P320F1_2F2_160.jpg> <./Strom-Pad-Neue-Werte-P218F1_
-5F2_400.jpg>]
-Overfull \hbox (54.17018pt too wide) in paragraph at lines 302--306
-[]\T1/cmtt/m/n/10.95 In Abb. [][]5.20[][] ist zu erkennen, dass durch Anpassung
- des Tr‰gheitsmoments des Spiegels,
- []
-
-
-Overfull \hbox (20.21996pt too wide) in paragraph at lines 302--306
-\T1/cmtt/m/n/10.95 des wirkenden Drehmoments auf den Spiegel und der verschiede
-nen Regelparameter,
- []
-
-
-Overfull \hbox (20.21996pt too wide) in paragraph at lines 302--306
-\T1/cmtt/m/n/10.95 trotz Spannungs- und Strombegrenzung, die Regelung erfolgrei
-ch ist. Der Spiegel
- []
-
-
-Overfull \hbox (31.5367pt too wide) in paragraph at lines 302--306
-\T1/cmtt/m/n/10.95 zittert zwar etwas um die Position, dies ist aber im angegeb
-enen Toleranzbereich. 
- []
-
-<sSpiegelPadStromSensor.jpg, id=605, 905.63344pt x 344.03531pt>
+5F2_400.jpg>] <sSpiegelPadStromSensor.jpg, id=580, 905.63344pt x 344.03531pt>
 File: sSpiegelPadStromSensor.jpg Graphic file (type jpg)
 
 <use sSpiegelPadStromSensor.jpg>
-Overfull \hbox (3.24484pt too wide) in paragraph at lines 309--323
-\T1/cmtt/m/n/10.95 Nach dem die Regelung f¸r einen perfekt linear arbeitenden S
-ensor, der durch
+Overfull \hbox (32.16042pt too wide) in paragraph at lines 309--323
+\T1/cmr/m/n/10.95 in die Sim-u-la-tion mit einge-baut. Daf¸r wird das vorhan-de
+ne Simulink-File \T1/cmtt/m/n/10.95 sSpiegelPadStrom.slx
  []
 
 
-Overfull \hbox (3.24484pt too wide) in paragraph at lines 309--323
-\T1/cmtt/m/n/10.95 ein direktes abgreifen des aktuellen Winkels realisiert wurd
-e, funktioniert,
+Overfull \hbox (37.62671pt too wide) in paragraph at lines 309--323
+\T1/cmr/m/n/10.95 Abb. [][]5.21[][] ist der gesamte Sim-u-la-tion-sauf-bau darg
+estellt, welch-er als \T1/cmtt/m/n/10.95 sSpiegelPadStromSensor.slx
  []
 
 
-Overfull \hbox (59.82855pt too wide) in paragraph at lines 309--323
-\T1/cmtt/m/n/10.95 wird der Sensor aus Kap [][]3.4[][] in die Simulation mit ei
-ngebaut. Daf¸r wird das vorhandene
+Overfull \hbox (8.43898pt too wide) in paragraph at lines 309--323
+\T1/cmr/m/n/10.95 gespe-ichert ist. Zur Ans-teuerung wird das Matlab-File \T1/c
+mtt/m/n/10.95 msSpiegel_Pad_Neue_Werte_Strom.m
  []
 
 
-Overfull \hbox (31.5367pt too wide) in paragraph at lines 309--323
-\T1/cmtt/m/n/10.95 Simulink-File sSpiegelPadStrom.slx hergenommen und um den Se
-nsor erweitert. Zudem
- []
-
-
-Overfull \hbox (3.24484pt too wide) in paragraph at lines 309--323
-\T1/cmtt/m/n/10.95 wird der eingegebene Winkel in eine Spannung umgerechnet, da
- der Sensor eine
- []
-
-
-Overfull \hbox (54.17018pt too wide) in paragraph at lines 309--323
-\T1/cmtt/m/n/10.95 vom Winkel abh‰ngige Spannung ausgibt. In Abb. [][]5.21[][] 
-ist der gesamte Simulationsaufbau
- []
-
-
-Overfull \hbox (48.51181pt too wide) in paragraph at lines 309--323
-\T1/cmtt/m/n/10.95 dargestellt, welcher als sSpiegelPadStromSensor.slx gespeich
-ert ist. Zur Ansteuerung
- []
-
-
-Overfull \hbox (105.09552pt too wide) in paragraph at lines 309--323
-\T1/cmtt/m/n/10.95 wird das Matlab-File msSpiegel_Pad_Neue_Werte_Strom.m modifi
-ziert und als msSpiegelundSensor.m
- []
-
-
-Overfull \hbox (8.90321pt too wide) in paragraph at lines 309--323
-\T1/cmtt/m/n/10.95 gespeichert. In diesem Matlab-File ist es mˆglich, verschied
-ene Kenndaten f¸r
+Overfull \hbox (6.54955pt too wide) in paragraph at lines 309--323
+\T1/cmr/m/n/10.95 mod-i-fiziert und als \T1/cmtt/m/n/10.95 msSpiegelundSensor.m
+ \T1/cmr/m/n/10.95 gespe-ichert. In diesem Matlab-File ist es mˆglich,
  []
 
 
@@ -1390,154 +1270,30 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: Command \textdegree invalid in math mode on input line 327.
 
-
-Overfull \hbox (13.64479pt too wide) in paragraph at lines 330--331
-[]\T1/cmtt/m/n/10.95 nonlinear = 0.0001 (falls ein nichtlinearer Sensor simulie
-rt werden soll) 
- []
-
-
-Overfull \hbox (3.24484pt too wide) in paragraph at lines 335--338
-[]\T1/cmtt/m/n/10.95 In der ersten Simulation wird ein linearer Sensor verwende
-t. Dies sollte die
- []
-
-
-Overfull \hbox (8.90321pt too wide) in paragraph at lines 335--338
-\T1/cmtt/m/n/10.95 gleichen Ergebnisse liefern wie der ideale Sensor. Hierbei w
-ird die Regelung,
- []
-
-
-Overfull \hbox (3.24484pt too wide) in paragraph at lines 339--341
-[]\T1/cmtt/m/n/10.95 Die zweite Simulation wird ebenfalls mit einem linearen Se
-nsor durchgef¸hrt,
- []
-
-
-Overfull \hbox (31.5367pt too wide) in paragraph at lines 339--341
-\T1/cmtt/m/n/10.95 nur ist hierbei die Linearit‰t durch eine Faltung der Blende
- mit der Sensorfl‰che
- []
-
-
-Overfull \hbox (3.24484pt too wide) in paragraph at lines 339--341
-\T1/cmtt/m/n/10.95 realisiert. Es wird erwartet, dass sich dieser Sensor gleich
- verh‰lt wie der
- []
-
-
-Overfull \hbox (20.21996pt too wide) in paragraph at lines 342--345
-[]\T1/cmtt/m/n/10.95 Bei der dritten und letzten Simulation wird ein nichtlinea
-rer Sensor verwendet.
- []
-
-
-Overfull \hbox (20.21996pt too wide) in paragraph at lines 342--345
-\T1/cmtt/m/n/10.95 Wobei der Nichtlinearit‰tsfaktor, der Werte zwischen 0 und 1
- annehmen kann, auf
- []
-
-
-Overfull \hbox (20.21996pt too wide) in paragraph at lines 342--345
-\T1/cmtt/m/n/10.95 den Wert 0,0001 gesetzt wird. Dies sollte ein nahezu lineare
-s Verhalten zeigen. 
- []
-
-<Sensor_10_1_100_linear1.jpg, id=615, 642.4pt x 693.59125pt>
+<Sensor_10_1_100_linear1.jpg, id=589, 642.4pt x 693.59125pt>
 File: Sensor_10_1_100_linear1.jpg Graphic file (type jpg)
 
 <use Sensor_10_1_100_linear1.jpg>
-Overfull \hbox (3.24484pt too wide) in paragraph at lines 348--356
-\T1/cmtt/m/n/10.95 Abb. [][]5.22[][] zeigt das Regelergebnis des ersten lineare
-n Sensors. Es ist gut zu
- []
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Sensor_10_1_100_linear2.jpg, id=617, 642.4pt x 693.59125pt>
+<Sensor_10_1_100_linear2.jpg, id=591, 642.4pt x 693.59125pt>
 File: Sensor_10_1_100_linear2.jpg Graphic file (type jpg)
 
 <use Sensor_10_1_100_linear2.jpg>
-Overfull \hbox (8.90321pt too wide) in paragraph at lines 359--368
-\T1/cmtt/m/n/10.95 Abb. [][]5.23[][] zeigt das Regelergebnis des zweiten linear
-en Sensors. Es ist gut zu
- []
-
-
-Overfull \hbox (3.24484pt too wide) in paragraph at lines 359--368
-\T1/cmtt/m/n/10.95 erkennen, dass eine Regeldifferenz bleibt. Diese l‰sst sich 
-auch nicht durch
- []
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Sensor_10_1_100_nonlinear00001.jpg, id=619, 642.4pt x 693.59125pt>
+<Sensor_10_1_100_nonlinear00001.jpg, id=593, 642.4pt x 693.59125pt>
 File: Sensor_10_1_100_nonlinear00001.jpg Graphic file (type jpg)
 
 <use Sensor_10_1_100_nonlinear00001.jpg>) (./Disskussion.tex
-Overfull \hbox (25.87833pt too wide) in paragraph at lines 371--1
-\T1/cmtt/m/n/10.95 Abb. [][]5.24[][] zeigt das Regelergebnis des nicht linearen
- Sensors. Auch hier ist eine
- []
-
-
-Overfull \hbox (3.24484pt too wide) in paragraph at lines 371--1
-\T1/cmtt/m/n/10.95 restliche Regeldifferenz zu erkennen, die sich wiederum nich
-t durch anpassen
- []
-
-[34 <./sSpiegelPadStromSensor.jpg>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[35 <./Sensor_10_1_100_linear1.jpg> <./Sensor_10_1_100_linear2.jpg>] [36 <./Sen
-sor_10_1_100_nonlinear00001.jpg>]
+[34 <./sSpiegelPadStromSensor.jpg>] [35 <./Sensor_10_1_100_linear1.jpg> <./Sens
+or_10_1_100_linear2.jpg>] [36 <./Sensor_10_1_100_nonlinear00001.jpg>]
 Kapitel 6.
-
-Overfull \hbox (14.56158pt too wide) in paragraph at lines 13--18
-\T1/cmtt/m/n/10.95 Die Verstellung von Laserablenkspiegeln erfolgt i.d.R. durch
- Galvos. In dieser
- []
-
-
-Overfull \hbox (54.17018pt too wide) in paragraph at lines 13--18
-\T1/cmtt/m/n/10.95 Simulationsstudie sollte die Regelung eines Gleichstrommmoto
-rs zur Spiegelverstellung
- []
-
-
-Overfull \hbox (59.82855pt too wide) in paragraph at lines 13--18
-\T1/cmtt/m/n/10.95 untersucht werden. Die Simulationsstudie wurde mit einem vor
-gegebenen Gleichstrommotor
- []
-
-
-Overfull \hbox (42.85344pt too wide) in paragraph at lines 13--18
-\T1/cmtt/m/n/10.95 Abb. [][]3.4[][] aus Kap. [][]3.3.3[][] begonnen. F¸r diesen
- Motor wurde ein PID-Regler in Simulink
- []
-
-
-Overfull \hbox (25.87833pt too wide) in paragraph at lines 13--18
-\T1/cmtt/m/n/10.95 integriert, Abb. [][]4.1[][] aus Kap. [][]4.1[][], und unter
-schiedliche Regelparameter getestet.
- []
-
-
-Overfull \hbox (14.56158pt too wide) in paragraph at lines 13--18
-\T1/cmtt/m/n/10.95 Der Sensor wurde noch nicht integriert, um erst einmal eine 
-Regelung f¸r einen
- []
-
-
-Overfull \hbox (3.24484pt too wide) in paragraph at lines 13--18
-\T1/cmtt/m/n/10.95 Gleichstrommotor zu bekommen, mit der es ¸berhaupt mˆglich i
-st, einen Winkel
- []
-
 
 ! LaTeX Error: Command \textcurrency unavailable in encoding T1.
 
@@ -1545,7 +1301,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.21 ...f{chap:p_regelung} zu erkennen ist, betr√§
+l.23 ...f{chap:p_regelung} zu erkennen ist, betr√§
                                                   gt die Zeit, bis der Winke...
 
 Your command was ignored.
@@ -1559,7 +1315,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.21 ...tr√§gt die Zeit, bis der Winkel in der N√§
+l.23 ...tr√§gt die Zeit, bis der Winkel in der N√§
                                                   he des Sollwertes ist, ca....
 
 Your command was ignored.
@@ -1574,7 +1330,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.22 Jedoch ist ein gro√ü
+l.24 Jedoch ist ein gro√ü
                          e Schwankung des Winkels zu erkennen.
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
@@ -1587,7 +1343,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.23 ...n P = 40 ist die Abweichunng noch so gro√ü
+l.25 ...n P = 40 ist die Abweichunng noch so gro√ü
                                                   , dass der Winkel in der u...
 
 You need to provide a definition with \DeclareInputText 
@@ -1601,186 +1357,30 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.24 Bei einem etwas gr√∂√ü
+l.26 Bei einem etwas gr√∂√ü
                            erem P-Anteil P = 45 ist zu erkennen, dass der So...
 
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
 
-Overfull \hbox (14.56158pt too wide) in paragraph at lines 19--32
-[]\T1/cmtt/m/n/10.95 Bei der reinen P-Regelung, konnte weder die Einregelzeit, 
-noch die Genauigkeit
- []
+LaTeX Warning: Reference `fig:p20i16d1n1' on page 37 undefined on input line 54
+.
 
 
-Overfull \hbox (14.56158pt too wide) in paragraph at lines 19--32
-\T1/cmtt/m/n/10.95 erreicht werden. <<<<<<< HEAD Wie in Abb. [][]5.1[][] und []
-[]5.2[][] aus Kap.[][]5.1.1.1[][] zu erkennen
- []
-
-
-Overfull \hbox (16.4481pt too wide) in paragraph at lines 19--32
-\T1/cmtt/m/n/10.95 ist, betr√gt die Zeit, bis der Winkel in der N√he des Sollwe
-rtes ist, ca. 7ms.
- []
-
-
-Overfull \hbox (20.21996pt too wide) in paragraph at lines 19--32
-\T1/cmtt/m/n/10.95 Jedoch ist ein gro√e Schwankung des Winkels zu erkennen. Bei
- kleinerem P-Anteil
- []
-
-
-Overfull \hbox (37.19507pt too wide) in paragraph at lines 19--32
-\T1/cmtt/m/n/10.95 von P = 40 ist die Abweichunng noch so gro√, dass der Winkel
- in der unteren Grafik
- []
-
-
-Overfull \hbox (21.25327pt too wide) in paragraph at lines 19--32
-\T1/cmtt/m/n/10.95 nicht erreicht wird. Bei einem etwas gr√\OMS/cmtt/m/n/10.95 
-{\T1/cmtt/m/n/10.95 √erem P-Anteil P = 45 ist zu erkennen,
- []
-
-
-Overfull \hbox (9.8949pt too wide) in paragraph at lines 19--32
-\T1/cmtt/m/n/10.95 dass der Sollwinkel zwar √$[]$berfahren wird, aber nicht sta
-bil bleibt. Die Abb.
- []
-
-
-Overfull \hbox (9.8949pt too wide) in paragraph at lines 19--32
-[][]\T1/cmtt/m/n/10.95 5.1[][] und [][]5.2[][] sind hier daf√$[]$r exemplarisch
-, dass auch bei anderen Werten keine
- []
-
-
-Overfull \hbox (8.90321pt too wide) in paragraph at lines 19--32
-\T1/cmtt/m/n/10.95 erfolgreiche Regelung erreicht werden konnte. ======= Wie in
- Abb. [][]5.1[][] und [][]5.2[][]
- []
-
-
-Overfull \hbox (8.90321pt too wide) in paragraph at lines 19--32
-\T1/cmtt/m/n/10.95 aus Kap.[][]5.1.1.1[][] zu erkennen ist, betr‰gt die Zeit, b
-is der Winkel in der N‰he
- []
-
-
-Overfull \hbox (1.35551pt too wide) in paragraph at lines 19--32
-\T1/cmtt/m/n/10.95 des Sollwertes ist, ca. $\OT1/cmr/m/n/10.95 7 []$\T1/cmtt/m/
-n/10.95 . Jedoch ist ein groˇe Schwankung des Winkels zu
- []
-
-
-Overfull \hbox (8.90321pt too wide) in paragraph at lines 19--32
-\T1/cmtt/m/n/10.95 erkennen. Bei kleinerem P-Anteil von P = 40 ist die Abweichu
-nng noch so groˇ,
- []
-
-
-Overfull \hbox (42.85344pt too wide) in paragraph at lines 19--32
-\T1/cmtt/m/n/10.95 dass der Winkel in der unteren Grafik nicht erreicht wird. B
-ei einem etwas grˆˇerem
- []
-
-
-Overfull \hbox (20.21996pt too wide) in paragraph at lines 19--32
-\T1/cmtt/m/n/10.95 P-Anteil P = 45 ist zu erkennen, dass der Sollwinkel zwar ¸b
-erfahren wird, aber
- []
-
-
-Overfull \hbox (14.56158pt too wide) in paragraph at lines 33--42
-[]\T1/cmtt/m/n/10.95 Die Erweiterung des reinen P-Reglers um einen I-Anteil ist
- in den Abb. [][]5.3[][] und
- []
-
-
-Overfull \hbox (14.56158pt too wide) in paragraph at lines 33--42
-[][]\T1/cmtt/m/n/10.95 5.4[][] aus Kap.[][]5.1.1.2[][] zu erkennen. Durch die E
-rweiterung mit einem I-Anteil, hat
- []
-
-
-Overfull \hbox (10.78973pt too wide) in paragraph at lines 33--42
-\T1/cmtt/m/n/10.95 sich die Einregelzeit auf ca. 9ms verl‰ngert. Auch wurde der
- Sollwinkel nicht
- []
-
-
-Overfull \hbox (5.26984pt too wide) in paragraph at lines 33--42
-\T1/cmtt/m/n/10.95 erreicht. <<<<<<< HEAD Eine Erh√\OMS/cmtt/m/n/10.95 {\T1/cmt
-t/m/n/10.95 hung des P- oder I-Anteils f√$[]$hrte dann wieder
- []
-
-
-Overfull \hbox (9.8949pt too wide) in paragraph at lines 33--42
-\T1/cmtt/m/n/10.95 zu Schwingungen um den Sollwinkel, wie es in Abb. [][]5.4[][
-] exemplarisch f√$[]$r einen
- []
-
-
-Overfull \hbox (4.27815pt too wide) in paragraph at lines 33--42
-\T1/cmtt/m/n/10.95 leicht erh√\OMS/cmtt/m/n/10.95 {\T1/cmtt/m/n/10.95 hten I-An
-teil ======= Eine Erhˆhung des P- oder I-Anteils f¸hrte
- []
-
-
-Overfull \hbox (14.56158pt too wide) in paragraph at lines 33--42
-\T1/cmtt/m/n/10.95 dann wieder zu Schwingungen um den Sollwinkel, wie es in Abb
-. [][]5.4[][] exemplarsich
- []
-
-
-Overfull \hbox (14.56158pt too wide) in paragraph at lines 43--48
-[]\T1/cmtt/m/n/10.95 Die Erweiterung des reinen P-Reglers um einen D-Anteil ist
- in den Abb. [][]5.5[][] und
- []
-
-
-Overfull \hbox (8.90321pt too wide) in paragraph at lines 43--48
-[][]\T1/cmtt/m/n/10.95 5.6[][] aus Kap.[][]5.1.1.3[][] zu erkennen. Hier ergibt
- sich das gleiche Problem wie bei
- []
-
-
-Overfull \hbox (42.85344pt too wide) in paragraph at lines 43--48
-\T1/cmtt/m/n/10.95 der P- und PI-Regelung. Bis zu einer Grenze der P- und D- An
-teile, ist die Regelung
- []
-
-
-Overfull \hbox (8.90321pt too wide) in paragraph at lines 43--48
-\T1/cmtt/m/n/10.95 zu weit von dem Sollwinkel entfernt. Wird nur ein Anteil lei
-cht erhˆht, kommt
- []
-
-
-Overfull \hbox (14.56158pt too wide) in paragraph at lines 43--48
-\T1/cmtt/m/n/10.95 es zu einem ‹berschwingen um den Sollwinkel. Jedoch hat sich
- die Zeit, bis der
- []
+LaTeX Warning: Reference `fig:p20i16d1n1' on page 37 undefined on input line 57
+.
 
 [37
 
 
 ]
 
-LaTeX Warning: Reference `fig:p20i16d1n1' on page 38 undefined on input line 50
-.
-
-
-LaTeX Warning: Reference `fig:p20i16d1n1' on page 38 undefined on input line 53
-.
-
-
 LaTeX Warning: Reference `fig:padaptionsimulin' on page 38 undefined on input l
-ine 57.
+ine 61.
 
 
-Overfull \hbox (2.06949pt too wide) in paragraph at lines 65--67
+Overfull \hbox (2.06949pt too wide) in paragraph at lines 69--71
 []\T1/cmr/m/n/10.95 Um eine er-fol-gre-iche Regelung zu er-re-ichen, wer-den di
 e Mo-tor-pa-ram-e-ter angepasst, w‰hrend
  []
@@ -1792,7 +1392,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.83 Nach einigen Versuchen mit √§
+l.87 Nach einigen Versuchen mit √§
                                   ndern der verschiedenen Parameter, ist wie...
 
 Your command was ignored.
@@ -1807,15 +1407,15 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.99 Ohne die Regelparameter zu √§
-                                  ndern, wurde der zweite lineare Sensor get...
+l.103 Ohne die Regelparameter zu √§
+                                   ndern, wurde der zweite lineare Sensor ge...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (1.16663pt too wide) in paragraph at lines 99--103
+Overfull \hbox (1.16663pt too wide) in paragraph at lines 103--107
 []\T1/cmr/m/n/10.95 Ohne die Regel-pa-ram-e-ter zu √n-dern, wurde der zweite li
 n-eare Sen-sor getestet. Die Regelung
  []
@@ -1827,7 +1427,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.107 ...essbarere Laserablenkung zu entdecken w√§
+l.111 ...essbarere Laserablenkung zu entdecken w√§
                                                   re.
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1840,7 +1440,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.111 Insofern w√ºrde eine Ver√§
+l.115 Insofern w√ºrde eine Ver√§
                                 nderung der Regelparameter keine genauere Re...
 
 Your command was ignored.
@@ -1854,7 +1454,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.114 Der Innenwiderstand und die Induktivit√§
+l.118 Der Innenwiderstand und die Induktivit√§
                                               t des Motors mussten verringer...
 
 Your command was ignored.
@@ -1868,7 +1468,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.116 ...Drehung verursachte Spannung geringer w√§
+l.120 ...Drehung verursachte Spannung geringer w√§
                                                   re.
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1881,7 +1481,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.118 ...ind die in dieser Simulationsstudie get√§
+l.122 ...ind die in dieser Simulationsstudie get√§
                                                   tigten √Ñnderungen am Moto...
 
 Your command was ignored.
@@ -1896,7 +1496,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.118 ...n dieser Simulationsstudie get√§tigten √Ñ
+l.122 ...n dieser Simulationsstudie get√§tigten √Ñ
                                                   nderungen am Motor nicht n...
 
 You need to provide a definition with \DeclareInputText 
@@ -1909,7 +1509,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.120 Es wurde zudem das Drehmoment und die Tr√§
+l.124 Es wurde zudem das Drehmoment und die Tr√§
                                                 gheit des Spiegels verringert.
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1922,7 +1522,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.122 Die Tr√§
+l.126 Die Tr√§
               gheit des Spiegels aus auf verschiedenen Vorgaben berechnet wo...
 
 Your command was ignored.
@@ -1936,7 +1536,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.124 ...e oder des Durchmessers, k√∂nnte die Tr√§
+l.128 ...e oder des Durchmessers, k√∂nnte die Tr√§
                                                   gheit des Spiegels verring...
 
 Your command was ignored.
@@ -1950,7 +1550,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.129 Sollte der Spiegel keine geringere Tr√§
+l.133 Sollte der Spiegel keine geringere Tr√§
                                              gheit aufweisen k√∂nnen, so wir...
 
 Your command was ignored.
@@ -1964,7 +1564,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.133 ...i kleinen Abweichungen von der Linearit√§
+l.137 ...i kleinen Abweichungen von der Linearit√§
                                                   t, eine genaue Regelung ni...
 
 Your command was ignored.
@@ -1978,14 +1578,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.134 ...et werden, hat der Sensor eine Linearit√§
+l.138 ...et werden, hat der Sensor eine Linearit√§
                                                   t von 99,9\% \cite{CaTe}.
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-LaTeX Warning: Citation `CaTe' on page 39 undefined on input line 134.
+LaTeX Warning: Citation `CaTe' on page 39 undefined on input line 138.
 
 [39]
 
@@ -1995,7 +1595,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.136 ...ionsalgorithmus "ode45" wurde nicht ver√§
+l.140 ...ionsalgorithmus "ode45" wurde nicht ver√§
                                                   ndert.
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2025,14 +1625,14 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.35 ...e sich sogar, dass die Einregelzeit gr√∂√ü
+l.33 ...e sich sogar, dass die Einregelzeit gr√∂√ü
                                                   er geworden war und die Re...
 
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
 
-Overfull \hbox (11.50194pt too wide) in paragraph at lines 33--36
+Overfull \hbox (11.50194pt too wide) in paragraph at lines 31--34
 []\T1/cmr/m/n/10.95 Durch ent-fer-nen des PID-Reglers und im-ple-men-tieren ein
 -er P-Adaption sollte die verbleibende
  []
@@ -2044,7 +1644,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.37 ..., wurden verschiedene Motorparameter ver√§
+l.35 ..., wurden verschiedene Motorparameter ver√§
                                                   ndert und neue Simulatione...
 
 Your command was ignored.
@@ -2058,7 +1658,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.38 Mit den ver√§
+l.36 Mit den ver√§
                   nderten Motorwerten konnte die Einregelzeit auf ca. \unit[...
 
 Your command was ignored.
@@ -2072,7 +1672,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.41 Mit weiteren Ver√§
+l.39 Mit weiteren Ver√§
                        nderungen der Motorparameter und nun auch der Spiegel...
 
 Your command was ignored.
@@ -2091,7 +1691,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.49 ...in lineare √ºbertragender Sensor von gro√ü
+l.47 ...in lineare √ºbertragender Sensor von gro√ü
                                                   er Wichtigkeit ist, da son...
 
 You need to provide a definition with \DeclareInputText 
@@ -2115,9 +1715,12 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+LaTeX Font Info:    Try loading font information for OMS+cmtt on input line 24.
+
+LaTeX Font Info:    No file OMScmtt.fd. on input line 24.
 
 LaTeX Font Warning: Font shape `OMS/cmtt/m/it' undefined
-(Font)              using `OMS/cmtt/m/n' instead
+(Font)              using `OMS/cmsy/m/n' instead
 (Font)              for symbol `textparagraph' on input line 24.
 
 [43
@@ -2180,7 +1783,7 @@ LaTeX Warning: Citation `wiki' on page 57 undefined on input line 3.
 LaTeX Warning: Citation `lasercommunity' on page 57 undefined on input line 4.
 
 
-LaTeX Warning: Citation `FrKu' on page 57 undefined on input line 30.
+LaTeX Warning: Citation `FrKu' on page 57 undefined on input line 28.
 
 )
 \tf@lof=\write5
@@ -2211,178 +1814,40 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 12541 strings out of 495062
- 179214 string characters out of 1182643
+ 12490 strings out of 495062
+ 178580 string characters out of 1182643
  700999 words of memory out of 3000000
- 14708 multiletter control sequences out of 15000+50000
- 29246 words of font info for 72 fonts, out of 3000000 for 9000
+ 14703 multiletter control sequences out of 15000+50000
+ 28933 words of font info for 71 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  46i,12n,52p,331b,2358s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{figure.88} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.85} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.52} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.84} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.112} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.101} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.91} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.81} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.78} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.75} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.65} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{appendix*.560} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{appendix*.559} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.558} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{appendix.557} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.523} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.410} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.396} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.381} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.296} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.116} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{appendix.115} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.114} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.113} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.111} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.105} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.103} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.97} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.90} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.86} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.83} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.80} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.77} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.74} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.73} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.72} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.71} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.70} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.69} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.68} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.67} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.66} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{section.56} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.55} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.54} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.53} has been referenced but does not exi
-st, replaced by a fixed one
-
- </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1000.600pk> </home/kiz
-zm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/kizzm/.texmf-v
-ar/fonts/pk/ljfour/jknappen/ec/ectt0900.600pk> </home/kizzm/.texmf-var/fonts/pk
-/ljfour/jknappen/ec/ecit0900.600pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jkn
-appen/ec/ectt0800.450pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ec
-tt1095.600pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0900.600p
-k> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1200.600pk> </home/k
-izzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1440.600pk> </home/kizzm/.texmf
--var/fonts/pk/ljfour/jknappen/ec/ecsl1095.600pk> </home/kizzm/.texmf-var/fonts/
-pk/ljfour/jknappen/ec/ecsx1095.600pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/j
-knappen/ec/ecsx2074.600pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/
-ecrm1095.600pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1095.60
-0pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1095.600pk> </home
-/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/kizzm/.tex
-mf-var/fonts/pk/ljfour/jknappen/ec/ecbx2074.600pk> </home/kizzm/.texmf-var/font
-s/pk/ljfour/jknappen/ec/ecbx2488.600pk></usr/share/texmf-texlive/fonts/type1/pu
-blic/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfon
-ts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.
-pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/sha
-re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texl
-ive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/t
-ype1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-texlive/fonts/type1/public/
-amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/
-cmsy9.pfb>
-Output written on Projektstudie_MASTERFILE.pdf (63 pages, 3356795 bytes).
+ </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1000.600pk> </home/k
+izzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/kizzm/.texmf
+-var/fonts/pk/ljfour/jknappen/ec/ectt0900.600pk> </home/kizzm/.texmf-var/fonts/
+pk/ljfour/jknappen/ec/ecit0900.600pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/j
+knappen/ec/ectt0800.450pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/
+ectt1095.600pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0900.60
+0pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1200.600pk> </home
+/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1440.600pk> </home/kizzm/.tex
+mf-var/fonts/pk/ljfour/jknappen/ec/ecsl1095.600pk> </home/kizzm/.texmf-var/font
+s/pk/ljfour/jknappen/ec/ecsx1095.600pk> </home/kizzm/.texmf-var/fonts/pk/ljfour
+/jknappen/ec/ecsx2074.600pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/e
+c/ecrm1095.600pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1095.
+600pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1095.600pk> </ho
+me/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/kizzm/.t
+exmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2074.600pk> </home/kizzm/.texmf-var/fo
+nts/pk/ljfour/jknappen/ec/ecbx2488.600pk></usr/share/texmf-texlive/fonts/type1/
+public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsf
+onts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr1
+0.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/s
+hare/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-te
+xlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts
+/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-texlive/fonts/type1/publi
+c/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
+m/cmsy9.pfb>
+Output written on Projektstudie_MASTERFILE.pdf (63 pages, 3338149 bytes).
 PDF statistics:
- 2205 PDF objects out of 2487 (max. 8388607)
- 669 named destinations out of 1000 (max. 500000)
+ 2107 PDF objects out of 2487 (max. 8388607)
+ 623 named destinations out of 1000 (max. 500000)
  592 words of extra memory for PDF output out of 10000 (max. 10000000)
 

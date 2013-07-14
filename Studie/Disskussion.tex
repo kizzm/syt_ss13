@@ -17,34 +17,38 @@ Für diesen Motor wurde ein PID-Regler in Simulink integriert, Abb. \ref{fig:grun
 Der Sensor wurde noch nicht integriert, um erst einmal eine Regelung für einen Gleichstrommotor zu bekommen, mit der es überhaupt möglich ist, einen Winkel einzustellen.
 
 Bei der reinen P-Regelung, konnte weder die Einregelzeit, noch die Genauigkeit erreicht werden.
-<<<<<<< HEAD
+
+
+
 Wie in Abb. \ref{fig:p40} und \ref{fig:p45} aus Kap.\ref{chap:p_regelung} zu erkennen ist, betrÃ¤gt die Zeit, bis der Winkel in der NÃ¤he des Sollwertes ist, ca. \unit[7]{ms}.
 Jedoch ist ein groÃŸe Schwankung des Winkels zu erkennen.
 Bei kleinerem P-Anteil von P = 40 ist die Abweichunng noch so groÃŸ, dass der Winkel in der unteren Grafik nicht erreicht wird.
 Bei einem etwas grÃ¶ÃŸerem P-Anteil P = 45 ist zu erkennen, dass der Sollwinkel zwar Ã¼berfahren wird, aber nicht stabil bleibt.
 Die Abb. \ref{fig:p40} und \ref{fig:p45} sind hier dafÃ¼r exemplarisch, dass auch bei anderen Werten keine erfolgreiche Regelung erreicht werden konnte.
-=======
+
+
 Wie in Abb. \ref{fig:p40} und \ref{fig:p45} aus Kap.\ref{chap:p_regelung} zu erkennen ist, beträgt die Zeit, bis der Winkel in der Nähe des Sollwertes ist, ca. $\unit[7]{ms}$.
 Jedoch ist ein große Schwankung des Winkels zu erkennen.
 Bei kleinerem P-Anteil von P = 40 ist die Abweichunng noch so groß, dass der Winkel in der unteren Grafik nicht erreicht wird.
 Bei einem etwas größerem P-Anteil P = 45 ist zu erkennen, dass der Sollwinkel zwar überfahren wird, aber nicht stabil bleibt.
->>>>>>> basti1
+
+
 
 Die Erweiterung des reinen P-Reglers um einen I-Anteil ist in den Abb. \ref{fig:p30i17} und \ref{fig:p30i18} aus Kap.\ref{chap:pi_regelung} zu erkennen.
 Durch die Erweiterung mit einem I-Anteil, hat sich die Einregelzeit auf ca. \unit[9]{ms} verlängert.
 Auch wurde der Sollwinkel nicht erreicht.
-<<<<<<< HEAD
+
+
 Eine ErhÃ¶hung des P- oder I-Anteils fÃ¼hrte dann wieder zu Schwingungen um den Sollwinkel, wie es in Abb. \ref{fig:p30i18} exemplarisch fÃ¼r einen leicht erhÃ¶hten I-Anteil
-=======
-Eine Erhöhung des P- oder I-Anteils führte dann wieder zu Schwingungen um den Sollwinkel, wie es in Abb. \ref{fig:p30i18} exemplarsich für einen leicht erhöhten I-Anteil
->>>>>>> basti1
-dargestellt ist.
+
+
+Eine Erhöhung des P- oder I-Anteils führte dann wieder zu Schwingungen um den Sollwinkel, wie es in Abb. \ref{fig:p30i18} exemplarsich für einen leicht erhöhten I-Anteil dargestellt ist.
 
 Die Erweiterung des reinen P-Reglers um einen D-Anteil ist in den Abb. \ref{fig:p22d1n1} und \ref{fig:p23d1n1} aus Kap.\ref{chap:pd_regelung} zu erkennen.
 Hier ergibt sich das gleiche Problem wie bei der P- und PI-Regelung.
 Bis zu einer Grenze der P- und D- Anteile, ist die Regelung zu weit von dem Sollwinkel entfernt.
 Wird nur ein Anteil leicht erhöht, kommt es zu einem Überschwingen um den Sollwinkel.
-Jedoch hat sich die Zeit, bis der aktuelle Winkel um den Sollwinkel schwingt, auf ca. \unit[6][ms} verkürzt.
+Jedoch hat sich die Zeit, bis der aktuelle Winkel um den Sollwinkel schwingt, auf ca. \unit[6]{ms} verkürzt.
 
 Es wurde nun mit einer PID-Regelung versucht, die Vorgaben zu erreichen.
 In den Abb. \ref{fig:p20i15d1n1} und \ref{fig:p20i16d1n1} aus Kap.\ref{chap:pid_regelung} sind die Ergenisse der PID-Regelung dargestellt.
