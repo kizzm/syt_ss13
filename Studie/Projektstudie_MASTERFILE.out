@@ -7,21 +7,47 @@
 \BOOKMARK [1][]{section.26}{3.3 Der Motor}{chapter.7}
 \BOOKMARK [2][]{subsection.27}{3.3.1 Der elektrische Teil}{section.26}
 \BOOKMARK [2][]{subsection.35}{3.3.2 Der mechanische Teil}{section.26}
-\BOOKMARK [1][]{section.42}{3.4 Der Sensor}{chapter.7}
-\BOOKMARK [2][]{subsection.43}{3.4.1 Das physikalische Modell des Sensors}{section.42}
-\BOOKMARK [2][]{subsection.51}{3.4.2 Das lineare Sensormodell}{section.42}
-\BOOKMARK [2][]{subsection.52}{3.4.3 Das nicht lineare Sensormodell}{section.42}
-\BOOKMARK [0][]{chapter.53}{4 Programmentwicklung}{}
-\BOOKMARK [1][]{section.54}{4.1 Motor in Simulink}{chapter.53}
-\BOOKMARK [1][]{section.62}{4.2 Matlab}{chapter.53}
-\BOOKMARK [2][]{subsection.63}{4.2.1 Motor in Matlab}{section.62}
-\BOOKMARK [2][]{subsection.64}{4.2.2 Sensor in Matlab}{section.62}
-\BOOKMARK [3][]{subsubsection.65}{4.2.2.1 Vorbereitungen}{subsection.64}
-\BOOKMARK [3][]{subsubsection.66}{4.2.2.2 Files}{subsection.64}
-\BOOKMARK [0][]{chapter.67}{5 Simulationsdurchf\303\274hrung}{}
-\BOOKMARK [1][]{section.68}{5.1 Simulation}{chapter.67}
-\BOOKMARK [2][]{subsection.69}{5.1.1 PID-Regelung}{section.68}
-\BOOKMARK [3][]{subsubsection.70}{5.1.1.1 P-Regelung}{subsection.69}
-\BOOKMARK [3][]{subsubsection.73}{5.1.1.2 PI-Regelung}{subsection.69}
-\BOOKMARK [3][]{subsubsection.76}{5.1.1.3 PD-Regelung}{subsection.69}
-\BOOKMARK [3][]{subsubsection.79}{5.1.1.4 PID-Regelung}{subsection.69}
+\BOOKMARK [2][]{subsection.42}{3.3.3 Der ganze Motor}{section.26}
+\BOOKMARK [1][]{section.44}{3.4 Der Sensor}{chapter.7}
+\BOOKMARK [2][]{subsection.45}{3.4.1 Das physikalische Modell des Sensors}{section.44}
+\BOOKMARK [2][]{subsection.53}{3.4.2 Das lineare Sensormodell}{section.44}
+\BOOKMARK [2][]{subsection.54}{3.4.3 Das nicht lineare Sensormodell}{section.44}
+\BOOKMARK [0][]{chapter.55}{4 Programmentwicklung}{}
+\BOOKMARK [1][]{section.56}{4.1 Motor in Simulink}{chapter.55}
+\BOOKMARK [1][]{section.66}{4.2 Matlab}{chapter.55}
+\BOOKMARK [2][]{subsection.67}{4.2.1 Motor in Matlab}{section.66}
+\BOOKMARK [2][]{subsection.68}{4.2.2 Sensor in Matlab}{section.66}
+\BOOKMARK [3][]{subsubsection.69}{4.2.2.1 Vorbereitungen}{subsection.68}
+\BOOKMARK [3][]{subsubsection.70}{4.2.2.2 Files}{subsection.68}
+\BOOKMARK [0][]{chapter.71}{5 Simulationsdurchf\374hrung}{}
+\BOOKMARK [1][]{section.72}{5.1 Simulation}{chapter.71}
+\BOOKMARK [2][]{subsection.73}{5.1.1 PID-Regelung}{section.72}
+\BOOKMARK [3][]{subsubsection.74}{5.1.1.1 P-Regelung}{subsection.73}
+\BOOKMARK [3][]{subsubsection.77}{5.1.1.2 PI-Regelung}{subsection.73}
+\BOOKMARK [3][]{subsubsection.80}{5.1.1.3 PD-Regelung}{subsection.73}
+\BOOKMARK [3][]{subsubsection.83}{5.1.1.4 PID-Regelung}{subsection.73}
+\BOOKMARK [2][]{subsection.86}{5.1.2 P-Adaption}{section.72}
+\BOOKMARK [3][]{subsubsection.90}{5.1.2.1 Regelung mit P-Adaption}{subsection.86}
+\BOOKMARK [3][]{subsubsection.93}{5.1.2.2 P-Adaption mit Galvo-Werten}{subsection.86}
+\BOOKMARK [3][]{subsubsection.95}{5.1.2.3 P-Adaption mit neuen Werten}{subsection.86}
+\BOOKMARK [3][]{subsubsection.97}{5.1.2.4 Strombegrenzung}{subsection.86}
+\BOOKMARK [3][]{subsubsection.103}{5.1.2.5 Fertige P-Adaption}{subsection.86}
+\BOOKMARK [2][]{subsection.105}{5.1.3 Regelung mit Sensor}{section.72}
+\BOOKMARK [3][]{subsubsection.107}{5.1.3.1 Linearer Sensor 1}{subsection.105}
+\BOOKMARK [3][]{subsubsection.109}{5.1.3.2 Linearer Sensor 2}{subsection.105}
+\BOOKMARK [3][]{subsubsection.111}{5.1.3.3 Nichtlinearer Sensor}{subsection.105}
+\BOOKMARK [0][]{chapter.113}{6 Disskussion}{}
+\BOOKMARK [0][]{chapter.114}{7 Zusammenfassung}{}
+\BOOKMARK [0][]{appendix.115}{A Matlab-Files}{}
+\BOOKMARK [1][]{section.116}{A.1 msSpiegelundSensor.m}{appendix.115}
+\BOOKMARK [1][]{section.296}{A.2 sensorDaten.m}{appendix.115}
+\BOOKMARK [1][]{section.381}{A.3 frect.m}{appendix.115}
+\BOOKMARK [1][]{section.396}{A.4 gekern.m}{appendix.115}
+\BOOKMARK [1][]{section.410}{A.5 sensor.m}{appendix.115}
+\BOOKMARK [1][]{section.523}{A.6 posEingabe.m}{appendix.115}
+\BOOKMARK [0][]{appendix.557}{B Simulink-Files}{}
+\BOOKMARK [1][]{section.558}{B.1 1}{appendix.557}
+\BOOKMARK [0][]{section.558}{Literaturverzeichnis}{}
+\BOOKMARK [0][]{appendix*.559}{Abbildungsverzeichnis}{}
+\BOOKMARK [0][]{appendix*.560}{Tabellenverzeichnis}{}
+\BOOKMARK [0][]{appendix*.561}{Eidesstattliche Erkl\344rung}{}

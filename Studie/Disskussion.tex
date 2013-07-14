@@ -13,50 +13,60 @@
 Die Verstellung von Laserablenkspiegeln erfolgt i.d.R. durch Galvos.
 In dieser Simulationsstudie sollte die Regelung eines Gleichstrommmotors zur Spiegelverstellung untersucht werden.
 Die Simulationsstudie wurde mit einem vorgegebenen Gleichstrommotor Abb. \ref{fig:motoraufbau} aus Kap. \ref{chap:ganzermotor} begonnen.
-FÃ¼r diesen Motor wurde ein PID-Regler in Simulink integriert, Abb. \ref{fig:grundprogramm} aus Kap. \ref{chap:motorinsimulink}, und unterschiedliche Regelparameter getestet.
-Der Sensor wurde noch nicht integriert, um erst einmal eine Regelung fÃ¼r einen Gleichstrommotor zu bekommen, mit der es Ã¼berhaupt mÃ¶glich ist, einen Winkel einzustellen.
+Für diesen Motor wurde ein PID-Regler in Simulink integriert, Abb. \ref{fig:grundprogramm} aus Kap. \ref{chap:motorinsimulink}, und unterschiedliche Regelparameter getestet.
+Der Sensor wurde noch nicht integriert, um erst einmal eine Regelung für einen Gleichstrommotor zu bekommen, mit der es überhaupt möglich ist, einen Winkel einzustellen.
 
 Bei der reinen P-Regelung, konnte weder die Einregelzeit, noch die Genauigkeit erreicht werden.
+<<<<<<< HEAD
 Wie in Abb. \ref{fig:p40} und \ref{fig:p45} aus Kap.\ref{chap:p_regelung} zu erkennen ist, betrÃ¤gt die Zeit, bis der Winkel in der NÃ¤he des Sollwertes ist, ca. \unit[7]{ms}.
 Jedoch ist ein groÃŸe Schwankung des Winkels zu erkennen.
 Bei kleinerem P-Anteil von P = 40 ist die Abweichunng noch so groÃŸ, dass der Winkel in der unteren Grafik nicht erreicht wird.
 Bei einem etwas grÃ¶ÃŸerem P-Anteil P = 45 ist zu erkennen, dass der Sollwinkel zwar Ã¼berfahren wird, aber nicht stabil bleibt.
 Die Abb. \ref{fig:p40} und \ref{fig:p45} sind hier dafÃ¼r exemplarisch, dass auch bei anderen Werten keine erfolgreiche Regelung erreicht werden konnte.
+=======
+Wie in Abb. \ref{fig:p40} und \ref{fig:p45} aus Kap.\ref{chap:p_regelung} zu erkennen ist, beträgt die Zeit, bis der Winkel in der Nähe des Sollwertes ist, ca. $\unit[7]{ms}$.
+Jedoch ist ein große Schwankung des Winkels zu erkennen.
+Bei kleinerem P-Anteil von P = 40 ist die Abweichunng noch so groß, dass der Winkel in der unteren Grafik nicht erreicht wird.
+Bei einem etwas größerem P-Anteil P = 45 ist zu erkennen, dass der Sollwinkel zwar überfahren wird, aber nicht stabil bleibt.
+>>>>>>> basti1
 
 Die Erweiterung des reinen P-Reglers um einen I-Anteil ist in den Abb. \ref{fig:p30i17} und \ref{fig:p30i18} aus Kap.\ref{chap:pi_regelung} zu erkennen.
-Durch die Erweiterung mit einem I-Anteil, hat sich die Einregelzeit auf ca. \unit[9]{ms} verlÃ¤ngert.
+Durch die Erweiterung mit einem I-Anteil, hat sich die Einregelzeit auf ca. \unit[9]{ms} verlängert.
 Auch wurde der Sollwinkel nicht erreicht.
+<<<<<<< HEAD
 Eine ErhÃ¶hung des P- oder I-Anteils fÃ¼hrte dann wieder zu Schwingungen um den Sollwinkel, wie es in Abb. \ref{fig:p30i18} exemplarisch fÃ¼r einen leicht erhÃ¶hten I-Anteil
+=======
+Eine Erhöhung des P- oder I-Anteils führte dann wieder zu Schwingungen um den Sollwinkel, wie es in Abb. \ref{fig:p30i18} exemplarsich für einen leicht erhöhten I-Anteil
+>>>>>>> basti1
 dargestellt ist.
 
 Die Erweiterung des reinen P-Reglers um einen D-Anteil ist in den Abb. \ref{fig:p22d1n1} und \ref{fig:p23d1n1} aus Kap.\ref{chap:pd_regelung} zu erkennen.
 Hier ergibt sich das gleiche Problem wie bei der P- und PI-Regelung.
 Bis zu einer Grenze der P- und D- Anteile, ist die Regelung zu weit von dem Sollwinkel entfernt.
-Wird nur ein Anteil leicht erhÃ¶ht, kommt es zu einem Ãœberschwingen um den Sollwinkel.
-Jedoch hat sich die Zeit, bis der aktuelle Winkel um den Sollwinkel schwingt, auf ca. \unit[6][ms} verkÃ¼rzt.
+Wird nur ein Anteil leicht erhöht, kommt es zu einem Überschwingen um den Sollwinkel.
+Jedoch hat sich die Zeit, bis der aktuelle Winkel um den Sollwinkel schwingt, auf ca. \unit[6][ms} verkürzt.
 
 Es wurde nun mit einer PID-Regelung versucht, die Vorgaben zu erreichen.
 In den Abb. \ref{fig:p20i15d1n1} und \ref{fig:p20i16d1n1} aus Kap.\ref{chap:pid_regelung} sind die Ergenisse der PID-Regelung dargestellt.
 Es zeigt sich das von der P-, PI- und PD-Regelung bekannte Verhalten, dass bis zu entsprechenden Reglerwerten, der aktuelle Winkel zu weit vom Sollwinkel entfernt ist und
-bei einer nur kleinen ErhÃ¶hung eines der Parameter, ein Ãœberschwingen um den Sollwinkel einsetzt.
-Dies ist exemplarisch fÃ¼r den I-Anteil in Abb. \ref{fig:p20i16d1n1} dargestellt.
-Die Zeit bis zum ersten durchstreichen des Sollwinkels ist etwas Ã¼ber \unit[8]{ms}.
+bei einer nur kleinen Erhöhung eines der Parameter, ein Überschwingen um den Sollwinkel einsetzt.
+Dies ist exemplarisch für den I-Anteil in Abb. \ref{fig:p20i16d1n1} dargestellt.
+Die Zeit bis zum ersten durchstreichen des Sollwinkels ist etwas über \unit[8]{ms}.
 
 Mit dieser noch nicht zufriedenstellenden Regelung, wird der PID-Reglerblock in Simulink entfernt und eine P-Adaption in den Regelkreis eingebaut.
 Abb. \ref{fig:padaptionsimulin} aus Kap. \ref{chap:padaption} zeigen diesen Aufbau.
-Mit der vorgeschalteten Funktion vor den P-VerstÃ¤rker, soll eine geringere bleibende Regeldiffernz erreicht werden.
+Mit der vorgeschalteten Funktion vor den P-Verstärker, soll eine geringere bleibende Regeldiffernz erreicht werden.
 
 Wie aus den Abb. \ref{fig:padp41f1580} und \ref{fig:padp50f3400} aus Kap.\ref{chap:p_adaption} zu erkennen ist, wird der Sollwinkel noch nicht erreicht.
-Der aktuelle Winkel gelangt bei kleineren Parameterwerten nicht in die NÃ¤he des Sollwinkels.
-Bei grÃ¶ÃŸeren Parameterwerten dagegen, ergibt sich wieder ein Ãœberschwingen um den Sollwert.
-Auch mit dieser P-Adaption konnten keine Parameterwerte gefunden werden, mit der eine Regelung bei diesem Gleichstrommotor, den Vorgaben entsprechend realisiert werden 
-konnte.
+Der aktuelle Winkel gelangt bei kleineren Parameterwerten nicht in die Nähe des Sollwinkels.
+Bei größeren Parameterwerten dagegen, ergibt sich wieder ein Überschwingen um den Sollwert.
+Auch mit dieser P-Adaption konnten keine Parameterwerte gefunden werden, mit der eine Regelung bei diesem Gleichstrommotor, den Vorgaben entsprechend realisiert werden konnte.
 
-Um eine erfolgreiche Regelung zu erreichen, werden die Motorparameter angepasst, wÃ¤hrend die P-Adaption als Regelung behalten wird.
-Es wird zuerst die InduktivitÃ¤t und der Innenwiderstand eines Galvos eingesetzt, um so erneut Parameter zu finden, die eine erfolgreiche Regelung ermÃ¶glichen.
+Um eine erfolgreiche Regelung zu erreichen, werden die Motorparameter angepasst, während die P-Adaption als Regelung behalten wird.
+Es wird zuerst die Induktivität und der Innenwiderstand eines Galvos eingesetzt, um so erneut Parameter zu finden, die eine erfolgreiche Regelung ermöglichen.
 
-Mit diesen Parametern konnte zwar ein Ãœberschwingen um den Sollwinkel nicht verhindert werden, jedoch hat sich die Zeit, bis zum ersten durchschreiten des Sollwinkels auf
-ca. \unit[2]{ms} verkÃ¼rzt.
+Mit diesen Parametern konnte zwar ein Überschwingen um den Sollwinkel nicht verhindert werden, jedoch hat sich die Zeit, bis zum ersten durchschreiten des Sollwinkels auf
+ca. $\unit[2]{ms}$ verkürzt.
 Abb. \ref{fig:padwerte} aus Kap. \ref{chap:p_adaptiongalvo} zeigt den Vorgang.
 
 Da die Anpassung des Motors gut Ergebnisse zeigte, wird nun mit weiterer Anpassung der verschiedenen Motor- und Spiegelwerte versucht, eine erfolgreiche Regelung aufzubauen.

@@ -7,21 +7,47 @@
 \contentsline {section}{\numberline {3.3}Der Motor}{11}{section.26}
 \contentsline {subsection}{\numberline {3.3.1}Der elektrische Teil}{11}{subsection.27}
 \contentsline {subsection}{\numberline {3.3.2}Der mechanische Teil}{13}{subsection.35}
-\contentsline {section}{\numberline {3.4}Der Sensor}{13}{section.42}
-\contentsline {subsection}{\numberline {3.4.1}Das physikalische Modell des Sensors}{13}{subsection.43}
-\contentsline {subsection}{\numberline {3.4.2}Das lineare Sensormodell}{15}{subsection.51}
-\contentsline {subsection}{\numberline {3.4.3}Das nicht lineare Sensormodell}{15}{subsection.52}
-\contentsline {chapter}{\numberline {4}Programmentwicklung}{17}{chapter.53}
-\contentsline {section}{\numberline {4.1}Motor in Simulink}{17}{section.54}
-\contentsline {section}{\numberline {4.2}Matlab}{18}{section.62}
-\contentsline {subsection}{\numberline {4.2.1}Motor in Matlab}{18}{subsection.63}
-\contentsline {subsection}{\numberline {4.2.2}Sensor in Matlab}{19}{subsection.64}
-\contentsline {subsubsection}{\numberline {4.2.2.1}Vorbereitungen}{19}{subsubsection.65}
-\contentsline {subsubsection}{\numberline {4.2.2.2}Files}{19}{subsubsection.66}
-\contentsline {chapter}{\numberline {5}Simulationsdurchf\~A\IeC {\textonequarter }hrung}{21}{chapter.67}
-\contentsline {section}{\numberline {5.1}Simulation}{21}{section.68}
-\contentsline {subsection}{\numberline {5.1.1}PID-Regelung}{21}{subsection.69}
-\contentsline {subsubsection}{\numberline {5.1.1.1}P-Regelung}{21}{subsubsection.70}
-\contentsline {subsubsection}{\numberline {5.1.1.2}PI-Regelung}{21}{subsubsection.73}
-\contentsline {subsubsection}{\numberline {5.1.1.3}PD-Regelung}{22}{subsubsection.76}
-\contentsline {subsubsection}{\numberline {5.1.1.4}PID-Regelung}{22}{subsubsection.79}
+\contentsline {subsection}{\numberline {3.3.3}Der ganze Motor}{14}{subsection.42}
+\contentsline {section}{\numberline {3.4}Der Sensor}{14}{section.44}
+\contentsline {subsection}{\numberline {3.4.1}Das physikalische Modell des Sensors}{14}{subsection.45}
+\contentsline {subsection}{\numberline {3.4.2}Das lineare Sensormodell}{15}{subsection.53}
+\contentsline {subsection}{\numberline {3.4.3}Das nicht lineare Sensormodell}{15}{subsection.54}
+\contentsline {chapter}{\numberline {4}Programmentwicklung}{17}{chapter.55}
+\contentsline {section}{\numberline {4.1}Motor in Simulink}{17}{section.56}
+\contentsline {section}{\numberline {4.2}Matlab}{18}{section.66}
+\contentsline {subsection}{\numberline {4.2.1}Motor in Matlab}{18}{subsection.67}
+\contentsline {subsection}{\numberline {4.2.2}Sensor in Matlab}{19}{subsection.68}
+\contentsline {subsubsection}{\numberline {4.2.2.1}Vorbereitungen}{19}{subsubsection.69}
+\contentsline {subsubsection}{\numberline {4.2.2.2}Files}{19}{subsubsection.70}
+\contentsline {chapter}{\numberline {5}Simulationsdurchf\"uhrung}{21}{chapter.71}
+\contentsline {section}{\numberline {5.1}Simulation}{21}{section.72}
+\contentsline {subsection}{\numberline {5.1.1}PID-Regelung}{21}{subsection.73}
+\contentsline {subsubsection}{\numberline {5.1.1.1}P-Regelung}{21}{subsubsection.74}
+\contentsline {subsubsection}{\numberline {5.1.1.2}PI-Regelung}{21}{subsubsection.77}
+\contentsline {subsubsection}{\numberline {5.1.1.3}PD-Regelung}{23}{subsubsection.80}
+\contentsline {subsubsection}{\numberline {5.1.1.4}PID-Regelung}{23}{subsubsection.83}
+\contentsline {subsection}{\numberline {5.1.2}P-Adaption}{25}{subsection.86}
+\contentsline {subsubsection}{\numberline {5.1.2.1}Regelung mit P-Adaption}{27}{subsubsection.90}
+\contentsline {subsubsection}{\numberline {5.1.2.2}P-Adaption mit Galvo-Werten}{28}{subsubsection.93}
+\contentsline {subsubsection}{\numberline {5.1.2.3}P-Adaption mit neuen Werten}{29}{subsubsection.95}
+\contentsline {subsubsection}{\numberline {5.1.2.4}Strombegrenzung}{30}{subsubsection.97}
+\contentsline {subsubsection}{\numberline {5.1.2.5}Fertige P-Adaption}{31}{subsubsection.103}
+\contentsline {subsection}{\numberline {5.1.3}Regelung mit Sensor}{33}{subsection.105}
+\contentsline {subsubsection}{\numberline {5.1.3.1}Linearer Sensor 1}{34}{subsubsection.107}
+\contentsline {subsubsection}{\numberline {5.1.3.2}Linearer Sensor 2}{34}{subsubsection.109}
+\contentsline {subsubsection}{\numberline {5.1.3.3}Nichtlinearer Sensor}{34}{subsubsection.111}
+\contentsline {chapter}{\numberline {6}Disskussion}{37}{chapter.113}
+\contentsline {chapter}{\numberline {7}Zusammenfassung}{41}{chapter.114}
+\contentsline {chapter}{\numberline {A}Matlab-Files}{43}{appendix.115}
+\contentsline {section}{\numberline {A.1}msSpiegelundSensor.m}{43}{section.116}
+\contentsline {section}{\numberline {A.2}sensorDaten.m}{47}{section.296}
+\contentsline {section}{\numberline {A.3}frect.m}{49}{section.381}
+\contentsline {section}{\numberline {A.4}gekern.m}{49}{section.396}
+\contentsline {section}{\numberline {A.5}sensor.m}{50}{section.410}
+\contentsline {section}{\numberline {A.6}posEingabe.m}{53}{section.523}
+\contentsline {chapter}{\numberline {B}Simulink-Files}{55}{appendix.557}
+\contentsline {section}{\numberline {B.1}1}{55}{section.558}
+\contentsline {chapter}{Literaturverzeichnis}{56}{section.558}
+\contentsline {chapter}{Abbildungsverzeichnis}{57}{appendix*.559}
+\contentsline {chapter}{Tabellenverzeichnis}{59}{appendix*.560}
+\contentsline {chapter}{Eidesstattliche Erkl\"arung}{61}{appendix*.561}

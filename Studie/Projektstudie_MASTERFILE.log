@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.10.25)  13 JUL 2013 16:48
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.10.25)  14 JUL 2013 15:06
 entering extended mode
  %&-line parsing enabled.
 **Projektstudie_MASTERFILE.tex
@@ -6,12 +6,6 @@ entering extended mode
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
 yphenation, loaded.
-(/usr/share/texmf-texlive/tex/generic/oberdiek/hyphsubst.sty
-Package: hyphsubst 2008/06/09 v0.2 Substitute hyphenation patterns (HO)
-
-(/usr/share/texmf-texlive/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2007/09/09 v1.2 Providing info/warning/message (HO)
-))
 (/usr/share/texmf-texlive/tex/latex/koma-script/scrreprt.cls
 Document Class: scrreprt 2009/07/24 v3.04a KOMA-Script document class (report)
 (/usr/share/texmf-texlive/tex/latex/koma-script/scrkbase.sty
@@ -188,6 +182,9 @@ Package: epstopdf 2009/10/17 v2.4 Conversion with epstopdf on the fly (HO)
 (/usr/share/texmf-texlive/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2009/10/17 v2.4 Base part for package epstopdf
 
+(/usr/share/texmf-texlive/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2007/09/09 v1.2 Providing info/warning/message (HO)
+)
 (/usr/share/texmf-texlive/tex/latex/oberdiek/grfext.sty
 Package: grfext 2007/09/30 v1.0 Managing graphics extensions (HO)
 )
@@ -268,7 +265,7 @@ Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \c@LT@chunks=\count98
 \LT@p@ftn=\toks18
 )
-Class scrreprt Info: longtable captions redefined on input line 59.
+Class scrreprt Info: longtable captions redefined on input line 58.
 
 (/usr/share/texmf-texlive/tex/latex/tools/array.sty
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
@@ -544,25 +541,25 @@ Package: nicefrac 1998/08/04 v0.9b Nice fractions
 ))
 (./Projektstudie_MASTERFILE.aux
 
-LaTeX Warning: Label `equ:motormomentsimulink2' multiply defined.
+LaTeX Warning: Label `equ:motormomentsimulink1' multiply defined.
 
 )
 \openout1 = `Projektstudie_MASTERFILE.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 150.
-LaTeX Font Info:    ... okay on input line 150.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 150.
-LaTeX Font Info:    ... okay on input line 150.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 150.
-LaTeX Font Info:    ... okay on input line 150.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 150.
-LaTeX Font Info:    ... okay on input line 150.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 150.
-LaTeX Font Info:    ... okay on input line 150.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 150.
-LaTeX Font Info:    ... okay on input line 150.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 150.
-LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 149.
+LaTeX Font Info:    ... okay on input line 149.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 149.
+LaTeX Font Info:    ... okay on input line 149.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 149.
+LaTeX Font Info:    ... okay on input line 149.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 149.
+LaTeX Font Info:    ... okay on input line 149.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 149.
+LaTeX Font Info:    ... okay on input line 149.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 149.
+LaTeX Font Info:    ... okay on input line 149.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 149.
+LaTeX Font Info:    ... okay on input line 149.
 
 *geometry auto-detecting driver*
 *geometry detected driver: pdftex*
@@ -626,7 +623,7 @@ babelbib: Set language for keywords in the bibliography fixed to ngerman
 \MPnumerator=\count140
 \everyMPtoPDFconversion=\toks31
 ) ABD: EveryShipout initializing macros
-Package hyperref Info: Link coloring ON on input line 150.
+Package hyperref Info: Link coloring ON on input line 149.
 
 (/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
 Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
@@ -636,8 +633,8 @@ Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
 \c@section@level=\count141
 )
-LaTeX Info: Redefining \ref on input line 150.
-LaTeX Info: Redefining \pageref on input line 150.
+LaTeX Info: Redefining \ref on input line 149.
+LaTeX Info: Redefining \pageref on input line 149.
 
 (./Projektstudie_MASTERFILE.out) (./Projektstudie_MASTERFILE.out)
 \@outlinefile=\write3
@@ -653,7 +650,7 @@ LaTeX Info: Redefining \pageref on input line 150.
 
 
 ]
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 201.
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 199.
 
 
 (/usr/share/texmf-texlive/tex/latex/base/t1cmss.fd
@@ -681,21 +678,43 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 14.
+(scrreprt)            on input line 15.
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 21.
+(scrreprt)            on input line 22.
+ [1
+
+
+]
+Class scrreprt Info: You've told me to use the font selection of the element
+(scrreprt)           `sectioning' that is an alias of element `disposition'
+(scrreprt)            on input line 39.
+Class scrreprt Info: You've told me to use the font selection of the element
+(scrreprt)           `sectioning' that is an alias of element `disposition'
+(scrreprt)            on input line 40.
+Class scrreprt Info: You've told me to use the font selection of the element
+(scrreprt)           `sectioning' that is an alias of element `disposition'
+(scrreprt)            on input line 41.
+Class scrreprt Info: You've told me to use the font selection of the element
+(scrreprt)           `sectioning' that is an alias of element `disposition'
+(scrreprt)            on input line 48.
+Class scrreprt Info: You've told me to use the font selection of the element
+(scrreprt)           `sectioning' that is an alias of element `disposition'
+(scrreprt)            on input line 50.
+Class scrreprt Info: You've told me to use the font selection of the element
+(scrreprt)           `sectioning' that is an alias of element `disposition'
+(scrreprt)            on input line 51.
+Class scrreprt Info: You've told me to use the font selection of the element
+(scrreprt)           `sectioning' that is an alias of element `disposition'
+(scrreprt)            on input line 52.
+Class scrreprt Info: You've told me to use the font selection of the element
+(scrreprt)           `sectioning' that is an alias of element `disposition'
+(scrreprt)            on input line 53.
 )
 \tf@toc=\write4
 \openout4 = `Projektstudie_MASTERFILE.toc'.
 
- [1
-
-
-] [2
-
-
-]
+ [2]
 (./Einfuehrung.tex
 Kapitel 1.
 
@@ -705,7 +724,7 @@ Class scrreprt Warning: \float@addtolists detected!
 (scrreprt)              Support for \float@addtolists may be removed from
 (scrreprt)              `scrreprt' soon .
 
-<Plexi_Galvohalter.jpg, id=166, 256.7994pt x 298.2342pt>
+<Plexi_Galvohalter.jpg, id=295, 256.7994pt x 298.2342pt>
 File: Plexi_Galvohalter.jpg Graphic file (type jpg)
 
 <use Plexi_Galvohalter.jpg>
@@ -715,32 +734,32 @@ LaTeX Warning: Citation `wiki' on page 1 undefined on input line 30.
 
 LaTeX Warning: Citation `wiki' on page 1 undefined on input line 30.
 
-<Strahlfuehrung.jpg, id=167, 734.745pt x 489.83pt>
+<Strahlfuehrung.jpg, id=296, 734.745pt x 489.83pt>
 File: Strahlfuehrung.jpg Graphic file (type jpg)
  <use Strahlfuehrung.jpg>
 
-LaTeX Warning: Citation `lasercommunity' on page 1 undefined on input line 38.
+LaTeX Warning: Citation `lasercommunity' on page 1 undefined on input line 37.
 
 
-LaTeX Warning: Citation `lasercommunity' on page 1 undefined on input line 38.
+LaTeX Warning: Citation `lasercommunity' on page 1 undefined on input line 37.
 
-<Allgmeiner_Aufbau.jpg, id=169, 1127.21124pt x 796.9775pt>
+<Allgmeiner_Aufbau.jpg, id=298, 1127.21124pt x 796.9775pt>
 File: Allgmeiner_Aufbau.jpg Graphic file (type jpg)
 
 <use Allgmeiner_Aufbau.jpg> [1
 
 
-]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 82.
 
-(/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
+
+] [2 <./Plexi_Galvohalter.jpg> <./Strahlfuehrung.jpg>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 80.
+ (/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 82.
-) (./Aufgabenstellung.tex
-[2 <./Plexi_Galvohalter.jpg>] [3 <./Strahlfuehrung.jpg> <./Allgmeiner_Aufbau.jp
-g>] [4
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 80.
+)
+(./Aufgabenstellung.tex [3 <./Allgmeiner_Aufbau.jpg>] [4
 
 
 ]
@@ -765,7 +784,7 @@ LaTeX Warning: Command \textdegree invalid in math mode on input line 38.
 
 ]
 Kapitel 3.
-<System_Aufbau.jpg, id=214, 509.905pt x 354.32375pt>
+<System_Aufbau.jpg, id=343, 509.905pt x 354.32375pt>
 File: System_Aufbau.jpg Graphic file (type jpg)
  <use System_Aufbau.jpg>
 
@@ -777,7 +796,7 @@ Overfull \hbox (1.1018pt too wide) in paragraph at lines 134--138
 ma-tio-nen �ber die Ans-teuerung solch-
  []
 
-<ElektrischerTeil.jpg, id=236, 240.9pt x 224.33812pt>
+<ElektrischerTeil.jpg, id=365, 240.9pt x 224.33812pt>
 File: ElektrischerTeil.jpg Graphic file (type jpg)
 
 <use ElektrischerTeil.jpg>
@@ -786,1727 +805,649 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [11] [12 <./ElektrischerTeil.jpg>]
 
-LaTeX Warning: Command \. invalid in math mode on input line 198.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.198 ...) $M_R = r*\omega$, mit $\omega = \. \phi
-                                                  $ (siehe Abb. \ref{mechein...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Improper \spacefactor.
-<recently read> \spacefactor 
-                             
-l.198 ...) $M_R = r*\omega$, mit $\omega = \. \phi
-                                                  $ (siehe Abb. \ref{mechein...
-You can refer to \spacefactor only in horizontal mode;
-you can refer to \prevdepth only in vertical mode; and
-neither of these is meaningful inside \write. So
-I'm forgetting what you said and using zero instead.
-
-! Extra }, or forgotten $.
-\add@accent ... \accent@spacefactor \spacefactor }
-                                                  \accent #1 #2\egroup \spac...
-l.198 ...) $M_R = r*\omega$, mit $\omega = \. \phi
-                                                  $ (siehe Abb. \ref{mechein...
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Please use \mathaccent for accents in math mode.
-\add@accent ...@spacefactor \spacefactor }\accent 
-                                                  #1 #2\egroup \spacefactor ...
-l.198 ...) $M_R = r*\omega$, mit $\omega = \. \phi
-                                                  $ (siehe Abb. \ref{mechein...
-I'm changing \accent to \mathaccent here; wish me luck.
-(Accents are not the same in formulas as they are in text.)
-
-! Extra }, or forgotten $.
-\add@accent ...\spacefactor }\accent #1 #2\egroup 
-                                                  \spacefactor \accent@space...
-l.198 ...) $M_R = r*\omega$, mit $\omega = \. \phi
-                                                  $ (siehe Abb. \ref{mechein...
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! You can't use `\spacefactor' in math mode.
-\add@accent ...}\accent #1 #2\egroup \spacefactor 
-                                                  \accent@spacefactor 
-l.198 ...) $M_R = r*\omega$, mit $\omega = \. \phi
-                                                  $ (siehe Abb. \ref{mechein...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-
 LaTeX Warning: Reference `mecheinzelteil' on page 13 undefined on input line 19
-8.
+7.
 
-
-! LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.199 \begin{figure}[!h]
-                        
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Undefined control sequence.
-\latex@xfloat ...vf \fi \global \setbox \@currbox 
-                                                  \color@vbox \normalcolor \...
-l.199 \begin{figure}[!h]
-                        
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \vbox 
-l.199 \begin{figure}[!h]
-                        
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-<MechanischerTeil.jpg, id=260, 201.75375pt x 196.48407pt>
+<MechanischerTeil.jpg, id=390, 201.75375pt x 196.48407pt>
 File: MechanischerTeil.jpg Graphic file (type jpg)
 
-<use MechanischerTeil.jpg>
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.206 \begin{center}
-                    
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.206 \begin{center}
-                    
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.206 \begin{center}
-                    
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.209 M_
-        B = M_M - M_R - M_L = \\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.209 M_B = M_M - M_R - M_L = \\
-                                
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.209 M_B = M_M - M_R - M_L = \\
-                                
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.210 J * s\omega = M_M - r * \omega - M_L\\
-                                            
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.210 J * s\omega = M_M - r * \omega - M_L\\
-                                            
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! You can't use `\eqno' in math mode.
-\endmathdisplay@a ...\df@tag \@empty \else \veqno 
-                                                  \alt@tag \df@tag \fi \ifx ...
-l.212 \end{equation}
-                    
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.212 \end{equation}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.213 \end{center}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.213 \end{center}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.213 \end{center}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Reference `equ:motormomentebilanz' on page 13 undefined on input
- line 214.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.215 \begin{center}
-                    
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.215 \begin{center}
-                    
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.215 \begin{center}
-                    
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.218 s\omega
-              = \frac{1}{J} (M_M - r * \omega - M_L)
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! You can't use `\eqno' in math mode.
-\endmathdisplay@a ...\df@tag \@empty \else \veqno 
-                                                  \alt@tag \df@tag \fi \ifx ...
-l.219 \end{equation}
-                    
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.219 \end{equation}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.220 \end{center}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.220 \end{center}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.220 \end{center}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.222 \begin{center}
-                    
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.222 \begin{center}
-                    
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.222 \begin{center}
-                    
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.225 M_
-        M = K_M * \Phi *i_A
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! You can't use `\eqno' in math mode.
-\endmathdisplay@a ...\df@tag \@empty \else \veqno 
-                                                  \alt@tag \df@tag \fi \ifx ...
-l.226 \end{equation}
-                    
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.226 \end{equation}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.227 \end{center}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.227 \end{center}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.227 \end{center}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.230 \subsection
-                 {Der ganze Motor}
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.230 \subsection
-                 {Der ganze Motor}
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.230 \subsection{Der ganze Motor}
-                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.230 \subsection{Der ganze Motor}
-                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.230 \subsection{Der ganze Motor}
-                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-<Motoraufbau.jpg, id=262, 478.03593pt x 262.73157pt>
+<use MechanischerTeil.jpg> [13 <./MechanischerTeil.jpg>]
+<Motoraufbau.jpg, id=402, 478.03593pt x 262.73157pt>
 File: Motoraufbau.jpg Graphic file (type jpg)
  <use Motoraufbau.jpg>
 
-LaTeX Warning: Reference `fig:aufbau_sensor' on page 13 undefined on input line
- 248.
+LaTeX Warning: Reference `fig:aufbau_sensor' on page 14 undefined on input line
+ 251.
 
+<Sensor_Funktionsdiagramm.jpg, id=404, 1025.8325pt x 316.18124pt>
+File: Sensor_Funktionsdiagramm.jpg Graphic file (type jpg)
 
-LaTeX Warning: File `Sensor_Funktion.jpg' not found on input line 257.
-
-
-! Package pdftex.def Error: File `Sensor_Funktion.jpg' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.257 ...width=0.8\textwidth]{Sensor_Funktion.jpg}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 257.
-
-(/usr/share/texmf-texlive/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
+<use Sensor_Funktionsdiagramm.jpg>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Sensor_Aufbau_schichten.jpg, id=264, 445.665pt x 256.96pt>
+<Sensor_Aufbau_schichten.jpg, id=405, 445.665pt x 256.96pt>
 File: Sensor_Aufbau_schichten.jpg Graphic file (type jpg)
 
 <use Sensor_Aufbau_schichten.jpg>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[13 <./Motoraufbau.jpg>] [14 <./Sensor_Aufbau_schichten.jpg>]
-<Sensor_DIODEN.jpg, id=278, 304.13625pt x 304.13625pt>
+<Sensor_DIODEN.jpg, id=406, 304.13625pt x 304.13625pt>
 File: Sensor_DIODEN.jpg Graphic file (type jpg)
  <use Sensor_DIODEN.jpg>
-<Sensor_BLENDE.jpg, id=279, 304.13625pt x 304.13625pt>
+<Sensor_BLENDE.jpg, id=407, 304.13625pt x 304.13625pt>
 File: Sensor_BLENDE.jpg Graphic file (type jpg)
  <use Sensor_BLENDE.jpg>
-<Sensor_Abdunklung_0.jpg, id=280, 304.13625pt x 304.13625pt>
+<Sensor_Abdunklung_0.jpg, id=408, 304.13625pt x 304.13625pt>
 File: Sensor_Abdunklung_0.jpg Graphic file (type jpg)
 
 <use Sensor_Abdunklung_0.jpg>
-<Sensor_Abdunklung_40.jpg, id=281, 304.13625pt x 304.13625pt>
+<Sensor_Abdunklung_40.jpg, id=409, 304.13625pt x 304.13625pt>
 File: Sensor_Abdunklung_40.jpg Graphic file (type jpg)
 
-<use Sensor_Abdunklung_40.jpg>) (./Programmentwicklung.tex [15 <./Sensor_DIODEN
-.jpg> <./Sensor_BLENDE.jpg> <./Sensor_Abdunklung_0.jpg> <./Sensor_Abdunklung_40
-.jpg>] [16
+<use Sensor_Abdunklung_40.jpg>
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-]
+) (./Programmentwicklung.tex [14 <./Motoraufbau.jpg>] [15 <./Sensor_Funktionsdi
+agramm.jpg> <./Sensor_Aufbau_schichten.jpg>] [16 <./Sensor_DIODEN.jpg> <./Senso
+r_BLENDE.jpg> <./Sensor_Abdunklung_0.jpg> <./Sensor_Abdunklung_40.jpg>]
 Kapitel 4.
-
-LaTeX Warning: Reference `equ:motormomentsimulink' on page 17 undefined on inpu
-t line 21.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.24 Um einen besseren Ü
-                         berblick zu bekommen, werden die Formeln hier noch ...
-
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
 
 Overfull \hbox (4.36519pt too wide) in paragraph at lines 21--25
 \T1/cmr/m/n/10.95 vorkom-men, lasen sie sich kom-binieren und in Simulink ein-b
 inden, da so ein Gle-ichungssytem
  []
 
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.55 x_1 := \omega\\
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.55 x_1 := \omega\\
-                    
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.55 x_1 := \omega\\
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Display math should end with $$.
-<to be read again> 
-                   \@@par 
-l.55 x_1 := \omega\\
-                    
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-[17]
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.55 x_1 := \omega\\
-                    
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.56 x_
-       2 := i_A
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! You can't use `\eqno' in math mode.
-\endmathdisplay@a ...\df@tag \@empty \else \veqno 
-                                                  \alt@tag \df@tag \fi \ifx ...
-l.57 \end{equation}
-                   
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.57 \end{equation}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
+[17
 
 
-! LaTeX Error: Command \textcurrency unavailable in encoding T1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.59 ist, lä
-             sst sich folgendes Gleichungssytem aufstellen:
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-LaTeX Warning: Command \. invalid in math mode on input line 63.
-
-! Please use \mathaccent for accents in math mode.
-\add@accent ...@spacefactor \spacefactor }\accent 
-                                                  #1 #2\egroup \spacefactor ...
-l.63 \.x
-        _1 = \frac{1}{J} (K_M \Phi x_2 - r * x_1 - M_L)\\
-I'm changing \accent to \mathaccent here; wish me luck.
-(Accents are not the same in formulas as they are in text.)
-
-! You can't use `\spacefactor' in display math mode.
-\add@accent ...}\accent #1 #2\egroup \spacefactor 
-                                                  \accent@spacefactor 
-l.63 \.x
-        _1 = \frac{1}{J} (K_M \Phi x_2 - r * x_1 - M_L)\\
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.63 ...rac{1}{J} (K_M \Phi x_2 - r * x_1 - M_L)\\
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.63 ...rac{1}{J} (K_M \Phi x_2 - r * x_1 - M_L)\\
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.63 ...rac{1}{J} (K_M \Phi x_2 - r * x_1 - M_L)\\
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Display math should end with $$.
-<to be read again> 
-                   \@@par 
-l.63 ...rac{1}{J} (K_M \Phi x_2 - r * x_1 - M_L)\\
-                                                  
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-Missing character: There is no � in font cmex10!
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.63 ...rac{1}{J} (K_M \Phi x_2 - r * x_1 - M_L)\\
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.64 \.x_
-         2 = \frac{1}{L_A} (K_M * \Phi x_1 - R_Ax_2 + u_e)
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! You can't use `\eqno' in math mode.
-\endmathdisplay@a ...\df@tag \@empty \else \veqno 
-                                                  \alt@tag \df@tag \fi \ifx ...
-l.65 \end{equation}
-                   
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.65 \end{equation}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-! LaTeX Error: Command \textcurrency unavailable in encoding T1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.67 Dieses Gleichungssytem lä
-                               sst sich jetzt durch die grafischen Elemente ...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \textcurrency unavailable in encoding T1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.69 Wie zu Begin des Kap. \ref{chap:motor} erwä
-                                                 hnt, war es nicht möglich ...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-<sSpiegel.jpg, id=311, 902.6222pt x 358.33875pt>
+] <sSpiegel.jpg, id=448, 902.6222pt x 358.33875pt>
 File: sSpiegel.jpg Graphic file (type jpg)
  <use sSpiegel.jpg>
-
-! LaTeX Error: Command \textcurrency unavailable in encoding T1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.86 ...or als relativ einfach, da, wie oben erwä
-                                                  hnt, keien Motordaten gefu...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \textcurrency unavailable in encoding T1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.88 ...en die Motorkenndaten, die berechnete Trä
-                                                  gheit des Spiegels, das be...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \textcurrency unavailable in encoding T1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.90 ... Grundlage für die Simuation, welches wä
-                                                  hrend der Simulation entsp...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[18 <./sSpiegel.jpg>]
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.92 Als Größ
-               en zur Ausgabe in einem Diagramm, interessieren vor allem die...
-
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! LaTeX Error: Command \textcurrency unavailable in encoding T1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.96 Der dritte Plot enthä
-                           lt auch wieder den aktuellen Winkel $\phi$, jedoc...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.100 ...n in das Hauptprogramm einzubinden und Ä
-                                                  nderungen an z.B. den Ausm...
-
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.100 ...inden und Änderungen an z.B. den Ausmaß
-                                                  en des Sensors vorzunehmen...
-
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! LaTeX Error: Command \textcurrency unavailable in encoding T1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.100 ...rs vorzunehmen, ohne das Hauptprogramm ä
-                                                  ndern zu müssen.
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Overfull \hbox (3.10286pt too wide) in paragraph at lines 99--101
-\T1/cmr/m/n/10.95 Der Sen-sor selb-st wird nur mit Mat-labpro-gram-men simulier
-t. Dies er-m�\OMS/cmsy/m/n/10.95 {\T1/cmr/m/n/10.95 glicht ver-schiedene
- []
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.103 ...ensor mit seinen verschiedenen Kenngröß
-                                                  en wie Sensorfläche, Übe...
-
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! LaTeX Error: Command \textcurrency unavailable in encoding T1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.103 ...verschiedenen Kenngrößen wie Sensorflä
-                                                  che, Übertragungsverhalte...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.103 ...edenen Kenngrößen wie Sensorfläche, Ü
-                                                  bertragungsverhalten, und ...
-
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-Overfull \hbox (9.37654pt too wide) in paragraph at lines 103--106
-\T1/cmr/m/n/10.95 Um einen Sen-sor mit seinen ver-schiede-nen Ken-ngr�\OMS/cmsy
-/m/n/10.95 {\T1/cmr/m/n/10.95 �en wie Sen-sor-fl�che, �ber-tra-gungsver-
- []
-
-
-! LaTeX Error: Command \textcurrency unavailable in encoding T1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.109 Auch sollten Deine Versuchsprogramme erwä
-                                                hnt und mit in den Anhang ko...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \textcurrency unavailable in encoding T1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.110 ...it drin und war/ist für die Simuation ä
-                                                  ußerst wichtig.
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.110 ...drin und war/ist für die Simuation äuß
-                                                  erst wichtig.
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-) (./Simulationsdurchfuehrung.tex [19] [20
+[18 <./sSpiegel.jpg>]) (./Simulationsdurchfuehrung.tex [19] [20
 
 
 ]
 Kapitel 5.
-
-LaTeX Warning: Reference `fig:p40' on page 21 undefined on input line 36.
-
-
-! LaTeX Error: Command \textcurrency unavailable in encoding T1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.37 ...rkennen, dass nach ca. 7 ms es keine Verä
-                                                  nderung des eingesetllten ...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.38 Eine Erhöhung des P-Anteils ergibt ein Ü
-                                               berschwingen, wie es in Abb. ...
-
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-LaTeX Warning: Reference `fig:p45' on page 21 undefined on input line 38.
-
-
-LaTeX Warning: Reference `fig:p40' on page 21 undefined on input line 39.
-
-
-LaTeX Warning: Reference `fig:p45' on page 21 undefined on input line 39.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.40 ...leibende Regeldifferenz noch viel zu groß
-                                                  .
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.41 ...n P-Regelung versucht, die restliche groß
-                                                  e Regeldifferenz auszuglei...
-
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.42 ...ulationen wird das Matlab-File "msSpiegel_
-                                                  PID.m" und das Simulink-Fi...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-! LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.43 \begin{figure}[!h]
-                       
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Undefined control sequence.
-\latex@xfloat ...vf \fi \global \setbox \@currbox 
-                                                  \color@vbox \normalcolor \...
-l.43 \begin{figure}[!h]
-                       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \vbox 
-l.43 \begin{figure}[!h]
-                       
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-<NurP40.jpg, id=329, 642.4pt x 693.59125pt>
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 42.
+(/usr/share/texmf-texlive/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+<NurP40.jpg, id=471, 642.4pt x 693.59125pt>
 File: NurP40.jpg Graphic file (type jpg)
  <use NurP40.jpg>
 
-! LaTeX Error: Not in outer par mode.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.49 \begin{figure}[!h]
-                       
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Undefined control sequence.
-\latex@xfloat ...vf \fi \global \setbox \@currbox 
-                                                  \color@vbox \normalcolor \...
-l.49 \begin{figure}[!h]
-                       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \vbox 
-l.49 \begin{figure}[!h]
-                       
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-<NurP45.jpg, id=330, 642.4pt x 693.59125pt>
+<NurP45.jpg, id=472, 642.4pt x 693.59125pt>
 File: NurP45.jpg Graphic file (type jpg)
  <use NurP45.jpg>
-! Missing $ inserted.
-<inserted text> 
-                $
-l.55 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Overfull \hbox (76.17723pt too wide) in paragraph at lines 36--55
-\T1/cmr/m/n/10.95 auszu-gle-ichen. F�$[]$r die fol-gen-den Sim-u-la-tio-nen wir
-d das Matlab-File "msSpiegel$[]\OML/cmm/m/it/10.95 ID:m[]nddasSimulink \OMS/cms
-y/m/n/10.95 ^^@
- []
-
-
-! LaTeX Error: Command \textcurrency unavailable in encoding T1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.59 ...kennen, dass nach ca. 13 ms es keine Verä
-                                                  nderung des eingesetllten ...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.60 ...öhung des P- oder I-Anteils ergibt ein Ü
-                                                  berschwingen, wie es in Ab...
-
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.62 ...leibende Regeldifferenz noch viel zu groß
-                                                  .
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-<PI-P30I17.jpg, id=335, 636.3775pt x 693.59125pt>
-File: PI-P30I17.jpg Graphic file (type jpg)
- <use PI-P30I17.jpg>
-<PI-P30I18.jpg, id=336, 642.4pt x 693.59125pt>
-File: PI-P30I18.jpg Graphic file (type jpg)
- <use PI-P30I18.jpg> [21]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+<PI-P30I17.jpg, id=477, 636.3775pt x 693.59125pt>
+File: PI-P30I17.jpg Graphic file (type jpg)
+ <use PI-P30I17.jpg> [21]
+[22 <./NurP40.jpg> <./NurP45.jpg>]
+<PI-P30I18.jpg, id=492, 642.4pt x 693.59125pt>
+File: PI-P30I18.jpg Graphic file (type jpg)
+ <use PI-P30I18.jpg>
 
-! LaTeX Error: Command \textcurrency unavailable in encoding T1.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.81 ...rkennen, dass nach ca. 7 ms es keine Verä
-                                                  nderung des eingesetllten ...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.82 ...öhung des P- oder D-Anteils ergibt ein Ü
-                                                  berschwingen, wie es in Ab...
-
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.84 ...leibende Regeldifferenz noch viel zu groß
-                                                  .
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-<PD-P22D1N1.jpg, id=348, 642.4pt x 693.59125pt>
+<PD-P22D1N1.jpg, id=497, 642.4pt x 693.59125pt>
 File: PD-P22D1N1.jpg Graphic file (type jpg)
  <use PD-P22D1N1.jpg>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<PD-P23D1N1.jpg, id=349, 642.4pt x 693.59125pt>
+<PD-P23D1N1.jpg, id=498, 642.4pt x 693.59125pt>
 File: PD-P23D1N1.jpg Graphic file (type jpg)
  <use PD-P23D1N1.jpg>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: Reference `fig:p20i16d1n1' on page 22 undefined on input line 10
-1.
+LaTeX Warning: Reference `fig:p20i16d1n1' on page 23 undefined on input line 10
+5.
 
 
-! LaTeX Error: Command \textcurrency unavailable in encoding T1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.102 ...kennen, dass nach ca. 7 ms es keine Verä
-                                                  nderung des eingesetllten ...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+LaTeX Warning: Reference `fig:p20i16d1n1' on page 23 undefined on input line 10
+7.
 
 
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
+LaTeX Warning: Reference `fig:p20i16d1n1' on page 23 undefined on input line 10
+8.
 
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.103 ...denen Reglerparamteranteile ergibt ein Ü
-                                                  berschwingen, wie es in Ab...
-
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-LaTeX Warning: Reference `fig:p20i16d1n1' on page 22 undefined on input line 10
-3.
-
-
-LaTeX Warning: Reference `fig:p20i16d1n1' on page 22 undefined on input line 10
-4.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.105 Durch die groß
-                     e Abweichung vom Sollwinkel ist in dieser Grafik kein G...
-
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-<PID-P20I15D1N1.jpg, id=350, 642.4pt x 693.59125pt>
+<PID-P20I15D1N1.jpg, id=499, 642.4pt x 693.59125pt>
 File: PID-P20I15D1N1.jpg Graphic file (type jpg)
  <use PID-P20I15D1N1.jpg>
-<PID-P20I16D1N1.jpg, id=351, 642.4pt x 693.59125pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<PID-P20I16D1N1.jpg, id=500, 642.4pt x 693.59125pt>
 File: PID-P20I16D1N1.jpg Graphic file (type jpg)
  <use PID-P20I16D1N1.jpg>
-[22 <./PI-P30I17.jpg>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.121 ...eil den meisten Einfluss, bzw. den größ
-                                                  ten Erfolg bei der Regelun...
-
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! LaTeX Error: Command \textcurrency unavailable in encoding T1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.124 ...on wird folgende Formel vor den P-Verstä
-                                                  rker geschaltet:
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
+[23 <./PI-P30I17.jpg>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [23 <./PI-P30I18.jpg> <./PD-P22D1N1.jpg>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ [24 <./PI-P30I18.jpg> <./PD-P22D1N1.jpg>]
+Overfull \vbox (11.07274pt too high) has occurred while \output is active []
 
- [24 <./PD-P23D1N1.jpg> <./PID-P20I15D1N1.jpg>]
 
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.130 Dabei muss der Regelkreis folgendermaß
-                                             en erweitert werden:
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-<P-Adaption.jpg, id=369, 743.02594pt x 424.58624pt>
+[25 <./PD-P23D1N1.jpg> <./PID-P20I15D1N1.jpg>]
+<P-Adaption.jpg, id=516, 743.02594pt x 424.58624pt>
 File: P-Adaption.jpg Graphic file (type jpg)
  <use P-Adaption.jpg>
 
-LaTeX Warning: Citation `FrKu' on page 25 undefined on input line 134.
+LaTeX Warning: Citation `FrKu' on page 26 undefined on input line 139.
 
 
-LaTeX Warning: Citation `FrKu' on page 25 undefined on input line 134.
-
-! Misplaced alignment tab character &.
-l.137 ... "Tempo beim Laserzugriff", Artikel im F&
-                                                  M Elektronik, Jahrg.111(20...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
+LaTeX Warning: Citation `FrKu' on page 26 undefined on input line 139.
 
 
-LaTeX Warning: Reference `' on page 25 undefined on input line 138.
+LaTeX Warning: Reference `' on page 26 undefined on input line 143.
 
-<sSpiegelPad.jpg, id=370, 911.65594pt x 320.69812pt>
+<sSpiegelPad.jpg, id=517, 911.65594pt x 320.69812pt>
 File: sSpiegelPad.jpg Graphic file (type jpg)
- <use sSpiegelPad.jpg>)
-Runaway argument?
-{P-Adaption in Simulink \label {fig:padaptionsimulink} \end {figure} \ETC.
-! File ended while scanning use of \@xdblarg.
+ <use sSpiegelPad.jpg>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Pad-P41F1_1,5F2_80.jpg, id=518, 642.4pt x 693.59125pt>
+File: Pad-P41F1_1,5F2_80.jpg Graphic file (type jpg)
+
+<use Pad-P41F1_1,5F2_80.jpg>
+<Pad-P50F1_3F2_400.jpg, id=521, 636.3775pt x 693.59125pt>
+File: Pad-P50F1_3F2_400.jpg Graphic file (type jpg)
+
+<use Pad-P50F1_3F2_400.jpg> [26 <./PID-P20I16D1N1.jpg> <./P-Adaption.jpg>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Citation `CaTe' on page 27 undefined on input line 180.
+
+[27 <./sSpiegelPad.jpg> <./Pad-P41F1_1,5F2_80.jpg>] [28 <./Pad-P50F1_3F2_400.jp
+g>] <Pad-Werte-P330F1_5F2_370.jpg, id=543, 642.4pt x 693.59125pt>
+File: Pad-Werte-P330F1_5F2_370.jpg Graphic file (type jpg)
+
+<use Pad-Werte-P330F1_5F2_370.jpg>
+<Pad-Neue-Werte-P320F1_2F2_65.jpg, id=544, 642.4pt x 693.59125pt>
+File: Pad-Neue-Werte-P320F1_2F2_65.jpg Graphic file (type jpg)
+
+<use Pad-Neue-Werte-P320F1_2F2_65.jpg>
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 217.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[29 <./Pad-Werte-P330F1_5F2_370.jpg>]
+<Strom_zu_hoch.jpg, id=552, 562.1pt x 421.575pt>
+File: Strom_zu_hoch.jpg Graphic file (type jpg)
+ <use Strom_zu_hoch.jpg>
+<P-Adaption-Strom.jpg, id=553, 912.40875pt x 404.26031pt>
+File: P-Adaption-Strom.jpg Graphic file (type jpg)
+
+<use P-Adaption-Strom.jpg>
+<sSpiegelPadStrom.jpg, id=556, 910.15031pt x 306.39468pt>
+File: sSpiegelPadStrom.jpg Graphic file (type jpg)
+
+<use sSpiegelPadStrom.jpg>
+! Missing $ inserted.
 <inserted text> 
-                \par 
-l.213 \input{Simulationsdurchfuehrung}
-                                      
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
-
-(./Disskussion.tex
-Kapitel 6.
-
-LaTeX Warning: Reference `fig:p40' on page 25 undefined on input line 19.
-
-
-LaTeX Warning: Reference `fig:p45' on page 25 undefined on input line 19.
-
-
-! LaTeX Error: Command \textcurrency unavailable in encoding T1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.19 ...f{chap:p_regelung} zu erkennen ist, beträ
-                                                  gt die Zeit, bis der Winke...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \textcurrency unavailable in encoding T1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.19 ...trägt die Zeit, bis der Winkel in der Nä
-                                                  he des Sollwertes ist, ca....
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.20 Jedoch ist ein groß
-                         e Schwankung des Winkels zu erkennen.
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.21 ...n P = 40 ist die Abweichunng noch so groß
-                                                  , dass der Winkel in der u...
-
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.22 Bei einem etwas größ
-                           erem P-Anteil P = 45 ist zu erkennen, dass der So...
-
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! LaTeX Error: Command \textcurrency unavailable in encoding T1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.25 ...e Einregelzeit auf ca. \unit[9]{ms} verlä
-                                                  ngert.
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.33 ...nteil leicht erhöht, kommt es zu einem Ü
-                                                  berschwingen um den Sollwi...
-
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-LaTeX Warning: Reference `fig:p20i16d1n1' on page 25 undefined on input line 37
-.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.39 ...inen Erhöhung eines der Parameter, ein Ü
-                                                  berschwingen um den Sollwi...
-
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-LaTeX Warning: Reference `fig:p20i16d1n1' on page 25 undefined on input line 40
-.
-
-
-LaTeX Warning: Reference `fig:padaptionsimulin' on page 25 undefined on input l
-ine 44.
-
-
-LaTeX Warning: Reference `chap:padaption' on page 25 undefined on input line 44
-.
-
-
-! LaTeX Error: Command \textcurrency unavailable in encoding T1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.45 ...vorgeschalteten Funktion vor den P-Verstä
-                                                  rker, soll eine geringere ...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-LaTeX Warning: Reference `fig:padp41f1580' on page 25 undefined on input line 4
-7.
-
-
-LaTeX Warning: Reference `fig:padp50f3400' on page 25 undefined on input line 4
-7.
-
-
-LaTeX Warning: Reference `chap:p_adaption' on page 25 undefined on input line 4
-7.
-
-
-! LaTeX Error: Command \textcurrency unavailable in encoding T1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.48 ...kleineren Parameterwerten nicht in die Nä
-                                                  he des Sollwinkels.
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.49 Bei größ
-               eren Parameterwerten dagegen, ergibt sich wieder ein Übersch...
-
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.49 ...rwerten dagegen, ergibt sich wieder ein Ü
-                                                  berschwingen um den Sollwert.
-
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! LaTeX Error: Command \textcurrency unavailable in encoding T1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.53 ..., werden die Motorparameter angepasst, wä
-                                                  hrend die P-Adaption als R...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \textcurrency unavailable in encoding T1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.54 Es wird zuerst die Induktivitä
-                                    t und der Innenwiderstand eines Galvos e...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Overfull \hbox (5.08884pt too wide) in paragraph at lines 53--55
-[]\T1/cmr/m/n/10.95 Um eine er-fol-gre-iche Regelung zu er-re-ichen, wer-den di
-e Mo-tor-pa-ram-e-ter angepasst, w�hrend
+                $
+l.257 ...sSpiegel{\_}Pad{\_}Neue{\_}Werte_Strom.m}
+                                                   und das Simulink-File \te...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<recently read> \egroup 
+                        
+l.257 ...sSpiegel{\_}Pad{\_}Neue{\_}Werte_Strom.m}
+                                                   und das Simulink-File \te...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.258 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (49.72478pt too wide) in paragraph at lines 233--258
+\T1/cmtt/m/n/10.95 msSpiegel_Pad_Neue_Werte$[]\OML/cmm/m/it/10.95 trom:munddasS
+imulink \OMS/cmsy/m/n/10.95 ^^@ \OML/cmm/m/it/10.95 File[]hergenommen:$ 
  []
 
 
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-See the inputenc package documentation for explanation.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Strom-Pad-Neue-Werte-P320F1_2F2_160.jpg, id=558, 642.4pt x 693.59125pt>
+File: Strom-Pad-Neue-Werte-P320F1_2F2_160.jpg Graphic file (type jpg)
+
+<use Strom-Pad-Neue-Werte-P320F1_2F2_160.jpg>
+Overfull \hbox (54.17018pt too wide) in paragraph at lines 259--268
+[]\T1/cmtt/m/n/10.95 Eine Regelung mit den aktuellen Werten zeigt das in Abb. [
+][]5.18[][] zu erkennende Ergebnis.
+ []
+
+
+Overfull \hbox (14.56158pt too wide) in paragraph at lines 259--268
+\T1/cmtt/m/n/10.95 Durch weiteres Anpassen der unterschiedlichen Parameter, kon
+nten die Sollwerte
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+LaTeX Font Info:    Try loading font information for OMS+cmtt on input line 269
+.
+LaTeX Font Info:    No file OMScmtt.fd. on input line 269.
+
+LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbullet' on input line 269.
+
+[30 <./Pad-Neue-Werte-P320F1_2F2_65.jpg>]
+<Strom-Pad-Neue-Werte-P218F1_5F2_400.jpg, id=569, 642.4pt x 690.58pt>
+File: Strom-Pad-Neue-Werte-P218F1_5F2_400.jpg Graphic file (type jpg)
+
+<use Strom-Pad-Neue-Werte-P218F1_5F2_400.jpg>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `' on page 31 undefined on input line 286.
+
+
+LaTeX Warning: File `Strom-Pad-Neue-Werte-P250F1_3F2_160.jpg' not found on inpu
+t line 289.
+
+
+! Package pdftex.def Error: File `Strom-Pad-Neue-Werte-P250F1_3F2_160.jpg' not 
+found.
+
+See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.56 Mit diesen Parametern konnte zwar ein Ü
-                                             berschwingen um den Sollwinkel ...
-
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-LaTeX Warning: Reference `fig:padwerte' on page 25 undefined on input line 58.
+l.289 ...{Strom-Pad-Neue-Werte-P250F1_3F2_160.jpg}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: Reference `chap:p_adaptiongalvo' on page 25 undefined on input l
-ine 58.
+Overfull \hbox (20.21996pt too wide) in paragraph at lines 285--293
+\T1/cmtt/m/n/10.95 Die Einregelzeit liegt nur noch knapp �ber der vorgegebenen 
+Zeit, durch weitere
+ []
 
 
-LaTeX Warning: Reference `fig:padneuewerte' on page 25 undefined on input line 
-64.
+Overfull \hbox (20.21996pt too wide) in paragraph at lines 285--293
+\T1/cmtt/m/n/10.95 Anpassung der Regelparameter soll die vorgegebene Einregelze
+it erreicht werden.
+ []
 
 
-LaTeX Warning: Reference `chap:p_adaptionwerte' on page 25 undefined on input l
-ine 64.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[31 <./Strom_zu_hoch.jpg> <./P-Adaption-Strom.jpg> <./sSpiegelPadStrom.jpg>]
+[32 <./Strom-Pad-Neue-Werte-P320F1_2F2_160.jpg> <./Strom-Pad-Neue-Werte-P218F1_
+5F2_400.jpg>]
+Overfull \hbox (54.17018pt too wide) in paragraph at lines 302--306
+[]\T1/cmtt/m/n/10.95 In Abb. [][]5.20[][] ist zu erkennen, dass durch Anpassung
+ des Tr�gheitsmoments des Spiegels,
+ []
 
 
-LaTeX Warning: Reference `fig:stromzuhoch' on page 25 undefined on input line 6
-9.
+Overfull \hbox (20.21996pt too wide) in paragraph at lines 302--306
+\T1/cmtt/m/n/10.95 des wirkenden Drehmoments auf den Spiegel und der verschiede
+nen Regelparameter,
+ []
 
 
-LaTeX Warning: Reference `fig:strombegrenztsauber' on page 25 undefined on inpu
-t line 69.
+Overfull \hbox (20.21996pt too wide) in paragraph at lines 302--306
+\T1/cmtt/m/n/10.95 trotz Spannungs- und Strombegrenzung, die Regelung erfolgrei
+ch ist. Der Spiegel
+ []
 
 
-LaTeX Warning: Reference `chap:p_adaptionstrom' on page 25 undefined on input l
-ine 69.
+Overfull \hbox (31.5367pt too wide) in paragraph at lines 302--306
+\T1/cmtt/m/n/10.95 zittert zwar etwas um die Position, dies ist aber im angegeb
+enen Toleranzbereich. 
+ []
+
+<sSpiegelPadStromSensor.jpg, id=581, 905.63344pt x 344.03531pt>
+File: sSpiegelPadStromSensor.jpg Graphic file (type jpg)
+
+<use sSpiegelPadStromSensor.jpg>
+Overfull \hbox (3.24484pt too wide) in paragraph at lines 309--323
+\T1/cmtt/m/n/10.95 Nach dem die Regelung f�r einen perfekt linear arbeitenden S
+ensor, der durch
+ []
+
+
+Overfull \hbox (3.24484pt too wide) in paragraph at lines 309--323
+\T1/cmtt/m/n/10.95 ein direktes abgreifen des aktuellen Winkels realisiert wurd
+e, funktioniert,
+ []
+
+
+Overfull \hbox (59.82855pt too wide) in paragraph at lines 309--323
+\T1/cmtt/m/n/10.95 wird der Sensor aus Kap [][]3.4[][] in die Simulation mit ei
+ngebaut. Daf�r wird das vorhandene
+ []
+
+
+Overfull \hbox (31.5367pt too wide) in paragraph at lines 309--323
+\T1/cmtt/m/n/10.95 Simulink-File sSpiegelPadStrom.slx hergenommen und um den Se
+nsor erweitert. Zudem
+ []
+
+
+Overfull \hbox (3.24484pt too wide) in paragraph at lines 309--323
+\T1/cmtt/m/n/10.95 wird der eingegebene Winkel in eine Spannung umgerechnet, da
+ der Sensor eine
+ []
+
+
+Overfull \hbox (54.17018pt too wide) in paragraph at lines 309--323
+\T1/cmtt/m/n/10.95 vom Winkel abh�ngige Spannung ausgibt. In Abb. [][]5.21[][] 
+ist der gesamte Simulationsaufbau
+ []
+
+
+Overfull \hbox (48.51181pt too wide) in paragraph at lines 309--323
+\T1/cmtt/m/n/10.95 dargestellt, welcher als sSpiegelPadStromSensor.slx gespeich
+ert ist. Zur Ansteuerung
+ []
+
+
+Overfull \hbox (105.09552pt too wide) in paragraph at lines 309--323
+\T1/cmtt/m/n/10.95 wird das Matlab-File msSpiegel_Pad_Neue_Werte_Strom.m modifi
+ziert und als msSpiegelundSensor.m
+ []
+
+
+Overfull \hbox (8.90321pt too wide) in paragraph at lines 309--323
+\T1/cmtt/m/n/10.95 gespeichert. In diesem Matlab-File ist es m�glich, verschied
+ene Kenndaten f�r
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[33]
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 327.
+
+
+Overfull \hbox (13.64479pt too wide) in paragraph at lines 330--331
+[]\T1/cmtt/m/n/10.95 nonlinear = 0.0001 (falls ein nichtlinearer Sensor simulie
+rt werden soll) 
+ []
+
+
+Overfull \hbox (3.24484pt too wide) in paragraph at lines 335--338
+[]\T1/cmtt/m/n/10.95 In der ersten Simulation wird ein linearer Sensor verwende
+t. Dies sollte die
+ []
+
+
+Overfull \hbox (8.90321pt too wide) in paragraph at lines 335--338
+\T1/cmtt/m/n/10.95 gleichen Ergebnisse liefern wie der ideale Sensor. Hierbei w
+ird die Regelung,
+ []
+
+
+Overfull \hbox (3.24484pt too wide) in paragraph at lines 339--341
+[]\T1/cmtt/m/n/10.95 Die zweite Simulation wird ebenfalls mit einem linearen Se
+nsor durchgef�hrt,
+ []
+
+
+Overfull \hbox (31.5367pt too wide) in paragraph at lines 339--341
+\T1/cmtt/m/n/10.95 nur ist hierbei die Linearit�t durch eine Faltung der Blende
+ mit der Sensorfl�che
+ []
+
+
+Overfull \hbox (3.24484pt too wide) in paragraph at lines 339--341
+\T1/cmtt/m/n/10.95 realisiert. Es wird erwartet, dass sich dieser Sensor gleich
+ verh�lt wie der
+ []
+
+
+Overfull \hbox (20.21996pt too wide) in paragraph at lines 342--345
+[]\T1/cmtt/m/n/10.95 Bei der dritten und letzten Simulation wird ein nichtlinea
+rer Sensor verwendet.
+ []
+
+
+Overfull \hbox (20.21996pt too wide) in paragraph at lines 342--345
+\T1/cmtt/m/n/10.95 Wobei der Nichtlinearit�tsfaktor, der Werte zwischen 0 und 1
+ annehmen kann, auf
+ []
+
+
+Overfull \hbox (20.21996pt too wide) in paragraph at lines 342--345
+\T1/cmtt/m/n/10.95 den Wert 0,0001 gesetzt wird. Dies sollte ein nahezu lineare
+s Verhalten zeigen. 
+ []
+
+<Sensor_10_1_100_linear1.jpg, id=590, 642.4pt x 693.59125pt>
+File: Sensor_10_1_100_linear1.jpg Graphic file (type jpg)
+
+<use Sensor_10_1_100_linear1.jpg>
+Overfull \hbox (3.24484pt too wide) in paragraph at lines 348--356
+\T1/cmtt/m/n/10.95 Abb. [][]5.22[][] zeigt das Regelergebnis des ersten lineare
+n Sensors. Es ist gut zu
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Sensor_10_1_100_linear2.jpg, id=592, 642.4pt x 693.59125pt>
+File: Sensor_10_1_100_linear2.jpg Graphic file (type jpg)
+
+<use Sensor_10_1_100_linear2.jpg>
+Overfull \hbox (8.90321pt too wide) in paragraph at lines 359--368
+\T1/cmtt/m/n/10.95 Abb. [][]5.23[][] zeigt das Regelergebnis des zweiten linear
+en Sensors. Es ist gut zu
+ []
+
+
+Overfull \hbox (3.24484pt too wide) in paragraph at lines 359--368
+\T1/cmtt/m/n/10.95 erkennen, dass eine Regeldifferenz bleibt. Diese l�sst sich 
+auch nicht durch
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Sensor_10_1_100_nonlinear00001.jpg, id=594, 642.4pt x 693.59125pt>
+File: Sensor_10_1_100_nonlinear00001.jpg Graphic file (type jpg)
+
+<use Sensor_10_1_100_nonlinear00001.jpg>) (./Disskussion.tex
+Overfull \hbox (25.87833pt too wide) in paragraph at lines 371--1
+\T1/cmtt/m/n/10.95 Abb. [][]5.24[][] zeigt das Regelergebnis des nicht linearen
+ Sensors. Auch hier ist eine
+ []
+
+
+Overfull \hbox (3.24484pt too wide) in paragraph at lines 371--1
+\T1/cmtt/m/n/10.95 restliche Regeldifferenz zu erkennen, die sich wiederum nich
+t durch anpassen
+ []
+
+[34 <./sSpiegelPadStromSensor.jpg>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[35 <./Sensor_10_1_100_linear1.jpg> <./Sensor_10_1_100_linear2.jpg>] [36 <./Sen
+sor_10_1_100_nonlinear00001.jpg>]
+Kapitel 6.
+
+Overfull \hbox (3.24484pt too wide) in paragraph at lines 14--17
+\T1/cmtt/m/n/10.95 Die Simulationsstudie wurde mit einem vorgegebenen Gleichstr
+ommotor Abb. [][]3.4[][]
+ []
+
+
+Overfull \hbox (59.82855pt too wide) in paragraph at lines 14--17
+\T1/cmtt/m/n/10.95 aus Kap. [][]3.3.3[][] begonnen. F�r diesen Motor wurde ein 
+PID-Regler in Simulink integriert,
+ []
+
+
+Overfull \hbox (20.21996pt too wide) in paragraph at lines 14--17
+\T1/cmtt/m/n/10.95 Abb. [][]4.1[][] aus Kap. [][]4.1[][], und unterschiedliche 
+Regelparameter getestet. Der Sensor
+ []
+
+
+Overfull \hbox (48.51181pt too wide) in paragraph at lines 14--17
+\T1/cmtt/m/n/10.95 wurde noch nicht integriert, um erst einmal eine Regelung f�
+r einen Gleichstrommotor
+ []
+
+
+Overfull \hbox (14.56158pt too wide) in paragraph at lines 18--23
+[]\T1/cmtt/m/n/10.95 Bei der reinen P-Regelung, konnte weder die Einregelzeit, 
+noch die Genauigkeit
+ []
+
+
+Overfull \hbox (31.5367pt too wide) in paragraph at lines 18--23
+\T1/cmtt/m/n/10.95 erreicht werden. Wie in Abb. [][]5.1[][] und [][]5.2[][] aus
+ Kap.[][]5.1.1.1[][] zu erkennen ist, betr�gt
+ []
+
+
+Overfull \hbox (7.01389pt too wide) in paragraph at lines 18--23
+\T1/cmtt/m/n/10.95 die Zeit, bis der Winkel in der N�he des Sollwertes ist, ca.
+ $\OT1/cmr/m/n/10.95 7 []$\T1/cmtt/m/n/10.95 . Jedoch ist
+ []
+
+
+Overfull \hbox (3.24484pt too wide) in paragraph at lines 18--23
+\T1/cmtt/m/n/10.95 ein gro�e Schwankung des Winkels zu erkennen. Bei kleinerem 
+P-Anteil von P =
+ []
+
+
+Overfull \hbox (25.87833pt too wide) in paragraph at lines 18--23
+\T1/cmtt/m/n/10.95 40 ist die Abweichunng noch so gro�, dass der Winkel in der 
+unteren Grafik nicht
+ []
+
+
+Overfull \hbox (8.90321pt too wide) in paragraph at lines 18--23
+\T1/cmtt/m/n/10.95 erreicht wird. Bei einem etwas gr��erem P-Anteil P = 45 ist 
+zu erkennen, dass
+ []
+
+
+Overfull \hbox (14.56158pt too wide) in paragraph at lines 24--29
+[]\T1/cmtt/m/n/10.95 Die Erweiterung des reinen P-Reglers um einen I-Anteil ist
+ in den Abb. [][]5.3[][] und
+ []
+
+
+Overfull \hbox (14.56158pt too wide) in paragraph at lines 24--29
+[][]\T1/cmtt/m/n/10.95 5.4[][] aus Kap.[][]5.1.1.2[][] zu erkennen. Durch die E
+rweiterung mit einem I-Anteil, hat
+ []
+
+
+Overfull \hbox (10.78973pt too wide) in paragraph at lines 24--29
+\T1/cmtt/m/n/10.95 sich die Einregelzeit auf ca. 9ms verl�ngert. Auch wurde der
+ Sollwinkel nicht
+ []
+
+
+Overfull \hbox (25.87833pt too wide) in paragraph at lines 24--29
+\T1/cmtt/m/n/10.95 erreicht. Eine Erh�hung des P- oder I-Anteils f�hrte dann wi
+eder zu Schwingungen
+ []
+
+
+Overfull \hbox (3.24484pt too wide) in paragraph at lines 24--29
+\T1/cmtt/m/n/10.95 um den Sollwinkel, wie es in Abb. [][]5.4[][] exemplarsich f
+�r einen leicht erh�hten
+ []
+
+
+Overfull \hbox (14.56158pt too wide) in paragraph at lines 30--35
+[]\T1/cmtt/m/n/10.95 Die Erweiterung des reinen P-Reglers um einen D-Anteil ist
+ in den Abb. [][]5.5[][] und
+ []
+
+
+Overfull \hbox (8.90321pt too wide) in paragraph at lines 30--35
+[][]\T1/cmtt/m/n/10.95 5.6[][] aus Kap.[][]5.1.1.3[][] zu erkennen. Hier ergibt
+ sich das gleiche Problem wie bei
+ []
+
+
+Overfull \hbox (42.85344pt too wide) in paragraph at lines 30--35
+\T1/cmtt/m/n/10.95 der P- und PI-Regelung. Bis zu einer Grenze der P- und D- An
+teile, ist die Regelung
+ []
+
+
+Overfull \hbox (8.90321pt too wide) in paragraph at lines 30--35
+\T1/cmtt/m/n/10.95 zu weit von dem Sollwinkel entfernt. Wird nur ein Anteil lei
+cht erh�ht, kommt
+ []
+
+
+Overfull \hbox (14.56158pt too wide) in paragraph at lines 30--35
+\T1/cmtt/m/n/10.95 es zu einem �berschwingen um den Sollwinkel. Jedoch hat sich
+ die Zeit, bis der
+ []
+
+
+LaTeX Warning: Reference `fig:p20i16d1n1' on page 37 undefined on input line 37
+.
+
+
+LaTeX Warning: Reference `fig:p20i16d1n1' on page 37 undefined on input line 40
+.
+
+
+LaTeX Warning: Reference `fig:padaptionsimulin' on page 37 undefined on input l
+ine 44.
+
+[37
+
+
+]
+Overfull \hbox (2.06949pt too wide) in paragraph at lines 52--54
+[]\T1/cmr/m/n/10.95 Um eine er-fol-gre-iche Regelung zu er-re-ichen, wer-den di
+e Mo-tor-pa-ram-e-ter angepasst, w�hrend
+ []
 
 
 ! LaTeX Error: Command \textcurrency unavailable in encoding T1.
@@ -2515,7 +1456,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71 Nach einigen Versuchen mit ä
+l.70 Nach einigen Versuchen mit ä
                                   ndern der verschiedenen Parameter, ist wie...
 
 Your command was ignored.
@@ -2523,32 +1464,13 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-LaTeX Warning: Reference `fig:strombegrenztpadsoll' on page 25 undefined on inp
-ut line 73.
-
-
-LaTeX Warning: Reference `chap:p_adaptionfertig' on page 25 undefined on input 
-line 73.
-
-
-LaTeX Warning: Reference `fig:simusensor' on page 25 undefined on input line 80
-.
-
-
-LaTeX Warning: Reference `fig:linear1' on page 25 undefined on input line 85.
-
-
-LaTeX Warning: Reference `chap:sensorregelung1' on page 25 undefined on input l
-ine 85.
-
-
 ! LaTeX Error: Command \textcurrency unavailable in encoding T1.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.87 Ohne die Regelparameter zu ä
+l.86 Ohne die Regelparameter zu ä
                                   ndern, wurde der zweite lineare Sensor get...
 
 Your command was ignored.
@@ -2556,26 +1478,12 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-LaTeX Warning: Reference `fig:linear2' on page 25 undefined on input line 89.
-
-
-LaTeX Warning: Reference `chap:sensorregelung2' on page 25 undefined on input l
-ine 89.
-
-
-Overfull \hbox (1.16663pt too wide) in paragraph at lines 87--91
+Overfull \hbox (1.16663pt too wide) in paragraph at lines 86--90
 []\T1/cmr/m/n/10.95 Ohne die Regel-pa-ram-e-ter zu �n-dern, wurde der zweite li
 n-eare Sen-sor getestet. Die Regelung
  []
 
-
-LaTeX Warning: Reference `fig:nonlinear' on page 25 undefined on input line 94.
-
-
-
-LaTeX Warning: Reference `chap:sensorregelung3' on page 25 undefined on input l
-ine 94.
-
+[38]
 
 ! LaTeX Error: Command \textcurrency unavailable in encoding T1.
 
@@ -2583,7 +1491,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.95 ...messbarere Laserablenkung zu entdecken wä
+l.94 ...messbarere Laserablenkung zu entdecken wä
                                                   re.
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2596,16 +1504,23 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.99 Insofern würde eine Verä
+l.98 Insofern würde eine Verä
                                nderung der Regelparameter keine genauere Reg...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-) (./Zusammenfassung.tex
+) (./Zusammenfassung.tex [39] [40
+
+
+]
 Kapitel 7.
-) (./Anhaenge.tex
+) (./Anhaenge.tex [41] [42
+
+
+
+]
 Anhang A.
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 13.
@@ -2623,15 +1538,19 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-LaTeX Font Info:    Try loading font information for OMS+cmtt on input line 24.
-
-LaTeX Font Info:    No file OMScmtt.fd. on input line 24.
 
 LaTeX Font Warning: Font shape `OMS/cmtt/m/it' undefined
-(Font)              using `OMS/cmsy/m/n' instead
+(Font)              using `OMS/cmtt/m/n' instead
 (Font)              for symbol `textparagraph' on input line 24.
 
-) (../sensorDaten.m
+[43]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [44]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [45])
+[46] (../sensorDaten.m
 
 ! Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `latin1'.
@@ -2658,29 +1577,46 @@ l.20 %           2   Äußererradius
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
-) (../frect.m) (../gekern.m) (../sensor.m) (../posEingabe.m)
+[47]) [48] (../frect.m) (../gekern.m) [49] (../sensor.m [50]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [51])
+[52] (../posEingabe.m) [53] [54
+
+
+]
 Anhang B.
-) (./Literatur.tex (./Projektstudie_MASTERFILE.bbl
-
-LaTeX Warning: Empty `thebibliography' environment or \BreakBibliography
-               before end of `thebibliography' environment on input line 3.
-
-)) (./Abbildungen.tex (./Projektstudie_MASTERFILE.lof
-
-LaTeX Warning: Citation `wiki' on page 25 undefined on input line 3.
+) (./Literatur.tex [55]
+No file Projektstudie_MASTERFILE.bbl.
+) (./Abbildungen.tex [56
 
 
-LaTeX Warning: Citation `lasercommunity' on page 25 undefined on input line 4.
+] (./Projektstudie_MASTERFILE.lof
+
+LaTeX Warning: Citation `wiki' on page 57 undefined on input line 3.
+
+
+LaTeX Warning: Citation `lasercommunity' on page 57 undefined on input line 4.
+
+
+LaTeX Warning: Citation `FrKu' on page 57 undefined on input line 30.
 
 )
 \tf@lof=\write5
 \openout5 = `Projektstudie_MASTERFILE.lof'.
 
-) (./Tabellen.tex (./Projektstudie_MASTERFILE.lot)
+) (./Tabellen.tex [57] [58
+
+
+] (./Projektstudie_MASTERFILE.lot)
 \tf@lot=\write6
 \openout6 = `Projektstudie_MASTERFILE.lot'.
 
-) (./Erklaerung.tex
+)
+(./Erklaerung.tex [59] [60
+
+
+]
 Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  []
@@ -2690,21 +1626,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--15
 
  []
 
-)
-
-! LaTeX Error: \begin{figure} on input line 139 ended by \end{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.230 \end{document}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-(./Projektstudie_MASTERFILE.aux)
+) [61] (./Projektstudie_MASTERFILE.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -2714,42 +1636,42 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-! You can't use `\end' in internal vertical mode.
-\enddocument ... \endgroup \deadcycles \z@ \@@end 
-                                                  
-l.230 \end{document}
-                    
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-
-! LaTeX Error: \begin{figure} on input line 139 ended by \end{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.230 \end{document}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-)
-! Emergency stop.
-<*> Projektstudie_MASTERFILE.tex
-                                
-*** (job aborted, no legal \end found)
-
- 
+ ) 
 Here is how much of TeX's memory you used:
- 11922 strings out of 495062
- 170349 string characters out of 1182643
- 1670207 words of memory out of 3000000
- 14653 multiletter control sequences out of 15000+50000
- 32805 words of font info for 88 fonts, out of 3000000 for 9000
+ 12527 strings out of 495062
+ 179260 string characters out of 1182643
+ 700999 words of memory out of 3000000
+ 14727 multiletter control sequences out of 15000+50000
+ 29246 words of font info for 72 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 46i,12n,52p,331b,1977s stack positions out of 5000i,500n,10000p,200000b,50000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 46i,12n,52p,331b,2358s stack positions out of 5000i,500n,10000p,200000b,50000s
+ </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1000.600pk> </home/k
+izzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/kizzm/.texmf
+-var/fonts/pk/ljfour/jknappen/ec/ectt0900.600pk> </home/kizzm/.texmf-var/fonts/
+pk/ljfour/jknappen/ec/ecit0900.600pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/j
+knappen/ec/ectt0800.450pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/
+ectt1095.600pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0900.60
+0pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1200.600pk> </home
+/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1440.600pk> </home/kizzm/.tex
+mf-var/fonts/pk/ljfour/jknappen/ec/ecsl1095.600pk> </home/kizzm/.texmf-var/font
+s/pk/ljfour/jknappen/ec/ecsx1095.600pk> </home/kizzm/.texmf-var/fonts/pk/ljfour
+/jknappen/ec/ecsx2074.600pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/e
+c/ecrm1095.600pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1095.
+600pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1095.600pk> </ho
+me/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/kizzm/.t
+exmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2074.600pk> </home/kizzm/.texmf-var/fo
+nts/pk/ljfour/jknappen/ec/ecbx2488.600pk></usr/share/texmf-texlive/fonts/type1/
+public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsf
+onts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr1
+0.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/s
+hare/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-te
+xlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts
+/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-texlive/fonts/type1/publi
+c/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
+m/cmsy9.pfb>
+Output written on Projektstudie_MASTERFILE.pdf (65 pages, 3349601 bytes).
+PDF statistics:
+ 2131 PDF objects out of 2487 (max. 8388607)
+ 628 named destinations out of 1000 (max. 500000)
+ 610 words of extra memory for PDF output out of 10000 (max. 10000000)
+

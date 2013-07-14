@@ -9,6 +9,17 @@
   url = {http://www.laser-community.de/technologie/vw-laser-wobbeln-golf-vii_496/}
 }
 
+@BOOK{JoSi08,
+  title = {Schaltungstechnik - analog und gemischt analog-digital},
+  publisher = {Springer Verlag},
+  year = {2008},
+  author = {Johann Siegl},
+  pages = {640},
+  owner = {kizzm},
+  timestamp = {2013.07.12},
+  url = {http://books.google.de/books?id=PS8RQYicjhYC&dq=photodiode+stromquelle+lichtleistung&hl=de&source=gbs_navlinks_s}
+}
+
 @BOOK{HaWa85,
   title = {Position Sensing},
   publisher = {Butterworth-Heinemann},
