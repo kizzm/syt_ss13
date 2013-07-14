@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.10.25)  14 JUL 2013 12:50
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.10.25)  14 JUL 2013 15:06
 entering extended mode
  %&-line parsing enabled.
 **Projektstudie_MASTERFILE.tex
@@ -982,17 +982,6 @@ File: Pad-Werte-P330F1_5F2_370.jpg Graphic file (type jpg)
 File: Pad-Neue-Werte-P320F1_2F2_65.jpg Graphic file (type jpg)
 
 <use Pad-Neue-Werte-P320F1_2F2_65.jpg>
-! Undefined control sequence.
-<recently read> \unti 
-                      
-l.217 Der geforderte Winkel von $\unti
-                                      [20]{°}$ ist unter $\unit[1]{ms}$ in s...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
 
 LaTeX Warning: Command \textdegree invalid in math mode on input line 217.
 
@@ -1313,10 +1302,11 @@ t durch anpassen
  []
 
 [34 <./sSpiegelPadStromSensor.jpg>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [35 <./Sensor_10_1_100_linear1.jpg> <./Sensor_10_1_100_linear2.jpg>] [36 <./Se
-nsor_10_1_100_nonlinear00001.jpg>]
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[35 <./Sensor_10_1_100_linear1.jpg> <./Sensor_10_1_100_linear2.jpg>] [36 <./Sen
+sor_10_1_100_nonlinear00001.jpg>]
 Kapitel 6.
 
 Overfull \hbox (3.24484pt too wide) in paragraph at lines 14--17
@@ -1648,10 +1638,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 12528 strings out of 495062
- 179264 string characters out of 1182643
+ 12527 strings out of 495062
+ 179260 string characters out of 1182643
  700999 words of memory out of 3000000
- 14728 multiletter control sequences out of 15000+50000
+ 14727 multiletter control sequences out of 15000+50000
  29246 words of font info for 72 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  46i,12n,52p,331b,2358s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1679,7 +1669,7 @@ xlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts
 /type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-texlive/fonts/type1/publi
 c/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
 m/cmsy9.pfb>
-Output written on Projektstudie_MASTERFILE.pdf (65 pages, 3349875 bytes).
+Output written on Projektstudie_MASTERFILE.pdf (65 pages, 3349601 bytes).
 PDF statistics:
  2131 PDF objects out of 2487 (max. 8388607)
  628 named destinations out of 1000 (max. 500000)

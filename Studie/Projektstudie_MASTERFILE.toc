@@ -35,7 +35,7 @@
 \contentsline {subsection}{\numberline {5.1.3}Regelung mit Sensor}{33}{subsection.105}
 \contentsline {subsubsection}{\numberline {5.1.3.1}Linearer Sensor 1}{34}{subsubsection.107}
 \contentsline {subsubsection}{\numberline {5.1.3.2}Linearer Sensor 2}{34}{subsubsection.109}
-\contentsline {subsubsection}{\numberline {5.1.3.3}Nichtlinearer Sensor}{36}{subsubsection.111}
+\contentsline {subsubsection}{\numberline {5.1.3.3}Nichtlinearer Sensor}{34}{subsubsection.111}
 \contentsline {chapter}{\numberline {6}Disskussion}{37}{chapter.113}
 \contentsline {chapter}{\numberline {7}Zusammenfassung}{41}{chapter.114}
 \contentsline {chapter}{\numberline {A}Matlab-Files}{43}{appendix.115}
