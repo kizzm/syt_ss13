@@ -31,22 +31,22 @@
 \contentsline {subsubsection}{\numberline {5.1.2.2}P-Adaption mit Galvo-Werten}{28}{subsubsection.91}
 \contentsline {subsubsection}{\numberline {5.1.2.3}P-Adaption mit neuen Werten}{29}{subsubsection.93}
 \contentsline {subsubsection}{\numberline {5.1.2.4}Strombegrenzung}{30}{subsubsection.95}
-\contentsline {subsubsection}{\numberline {5.1.2.5}Fertige P-Adaption}{31}{subsubsection.101}
-\contentsline {subsection}{\numberline {5.1.3}Regelung mit Sensor}{33}{subsection.103}
-\contentsline {subsubsection}{\numberline {5.1.3.1}Linearer Sensor 1}{34}{subsubsection.105}
-\contentsline {subsubsection}{\numberline {5.1.3.2}Linearer Sensor 2}{34}{subsubsection.107}
-\contentsline {subsubsection}{\numberline {5.1.3.3}Nichtlinearer Sensor}{34}{subsubsection.109}
-\contentsline {chapter}{\numberline {6}Disskussion}{37}{chapter.111}
-\contentsline {chapter}{\numberline {7}Zusammenfassung}{41}{chapter.112}
-\contentsline {chapter}{\numberline {A}Matlab-Files}{43}{appendix.113}
-\contentsline {section}{\numberline {A.1}msSpiegelundSensor.m}{43}{section.114}
-\contentsline {section}{\numberline {A.2}sensorDaten.m}{47}{section.294}
-\contentsline {section}{\numberline {A.3}frect.m}{49}{section.379}
-\contentsline {section}{\numberline {A.4}gekern.m}{49}{section.394}
-\contentsline {section}{\numberline {A.5}sensor.m}{50}{section.408}
-\contentsline {section}{\numberline {A.6}posEingabe.m}{53}{section.521}
-\contentsline {chapter}{\numberline {B}Simulink-Files}{55}{appendix.555}
-\contentsline {section}{\numberline {B.1}1}{55}{section.556}
-\contentsline {chapter}{Literaturverzeichnis}{56}{section.556}
-\contentsline {chapter}{Abbildungsverzeichnis}{57}{appendix*.557}
-\contentsline {chapter}{Eidesstattliche Erkl\"arung}{59}{appendix*.558}
+\contentsline {subsubsection}{\numberline {5.1.2.5}Fertige P-Adaption}{32}{subsubsection.100}
+\contentsline {subsection}{\numberline {5.1.3}Regelung mit Sensor}{33}{subsection.102}
+\contentsline {subsubsection}{\numberline {5.1.3.1}Linearer Sensor 1}{34}{subsubsection.104}
+\contentsline {subsubsection}{\numberline {5.1.3.2}Linearer Sensor 2}{34}{subsubsection.106}
+\contentsline {subsubsection}{\numberline {5.1.3.3}Nichtlinearer Sensor}{34}{subsubsection.108}
+\contentsline {chapter}{\numberline {6}Diskussion}{37}{chapter.110}
+\contentsline {chapter}{\numberline {7}Zusammenfassung}{41}{chapter.111}
+\contentsline {chapter}{\numberline {A}Matlab-Files}{43}{appendix.112}
+\contentsline {section}{\numberline {A.1}msSpiegelundSensor.m}{43}{section.113}
+\contentsline {section}{\numberline {A.2}sensorDaten.m}{47}{section.293}
+\contentsline {section}{\numberline {A.3}frect.m}{49}{section.378}
+\contentsline {section}{\numberline {A.4}gekern.m}{49}{section.393}
+\contentsline {section}{\numberline {A.5}sensor.m}{50}{section.407}
+\contentsline {section}{\numberline {A.6}posEingabe.m}{53}{section.520}
+\contentsline {chapter}{\numberline {B}Simulink-Files}{55}{appendix.554}
+\contentsline {section}{\numberline {B.1}1}{55}{section.555}
+\contentsline {chapter}{Literaturverzeichnis}{56}{section.555}
+\contentsline {chapter}{Abbildungsverzeichnis}{57}{appendix*.556}
+\contentsline {chapter}{Eidesstattliche Erkl\"arung}{59}{appendix*.557}

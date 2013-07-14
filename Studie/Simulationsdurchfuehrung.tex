@@ -143,7 +143,7 @@ Dabei muss der Regelkreis folgendermaßen erweitert werden:
 Eine Integration in das bestehende Simulinkprogramm ist in Abb. \ref{} dargestellt.
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=0.6\textwidth]{sSpiegelPad.jpg}
+	\includegraphics[width=0.9\textwidth]{sSpiegelPad.jpg}
 	\caption{P-Adaption in Simulink}
 	\label{fig:padaptionsimulink}
 \end{figure}
@@ -250,8 +250,8 @@ In Abb. \ref{fig:strombegrenzt} ist die P-Adaption mit einer Strombegrenzung zu 
 Für eine bessere Übersicht, wurden entsprechende Positionen mit einem Namen versehen und der D-Anteil aus der Regelung genommen, da dieser auf Null gesetzt ist, siehe Abb. \ref{fig:strombegrenztsauber}.
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=0.6\textwidth]{sSpiegelPadStrom.jpg}
-	\caption{Stromhöhe während der Regelung}
+	\includegraphics[width=0.6\textwidth]{Strom_ok.jpg}
+	\caption{Motorstroms mit Strombegrenzung auf $\pm \unit[10]{A}$}
 	\label{fig:strombegrenztsauber}
 \end{figure}
 Für die folgenden Simulationen wird das Matlab-File \texttt{msSpiegel{\_}Pad{\_}Neue{\_}Werte{\_}Strom.m} und das Simulink-File \texttt{sSpiegelPadStrom.slx} hergenommen.
@@ -259,7 +259,7 @@ Für die folgenden Simulationen wird das Matlab-File \texttt{msSpiegel{\_}Pad{\_}
 Eine Regelung mit den aktuellen Werten zeigt das in Abb. \ref{fig:strombegrenztpad} zu erkennende Ergebnis.
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=0.6\textwidth]{Strom-Pad-Neue-Werte-P320F1_2F2_160.jpg}
+	\includegraphics[width=0.6\textwidth]{Strom-Pad-Neue-Werte-P200F1_3F2_150.jpg}
 	\caption{P-Adaption mit Strombegrenzung}
 	\label{fig:strombegrenztpad}
 \end{figure}
@@ -268,17 +268,10 @@ Abb. \ref{fig:strombegrenztpadfastsoll} zeigt schon ein sehr gutes Ergebnis.
 \begin{itemize}
 \item Neues Trägheitsmoment des Spiegels: $\unit[93.3e-11]{kg*m^2}$
 \item Neues Drehmoment auf den Spiegel: $\unit[30,25e-6]{Nm}$
-\item P-Anteil: 218
-\item $f_1$: 5
-\item $f_2$: 400
+\item P-Anteil: 200
+\item $f_1$: 3
+\item $f_2$: 150
 \end{itemize}
-
-\begin{figure}[!h]
-	\centering
-	\includegraphics[width=0.6\textwidth]{Strom-Pad-Neue-Werte-P218F1_5F2_400.jpg}
-	\caption{Angepasste P-Adaption mit Strombegrenzung}
-	\label{fig:strombegrenztpadfastsoll}
-\end{figure}
 
 \subsubsection{Fertige P-Adaption}
 \label{chap:p_adaptionfertig}
@@ -286,7 +279,7 @@ Die Einregelzeit liegt nur noch knapp Über der vorgegebenen Zeit, durch weitere 
 Abb. \ref{}
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=0.6\textwidth]{Strom-Pad-Neue-Werte-P250F1_3F2_160.jpg}
+	\includegraphics[width=0.6\textwidth]{Strom-Pad-Neue-Werte-P320F1_2F2_160.jpg}
 	\caption{Angepasste P-Adaption mit Strombegrenzung}
 	\label{fig:strombegrenztpadsoll}
 \end{figure}
@@ -294,9 +287,9 @@ Abb. \ref{}
 \begin{itemize}
 \item Trägheitsmoment des Spiegels: $\unit[93.3e-11]{kg*m^2}$
 \item Drehmoment auf den Spiegel: $\unit[30,25e-6]{Nm}$
-\item P-Anteil: 250
-\item $f_1$: 3
-\item $f_2$: 150
+\item P-Anteil: 320
+\item $f_1$: 2
+\item $f_2$: 160
 \end{itemize}
 
 In Abb. \ref{fig:strombegrenztpadsoll} ist zu erkennen, dass durch Anpassung des Trägheitsmoments des Spiegels, des wirkenden Drehmoments auf den Spiegel und der verschiedenen
@@ -362,17 +355,18 @@ Diese lässt sich auch nicht durch verändern der Regelparameter reduzieren.
 \begin{figure}[!h]
 	\centering
 	\includegraphics[width=0.6\textwidth]{Sensor_10_1_100_linear2.jpg}
-	\caption{Zweier linearer Sensor}
+	\caption{Zweiter linearer Sensor}
 	\label{fig:linear2}
 \end{figure}
 
 \subsubsection{Nichtlinearer Sensor}
 \label{chap:sensorregelung3}
 Abb. \ref{fig:nonlinear} zeigt das Regelergebnis des nicht linearen Sensors.
-Auch hier ist eine restliche Regeldifferenz zu erkennen, die sich wiederum nicht durch anpassen der Regelparemeter begleichen lässt.
+Auch hier ist eine restliche Regeldifferenz zu erkennen, die sich wiederum nicht durch anpassen der Regelparameter begleichen lässt.
+
 \begin{figure}[!h]
 	\centering
 	\includegraphics[width=0.6\textwidth]{Sensor_10_1_100_nonlinear00001.jpg}
-	\caption{Linearer Sensor}
+	\caption{Nichtlinearer Sensor}
 	\label{fig:nonlinear}
 \end{figure}

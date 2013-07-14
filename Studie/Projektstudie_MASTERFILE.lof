@@ -12,8 +12,8 @@
 \contentsline {figure}{\numberline {3.5}{\ignorespaces Allgemeines Funktionsdiagramm des Sensors}}{15}{figure.46}
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Allgemeiner Aufbau des Sensors}}{15}{figure.47}
 \contentsline {figure}{\numberline {3.7}{\ignorespaces Skizze des Funktionsprinzips des Sensors}}{16}{figure.50}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Abdunklung bei ca. $\unit [0}}}{16}{figure.50}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Abdunklung bei ca. $\unit [40}}}{16}{figure.50}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Abdunklung bei ca. $\unit [0]{\IeC {\textdegree }}$ Azimutwinkel}}}{16}{figure.50}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Abdunklung bei ca. $\unit [40]{\IeC {\textdegree }}$ Azimutwinkel}}}{16}{figure.50}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Simulink Grundprogramm}}{18}{figure.63}
 \addvspace {10\p@ }
@@ -33,14 +33,13 @@
 \contentsline {figure}{\numberline {5.14}{\ignorespaces P-Adaption mit neuen Parametern}}{30}{figure.94}
 \contentsline {figure}{\numberline {5.15}{\ignorespaces Stromh\"ohe w\"ahrend der Regelung}}{31}{figure.96}
 \contentsline {figure}{\numberline {5.16}{\ignorespaces P-Adaption mit Strombegrenzung}}{31}{figure.97}
-\contentsline {figure}{\numberline {5.17}{\ignorespaces Stromh\"ohe w\"ahrend der Regelung}}{31}{figure.98}
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Motorstroms mit Strombegrenzung auf $\pm \unit [10]{A}$}}{31}{figure.98}
 \contentsline {figure}{\numberline {5.18}{\ignorespaces P-Adaption mit Strombegrenzung}}{32}{figure.99}
-\contentsline {figure}{\numberline {5.19}{\ignorespaces Angepasste P-Adaption mit Strombegrenzung}}{32}{figure.100}
-\contentsline {figure}{\numberline {5.20}{\ignorespaces Angepasste P-Adaption mit Strombegrenzung}}{33}{figure.102}
-\contentsline {figure}{\numberline {5.21}{\ignorespaces Simulinaufbau mit Sensor}}{34}{figure.104}
-\contentsline {figure}{\numberline {5.22}{\ignorespaces Erster linearer Sensor}}{35}{figure.106}
-\contentsline {figure}{\numberline {5.23}{\ignorespaces Zweier linearer Sensor}}{35}{figure.108}
-\contentsline {figure}{\numberline {5.24}{\ignorespaces Linearer Sensor}}{36}{figure.110}
+\contentsline {figure}{\numberline {5.19}{\ignorespaces Angepasste P-Adaption mit Strombegrenzung}}{33}{figure.101}
+\contentsline {figure}{\numberline {5.20}{\ignorespaces Simulinaufbau mit Sensor}}{33}{figure.103}
+\contentsline {figure}{\numberline {5.21}{\ignorespaces Erster linearer Sensor}}{35}{figure.105}
+\contentsline {figure}{\numberline {5.22}{\ignorespaces Zweiter linearer Sensor}}{35}{figure.107}
+\contentsline {figure}{\numberline {5.23}{\ignorespaces Nichtlinearer Sensor}}{36}{figure.109}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

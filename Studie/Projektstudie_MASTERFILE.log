@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.10.25)  14 JUL 2013 20:34
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.10.25)  14 JUL 2013 21:08
 entering extended mode
  %&-line parsing enabled.
 **Projektstudie_MASTERFILE.tex
@@ -793,22 +793,21 @@ Overfull \hbox (1.1018pt too wide) in paragraph at lines 143--147
 ma-tio-nen Über die Ans-teuerung solch-
  []
 
-<ElektrischerTeil.jpg, id=363, 240.9pt x 224.33812pt>
+[11] <ElektrischerTeil.jpg, id=376, 240.9pt x 224.33812pt>
 File: ElektrischerTeil.jpg Graphic file (type jpg)
 
-<use ElektrischerTeil.jpg> [11] [12 <./ElektrischerTeil.jpg>]
+<use ElektrischerTeil.jpg> [12 <./ElektrischerTeil.jpg>]
 <MechanischerTeil.jpg, id=389, 201.75375pt x 196.48407pt>
 File: MechanischerTeil.jpg Graphic file (type jpg)
 
 <use MechanischerTeil.jpg> [13 <./MechanischerTeil.jpg>]
-<Motoraufbau.jpg, id=401, 478.03593pt x 262.73157pt>
+<Motoraufbau.jpg, id=402, 478.03593pt x 262.73157pt>
 File: Motoraufbau.jpg Graphic file (type jpg)
  <use Motoraufbau.jpg>
-[14 <./Motoraufbau.jpg>]
-<Sensor_Funktionsdiagramm.jpg, id=413, 1025.8325pt x 316.18124pt>
+<Sensor_Funktionsdiagramm.jpg, id=405, 1025.8325pt x 316.18124pt>
 File: Sensor_Funktionsdiagramm.jpg Graphic file (type jpg)
 
-<use Sensor_Funktionsdiagramm.jpg>
+<use Sensor_Funktionsdiagramm.jpg> [14 <./Motoraufbau.jpg>]
 <Sensor_Aufbau_schichten.jpg, id=414, 445.665pt x 256.96pt>
 File: Sensor_Aufbau_schichten.jpg Graphic file (type jpg)
 
@@ -830,209 +829,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 281--299
  []
 
 [15 <./Sensor_Funktionsdiagramm.jpg> <./Sensor_Aufbau_schichten.jpg>]
-! Argument of \\unit  has an extra }.
-<inserted text> 
-                \par 
-l.302 \subfigure[Abdunklung bei ca. $\unit[0]{°}
-                                                $ Azimutwinkel]{\includegrap...
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-0
-! Paragraph ended before \\unit  was complete.
-<to be read again> 
-                   \par 
-l.302 \subfigure[Abdunklung bei ca. $\unit[0]{°}
-                                                $ Azimutwinkel]{\includegrap...
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.302 \subfigure[Abdunklung bei ca. $\unit[0]{°}
-                                                $ Azimutwinkel]{\includegrap...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Argument of \\unit  has an extra }.
-<inserted text> 
-                \par 
-l.302 \subfigure[Abdunklung bei ca. $\unit[0]{°}
-                                                $ Azimutwinkel]{\includegrap...
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-0
-! Paragraph ended before \\unit  was complete.
-<to be read again> 
-                   \par 
-l.302 \subfigure[Abdunklung bei ca. $\unit[0]{°}
-                                                $ Azimutwinkel]{\includegrap...
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.302 \subfigure[Abdunklung bei ca. $\unit[0]{°}
-                                                $ Azimutwinkel]{\includegrap...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Overfull \hbox (7.06647pt too wide) in paragraph at lines 302--302
-[]\T1/cmr/m/n/9 (a)
- []
-
-
-Overfull \hbox (10.40456pt too wide) in paragraph at lines 302--302
-\T1/cmr/m/n/9 Ab-
- []
-
-
-Overfull \hbox (13.74542pt too wide) in paragraph at lines 302--302
-\T1/cmr/m/n/9 dun-
- []
-
-
-Overfull \hbox (17.59865pt too wide) in paragraph at lines 302--302
-\T1/cmr/m/n/9 klung
- []
-
-
-Overfull \hbox (7.32686pt too wide) in paragraph at lines 302--302
-\T1/cmr/m/n/9 bei
- []
-
-
-Overfull \hbox (6.55272pt too wide) in paragraph at lines 302--302
-\T1/cmr/m/n/9 ca.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 302--302
-
- []
-
 <Sensor_Abdunklung_0.jpg, id=422, 304.13625pt x 304.13625pt>
 File: Sensor_Abdunklung_0.jpg Graphic file (type jpg)
 
 <use Sensor_Abdunklung_0.jpg>
-! Argument of \\unit  has an extra }.
-<inserted text> 
-                \par 
-l.303 \subfigure[Abdunklung bei ca. $\unit[40]{°}
-                                                 $ Azimutwinkel]{\includegra...
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
 
-Runaway argument?
-40
-! Paragraph ended before \\unit  was complete.
-<to be read again> 
-                   \par 
-l.303 \subfigure[Abdunklung bei ca. $\unit[40]{°}
-                                                 $ Azimutwinkel]{\includegra...
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.303 \subfigure[Abdunklung bei ca. $\unit[40]{°}
-                                                 $ Azimutwinkel]{\includegra...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Argument of \\unit  has an extra }.
-<inserted text> 
-                \par 
-l.303 \subfigure[Abdunklung bei ca. $\unit[40]{°}
-                                                 $ Azimutwinkel]{\includegra...
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-40
-! Paragraph ended before \\unit  was complete.
-<to be read again> 
-                   \par 
-l.303 \subfigure[Abdunklung bei ca. $\unit[40]{°}
-                                                 $ Azimutwinkel]{\includegra...
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.303 \subfigure[Abdunklung bei ca. $\unit[40]{°}
-                                                 $ Azimutwinkel]{\includegra...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 302.
 
 
-Overfull \hbox (7.58023pt too wide) in paragraph at lines 303--303
-[]\T1/cmr/m/n/9 (b)
- []
+LaTeX Warning: Command \textdegree invalid in math mode on input line 302.
 
 
-Overfull \hbox (10.40456pt too wide) in paragraph at lines 303--303
-\T1/cmr/m/n/9 Ab-
- []
-
-
-Overfull \hbox (13.74542pt too wide) in paragraph at lines 303--303
-\T1/cmr/m/n/9 dun-
- []
-
-
-Overfull \hbox (17.59865pt too wide) in paragraph at lines 303--303
-\T1/cmr/m/n/9 klung
- []
-
-
-Overfull \hbox (7.32686pt too wide) in paragraph at lines 303--303
-\T1/cmr/m/n/9 bei
- []
-
-
-Overfull \hbox (6.55272pt too wide) in paragraph at lines 303--303
-\T1/cmr/m/n/9 ca.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 303--303
-
+Underfull \hbox (badness 10000) in paragraph at lines 302--302
+[]\T1/cmr/m/n/9 (a) Ab-dun-klung bei ca. $\OT1/cmr/m/n/9 0 []$ \T1/cmr/m/n/9 Az
+-
  []
 
 <Sensor_Abdunklung_40.jpg, id=423, 304.13625pt x 304.13625pt>
 File: Sensor_Abdunklung_40.jpg Graphic file (type jpg)
 
-<use Sensor_Abdunklung_40.jpg>) (./Programmentwicklung.tex [16 <./Sensor_Abdunk
-lung_0.jpg> <./Sensor_Abdunklung_40.jpg>]
+<use Sensor_Abdunklung_40.jpg>
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 303.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 303.
+
+
+Underfull \hbox (badness 4981) in paragraph at lines 303--303
+[]\T1/cmr/m/n/9 (b) Ab-dun-klung bei ca. $\OT1/cmr/m/n/9 40 []$ \T1/cmr/m/n/9 A
+z-
+ []
+
+) (./Programmentwicklung.tex [16 <./Sensor_Abdunklung_0.jpg> <./Sensor_Abdunklu
+ng_40.jpg>]
 Kapitel 4.
 
 Overfull \hbox (4.36519pt too wide) in paragraph at lines 21--25
@@ -1043,7 +873,7 @@ inden, da so ein Gle-ichungssytem
 [17
 
 
-] <sSpiegel.jpg, id=447, 902.6222pt x 358.33875pt>
+] <sSpiegel.jpg, id=449, 902.6222pt x 358.33875pt>
 File: sSpiegel.jpg Graphic file (type jpg)
  <use sSpiegel.jpg>
 [18 <./sSpiegel.jpg>]) (./Simulationsdurchfuehrung.tex [19] [20
@@ -1055,35 +885,35 @@ LaTeX Font Info:    Try loading font information for T1+cmtt on input line 42.
 (/usr/share/texmf-texlive/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-<NurP40.jpg, id=470, 642.4pt x 693.59125pt>
+<NurP40.jpg, id=472, 642.4pt x 693.59125pt>
 File: NurP40.jpg Graphic file (type jpg)
  <use NurP40.jpg>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<NurP45.jpg, id=471, 642.4pt x 693.59125pt>
+<NurP45.jpg, id=473, 642.4pt x 693.59125pt>
 File: NurP45.jpg Graphic file (type jpg)
  <use NurP45.jpg>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<PI-P30I17.jpg, id=476, 636.3775pt x 693.59125pt>
+<PI-P30I17.jpg, id=478, 636.3775pt x 693.59125pt>
 File: PI-P30I17.jpg Graphic file (type jpg)
  <use PI-P30I17.jpg> [21]
 [22 <./NurP40.jpg> <./NurP45.jpg>]
-<PI-P30I18.jpg, id=491, 642.4pt x 693.59125pt>
+<PI-P30I18.jpg, id=493, 642.4pt x 693.59125pt>
 File: PI-P30I18.jpg Graphic file (type jpg)
  <use PI-P30I18.jpg>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<PD-P22D1N1.jpg, id=496, 642.4pt x 693.59125pt>
+<PD-P22D1N1.jpg, id=498, 642.4pt x 693.59125pt>
 File: PD-P22D1N1.jpg Graphic file (type jpg)
  <use PD-P22D1N1.jpg>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<PD-P23D1N1.jpg, id=497, 642.4pt x 693.59125pt>
+<PD-P23D1N1.jpg, id=499, 642.4pt x 693.59125pt>
 File: PD-P23D1N1.jpg Graphic file (type jpg)
  <use PD-P23D1N1.jpg>
 
@@ -1101,13 +931,13 @@ LaTeX Warning: Reference `fig:p20i16d1n1' on page 23 undefined on input line 10
 LaTeX Warning: Reference `fig:p20i16d1n1' on page 23 undefined on input line 10
 8.
 
-<PID-P20I15D1N1.jpg, id=498, 642.4pt x 693.59125pt>
+<PID-P20I15D1N1.jpg, id=500, 642.4pt x 693.59125pt>
 File: PID-P20I15D1N1.jpg Graphic file (type jpg)
  <use PID-P20I15D1N1.jpg>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<PID-P20I16D1N1.jpg, id=499, 642.4pt x 693.59125pt>
+<PID-P20I16D1N1.jpg, id=501, 642.4pt x 693.59125pt>
 File: PID-P20I16D1N1.jpg Graphic file (type jpg)
  <use PID-P20I16D1N1.jpg>
 
@@ -1121,7 +951,7 @@ Overfull \vbox (11.07274pt too high) has occurred while \output is active []
 
 
 [25 <./PD-P23D1N1.jpg> <./PID-P20I15D1N1.jpg>]
-<P-Adaption.jpg, id=515, 743.02594pt x 424.58624pt>
+<P-Adaption.jpg, id=517, 743.02594pt x 424.58624pt>
 File: P-Adaption.jpg Graphic file (type jpg)
  <use P-Adaption.jpg>
 
@@ -1133,32 +963,30 @@ LaTeX Warning: Citation `FrKu' on page 26 undefined on input line 139.
 
 LaTeX Warning: Reference `' on page 26 undefined on input line 143.
 
-<sSpiegelPad.jpg, id=516, 911.65594pt x 320.69812pt>
+<sSpiegelPad.jpg, id=518, 911.65594pt x 320.69812pt>
 File: sSpiegelPad.jpg Graphic file (type jpg)
  <use sSpiegelPad.jpg>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Pad-P41F1_1,5F2_80.jpg, id=517, 642.4pt x 693.59125pt>
+<Pad-P41F1_1,5F2_80.jpg, id=519, 642.4pt x 693.59125pt>
 File: Pad-P41F1_1,5F2_80.jpg Graphic file (type jpg)
 
 <use Pad-P41F1_1,5F2_80.jpg>
-<Pad-P50F1_3F2_400.jpg, id=520, 636.3775pt x 693.59125pt>
+<Pad-P50F1_3F2_400.jpg, id=522, 636.3775pt x 693.59125pt>
 File: Pad-P50F1_3F2_400.jpg Graphic file (type jpg)
 
 <use Pad-P50F1_3F2_400.jpg> [26 <./PID-P20I16D1N1.jpg> <./P-Adaption.jpg>]
+[27 <./sSpiegelPad.jpg> <./Pad-P41F1_1,5F2_80.jpg>]
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+LaTeX Warning: Citation `CaTe' on page 28 undefined on input line 180.
 
-
-LaTeX Warning: Citation `CaTe' on page 27 undefined on input line 180.
-
-[27 <./sSpiegelPad.jpg> <./Pad-P41F1_1,5F2_80.jpg>] [28 <./Pad-P50F1_3F2_400.jp
-g>] <Pad-Werte-P330F1_5F2_370.jpg, id=542, 642.4pt x 693.59125pt>
+[28 <./Pad-P50F1_3F2_400.jpg>]
+<Pad-Werte-P330F1_5F2_370.jpg, id=544, 642.4pt x 693.59125pt>
 File: Pad-Werte-P330F1_5F2_370.jpg Graphic file (type jpg)
 
 <use Pad-Werte-P330F1_5F2_370.jpg>
-<Pad-Neue-Werte-P320F1_2F2_65.jpg, id=543, 642.4pt x 693.59125pt>
+<Pad-Neue-Werte-P320F1_2F2_65.jpg, id=545, 642.4pt x 693.59125pt>
 File: Pad-Neue-Werte-P320F1_2F2_65.jpg Graphic file (type jpg)
 
 <use Pad-Neue-Werte-P320F1_2F2_65.jpg>
@@ -1169,17 +997,16 @@ LaTeX Warning: Command \textdegree invalid in math mode on input line 217.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [29 <./Pad-Werte-P330F1_5F2_370.jpg>]
-<Strom_zu_hoch.jpg, id=551, 562.1pt x 421.575pt>
+<Strom_zu_hoch.jpg, id=553, 562.1pt x 421.575pt>
 File: Strom_zu_hoch.jpg Graphic file (type jpg)
  <use Strom_zu_hoch.jpg>
-<P-Adaption-Strom.jpg, id=552, 912.40875pt x 404.26031pt>
+<P-Adaption-Strom.jpg, id=554, 912.40875pt x 404.26031pt>
 File: P-Adaption-Strom.jpg Graphic file (type jpg)
 
-<use P-Adaption-Strom.jpg>
-<sSpiegelPadStrom.jpg, id=555, 910.15031pt x 306.39468pt>
-File: sSpiegelPadStrom.jpg Graphic file (type jpg)
+<use P-Adaption-Strom.jpg> <Strom_ok.jpg, id=557, 556.0775pt x 418.56375pt>
+File: Strom_ok.jpg Graphic file (type jpg)
 
-<use sSpiegelPadStrom.jpg>
+<use Strom_ok.jpg>
 Overfull \hbox (26.44984pt too wide) in paragraph at lines 233--258
 \T1/cmtt/m/n/10.95 msSpiegel_Pad_Neue_Werte_Strom.m \T1/cmr/m/n/10.95 und das S
 imulink-File \T1/cmtt/m/n/10.95 sSpiegelPadStrom.slx \T1/cmr/m/n/10.95 hergenom
@@ -1195,104 +1022,80 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Strom-Pad-Neue-Werte-P320F1_2F2_160.jpg, id=557, 642.4pt x 693.59125pt>
+<Strom-Pad-Neue-Werte-P200F1_3F2_150.jpg, id=559, 636.3775pt x 693.59125pt>
+File: Strom-Pad-Neue-Werte-P200F1_3F2_150.jpg Graphic file (type jpg)
+
+<use Strom-Pad-Neue-Werte-P200F1_3F2_150.jpg>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[30 <./Pad-Neue-Werte-P320F1_2F2_65.jpg>] [31 <./Strom_zu_hoch.jpg> <./P-Adapti
+on-Strom.jpg> <./Strom_ok.jpg>]
+
+LaTeX Warning: Reference `' on page 32 undefined on input line 279.
+
+<Strom-Pad-Neue-Werte-P320F1_2F2_160.jpg, id=574, 642.4pt x 693.59125pt>
 File: Strom-Pad-Neue-Werte-P320F1_2F2_160.jpg Graphic file (type jpg)
 
 <use Strom-Pad-Neue-Werte-P320F1_2F2_160.jpg>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[30 <./Pad-Neue-Werte-P320F1_2F2_65.jpg>]
-<Strom-Pad-Neue-Werte-P218F1_5F2_400.jpg, id=568, 642.4pt x 690.58pt>
-File: Strom-Pad-Neue-Werte-P218F1_5F2_400.jpg Graphic file (type jpg)
-
-<use Strom-Pad-Neue-Werte-P218F1_5F2_400.jpg>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: Reference `' on page 31 undefined on input line 286.
-
-
-LaTeX Warning: File `Strom-Pad-Neue-Werte-P250F1_3F2_160.jpg' not found on inpu
-t line 289.
-
-
-! Package pdftex.def Error: File `Strom-Pad-Neue-Werte-P250F1_3F2_160.jpg' not 
-found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.289 ...{Strom-Pad-Neue-Werte-P250F1_3F2_160.jpg}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[31 <./Strom_zu_hoch.jpg> <./P-Adaption-Strom.jpg> <./sSpiegelPadStrom.jpg>]
-[32 <./Strom-Pad-Neue-Werte-P320F1_2F2_160.jpg> <./Strom-Pad-Neue-Werte-P218F1_
-5F2_400.jpg>] <sSpiegelPadStromSensor.jpg, id=580, 905.63344pt x 344.03531pt>
+<sSpiegelPadStromSensor.jpg, id=578, 905.63344pt x 344.03531pt>
 File: sSpiegelPadStromSensor.jpg Graphic file (type jpg)
 
 <use sSpiegelPadStromSensor.jpg>
-Overfull \hbox (32.16042pt too wide) in paragraph at lines 309--323
+Overfull \hbox (32.16042pt too wide) in paragraph at lines 302--316
 \T1/cmr/m/n/10.95 in die Sim-u-la-tion mit einge-baut. Dafür wird das vorhan-de
 ne Simulink-File \T1/cmtt/m/n/10.95 sSpiegelPadStrom.slx
  []
 
 
-Overfull \hbox (37.62671pt too wide) in paragraph at lines 309--323
+Overfull \hbox (37.62671pt too wide) in paragraph at lines 302--316
 \T1/cmr/m/n/10.95 Abb. [][]5.21[][] ist der gesamte Sim-u-la-tion-sauf-bau darg
 estellt, welch-er als \T1/cmtt/m/n/10.95 sSpiegelPadStromSensor.slx
  []
 
 
-Overfull \hbox (8.43898pt too wide) in paragraph at lines 309--323
+Overfull \hbox (8.43898pt too wide) in paragraph at lines 302--316
 \T1/cmr/m/n/10.95 gespe-ichert ist. Zur Ans-teuerung wird das Matlab-File \T1/c
 mtt/m/n/10.95 msSpiegel_Pad_Neue_Werte_Strom.m
  []
 
 
-Overfull \hbox (6.54955pt too wide) in paragraph at lines 309--323
+Overfull \hbox (6.54955pt too wide) in paragraph at lines 302--316
 \T1/cmr/m/n/10.95 mod-i-fiziert und als \T1/cmtt/m/n/10.95 msSpiegelundSensor.m
  \T1/cmr/m/n/10.95 gespe-ichert. In diesem Matlab-File ist es möglich,
  []
 
+[32 <./Strom-Pad-Neue-Werte-P200F1_3F2_150.jpg>] [33 <./Strom-Pad-Neue-Werte-P3
+20F1_2F2_160.jpg> <./sSpiegelPadStromSensor.jpg>]
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 320.
 
-[33]
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 327.
-
-<Sensor_10_1_100_linear1.jpg, id=589, 642.4pt x 693.59125pt>
+<Sensor_10_1_100_linear1.jpg, id=595, 642.4pt x 693.59125pt>
 File: Sensor_10_1_100_linear1.jpg Graphic file (type jpg)
 
 <use Sensor_10_1_100_linear1.jpg>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Sensor_10_1_100_linear2.jpg, id=591, 642.4pt x 693.59125pt>
+<Sensor_10_1_100_linear2.jpg, id=597, 642.4pt x 693.59125pt>
 File: Sensor_10_1_100_linear2.jpg Graphic file (type jpg)
 
 <use Sensor_10_1_100_linear2.jpg>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Sensor_10_1_100_nonlinear00001.jpg, id=593, 642.4pt x 693.59125pt>
+<Sensor_10_1_100_nonlinear00001.jpg, id=599, 642.4pt x 693.59125pt>
 File: Sensor_10_1_100_nonlinear00001.jpg Graphic file (type jpg)
 
-<use Sensor_10_1_100_nonlinear00001.jpg>) (./Disskussion.tex
+<use Sensor_10_1_100_nonlinear00001.jpg>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[34 <./sSpiegelPadStromSensor.jpg>] [35 <./Sensor_10_1_100_linear1.jpg> <./Sens
-or_10_1_100_linear2.jpg>] [36 <./Sensor_10_1_100_nonlinear00001.jpg>]
+) (./Diskussion.tex [34] [35 <./Sensor_10_1_100_linear1.jpg> <./Sensor_10_1_100
+_linear2.jpg>] [36 <./Sensor_10_1_100_nonlinear00001.jpg>]
 Kapitel 6.
 
 ! LaTeX Error: Command \textcurrency unavailable in encoding T1.
@@ -1814,40 +1617,106 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 12490 strings out of 495062
- 178580 string characters out of 1182643
+ 12510 strings out of 495062
+ 178755 string characters out of 1182643
  700999 words of memory out of 3000000
  14703 multiletter control sequences out of 15000+50000
  28933 words of font info for 71 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  46i,12n,52p,331b,2358s stack positions out of 5000i,500n,10000p,200000b,50000s
- </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1000.600pk> </home/k
-izzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/kizzm/.texmf
--var/fonts/pk/ljfour/jknappen/ec/ectt0900.600pk> </home/kizzm/.texmf-var/fonts/
-pk/ljfour/jknappen/ec/ecit0900.600pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/j
-knappen/ec/ectt0800.450pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/
-ectt1095.600pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0900.60
-0pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1200.600pk> </home
-/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1440.600pk> </home/kizzm/.tex
-mf-var/fonts/pk/ljfour/jknappen/ec/ecsl1095.600pk> </home/kizzm/.texmf-var/font
-s/pk/ljfour/jknappen/ec/ecsx1095.600pk> </home/kizzm/.texmf-var/fonts/pk/ljfour
-/jknappen/ec/ecsx2074.600pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/e
-c/ecrm1095.600pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1095.
-600pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1095.600pk> </ho
-me/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/kizzm/.t
-exmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2074.600pk> </home/kizzm/.texmf-var/fo
-nts/pk/ljfour/jknappen/ec/ecbx2488.600pk></usr/share/texmf-texlive/fonts/type1/
-public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsf
-onts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr1
-0.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/s
-hare/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-te
-xlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts
-/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-texlive/fonts/type1/publi
-c/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
-m/cmsy9.pfb>
-Output written on Projektstudie_MASTERFILE.pdf (63 pages, 3338149 bytes).
+pdfTeX warning (dest): name{figure.110} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.108} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.106} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.104} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.102} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.100} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{appendix*.558} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.556} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{appendix.555} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.521} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.408} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.394} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.379} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.294} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.114} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{appendix.113} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.112} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.109} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.107} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.105} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.103} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.101} has been referenced but does not
+ exist, replaced by a fixed one
+
+ </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1000.600pk> </home/kiz
+zm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/kizzm/.texmf-v
+ar/fonts/pk/ljfour/jknappen/ec/ectt0900.600pk> </home/kizzm/.texmf-var/fonts/pk
+/ljfour/jknappen/ec/ecit0900.600pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jkn
+appen/ec/ectt0800.450pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ec
+tt1095.600pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0900.600p
+k> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1200.600pk> </home/k
+izzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1440.600pk> </home/kizzm/.texmf
+-var/fonts/pk/ljfour/jknappen/ec/ecsl1095.600pk> </home/kizzm/.texmf-var/fonts/
+pk/ljfour/jknappen/ec/ecsx1095.600pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/j
+knappen/ec/ecsx2074.600pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/
+ecrm1095.600pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1095.60
+0pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1095.600pk> </home
+/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/kizzm/.tex
+mf-var/fonts/pk/ljfour/jknappen/ec/ecbx2074.600pk> </home/kizzm/.texmf-var/font
+s/pk/ljfour/jknappen/ec/ecbx2488.600pk></usr/share/texmf-texlive/fonts/type1/pu
+blic/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfon
+ts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.
+pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/sha
+re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texl
+ive/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-texlive/fonts/typ
+e1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/a
+msfonts/cm/cmsy6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/c
+msy8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
+Output written on Projektstudie_MASTERFILE.pdf (63 pages, 3281216 bytes).
 PDF statistics:
- 2107 PDF objects out of 2487 (max. 8388607)
- 623 named destinations out of 1000 (max. 500000)
+ 2131 PDF objects out of 2487 (max. 8388607)
+ 644 named destinations out of 1000 (max. 500000)
  592 words of extra memory for PDF output out of 10000 (max. 10000000)
 

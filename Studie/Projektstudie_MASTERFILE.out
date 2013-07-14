@@ -31,22 +31,22 @@
 \BOOKMARK [3][]{subsubsection.91}{5.1.2.2 P-Adaption mit Galvo-Werten}{subsection.84}
 \BOOKMARK [3][]{subsubsection.93}{5.1.2.3 P-Adaption mit neuen Werten}{subsection.84}
 \BOOKMARK [3][]{subsubsection.95}{5.1.2.4 Strombegrenzung}{subsection.84}
-\BOOKMARK [3][]{subsubsection.101}{5.1.2.5 Fertige P-Adaption}{subsection.84}
-\BOOKMARK [2][]{subsection.103}{5.1.3 Regelung mit Sensor}{section.70}
-\BOOKMARK [3][]{subsubsection.105}{5.1.3.1 Linearer Sensor 1}{subsection.103}
-\BOOKMARK [3][]{subsubsection.107}{5.1.3.2 Linearer Sensor 2}{subsection.103}
-\BOOKMARK [3][]{subsubsection.109}{5.1.3.3 Nichtlinearer Sensor}{subsection.103}
-\BOOKMARK [0][]{chapter.111}{6 Disskussion}{}
-\BOOKMARK [0][]{chapter.112}{7 Zusammenfassung}{}
-\BOOKMARK [0][]{appendix.113}{A Matlab-Files}{}
-\BOOKMARK [1][]{section.114}{A.1 msSpiegelundSensor.m}{appendix.113}
-\BOOKMARK [1][]{section.294}{A.2 sensorDaten.m}{appendix.113}
-\BOOKMARK [1][]{section.379}{A.3 frect.m}{appendix.113}
-\BOOKMARK [1][]{section.394}{A.4 gekern.m}{appendix.113}
-\BOOKMARK [1][]{section.408}{A.5 sensor.m}{appendix.113}
-\BOOKMARK [1][]{section.521}{A.6 posEingabe.m}{appendix.113}
-\BOOKMARK [0][]{appendix.555}{B Simulink-Files}{}
-\BOOKMARK [1][]{section.556}{B.1 1}{appendix.555}
-\BOOKMARK [0][]{section.556}{Literaturverzeichnis}{}
-\BOOKMARK [0][]{appendix*.557}{Abbildungsverzeichnis}{}
-\BOOKMARK [0][]{appendix*.558}{Eidesstattliche Erkl\344rung}{}
+\BOOKMARK [3][]{subsubsection.100}{5.1.2.5 Fertige P-Adaption}{subsection.84}
+\BOOKMARK [2][]{subsection.102}{5.1.3 Regelung mit Sensor}{section.70}
+\BOOKMARK [3][]{subsubsection.104}{5.1.3.1 Linearer Sensor 1}{subsection.102}
+\BOOKMARK [3][]{subsubsection.106}{5.1.3.2 Linearer Sensor 2}{subsection.102}
+\BOOKMARK [3][]{subsubsection.108}{5.1.3.3 Nichtlinearer Sensor}{subsection.102}
+\BOOKMARK [0][]{chapter.110}{6 Diskussion}{}
+\BOOKMARK [0][]{chapter.111}{7 Zusammenfassung}{}
+\BOOKMARK [0][]{appendix.112}{A Matlab-Files}{}
+\BOOKMARK [1][]{section.113}{A.1 msSpiegelundSensor.m}{appendix.112}
+\BOOKMARK [1][]{section.293}{A.2 sensorDaten.m}{appendix.112}
+\BOOKMARK [1][]{section.378}{A.3 frect.m}{appendix.112}
+\BOOKMARK [1][]{section.393}{A.4 gekern.m}{appendix.112}
+\BOOKMARK [1][]{section.407}{A.5 sensor.m}{appendix.112}
+\BOOKMARK [1][]{section.520}{A.6 posEingabe.m}{appendix.112}
+\BOOKMARK [0][]{appendix.554}{B Simulink-Files}{}
+\BOOKMARK [1][]{section.555}{B.1 1}{appendix.554}
+\BOOKMARK [0][]{section.555}{Literaturverzeichnis}{}
+\BOOKMARK [0][]{appendix*.556}{Abbildungsverzeichnis}{}
+\BOOKMARK [0][]{appendix*.557}{Eidesstattliche Erkl\344rung}{}
