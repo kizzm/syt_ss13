@@ -47,8 +47,6 @@
 \contentsline {section}{\numberline {A.4}gekern.m}{59}{section.407}
 \contentsline {section}{\numberline {A.5}sensor.m}{60}{section.421}
 \contentsline {section}{\numberline {A.6}posEingabe.m}{63}{section.534}
-\contentsline {chapter}{\numberline {B}Simulink-Files}{65}{appendix.568}
-\contentsline {section}{\numberline {B.1}1}{65}{section.569}
-\contentsline {chapter}{Literaturverzeichnis}{67}{appendix*.570}
-\contentsline {chapter}{Abbildungsverzeichnis}{70}{appendix*.571}
-\contentsline {chapter}{Eidesstattliche Erkl\"arung}{71}{appendix*.572}
+\contentsline {chapter}{Literaturverzeichnis}{65}{appendix*.568}
+\contentsline {chapter}{Abbildungsverzeichnis}{68}{appendix*.569}
+\contentsline {chapter}{Eidesstattliche Erkl\"arung}{69}{appendix*.570}

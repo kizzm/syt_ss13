@@ -1,3 +1,20 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{Lug03}
+
+\bibitem[Las]{lasercommunity}
+Lasercommunity.
+\newblock im Internet
+  http://www.laser-community.de/technologie/vw-laser-wobbeln-golf-vii_496/
+  (Stand 11.07.2013 15:49 Uhr).
+
+\bibitem[Lug03]{FrKu}
+Kuplent~Langhans Lugmair, Froriep.
+\newblock Tempo beim laserzugriff.
+\newblock {\em F\&M Elektronik}, 111(Nr.5), 2003.
+
+\bibitem[Wik]{wiki}
+Wikipedia.
+\newblock im Internet
+  http://commons.wikimedia.org/wiki/File:Plexi_Galvohalter.jpg (Stand
+  11.07.2013 15:49 Uhr).
 
 \end{thebibliography}

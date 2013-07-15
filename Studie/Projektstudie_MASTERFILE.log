@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.10.25)  15 JUL 2013 07:07
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.10.25)  15 JUL 2013 07:31
 entering extended mode
  %&-line parsing enabled.
 **Projektstudie_MASTERFILE.tex
@@ -703,13 +703,10 @@ Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)            on input line 50.
 Class scrreprt Info: You've told me to use the font selection of the element
 (scrreprt)           `sectioning' that is an alias of element `disposition'
+(scrreprt)            on input line 51.
+Class scrreprt Info: You've told me to use the font selection of the element
+(scrreprt)           `sectioning' that is an alias of element `disposition'
 (scrreprt)            on input line 52.
-Class scrreprt Info: You've told me to use the font selection of the element
-(scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 53.
-Class scrreprt Info: You've told me to use the font selection of the element
-(scrreprt)           `sectioning' that is an alias of element `disposition'
-(scrreprt)            on input line 54.
 )
 \tf@toc=\write4
 \openout4 = `Projektstudie_MASTERFILE.toc'.
@@ -724,26 +721,14 @@ Class scrreprt Warning: \float@addtolists detected!
 (scrreprt)              Support for \float@addtolists may be removed from
 (scrreprt)              `scrreprt' soon .
 
-<Plexi_Galvohalter.jpg, id=300, 256.7994pt x 298.2342pt>
+<Plexi_Galvohalter.jpg, id=291, 256.7994pt x 298.2342pt>
 File: Plexi_Galvohalter.jpg Graphic file (type jpg)
 
-<use Plexi_Galvohalter.jpg>
-
-LaTeX Warning: Citation `wiki' on page 1 undefined on input line 30.
-
-
-LaTeX Warning: Citation `wiki' on page 1 undefined on input line 30.
-
-<Strahlfuehrung.jpg, id=301, 734.745pt x 489.83pt>
+<use Plexi_Galvohalter.jpg> <Strahlfuehrung.jpg, id=294, 734.745pt x 489.83pt>
 File: Strahlfuehrung.jpg Graphic file (type jpg)
- <use Strahlfuehrung.jpg>
 
-LaTeX Warning: Citation `lasercommunity' on page 1 undefined on input line 37.
-
-
-LaTeX Warning: Citation `lasercommunity' on page 1 undefined on input line 37.
-
-<Allgmeiner_Aufbau.jpg, id=303, 1127.21124pt x 796.9775pt>
+<use Strahlfuehrung.jpg>
+<Allgmeiner_Aufbau.jpg, id=298, 1127.21124pt x 796.9775pt>
 File: Allgmeiner_Aufbau.jpg Graphic file (type jpg)
 
 <use Allgmeiner_Aufbau.jpg> [1
@@ -803,7 +788,7 @@ and I'll forget about whatever was undefined.
 
 ]
 Kapitel 3.
-<System_Aufbau.jpg, id=347, 509.905pt x 354.32375pt>
+<System_Aufbau.jpg, id=344, 509.905pt x 354.32375pt>
 File: System_Aufbau.jpg Graphic file (type jpg)
  <use System_Aufbau.jpg>
 
@@ -815,19 +800,19 @@ Overfull \hbox (1.1018pt too wide) in paragraph at lines 147--151
 -ma-tio-nen Über die Ans-teuerung solch-
  []
 
-[11] <ElektrischerTeil.jpg, id=386, 240.9pt x 224.33812pt>
+[11] <ElektrischerTeil.jpg, id=383, 240.9pt x 224.33812pt>
 File: ElektrischerTeil.jpg Graphic file (type jpg)
 
 <use ElektrischerTeil.jpg> [12 <./ElektrischerTeil.jpg>]
-<MechanischerTeil.jpg, id=398, 201.75375pt x 196.48407pt>
+<MechanischerTeil.jpg, id=395, 201.75375pt x 196.48407pt>
 File: MechanischerTeil.jpg Graphic file (type jpg)
 
 <use MechanischerTeil.jpg> [13 <./MechanischerTeil.jpg>]
-<Motoraufbau.jpg, id=410, 478.03593pt x 262.73157pt>
+<Motoraufbau.jpg, id=407, 478.03593pt x 262.73157pt>
 File: Motoraufbau.jpg Graphic file (type jpg)
  <use Motoraufbau.jpg>
 [14 <./Motoraufbau.jpg>]
-<Sensor_Funktionsdiagramm.jpg, id=423, 1025.8325pt x 316.18124pt>
+<Sensor_Funktionsdiagramm.jpg, id=420, 1025.8325pt x 316.18124pt>
 File: Sensor_Funktionsdiagramm.jpg Graphic file (type jpg)
 
 <use Sensor_Funktionsdiagramm.jpg>
@@ -849,14 +834,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 288--307
 
  []
 
-<Sensor_Aufbau_schichten.jpg, id=425, 445.665pt x 256.96pt>
+<Sensor_Aufbau_schichten.jpg, id=422, 445.665pt x 256.96pt>
 File: Sensor_Aufbau_schichten.jpg Graphic file (type jpg)
 
 <use Sensor_Aufbau_schichten.jpg> [15 <./Sensor_Funktionsdiagramm.jpg>]
 
 LaTeX Warning: Command \textdegree invalid in math mode on input line 317.
 
-<Sensor_Abdunklung_0.jpg, id=434, 304.13625pt x 304.13625pt>
+<Sensor_Abdunklung_0.jpg, id=431, 304.13625pt x 304.13625pt>
 File: Sensor_Abdunklung_0.jpg Graphic file (type jpg)
 
 <use Sensor_Abdunklung_0.jpg>
@@ -866,7 +851,7 @@ LaTeX Warning: Command \textdegree invalid in math mode on input line 321.
 
 LaTeX Warning: Command \textdegree invalid in math mode on input line 321.
 
-<Sensor_Abdunklung_40.jpg, id=435, 304.13625pt x 304.13625pt>
+<Sensor_Abdunklung_40.jpg, id=432, 304.13625pt x 304.13625pt>
 File: Sensor_Abdunklung_40.jpg Graphic file (type jpg)
 
 <use Sensor_Abdunklung_40.jpg>
@@ -904,7 +889,7 @@ inden, da so ein Gle-ichungssytem
 [19
 
 
-] <sSpiegel.jpg, id=483, 902.6222pt x 358.33875pt>
+] <sSpiegel.jpg, id=480, 902.6222pt x 358.33875pt>
 File: sSpiegel.jpg Graphic file (type jpg)
  <use sSpiegel.jpg>
 [20 <./sSpiegel.jpg>]
@@ -932,21 +917,21 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<../Plots/figure_4.jpg, id=510, 1204.5pt x 904.37875pt>
+<../Plots/figure_4.jpg, id=507, 1204.5pt x 904.37875pt>
 File: ../Plots/figure_4.jpg Graphic file (type jpg)
 
 <use ../Plots/figure_4.jpg>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[22] <../Plots/figure_8.jpg, id=517, 1204.5pt x 904.37875pt>
+[22] <../Plots/figure_8.jpg, id=514, 1204.5pt x 904.37875pt>
 File: ../Plots/figure_8.jpg Graphic file (type jpg)
 
 <use ../Plots/figure_8.jpg>
 
 LaTeX Warning: Command \textdegree invalid in math mode on input line 170.
 
-<../Plots/Sensor-Kennlinie_einzelGruppe.jpg, id=519, 1204.5pt x 904.37875pt>
+<../Plots/Sensor-Kennlinie_einzelGruppe.jpg, id=516, 1204.5pt x 904.37875pt>
 File: ../Plots/Sensor-Kennlinie_einzelGruppe.jpg Graphic file (type jpg)
 
 <use ../Plots/Sensor-Kennlinie_einzelGruppe.jpg>
@@ -954,11 +939,11 @@ File: ../Plots/Sensor-Kennlinie_einzelGruppe.jpg Graphic file (type jpg)
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [23 <../Plots/figure_4.jpg> <../Plots/figure_8.jpg>]
-<../Plots/Sensor-Kennlinie_linear1.jpg, id=527, 1204.5pt x 904.37875pt>
+<../Plots/Sensor-Kennlinie_linear1.jpg, id=524, 1204.5pt x 904.37875pt>
 File: ../Plots/Sensor-Kennlinie_linear1.jpg Graphic file (type jpg)
 
 <use ../Plots/Sensor-Kennlinie_linear1.jpg>
-<../Plots/Sensor-Kennlinie_linear2.jpg, id=529, 1204.5pt x 904.37875pt>
+<../Plots/Sensor-Kennlinie_linear2.jpg, id=526, 1204.5pt x 904.37875pt>
 File: ../Plots/Sensor-Kennlinie_linear2.jpg Graphic file (type jpg)
 
 <use ../Plots/Sensor-Kennlinie_linear2.jpg>
@@ -967,7 +952,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [24 <../Plots/Sensor-Kennlinie_einzelGruppe.jpg> <../Plots/Sensor-Kennlinie_lin
 ear1.jpg>]
-<../Plots/Sensor-Kennlinie_nonlinear.jpg, id=537, 1204.5pt x 904.37875pt>
+<../Plots/Sensor-Kennlinie_nonlinear.jpg, id=534, 1204.5pt x 904.37875pt>
 File: ../Plots/Sensor-Kennlinie_nonlinear.jpg Graphic file (type jpg)
 
 <use ../Plots/Sensor-Kennlinie_nonlinear.jpg>) (./Simulationsdurchfuehrung.tex
@@ -977,21 +962,21 @@ r.jpg>] [26
 
 ]
 Kapitel 5.
-<NurP40.jpg, id=551, 642.4pt x 693.59125pt>
+<NurP40.jpg, id=548, 642.4pt x 693.59125pt>
 File: NurP40.jpg Graphic file (type jpg)
  <use NurP40.jpg>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[27] <NurP45.jpg, id=559, 642.4pt x 693.59125pt>
+[27] <NurP45.jpg, id=556, 642.4pt x 693.59125pt>
 File: NurP45.jpg Graphic file (type jpg)
  <use NurP45.jpg>
-<PI-P30I17.jpg, id=564, 636.3775pt x 693.59125pt>
+<PI-P30I17.jpg, id=561, 636.3775pt x 693.59125pt>
 File: PI-P30I17.jpg Graphic file (type jpg)
  <use PI-P30I17.jpg>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [28 <./NurP40.jpg> <./NurP45.jpg>] <PI-P30I18.jpg, id=569, 642.4pt x 693.59125
+ [28 <./NurP40.jpg> <./NurP45.jpg>] <PI-P30I18.jpg, id=566, 642.4pt x 693.59125
 pt>
 File: PI-P30I18.jpg Graphic file (type jpg)
 
@@ -999,14 +984,14 @@ File: PI-P30I18.jpg Graphic file (type jpg)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[29 <./PI-P30I17.jpg>] <PD-P22D1N1.jpg, id=580, 642.4pt x 693.59125pt>
+[29 <./PI-P30I17.jpg>] <PD-P22D1N1.jpg, id=577, 642.4pt x 693.59125pt>
 File: PD-P22D1N1.jpg Graphic file (type jpg)
 
 <use PD-P22D1N1.jpg>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[30 <./PI-P30I18.jpg>] <PD-P23D1N1.jpg, id=587, 642.4pt x 693.59125pt>
+[30 <./PI-P30I18.jpg>] <PD-P23D1N1.jpg, id=584, 642.4pt x 693.59125pt>
 File: PD-P23D1N1.jpg Graphic file (type jpg)
 
 <use PD-P23D1N1.jpg>
@@ -1022,28 +1007,22 @@ LaTeX Warning: Reference `fig:p20i16d1n1' on page 31 undefined on input line 11
 LaTeX Warning: Reference `fig:p20i16d1n1' on page 31 undefined on input line 11
 4.
 
-<PID-P20I15D1N1.jpg, id=588, 642.4pt x 693.59125pt>
+<PID-P20I15D1N1.jpg, id=585, 642.4pt x 693.59125pt>
 File: PID-P20I15D1N1.jpg Graphic file (type jpg)
  <use PID-P20I15D1N1.jpg>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [31 <./PD-P22D1N1.jpg> <./PD-P23D1N1.jpg>]
-<PID-P20I16D1N1.jpg, id=593, 642.4pt x 693.59125pt>
+<PID-P20I16D1N1.jpg, id=590, 642.4pt x 693.59125pt>
 File: PID-P20I16D1N1.jpg Graphic file (type jpg)
  <use PID-P20I16D1N1.jpg>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [32 <./PID-P20I15D1N1.jpg>]
-<P-Adaption.jpg, id=599, 743.02594pt x 424.58624pt>
+<P-Adaption.jpg, id=596, 743.02594pt x 424.58624pt>
 File: P-Adaption.jpg Graphic file (type jpg)
  <use P-Adaption.jpg>
-
-LaTeX Warning: Citation `FrKu' on page 33 undefined on input line 147.
-
-
-LaTeX Warning: Citation `FrKu' on page 33 undefined on input line 147.
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1051,10 +1030,10 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: Reference `' on page 34 undefined on input line 152.
 
-<sSpiegelPad.jpg, id=607, 911.65594pt x 320.69812pt>
+<sSpiegelPad.jpg, id=606, 911.65594pt x 320.69812pt>
 File: sSpiegelPad.jpg Graphic file (type jpg)
  <use sSpiegelPad.jpg>
-<Pad-P41F1_1,5F2_80.jpg, id=608, 642.4pt x 693.59125pt>
+<Pad-P41F1_1,5F2_80.jpg, id=607, 642.4pt x 693.59125pt>
 File: Pad-P41F1_1,5F2_80.jpg Graphic file (type jpg)
 
 <use Pad-P41F1_1,5F2_80.jpg>
@@ -1273,37 +1252,104 @@ or \DeclareInputMath before using this key.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [61])
-[62] (../posEingabe.m) [63] [64
+[62] (../posEingabe.m) [63]) (./Literatur.tex (./Projektstudie_MASTERFILE.bbl
+[64
 
 
 ]
-Anhang B.
-) (./Literatur.tex [65] (./Projektstudie_MASTERFILE.bbl [66
+! Missing $ inserted.
+<inserted text> 
+                $
+l.6 ...y.de/technologie/vw-laser-wobbeln-golf-vii_
+                                                  496/
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.8 
+    
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.8 
+    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.8 
+    
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.17 ...p://commons.wikimedia.org/wiki/File:Plexi_
+                                                  Galvohalter.jpg (Stand
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.19 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.19 
+     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
 
-]
+Overfull \hbox (82.60904pt too wide) in paragraph at lines 15--19
+[]\T1/cmr/m/n/10.95 Wikipedia.  im In-ter-net http://commons.wikimedia.org/wiki
+/File:Plexi$[]\OML/cmm/m/it/10.95 alvohalter:jpg\OT1/cmr/m/n/10.95 (\OML/cmm/m/
+it/10.95 Stand\OT1/cmr/m/n/10.95 11\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 07\O
+ML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 201315 :
+ []
 
-LaTeX Warning: Empty `thebibliography' environment or \BreakBibliography
-               before end of `thebibliography' environment on input line 3.
+! Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.19 
+     
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
 
-)) (./Abbildungen.tex [67] [68
+)) (./Abbildungen.tex [65] [66
 
 
-] (./Projektstudie_MASTERFILE.lof
-
-LaTeX Warning: Citation `wiki' on page 69 undefined on input line 3.
-
-
-LaTeX Warning: Citation `lasercommunity' on page 69 undefined on input line 4.
-
-
-LaTeX Warning: Citation `FrKu' on page 69 undefined on input line 34.
-
-[69])
+] (./Projektstudie_MASTERFILE.lof [67])
 \tf@lof=\write5
 \openout5 = `Projektstudie_MASTERFILE.lof'.
 
-) (./Erklaerung.tex [70]
+)
+(./Erklaerung.tex [68]
 Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  []
@@ -1313,7 +1359,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--15
 
  []
 
-) [71
+) [69
 
 
 ] (./Projektstudie_MASTERFILE.aux)
@@ -1328,42 +1374,41 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 12587 strings out of 495062
- 180702 string characters out of 1182643
+ 12582 strings out of 495062
+ 180661 string characters out of 1182643
  701128 words of memory out of 3000000
- 14760 multiletter control sequences out of 15000+50000
- 28933 words of font info for 71 fonts, out of 3000000 for 9000
+ 14757 multiletter control sequences out of 15000+50000
+ 28157 words of font info for 70 fonts, out of 3000000 for 9000
  30 hyphenation exceptions out of 8191
  46i,12n,52p,785b,2358s stack positions out of 5000i,500n,10000p,200000b,50000s
- </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1000.600pk> </home/k
-izzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/kizzm/.texmf
--var/fonts/pk/ljfour/jknappen/ec/ectt0900.600pk> </home/kizzm/.texmf-var/fonts/
-pk/ljfour/jknappen/ec/ecit0900.600pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/j
-knappen/ec/ectt0800.450pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/
-ectt1095.600pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0900.60
-0pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1200.600pk> </home
-/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1440.600pk> </home/kizzm/.tex
-mf-var/fonts/pk/ljfour/jknappen/ec/ecsl1095.600pk> </home/kizzm/.texmf-var/font
-s/pk/ljfour/jknappen/ec/ecsx1095.600pk> </home/kizzm/.texmf-var/fonts/pk/ljfour
-/jknappen/ec/ecsx2074.600pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/e
-c/ecrm1095.600pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1095.
-600pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1095.600pk> </ho
-me/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/kizzm/.t
-exmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2074.600pk> </home/kizzm/.texmf-var/fo
-nts/pk/ljfour/jknappen/ec/ecbx2488.600pk></usr/share/texmf-texlive/fonts/type1/
-public/amsfonts/cm/cmex10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsf
-onts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmm
-i6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr
-/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf
--texlive/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-texlive/font
-s/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/publi
-c/amsfonts/cm/cmr9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm
-/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/
-texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on Projektstudie_MASTERFILE.pdf (75 pages, 3554839 bytes).
+ </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/k
+izzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ectt0900.600pk> </home/kizzm/.texmf
+-var/fonts/pk/ljfour/jknappen/ec/ecit0900.600pk> </home/kizzm/.texmf-var/fonts/
+pk/ljfour/jknappen/ec/ectt0800.450pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/j
+knappen/ec/ectt1095.600pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/
+ecrm0900.600pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1200.60
+0pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1440.600pk> </home
+/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecsl1095.600pk> </home/kizzm/.tex
+mf-var/fonts/pk/ljfour/jknappen/ec/ecsx1095.600pk> </home/kizzm/.texmf-var/font
+s/pk/ljfour/jknappen/ec/ecsx2074.600pk> </home/kizzm/.texmf-var/fonts/pk/ljfour
+/jknappen/ec/ecrm1095.600pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/e
+c/ecbx1095.600pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1095.
+600pk> </home/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </ho
+me/kizzm/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2074.600pk> </home/kizzm/.t
+exmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2488.600pk></usr/share/texmf-texlive/f
+onts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-texlive/fonts/type1/
+public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsf
+onts/cm/cmmi6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi
+8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
+share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-t
+exlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/
+type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-texlive/fonts/type1/public/
+amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm
+/cmsy6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb><
+/usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
+Output written on Projektstudie_MASTERFILE.pdf (73 pages, 3557419 bytes).
 PDF statistics:
- 2228 PDF objects out of 2487 (max. 8388607)
- 649 named destinations out of 1000 (max. 500000)
- 638 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2219 PDF objects out of 2487 (max. 8388607)
+ 648 named destinations out of 1000 (max. 500000)
+ 622 words of extra memory for PDF output out of 10000 (max. 10000000)
 
