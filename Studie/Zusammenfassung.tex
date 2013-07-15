@@ -11,37 +11,37 @@
 \chapter{Zusammenfassung}
 \label{chap:Zusammenfassung}
 In der vorliegenden Simulationsstudie sollte ein Gleichstrommotor auf eine bestimmte Winkelposition eingeregelt werden.
-An dem Gleichstrommotor ist ein Spiegel befestigt, der einen Laserstrahl in der Fokusebene ablenkt.
 Gleichstrommotoren werden i.d.R. auf eine vorgegebene Winkelgeschwindigkeit geregelt, insofern ergibt sich hier eine neue Aufgabenstellung.
-Um eine in der RealitÃ¤t vorhandene Information Ã¼ber den aktuellen Winkel zu erhalten, wurde zudem ein Sensor implementiert, mit dem unterschiedliche Verhalten simuliert 
-werden konnten.
+%Um eine in der RealitÃ¤t vorhandene Information Ã¼ber den aktuellen Winkel zu erhalten, wurde zudem ein Sensor implementiert, mit dem unterschiedliche Verhalten simuliert 
+%werden konnten.
 
-Es galt die Vorgaben, den maximalen Verstellwinkel von \unit[20]{Â°} innerhalb einer Einstellzeit von \unit[1]{ms} auf eine Genauigkeit von \unit[1e-3]{Â°} einzustellen.
-
-Nach dem ein elektrisches und mechanisches Modell von einem Gleichstrommotor erstellt war, wurde dieses Modell in Simulink umgesetzt.
-Zu Beginn wurden mit einem PID-Regler verschiedene P-, PI-, PD- und PID-Reglersimulationen durchgefÃ¼hrt, mit denen keine der Vorgaben erfÃ¼llt werden konnte.
-Die Einregelzeit lag bei ca. \unit[6]{ms}, wobei der aktuelle Winkel viel zu stark um den Sollwinkel schwankte.
-
-Es konnte eine Regelung und ein Sensor simuliert werden, mit denen es möglich ist, die Vorgaben aus Kap. \ref{chap:Aufgabenstellung} zu erfüllen.
+Folgende Vorgaben ergeben sich aus der Aufgabenstellung (siehe Kap. \ref{chap:Aufgabenstellung}:
+\begin{itemize}
+\item den maximalen Verstellwinkel von \unit[20]{Â°} 
+\item innerhalb einer Einstellzeit von \unit[1]{ms} 
+\item auf eine Genauigkeit von \unit[1e-3]{Â°} einzustellen.
+\end{itemize}
 
 Die Simulationsstudie wurde mit einem vorgegebenen Gleichstrommotor begonnen.
 Für diesen Motor wurde ein PID-Regler in Simulink integriert und unterschiedliche Regelparameter getestet.
 Der Sensor wurde noch nicht integriert, um erst einmal eine Regelung für einen Gleichstrommotor zu bekommen, mit der es Überhaupt möglich ist, einen Winkel einzustellen.
 
 Durch entfernen des PID-Reglers und implementieren einer P-Adaption sollte die verbleibende Regeldifferenz verringert werden.
-Es wurden verschiedene Simulationen durchgefÃ¼hrt, bei denen die Vorgaben auch nicht erreicht wurden.
-Es zeigte sich sogar, dass die Einregelzeit grÃ¶ÃŸer geworden war und die Regeldifferenz nicht wesentlich verbessert werden konnte.
+Es wurden verschiedene Simulationen durchgeführt, bei denen die Vorgaben auch nicht erreicht wurden.
+Es zeigte sich sogar, dass die Einregelzeit größer geworden war und die Regeldifferenz nicht wesentlich verbessert werden konnte.
 
-Um die Vorgaben der Regelung dennoch einhalten zu kÃ¶nnen, wurden verschiedene Motorparameter verÃ¤ndert und neue Simulationenn durchgefÃ¼hrt.
-Mit den verÃ¤nderten Motorwerten konnte die Einregelzeit auf ca. \unit[2]{ms} verkÃ¼rzt werden.
+Um die Vorgaben der Regelung dennoch einhalten zu können, wurden verschiedene Motorparameter verändert und neue Simulationenn durchgeführt.
+Mit den veränderten Motorwerten konnte die Einregelzeit auf ca. \unit[2]{ms} verkürzt werden.
 Jedoch konnte noch keine stabile Winkelposition erreich werden.
 
-Mit weiteren VerÃ¤nderungen der Motorparameter und nun auch der Spiegelparameter wurden erneut verschiedenen Simulationen durchgefÃ¼hrt.
-Die Vorgaben konnten nun erfÃ¼llt werden.
+Mit weiteren Veränderungen der Motorparameter und nun auch der Spiegelparameter wurden erneut verschiedenen Simulationen durchgeführt.
+Die Vorgaben konnten nun erfüllt werden.
 
 Leider war der Strom zu hoch, weshalb eine Strombegrenzung implementiert wurde.
 Nach neuen Simulationen und anpassen verschiedenster Parameter wurde erneut eine erfolgreiche Regelung realisiert.
 
 Mit dieser erfolgreichen Regelung wurden nun verschiedene Sensoren implementiert.
 
-Es zeigte sich, dass ein lineare Ã¼bertragender Sensor von groÃŸer Wichtigkeit ist, da sonst eine bleibende Regeldifferenz verbleibt.
+Es zeigte sich, dass ein linear übertragender Sensor von großer Wichtigkeit ist, da sonst eine bleibende Regeldifferenz entsteht.
+
+Es konnte eine Regelung und ein Sensor simuliert werden, mit denen es möglich ist, die Vorgaben aus Kap. \ref{chap:Aufgabenstellung} zu erfüllen.

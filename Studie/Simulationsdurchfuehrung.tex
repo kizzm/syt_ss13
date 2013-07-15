@@ -46,6 +46,7 @@ Für die folgenden Simulationen wird das Matlab-File \texttt{msSpiegel{\_}PID.m} 
 	\caption{P-Anteil von 40}
 	\label{fig:p40}
 \end{figure}
+\FloatBarrier
 
 \begin{figure}[!h]
 	\centering
@@ -53,6 +54,7 @@ Für die folgenden Simulationen wird das Matlab-File \texttt{msSpiegel{\_}PID.m} 
 	\caption{P-Anteil von 45}
 	\label{fig:p45}
 \end{figure}
+\FloatBarrier
 
 \subsubsection{PI-Regelung}
 \label{chap:pi_regelung}
@@ -68,6 +70,7 @@ Demnach wird der zugefügte I-Anteil herausgenommen und ein D-Anteil zur reinen P
 	\caption{P-Anteil von 30 und I-Anteil von 17}
 	\label{fig:p30i17}
 \end{figure}
+\FloatBarrier
 
 \begin{figure}[!h]
 	\centering
@@ -75,6 +78,7 @@ Demnach wird der zugefügte I-Anteil herausgenommen und ein D-Anteil zur reinen P
 	\caption{P-Anteil von 30 und I-Anteil von 18}
 	\label{fig:p30i18}
 \end{figure}
+\FloatBarrier
 
 \subsubsection{PD-Regelung}
 \label{chap:pd_regelung}
@@ -91,6 +95,7 @@ Wie zu erkennen ist, ist die verbleibende Regeldifferenz noch viel zu groß.
 	\caption{P=22 - D=1 - N=1}
 	\label{fig:p22d1n1}
 \end{figure}
+\FloatBarrier
 
 \begin{figure}[!h]
 	\centering
@@ -98,6 +103,7 @@ Wie zu erkennen ist, ist die verbleibende Regeldifferenz noch viel zu groß.
 	\caption{P=22 - D=1 - N=1}
 	\label{fig:p23d1n1}
 \end{figure}
+\FloatBarrier
 
 \subsubsection{PID-Regelung}
 \label{chap:pid_regelung}
@@ -113,6 +119,7 @@ Durch die große Abweichung vom Sollwinkel ist in dieser Grafik kein Graph zu erk
 	\caption{P=20 - I=15 - D=1 - N=1}
 	\label{fig:p20i15d1n1}
 \end{figure}
+\FloatBarrier
 
 \begin{figure}[!h]
 	\centering
@@ -120,6 +127,7 @@ Durch die große Abweichung vom Sollwinkel ist in dieser Grafik kein Graph zu erk
 	\caption{P=20 - I=16 - D=1 - N=1}
 	\label{fig:p2oi16d1n1}
 \end{figure}
+\FloatBarrier
 
 \subsection{P-Adaption}
 \label{chap:padaption}
@@ -139,6 +147,7 @@ Dabei muss der Regelkreis folgendermaßen erweitert werden:
 	\caption{P-Adaption\cite{FrKu}}
 	\label{fig:padaption}
 \end{figure}
+\FloatBarrier
 
 Eine Integration in das bestehende Simulinkprogramm ist in Abb. \ref{} dargestellt.
 \begin{figure}[!h]
@@ -147,6 +156,7 @@ Eine Integration in das bestehende Simulinkprogramm ist in Abb. \ref{} dargestel
 	\caption{P-Adaption in Simulink}
 	\label{fig:padaptionsimulink}
 \end{figure}
+\FloatBarrier
 
 \subsubsection{Regelung mit P-Adaption}
 \label{chap:p_adaption}
@@ -161,6 +171,7 @@ Für die folgenden Simulationen wird das Matlab-File \texttt{msSpiegel{\_}Pad.m} 
 	\caption{P-Adaption mit Parametern}
 	\label{fig:padp41f1580}
 \end{figure}
+\FloatBarrier
 In Abb. \ref{fig:padp41f1580} ist zu erkennen, dass der Sollwinkel nicht erreicht wird. 
 Wird jedoch der P-Anteil erhöht und mit den beiden f-Parametern weitere Einstellungen probiert, so wird der Sollwinkel nie erreicht. 
 Es kommt zwar zu einem Schwingen um den Sollwinkel, aber dieser kann nicht stabil erreicht werden, siehe Abb. \ref{fig:padp50f3400}.
@@ -170,6 +181,7 @@ Es kommt zwar zu einem Schwingen um den Sollwinkel, aber dieser kann nicht stabi
 	\caption{P-Adaption mit Parametern}
 	\label{fig:padp50f3400}
 \end{figure}
+\FloatBarrier
 
 \subsubsection{P-Adaption mit Galvo-Werten}
 \label{chap:p_adaptiongalvo}
@@ -181,7 +193,7 @@ Es wurden Werte für den Innenwiderstand und der Induktivität eines Galvos 6230 d
 
 CaTe: PDF, Model 6230H Optical Scanner (Mechanical and Electrical Specifications), Cambridge Technology, 03/07.
 
-Für die folgenden Simulationen wird das Matlab-File \texttt{msSpiegel{\_}Pad{\_}Werte.m} und das Simulink-File \texttt{sSpiegelPad.slx} hergenommen.
+Für die folgenden Simulationen wird das Matlab-File \texttt{msSpiegel{\_}Pad{\_}Werte.m} und das Simulink-File \texttt{sSpiegelPad.slx} benutzt.
 
 In Abb. \ref{fig:padwerte} ist eine langsame Annäherung an die zu erfüllenden Vorgaben zu sehen. 
 Jedoch noch nicht in der geforderten Zeit und noch mit zu großen Schwankungen um den Sollwinkel.
@@ -200,6 +212,7 @@ Es sind folgende Werte aktuell eingestellt:
 	\caption{P-Adaption mit neuen Motorparametern}
 	\label{fig:padwerte}
 \end{figure}
+\FloatBarrier
 
 \subsubsection{P-Adaption mit neuen Werten}
 \label{chap:p_adaptionwerte}
@@ -213,6 +226,7 @@ Für die folgenden Simulationen wird das Matlab-File \texttt{msSpiegel{\_}Pad{\_}
 	\caption{P-Adaption mit neuen Parametern}
 	\label{fig:padneuewerte}
 \end{figure}
+\FloatBarrier
 Wie in Abb. \ref{fig:padneuewerte} zu erkennen, ist die Regelung in den geforderten Bereichen erfolgreich.
 Der geforderte Winkel von $\unit[20]{°}$ ist unter $\unit[1]{ms}$ in seinen Regeldifferenzen erreicht. 
 Dieser Regelung liegen folgende Werte zu Grunde:
@@ -239,6 +253,7 @@ Es fliessen Ströme in Höhe von $\unit[80]{A.}$
 	\caption{Stromhöhe während der Regelung}
 	\label{fig:stromzuhoch}
 \end{figure}
+\FloatBarrier
 Dies ist allerdings sehr hoch, deshalb wird in die bestehende Regelung eine Strombegrenung von 10 A eingebaut und erneut versucht, die Regelung entsprechend anzupassen.
 \begin{figure}[!h]
 	\centering
@@ -246,6 +261,7 @@ Dies ist allerdings sehr hoch, deshalb wird in die bestehende Regelung eine Stro
 	\caption{P-Adaption mit Strombegrenzung}
 	\label{fig:strombegrenzt}
 \end{figure}
+\FloatBarrier
 In Abb. \ref{fig:strombegrenzt} ist die P-Adaption mit einer Strombegrenzung zu erkennen. 
 Für eine bessere Übersicht, wurden entsprechende Positionen mit einem Namen versehen und der D-Anteil aus der Regelung genommen, da dieser auf Null gesetzt ist, siehe Abb. \ref{fig:strombegrenztsauber}.
 \begin{figure}[!h]
@@ -254,7 +270,8 @@ Für eine bessere Übersicht, wurden entsprechende Positionen mit einem Namen vers
 	\caption{Motorstroms mit Strombegrenzung auf $\pm \unit[10]{A}$}
 	\label{fig:strombegrenztsauber}
 \end{figure}
-Für die folgenden Simulationen wird das Matlab-File \texttt{msSpiegel{\_}Pad{\_}Neue{\_}Werte{\_}Strom.m} und das Simulink-File \texttt{sSpiegelPadStrom.slx} hergenommen.
+\FloatBarrier
+Für die folgenden Simulationen wird das Matlab-File \texttt{msSpiegel{\_}Pad{\_}Neue{\_}Werte{\_}Strom.m} und das Simulink-File \texttt{sSpiegelPadStrom.slx} benutzt.
 
 Eine Regelung mit den aktuellen Werten zeigt das in Abb. \ref{fig:strombegrenztpad} zu erkennende Ergebnis.
 \begin{figure}[!h]
@@ -263,6 +280,7 @@ Eine Regelung mit den aktuellen Werten zeigt das in Abb. \ref{fig:strombegrenztp
 	\caption{P-Adaption mit Strombegrenzung}
 	\label{fig:strombegrenztpad}
 \end{figure}
+\FloatBarrier
 Durch weiteres Anpassen der unterschiedlichen Parameter, konnten die Sollwerte fast erreicht werden. 
 Abb. \ref{fig:strombegrenztpadfastsoll} zeigt schon ein sehr gutes Ergebnis.
 \begin{itemize}
@@ -283,6 +301,7 @@ Abb. \ref{}
 	\caption{Angepasste P-Adaption mit Strombegrenzung}
 	\label{fig:strombegrenztpadsoll}
 \end{figure}
+\FloatBarrier
 
 \begin{itemize}
 \item Trägheitsmoment des Spiegels: $\unit[93.3e-11]{kg*m^2}$
@@ -301,7 +320,7 @@ Toleranzbereich.
 \label{chap:sensorregelung}
 Nach dem die Regelung für einen perfekt linear arbeitenden Sensor, der durch ein direktes abgreifen des aktuellen Winkels realisiert wurde, funktioniert, wird der Sensor 
 aus Kap \ref{chap:sensor} in die Simulation mit eingebaut.
-Dafür wird das vorhandene Simulink-File \texttt{sSpiegelPadStrom.slx} hergenommen und um den Sensor erweitert.
+Dafür wird das vorhandene Simulink-File \texttt{sSpiegelPadStrom.slx} verwendet und um den Sensor erweitert.
 Zudem wird der eingegebene Winkel in eine Spannung umgerechnet, da der Sensor eine vom Winkel abhängige Spannung ausgibt.
 In Abb. \ref{fig:simusensor} ist der gesamte Simulationsaufbau dargestellt, welcher als \texttt{sSpiegelPadStromSensor.slx} gespeichert ist.
 \begin{figure}[!h]
@@ -310,9 +329,10 @@ In Abb. \ref{fig:simusensor} ist der gesamte Simulationsaufbau dargestellt, welc
 	\caption{Simulinaufbau mit Sensor}
 	\label{fig:simusensor}
 \end{figure}
+\FloatBarrier
 Zur Ansteuerung wird das Matlab-File \texttt{msSpiegel{\_}Pad{\_}Neue{\_}Werte{\_}Strom.m} modifiziert und als \texttt{msSpiegelundSensor.m} gespeichert.
 In diesem Matlab-File ist es möglich, verschiedene Kenndaten für den Sensor einzugeben.
-Es werden folgende Daten hergenommen:
+Es werden gelten folgende Daten:
 \begin{itemize}
 \item Innenradius = $\unit[5]{mm}$
 \item Aussenradius = $\unit[10]{mm}$
@@ -346,6 +366,7 @@ Es ist gut zu erkennen, dass die Regelung sogar schneller Erfolgt als vorher.
 	\caption{Erster linearer Sensor}
 	\label{fig:linear1}
 \end{figure}
+\FloatBarrier
 
 \subsubsection{Linearer Sensor 2}
 \label{chap:sensorregelung2}
@@ -358,6 +379,7 @@ Diese lässt sich auch nicht durch verändern der Regelparameter reduzieren.
 	\caption{Zweiter linearer Sensor}
 	\label{fig:linear2}
 \end{figure}
+\FloatBarrier
 
 \subsubsection{Nichtlinearer Sensor}
 \label{chap:sensorregelung3}
@@ -370,3 +392,4 @@ Auch hier ist eine restliche Regeldifferenz zu erkennen, die sich wiederum nicht
 	\caption{Nichtlinearer Sensor}
 	\label{fig:nonlinear}
 \end{figure}
+\FloatBarrier

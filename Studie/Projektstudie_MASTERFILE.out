@@ -11,42 +11,44 @@
 \BOOKMARK [1][]{section.44}{3.4 Der Sensor}{chapter.7}
 \BOOKMARK [2][]{subsection.45}{3.4.1 Das physikalische Modell des Sensors}{section.44}
 \BOOKMARK [2][]{subsection.51}{3.4.2 Das lineare Sensormodell}{section.44}
-\BOOKMARK [2][]{subsection.52}{3.4.3 Das nicht lineare Sensormodell}{section.44}
-\BOOKMARK [0][]{chapter.53}{4 Programmentwicklung}{}
-\BOOKMARK [1][]{section.54}{4.1 Motor in Simulink}{chapter.53}
-\BOOKMARK [1][]{section.64}{4.2 Matlab}{chapter.53}
-\BOOKMARK [2][]{subsection.65}{4.2.1 Motor in Matlab}{section.64}
-\BOOKMARK [2][]{subsection.66}{4.2.2 Sensor in Matlab}{section.64}
-\BOOKMARK [3][]{subsubsection.67}{4.2.2.1 Vorbereitungen}{subsection.66}
-\BOOKMARK [3][]{subsubsection.68}{4.2.2.2 Files}{subsection.66}
-\BOOKMARK [0][]{chapter.69}{5 Simulationsdurchf\374hrung}{}
-\BOOKMARK [1][]{section.70}{5.1 Simulation}{chapter.69}
-\BOOKMARK [2][]{subsection.71}{5.1.1 PID-Regelung}{section.70}
-\BOOKMARK [3][]{subsubsection.72}{5.1.1.1 P-Regelung}{subsection.71}
-\BOOKMARK [3][]{subsubsection.75}{5.1.1.2 PI-Regelung}{subsection.71}
-\BOOKMARK [3][]{subsubsection.78}{5.1.1.3 PD-Regelung}{subsection.71}
-\BOOKMARK [3][]{subsubsection.81}{5.1.1.4 PID-Regelung}{subsection.71}
-\BOOKMARK [2][]{subsection.84}{5.1.2 P-Adaption}{section.70}
-\BOOKMARK [3][]{subsubsection.88}{5.1.2.1 Regelung mit P-Adaption}{subsection.84}
-\BOOKMARK [3][]{subsubsection.91}{5.1.2.2 P-Adaption mit Galvo-Werten}{subsection.84}
-\BOOKMARK [3][]{subsubsection.93}{5.1.2.3 P-Adaption mit neuen Werten}{subsection.84}
-\BOOKMARK [3][]{subsubsection.95}{5.1.2.4 Strombegrenzung}{subsection.84}
-\BOOKMARK [3][]{subsubsection.100}{5.1.2.5 Fertige P-Adaption}{subsection.84}
-\BOOKMARK [2][]{subsection.102}{5.1.3 Regelung mit Sensor}{section.70}
-\BOOKMARK [3][]{subsubsection.104}{5.1.3.1 Linearer Sensor 1}{subsection.102}
-\BOOKMARK [3][]{subsubsection.106}{5.1.3.2 Linearer Sensor 2}{subsection.102}
-\BOOKMARK [3][]{subsubsection.108}{5.1.3.3 Nichtlinearer Sensor}{subsection.102}
-\BOOKMARK [0][]{chapter.110}{6 Diskussion}{}
-\BOOKMARK [0][]{chapter.111}{7 Zusammenfassung}{}
-\BOOKMARK [0][]{appendix.112}{A Matlab-Files}{}
-\BOOKMARK [1][]{section.113}{A.1 msSpiegelundSensor.m}{appendix.112}
-\BOOKMARK [1][]{section.293}{A.2 sensorDaten.m}{appendix.112}
-\BOOKMARK [1][]{section.378}{A.3 frect.m}{appendix.112}
-\BOOKMARK [1][]{section.393}{A.4 gekern.m}{appendix.112}
-\BOOKMARK [1][]{section.407}{A.5 sensor.m}{appendix.112}
-\BOOKMARK [1][]{section.520}{A.6 posEingabe.m}{appendix.112}
-\BOOKMARK [0][]{appendix.554}{B Simulink-Files}{}
-\BOOKMARK [1][]{section.555}{B.1 1}{appendix.554}
-\BOOKMARK [0][]{section.555}{Literaturverzeichnis}{}
-\BOOKMARK [0][]{appendix*.556}{Abbildungsverzeichnis}{}
-\BOOKMARK [0][]{appendix*.557}{Eidesstattliche Erkl\344rung}{}
+\BOOKMARK [2][]{subsection.57}{3.4.3 Das nicht lineare Sensormodell}{section.44}
+\BOOKMARK [0][]{chapter.59}{4 Programmentwicklung}{}
+\BOOKMARK [1][]{section.60}{4.1 Motor in Simulink}{chapter.59}
+\BOOKMARK [1][]{section.70}{4.2 Matlab}{chapter.59}
+\BOOKMARK [2][]{subsection.71}{4.2.1 Motor in Matlab}{section.70}
+\BOOKMARK [2][]{subsection.72}{4.2.2 Sensor in Matlab}{section.70}
+\BOOKMARK [3][]{subsubsection.73}{4.2.2.1 Sensorkonstanten}{subsection.72}
+\BOOKMARK [3][]{subsubsection.74}{4.2.2.2 Rechtecks- und Gl\344ttungsfunktion}{subsection.72}
+\BOOKMARK [3][]{subsubsection.75}{4.2.2.3 Die Sensor-Funktion}{subsection.72}
+\BOOKMARK [3][]{subsubsection.76}{4.2.2.4 Die Plausibilit\344tstests zum Sensor}{subsection.72}
+\BOOKMARK [0][]{chapter.83}{5 Simulationsdurchf\374hrung}{}
+\BOOKMARK [1][]{section.84}{5.1 Simulation}{chapter.83}
+\BOOKMARK [2][]{subsection.85}{5.1.1 PID-Regelung}{section.84}
+\BOOKMARK [3][]{subsubsection.86}{5.1.1.1 P-Regelung}{subsection.85}
+\BOOKMARK [3][]{subsubsection.89}{5.1.1.2 PI-Regelung}{subsection.85}
+\BOOKMARK [3][]{subsubsection.92}{5.1.1.3 PD-Regelung}{subsection.85}
+\BOOKMARK [3][]{subsubsection.95}{5.1.1.4 PID-Regelung}{subsection.85}
+\BOOKMARK [2][]{subsection.98}{5.1.2 P-Adaption}{section.84}
+\BOOKMARK [3][]{subsubsection.102}{5.1.2.1 Regelung mit P-Adaption}{subsection.98}
+\BOOKMARK [3][]{subsubsection.105}{5.1.2.2 P-Adaption mit Galvo-Werten}{subsection.98}
+\BOOKMARK [3][]{subsubsection.107}{5.1.2.3 P-Adaption mit neuen Werten}{subsection.98}
+\BOOKMARK [3][]{subsubsection.109}{5.1.2.4 Strombegrenzung}{subsection.98}
+\BOOKMARK [3][]{subsubsection.114}{5.1.2.5 Fertige P-Adaption}{subsection.98}
+\BOOKMARK [2][]{subsection.116}{5.1.3 Regelung mit Sensor}{section.84}
+\BOOKMARK [3][]{subsubsection.118}{5.1.3.1 Linearer Sensor 1}{subsection.116}
+\BOOKMARK [3][]{subsubsection.120}{5.1.3.2 Linearer Sensor 2}{subsection.116}
+\BOOKMARK [3][]{subsubsection.122}{5.1.3.3 Nichtlinearer Sensor}{subsection.116}
+\BOOKMARK [0][]{chapter.124}{6 Diskussion}{}
+\BOOKMARK [0][]{chapter.125}{7 Zusammenfassung}{}
+\BOOKMARK [0][]{appendix.126}{A Matlab-Files}{}
+\BOOKMARK [1][]{section.127}{A.1 msSpiegelundSensor.m}{appendix.126}
+\BOOKMARK [1][]{section.307}{A.2 sensorDaten.m}{appendix.126}
+\BOOKMARK [1][]{section.392}{A.3 frect.m}{appendix.126}
+\BOOKMARK [1][]{section.407}{A.4 gekern.m}{appendix.126}
+\BOOKMARK [1][]{section.421}{A.5 sensor.m}{appendix.126}
+\BOOKMARK [1][]{section.534}{A.6 posEingabe.m}{appendix.126}
+\BOOKMARK [0][]{appendix.568}{B Simulink-Files}{}
+\BOOKMARK [1][]{section.569}{B.1 1}{appendix.568}
+\BOOKMARK [0][]{appendix*.570}{Literaturverzeichnis}{}
+\BOOKMARK [0][]{appendix*.571}{Abbildungsverzeichnis}{}
+\BOOKMARK [0][]{appendix*.572}{Eidesstattliche Erkl\344rung}{}

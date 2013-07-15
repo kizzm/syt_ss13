@@ -18,40 +18,26 @@ Der Sensor wurde noch nicht integriert, um erst einmal eine Regelung für einen G
 
 Bei der reinen P-Regelung, konnte weder die Einregelzeit, noch die Genauigkeit erreicht werden.
 
-
-
-Wie in Abb. \ref{fig:p40} und \ref{fig:p45} aus Kap.\ref{chap:p_regelung} zu erkennen ist, betrÃ¤gt die Zeit, bis der Winkel in der NÃ¤he des Sollwertes ist, ca. \unit[7]{ms}.
-Jedoch ist ein groÃŸe Schwankung des Winkels zu erkennen.
-Bei kleinerem P-Anteil von P = 40 ist die Abweichunng noch so groÃŸ, dass der Winkel in der unteren Grafik nicht erreicht wird.
-Bei einem etwas grÃ¶ÃŸerem P-Anteil P = 45 ist zu erkennen, dass der Sollwinkel zwar Ã¼berfahren wird, aber nicht stabil bleibt.
-Die Abb. \ref{fig:p40} und \ref{fig:p45} sind hier dafÃ¼r exemplarisch, dass auch bei anderen Werten keine erfolgreiche Regelung erreicht werden konnte.
-
-
-Wie in Abb. \ref{fig:p40} und \ref{fig:p45} aus Kap.\ref{chap:p_regelung} zu erkennen ist, beträgt die Zeit, bis der Winkel in der Nähe des Sollwertes ist, ca. $\unit[7]{ms}$.
+Wie in Abb. \ref{fig:p40} und \ref{fig:p45} aus Kap. \ref{chap:p_regelung} zu erkennen ist, beträgt die Zeit, bis der Winkel in der Nähe des Sollwertes ist, ca. $\unit[7]{ms}$.
 Jedoch ist ein große Schwankung des Winkels zu erkennen.
 Bei kleinerem P-Anteil von P = 40 ist die Abweichunng noch so groß, dass der Winkel in der unteren Grafik nicht erreicht wird.
 Bei einem etwas größerem P-Anteil P = 45 ist zu erkennen, dass der Sollwinkel zwar überfahren wird, aber nicht stabil bleibt.
+Abb. \ref{fig:p40} und \ref{fig:p45} sind hier dafür exemplarisch, dass auch bei anderen Werten keine erfolgreiche Regelung erreicht werden konnte.
 
-
-
-Die Erweiterung des reinen P-Reglers um einen I-Anteil ist in den Abb. \ref{fig:p30i17} und \ref{fig:p30i18} aus Kap.\ref{chap:pi_regelung} zu erkennen.
-Durch die Erweiterung mit einem I-Anteil, hat sich die Einregelzeit auf ca. \unit[9]{ms} verlängert.
-Auch wurde der Sollwinkel nicht erreicht.
-
-
-Eine ErhÃ¶hung des P- oder I-Anteils fÃ¼hrte dann wieder zu Schwingungen um den Sollwinkel, wie es in Abb. \ref{fig:p30i18} exemplarisch fÃ¼r einen leicht erhÃ¶hten I-Anteil
-
+Die Erweiterung des reinen P-Reglers um einen I-Anteil ist in den Abb. \ref{fig:p30i17} und \ref{fig:p30i18} aus Kap. \ref{chap:pi_regelung} zu erkennen.
+Durch die Erweiterung mit einem I-Anteil, hat sich die Einregelzeit auf ca. $\unit[9]{ms}$ verlängert.
+Der Sollwinkel nicht erreicht.
 
 Eine Erhöhung des P- oder I-Anteils führte dann wieder zu Schwingungen um den Sollwinkel, wie es in Abb. \ref{fig:p30i18} exemplarsich für einen leicht erhöhten I-Anteil dargestellt ist.
 
-Die Erweiterung des reinen P-Reglers um einen D-Anteil ist in den Abb. \ref{fig:p22d1n1} und \ref{fig:p23d1n1} aus Kap.\ref{chap:pd_regelung} zu erkennen.
+Die Erweiterung des reinen P-Reglers um einen D-Anteil ist in den Abb. \ref{fig:p22d1n1} und \ref{fig:p23d1n1} aus Kap. \ref{chap:pd_regelung} zu erkennen.
 Hier ergibt sich das gleiche Problem wie bei der P- und PI-Regelung.
 Bis zu einer Grenze der P- und D- Anteile, ist die Regelung zu weit von dem Sollwinkel entfernt.
 Wird nur ein Anteil leicht erhöht, kommt es zu einem Überschwingen um den Sollwinkel.
-Jedoch hat sich die Zeit, bis der aktuelle Winkel um den Sollwinkel schwingt, auf ca. \unit[6]{ms} verkürzt.
+Jedoch hat sich die Zeit, bis der aktuelle Winkel um den Sollwinkel schwingt, auf ca. $\unit[6]{ms}$ verkürzt.
 
 Es wurde nun mit einer PID-Regelung versucht, die Vorgaben zu erreichen.
-In den Abb. \ref{fig:p20i15d1n1} und \ref{fig:p20i16d1n1} aus Kap.\ref{chap:pid_regelung} sind die Ergenisse der PID-Regelung dargestellt.
+In den Abb. \ref{fig:p20i15d1n1} und \ref{fig:p20i16d1n1} aus Kap. \ref{chap:pid_regelung} sind die Ergenisse der PID-Regelung dargestellt.
 Es zeigt sich das von der P-, PI- und PD-Regelung bekannte Verhalten, dass bis zu entsprechenden Reglerwerten, der aktuelle Winkel zu weit vom Sollwinkel entfernt ist und
 bei einer nur kleinen Erhöhung eines der Parameter, ein Überschwingen um den Sollwinkel einsetzt.
 Dies ist exemplarisch für den I-Anteil in Abb. \ref{fig:p20i16d1n1} dargestellt.
@@ -61,7 +47,7 @@ Mit dieser noch nicht zufriedenstellenden Regelung, wird der PID-Reglerblock in 
 Abb. \ref{fig:padaptionsimulin} aus Kap. \ref{chap:padaption} zeigen diesen Aufbau.
 Mit der vorgeschalteten Funktion vor den P-Verstärker, soll eine geringere bleibende Regeldiffernz erreicht werden.
 
-Wie aus den Abb. \ref{fig:padp41f1580} und \ref{fig:padp50f3400} aus Kap.\ref{chap:p_adaption} zu erkennen ist, wird der Sollwinkel noch nicht erreicht.
+Wie aus den Abb. \ref{fig:padp41f1580} und \ref{fig:padp50f3400} aus Kap. \ref{chap:p_adaption} zu erkennen ist, wird der Sollwinkel noch nicht erreicht.
 Der aktuelle Winkel gelangt bei kleineren Parameterwerten nicht in die Nähe des Sollwinkels.
 Bei größeren Parameterwerten dagegen, ergibt sich wieder ein Überschwingen um den Sollwert.
 Auch mit dieser P-Adaption konnten keine Parameterwerte gefunden werden, mit der eine Regelung bei diesem Gleichstrommotor, den Vorgaben entsprechend realisiert werden konnte.
@@ -73,70 +59,54 @@ Mit diesen Parametern konnte zwar ein Überschwingen um den Sollwinkel nicht verh
 ca. $\unit[2]{ms}$ verkürzt.
 Abb. \ref{fig:padwerte} aus Kap. \ref{chap:p_adaptiongalvo} zeigt den Vorgang.
 
-Da die Anpassung des Motors gut Ergebnisse zeigte, wird nun mit weiterer Anpassung der verschiedenen Motor- und Spiegelwerte versucht, eine erfolgreiche Regelung aufzubauen.
-Durch die so erhaltenen Parameter kÃ¶nnte es mÃ¶glich sein, entsprechende Bauteil fertigen zu lassen, um so eine Umsetzung in die Wirklichkeit zu realisieren.
-
 Nach entsprechenden Anpassungen konnte eine erfolgreiche Regelung aufgebaut werden.
 Abb. \ref{fig:padneuewerte} aus Kap. \ref{chap:p_adaptionwerte} zeigt, dass die Einregelzeit unter \unit[1]{ms} liegt und sich der aktuelle Winkel in den Regeldifferenzen 
 befindet.
 
-Ein Blick auf den Strom zeigte, dass weitere Anpassungen notwendig sind.
-Es wurde eine Strombegrenzung eingebaut und neue Regelparameter probiert.
+Ein Blick auf den Strom zeig, dass weitere Anpassungen notwendig sind.
+Es wurde eine Strombegrenzung eingebaut und neue Regelparameter getestet.
 Siehe Abb. \ref{fig:stromzuhoch} und \ref{fig:strombegrenztsauber} aus Kap. \ref{chap:p_adaptionstrom}.
 
-Nach einigen Versuchen mit Ã¤ndern der verschiedenen Parameter, ist wieder eine erfolgreiche Regelung aufgebaut worden.
-Der Strom ist auf \unit[10]{A} begrenzt, die Einregelzeit liegt bei \unit[1]{ms} und der aktuelle Winkel ist in den Regeldifferenzen.
+Nach einigen Versuchen mit verschiedenen Parameter, ist wieder eine erfolgreiche Regelung aufgebaut worden.
+Der Strom ist auf \unit[10]{A} begrenzt, die Einregelzeit liegt bei \unit[1]{ms} und der aktuelle Winkel ist innerhalb der Vorgaben für die Regeldifferenz.
 Abb. \ref{fig:strombegrenztpadsoll} aus Kap. \ref{chap:p_adaptionfertig} zeigt die erfolgreiche Regelung.
 
-Nach dem es nun mÃ¶glich ist, die Vorgaben zu erfÃ¼llen, werden 3 verschiedenen Sensoren in den Regelkreis eingebracht.
-Es wird mit einem idealen linearen Sensor begonnen.
-An den schliesst sich ein linearer Sensor an, der Ã¼ber eine Faltung der Blende mit den Lichtsensoren gebildet wird.
-Der dritte und letzte Sensor stellt einen nichtlinearen Sensor dar.
+Nach werden 3 verschiedenen Sensoren in den Regelkreis eingebracht.
 
-Abb. \ref{fig:simusensor} zeigt den Simulationsaufbau fÃ¼r die verschiedenen Sensoren.
-Die weitere Implememtierung der verschiedenen Sensoren erfogt Ã¼ber Parameter in den Matlab-Files.
+Abb. \ref{fig:simusensor} zeigt den Simulationsaufbau für die verschiedenen Sensoren.
+Die weitere Implememtierung der verschiedenen Sensoren erfogt über Parameter in den Matlab-Files.
 
 Als der erste lineare Sensor das aktuelle Positionssignal lieferte, musste die Regelung angepasst werden.
-Mit den neuen Regelparametern konnte sogar eine noch kÃ¼rzere Einregelzeit erreicht werden.
+Mit den neuen Regelparametern konnte sogar eine noch kürzere Einregelzeit erreicht werden.
 Abb. \ref{fig:linear1} aus Kap. \ref{chap:sensorregelung1} zeigt die erfolgreiche Regelung.
 
-Ohne die Regelparameter zu Ã¤ndern, wurde der zweite lineare Sensor getestet.
-Die Regelung ist zwar genauso schnell, jedoch bleibt eine Regeldifferenz Ã¼brig.
+Ohne die Regelparameter zu ändern, wurde der zweite lineare Sensor getestet.
+Die Regelung ist zwar genauso schnell, jedoch bleibt eine Regeldifferenz Übrig.
 In Abb. \ref{fig:linear2} aus Kap. \ref{chap:sensorregelung2} ist der Vorgang dargestellt.
-Die verbleibende Regeldifferenz wird erstmal auf die diskrete Faltung zurÃ¼ckgefÃ¼hrt, bei der Rechenfehler auftreten kÃ¶nnen.
 
-Nun wurde der dritte Sensor getestet.
-Wie zu erwarten, verbleibt eine Regeldifferenz.
+Die Simulation mit dem dritten, dem nicht linearen Sensor lieferte ebenfalls eine bleibende Regeldifferenz.
 In Abb. \ref{fig:nonlinear} aus Kap. \ref{chap:sensorregelung3} ist der Vorgang dargestellt.
-Das ist ein Bild, wie es in einem wirklichen Aufbau z.B. mit genau messbarere Laserablenkung zu entdecken wÃ¤re.
-Man mÃ¼sste einen Winkel einstellen, und durch die entsprechende Laserablenkung auf den wirklichen Winkel schliessen.
-In der Simulation gibt es den Vorteil, dass wir uns den wirklichen Winkel anschauen.
-Dieser wird dann Ã¼ber den nichtlinearen Sensor in ein Spannungssignal gewandelt und dem Regler zugefÃ¼hrt.
-Insofern wÃ¼rde eine VerÃ¤nderung der Regelparameter keine genauere Regelung bewirken.
+Die verbleibende Regeldifferenz wird auf die diskrete Faltung zurückgeführt, da sowohl für den Sensor mit linearem als auch nicht linearem Fehler deutliche Abweichungen im Gegensatz zum nicht linearen Sensor auftreten. 
 
 Nur durch die Anpassung der Motorwerte, des Spiegels und mit der Verwendung eines linearen Sensors, konnte eine den Vorgaben entsprechende Regelung evaluiert werden.
-Der Innenwiderstand und die InduktivitÃ¤t des Motors mussten verringert werden, um eine kleinere Zeitkonstante zu erhalten.
-Dies liesse sich mit entsprechend weniger Windungen im Motor realisieren.
-Dies wÃ¼rde dann gleichzeitig dazu fÃ¼hren, dass die durch die Drehung verursachte Spannung geringer wÃ¤re.
-Durch eine bessere AusfÃ¼hrung der Lager, kÃ¶nnte der Reibungskoeffizient verringert werden.
-Somit sind die in dieser Simulationsstudie getÃ¤tigten Ã„nderungen am Motor nicht nur ein ideales Wunschverhalten, sondern kÃ¶nnte realisiert werden.
+Der Innenwiderstand und die Induktivität des Motors mussten verringert werden, um eine kleinere Zeitkonstante zu erhalten.
+Dies lässt sich mit entsprechend weniger Windungen im Motor realisieren.
+Dies bedingt gleichzeitig, eine verringerung der Induzierten Spannung.
+Durch eine bessere Ausführung der Lager, kann der Reibungskoeffizient verringert werden.
+Somit sind die in dieser Simulationsstudie getätigten änderungen am Motor nicht nur ein ideales Wunschverhalten, sondern theoretisch realisierbar.
 
-Es wurde zudem das Drehmoment und die TrÃ¤gheit des Spiegels verringert.
-Beides liesse sich realisieren.
-Die TrÃ¤gheit des Spiegels aus auf verschiedenen Vorgaben berechnet worden.
-Diese Vorgaben waren aber willkÃ¼rlich.
-Durch eine Verkleinerung des Masse, der HÃ¶he oder des Durchmessers, kÃ¶nnte die TrÃ¤gheit des Spiegels verringert werden, siehe Form. \ref{equ:J_spiegel1} aus
-Kap. \ref{chap:spiegel}.
-Da der Strahldurchmesser, der auf den Spiegel trifft, in dieser Studie nicht vorgegeben ist, kann ein Spiegel mit kleinerem Durchmesser und evtl. dÃ¼nnerer AusfÃ¼hrung
-verwendet werden.
-Durch die Wahl eines anderen Materials kÃ¶nnte das Gewicht verringert werden.
-Sollte der Spiegel keine geringere TrÃ¤gheit aufweisen kÃ¶nnen, so wird zur Berechnung des Drehmomentes, die Beschleunigung verringert, siehe Form. \ref{equ:M_last1} aus
+Es wurde zudem das Drehmoment und die Trägheit des Spiegels verringert.
+Da die Vorgaben zu den Eigenschaften des Spiegels willkürlich gewählt wurden, sind diese Anpassungen vorstellbar. 
+Durch eine Verkleinerung des Masse, der Höhe oder des Durchmessers, wird die Trägheit des Spiegels verringert.( siehe Form. \ref{equ:J_spiegel1})
+Da der Strahldurchmesser nicht zu den Anforderungen dieser Studie gehört, lässt sich die Spiegelfläche weiter reduzieren.
+Durch die Wahl eines anderen Materials kann das Gewicht verringert werden.
+Sollte der Spiegel keine geringere Trägheit aufweisen können, so wird zur Berechnung des Drehmomentes, die Beschleunigung verringert, siehe Form. \ref{equ:M_last1} aus
 Kap. \ref{chap:spiegel}.
 
-Als eine sehr strenge Bedingung ist ein linearer Sensor aufzufÃ¼hren.
-Es zeigte sich, dass auch bei kleinen Abweichungen von der LinearitÃ¤t, eine genaue Regelung nicht mehr mÃ¶glich ist.
-Bei Galvos, die eigentlich fÃ¼r solche Aufgaben verwendet werden, hat der Sensor eine LinearitÃ¤t von 99,9\% \cite{CaTe}.
+Als eine sehr strenge Bedingung ist ein linearer Sensor aufzuführen.
+Es zeigte sich, dass auch bei kleinen Abweichungen von der Linearität, eine genaue Regelung nicht mehr möglich ist, wie sie in Kap. \ref{chap:Aufgabenstellung} gefordert werden.
+Bei Galvos, die eigentlich für solche Aufgaben verwendet werden, werden üblicherweise Sensoren mit einer Linearität von 99,9\% verwendet \cite{CaTe}.
 
-Der hier verwendetet Integrationsalgorithmus "ode45" wurde nicht verÃ¤ndert.
-Der Aufbau der Sensors, der ganzen Simulation und um entsprechende Regelparameter zu evaluieren, nahm schon sehr viel Zeit in Anspruch, so dass es nicht mÃ¶glich war, andere
-Integrationsalgorithmusse zu testen.
+Der hier verwendetet Integrationsalgorithmus "ode45" wurde nicht verändert.
+Der Aufbau der Sensors, der ganzen Simulation und um entsprechende Regelparameter zu evaluieren, nahm schon sehr viel Zeit in Anspruch, so dass es nicht möglich war, andere
+Integrationsalgorithmen zu testen.

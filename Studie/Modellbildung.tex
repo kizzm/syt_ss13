@@ -11,6 +11,7 @@
 \chapter{Mathematische Modellbildung}
 \label{chap:modellbildung}
 
+
 \section{Das System}
 \label{chap:system}
 Der vorliegenden Simulationsstudie wird in folgendes, in Abb. \ref{fig:aufbau_system} dargestellen Systems zugrunde gelegt.
@@ -20,6 +21,7 @@ Der vorliegenden Simulationsstudie wird in folgendes, in Abb. \ref{fig:aufbau_sy
 	\caption{Allgemeiner Aufbau des simulierten Systems}
 	\label{fig:aufbau_system}
 \end{figure}
+\FloatBarrier
 
 Abb. \ref{fig:aufbau_system} zeigt also einen Regelkreis.
 Der Motor bringt die Bewegungsenergie über elektromagnetisch/mechanische Wechselwirkung ins System ein.
@@ -29,6 +31,7 @@ Der Sensor überwacht den Bewegungszustand, genauer die Winkelposition der Motorw
 Das Übertragungsverhalten dieses Sensors, kann mit dem Modellen aus Abschnitt \ref{chap:sensor} beschrieben werden.
 Das Spannungssignal des Sensors liefert den Sollwert der Regeleinrichtung.
 Die Ermittlung der Reglerparameter erfolgt während der Simulationsdurchführung in Abschnitt \ref{chap:Simulationsdurchfuehrung}.
+
 
 \section{Der Spiegel}
 \label{chap:spiegel}
@@ -138,12 +141,14 @@ P = \unit[91]{W}
 \end{equation}
 \end{center}
 
+
 \section{Der Motor}
 \label{chap:motor}
 In der Regel werden Laserablenkespiegel über einen Galvo gesteuert. Bei der Bearbeitung dieser Simulationsstudie ergaben sich Probleme, Informationen Über die Ansteuerung
 solcher Galvos zu bekommen. Insofern wird die Simulationsstudie auf der Ansteuerung eines Gleichstrommotors beruhen. Aber auch hierbei konnten jedoch keine Informationen 
 über die Gleichstrommotorparameter $K_M \Phi$ und der Reibungskonstanten bei verschiedenen Herstellern gefunden werden. Um dennoch die Studie durchführen zu können, wird auf die
 Motorvorgaben aus der Vorlesung Systemtechnik von Prof. Froriep zurück gegriffen.
+
 
 \subsection{Der elektrische Teil}
 \label{chap:elekteil}
@@ -155,6 +160,8 @@ für den Motor $U_e$, siehe Abb. \ref{fig:elekeinzelteil}.
 	\caption{Elektrischer Teil des Motors}
 	\label{fig:elekeinzelteil}
 \end{figure}
+\FloatBarrier
+
 Es lässt sich folgende Spannungsmasche aufstellen:
 \begin{center}
 \begin{equation}
@@ -200,6 +207,7 @@ e_a = K_M  \Phi \omega
 \end{center}
 $K_M$ und $\Phi$ Motorkonstanten sind.
 
+
 \subsection{Der mechanische Teil}
 \label{chap:mechteil}
 Der mechanische Teil eines Gleichstrommotors besteht aus dem gesamten Drehmoment $M_B$, dem Motormoment $M_M$, dem Lastmoment $M_L$ des Spiegels. 
@@ -214,6 +222,8 @@ M_R = r  \omega \text{, mit } \omega = \frac{d}{d t} \varphi
 	\caption{Mechanischer Teil des Motors}
 	\label{fig:mecheinzelteil}
 \end{figure}
+\FloatBarrier
+
 Es lässt sich folgende Moment-Bilanzgleichung aufstellen:
 \begin{center}
 \begin{equation}
@@ -241,6 +251,7 @@ M_M = K_M * \Phi *i_A
 \end{center}
 $K_M$ und $\Phi$ Motorkonstanten sind.
 
+
 \subsection{Der ganze Motor}
 \label{chap:ganzermotor}
 Werden die beiden Einzelaspekte des Motors gleichzeitig betrachtet, so ergbit sich folgender Zusammenhang wie er in Abb. \ref{fig:motoraufbau} dargestellt ist.
@@ -250,16 +261,18 @@ Werden die beiden Einzelaspekte des Motors gleichzeitig betrachtet, so ergbit si
 	\caption{Aufbau des Motors}
 	\label{fig:motoraufbau}
 \end{figure}
+\FloatBarrier
 
 \section{Der Sensor}
 \label{chap:sensor}
 Im Folgenden werden der Aufbau, das physikalische Modell sowie verschiedene mathematische Modelle des Sensors vorgestellt und erläutert.
 
+
 \subsection{Das physikalische Modell des Sensors}
 \label{chap:physik_modell_sensor}
 Der in Abb. \ref{fig:aufbau_system} dargestellte Sensor gliedert sich nach folgender Darstellung in Abb. \ref{fig:funktions_diagramm_sensor} auf in:
 \begin{itemize}
-	\item{Einer Lichtquelle: LED mit einer Strahlungsleistung $\phi_e(\theta)$}
+	\item{Einer Lichtquelle: LED mit einer Strahlungsleistung $\phi_e$}
 	\item{Einer Blende mit einer Transmissionsfunktion $T(\varphi)$}
 	\item{Einer Anordnung aus Photodioden, welche die transmittierte Lichtleistung als Spannungssignal $U_{ph} (\phi)$ bzw. $U_{ph} (\varphi)$ darstellt}
 \end{itemize}
@@ -270,6 +283,27 @@ Der in Abb. \ref{fig:aufbau_system} dargestellte Sensor gliedert sich nach folge
 	\caption{Allgemeines Funktionsdiagramm des Sensors}
 	\label{fig:funktions_diagramm_sensor}
 \end{figure}
+\FloatBarrier
+
+\textbf{Die Photodioden}\\
+In Abb. \ref{fig:sensor_aufbau_schichten} ist die Anordnung der Dioden Skizziert. 
+Diese Setzt sich aus 4 Photodioden zusammen, von denen jeweils zwei gegenüberliegende mittels des Differenzenprinzip verschaltet sind.
+Störeinflüsse, wie z.B. thermisches Rauschen, sollen somit vermindert werden. 
+Die beiden sich somit ergebenen Diodengruppen, sind symetrisch zur Position $\varphi = \unit[0]{°} $ angeordnet.
+Diese Liefern ein Spannungssignal werden im quasi Kurzschluss betrieben.
+Somit verhält sich jede Photodiode als ideale Stromquelle, bei der die Stromstärke $I_{ph}$ proportional zur einfallenden Lichtleistung $\phi$ ist.
+Angeschlossen an einem hochohmigen Widerstand, fällt an diesem das Spannungssignal $U_{ph}(\phi)$ ab, welches ebenfalls proportional zur einfallenden Lichtleistung $\phi$ ist.
+Die Dioden sind als Kreissegmente gleicher Form und Größe ausgeführt.\\
+\\
+\textbf{Die Blende}\\
+Die Blende wird im folgenden als masselos und völlig lichtundurchlässig angenommen.
+Die Bewegung der Motorwelle wird auf die Blende übertragen, sodass die Abdeckung der Dioden mit der Winkelposition variert.
+Die Geometrie der Blende ist dabei auf die Geometrie der Photodioden abgestimmt, sodass für Randwerte des Messbereichs des Sensors völlige Abschattung bzw. völlige Ausleuchtung je einer Diodengruppe erreicht wird.\\
+\\
+\textbf{Die LED}\\
+Die LED wird im folgenden als ein punktförmiger, lambert'scher Strahler betrachtet.
+Die gesamte Strahlungsleistung $\phi_e$ wird in den Halbraum $\omega = 2\pi$ abgestrahlt. 
+Das Spektrum der LED wird in dieser Simulationsstudie nicht berücksichtigt.\\
 
 \begin{figure}[!htb]
 	\centering
@@ -277,36 +311,81 @@ Der in Abb. \ref{fig:aufbau_system} dargestellte Sensor gliedert sich nach folge
 	\caption{Allgemeiner Aufbau des Sensors}
 	\label{fig:sensor_aufbau_schichten}
 \end{figure}
+\FloatBarrier
 
-\textbf{Die Photodioden}\\
-In Abb. \ref{fig:sensor_aufbau_schichten} ist die Anordnung der Dioden Skizziert. 
-Diese Setzt sich aus 4 Photodioden zusammen, von denen jeweils zwei gegenüberliegende mittels dem Differenzenprinzip verschaltet sind.
-Störeinflüsse, wie z.B. thermisches Rauschen, sollen somit vermindert werden. 
-Die beiden sich somit ergebenen Diodengruppen, sind symetrisch zur Position $\varphi = \unit[0]{°} $ angeordnet.
-Diese Liefern ein Spannungssignal $U(\phi)$, welches von der auftreffenden Lichtleistung $\phi$ abhängt da sie im quasi Kurzschluss betrieben werden\cite{JoSi08}.
-Die Dioden sind als Kreissegmente gleicher Form und Größe ausgeführt. \\
-\\
-\textbf{Die Blende}\\
-Die Blende wird im folgenden als masselos und völlig lichtundurchlässig angenommen.
-Die Bewegung der Motorwelle wird auf die Blende übertragen, sodass die Abdeckung der Dioden mit der Winkelposition variert.
-Die Geometrie der Blende ist dabei auf die Geometrie der Photodioden abgestimmt, sodass für Randwerte des Messbereichs des Sensors völlige Abschattung bzw völlige Ausleuchtung je einer Diodengruppe erreicht wird.
-\textbf{Die LED}\\
-Die LED wird im folgenden als ein punktförmiger, lambert'scher Strahler betrachtet.
-Die gesamte Strahlungsleistung $\phi_e$ wird in den Halbraum $\omega = 2\pi$ abgestrahlt. 
-Das Spektrum der LED wird in dieser Simulationsstudie nicht berücksichtigt.\\
-\\
-Das Sensor-System bildet demnach die Bewegungen der Motorwelle als Spannungssignal ab, in dem die Einfallende Lichtleistung der LED durch Abschattung der Photodioden mittels der dazwischen liegenden Blende verändert wird. 
+Das Sensor-System bildet demnach die Bewegungen der Motorwelle als Spannungssignal ab, in dem die Einfallende Lichtleistung der LED durch Abschattung der Photodioden mittels der dazwischen liegenden Blende verändert wird.
+ In Abb. \ref{fig:sensor_funktion} ist der Effekt der Abschattung skizziert. Für eine Auslenkung um etwa beispielsweise $\unit[-40]{°}$ um die Ausgangslage Abb. \ref{fig:sensor_funktion}(b), vergrößert die Effektive Empfängerfläche der einen Diodengruppe, während sich die Effektive Empfängerfläche der anderen verkleinert.
 
 \begin{figure}[!htb]
 \centering
 \subfigure[{Abdunklung bei ca. $\unit[0]{°}$ Azimutwinkel}]{\includegraphics[height=55mm]{Sensor_Abdunklung_0.jpg}}
-\subfigure[{Abdunklung bei ca. $\unit[40]{°}$ Azimutwinkel}]{\includegraphics[height=55mm]{Sensor_Abdunklung_40.jpg}}
+\subfigure[{Abdunklung bei ca. $\unit[-40]{°}$ Azimutwinkel}]{\includegraphics[height=55mm]{Sensor_Abdunklung_40.jpg}}
 \caption{Skizze des Funktionsprinzips des Sensors}
-\label{abb:sensor_funktion}
+\label{fig:sensor_funktion}
 \end{figure}
+\FloatBarrier
+
 
 \subsection{Das lineare Sensormodell}
 \label{chap:linear_sensor}
+Für das lineare Sensormodell wird zunächst von folgendem Zusammenhang aus gegangen:
+\begin{equation}
+\label{equ:linear_sensor1}
+U_{ph,Sensor} = U_{max,Sensor}*k(\varphi)
+\end{equation}
+mit
+\begin{equation}
+\label{equ:linear_sensor2}
+k(\phi) = A*\varphi + B
+\end{equation}
+
+Weiter ergibt sich mit folgenden Randwerten der Zusammenhang:\\
+$k(+ \varphi_{max}) = 1$ und $k(- \varphi_{max}) = 0$
+\begin{equation}
+\label{equ:linear_sensor3}
+k(\phi) = \frac{1}{2\varphi_{max}}\varphi + 0.5
+\end{equation}
+
+Mit den Vorraussetzung aus Kap. \ref{chap:physik_modell_sensor} ergibt sich für das maximale Spannungssignal einer Diode:
+\begin{equation}
+\label{equ:U_max_sensor}
+U_{max,Diode} = I_{max,Diode} R_{Last}
+\end{equation}
+mit dem maximalen Stromsignal $I_{max,Diode}$ und dem Lastwiderstand der Diode $R_{Last}$.
+
+Unter Annahme folgender Bedingungen und Zusammenhänge:
+\begin{itemize}
+\item Die Strahlungsleistung $\phi_{max,Diode}$ wird verlustfrei in elektrische Leistung $P_{el} = I^2 R$ umgesetzt
+\item Die Fläche Diode ergibt sich als Kreisringsegment: $A_{R,S} = \frac{\varphi_{Segment} }{2} (r_2 - r_1)^2$
+\item Die Bestrahlungsstärke ergibt sich zu: $E_e = \frac{\phi_{max,Diode}}{A_{R,S}}$
+\end{itemize} 
+folgt:
+\begin{equation}
+\label{equ:I_max_sensor}
+I_{max,Diode} = \sqrt{\frac{P_{el,max,Diode}}{R_{Last}}} = \sqrt{\frac{\phi_{max,Diode}}{R_{Last}}}=\sqrt{\frac{E_e A_{R,S}}{R_{Last}}}
+\end{equation}
 
 \subsection{Das nicht lineare Sensormodell}
 \label{chap:nonlinear_sensor}
+Das lineare Sensormodell aus Kap. \ref{chap:linear_sensor} berücksichtigt keine Effekte, wie Streulicht oder Beugung an den Kanten der Blende.
+Diese Effekte sollen mit einem mathematischen Modell qualitativ beschrieben werden.
+Sowohl bei Beeinflussung durch Streulicht, als auch Beugung wird erwartet, dass mehr Lichtleistung auf die Photodioden Trifft.
+Besonders an den Rändern des Messbereichs, steigt das Signal stärker an.
+Erreicht werden soll dies mittels:
+\begin{itemize}
+\item Beschreibung der Blende als Rechteckfunktion über den Azimutwinkel $T(\varphi)$
+\item Breite der Blendenfunktion ist Öffnungswinkel der Blende $b_{Blende} = \varphi_{Kreissegment}$
+\item Beschreibung der Dioden als Rechteckfunktion über den Azimutwinkel $D(\varphi)$
+\item Breite der Diodenfunktion ist Öffnungswinkel der Blende $b_{Diode} = \varphi_{Kreissegment}$
+\item Beide Funktionen sind $\pi$-Periodisch (Punktsymetrie zur Motorwelle)
+\item Faltung der Blenden- und der Diodenfunktion ergibt $k(\varphi)$ mit nicht stetigem, linearen Verhalten über den Definitionsbereich $\pm n\pi$, $n \in \mathrm{N}$.
+\item Faltung dieser Ergebnisfunktion mit einem Glättungskern gemäß Gl. \ref{equ:glaettungsk} beschreibt qualitativ die zuvor genannten Effekte und hat ein nicht lineares Übertragungsverhalten
+des Sensors zur Folge.
+\end{itemize}
+
+\begin{equation}
+\label{equ:glaettungsk}
+j_e(\phi) = \left\{\begin{array}{ll} \frac{1}{e}*c* \text{exp}(- \frac{1}{1-(x/e)^2}), & \left| x \right| < 1 \\
+0, & \text{sonst}\end{array}\right
+\end{equation}
+Weitere Erläuterungen zur qualitativen Darstellung des Vorgangs werden im Verlaufe der Plausibilitätstests in Kap. \ref{chap:sensor_plausile} diskutiert.

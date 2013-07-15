@@ -10,36 +10,42 @@
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Mechanischer Teil des Motors}}{13}{figure.37}
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Aufbau des Motors}}{14}{figure.43}
 \contentsline {figure}{\numberline {3.5}{\ignorespaces Allgemeines Funktionsdiagramm des Sensors}}{15}{figure.46}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Allgemeiner Aufbau des Sensors}}{15}{figure.47}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Allgemeiner Aufbau des Sensors}}{16}{figure.47}
 \contentsline {figure}{\numberline {3.7}{\ignorespaces Skizze des Funktionsprinzips des Sensors}}{16}{figure.50}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Abdunklung bei ca. $\unit [0]{\IeC {\textdegree }}$ Azimutwinkel}}}{16}{figure.50}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Abdunklung bei ca. $\unit [40]{\IeC {\textdegree }}$ Azimutwinkel}}}{16}{figure.50}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Abdunklung bei ca. $\unit [-40]{\IeC {\textdegree }}$ Azimutwinkel}}}{16}{figure.50}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Simulink Grundprogramm}}{18}{figure.63}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Simulink Grundprogramm}}{20}{figure.69}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Diodenfunktion und lineare Faltungsfunktion}}{23}{figure.77}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Vergleich der ungegl\"atteten mit der gegl\"atteten Funktion}}{23}{figure.78}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Kennlinie des Sensors im mode: einzelGruppe}}{24}{figure.79}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Kennlinie des Sensors im mode: linear1}}{24}{figure.80}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Kennlinie des Sensors im mode: linear2}}{25}{figure.81}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Kennlinie des Sensors im mode: nonlinear}}{25}{figure.82}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces P-Anteil von 40}}{22}{figure.73}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces P-Anteil von 45}}{22}{figure.74}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces P-Anteil von 30 und I-Anteil von 17}}{23}{figure.76}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces P-Anteil von 30 und I-Anteil von 18}}{24}{figure.77}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces P=22 - D=1 - N=1}}{24}{figure.79}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces P=22 - D=1 - N=1}}{25}{figure.80}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces P=20 - I=15 - D=1 - N=1}}{25}{figure.82}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces P=20 - I=16 - D=1 - N=1}}{26}{figure.83}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces P-Adaption\cite {FrKu}}}{26}{figure.86}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces P-Adaption in Simulink}}{27}{figure.87}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces P-Adaption mit Parametern}}{27}{figure.89}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces P-Adaption mit Parametern}}{28}{figure.90}
-\contentsline {figure}{\numberline {5.13}{\ignorespaces P-Adaption mit neuen Motorparametern}}{29}{figure.92}
-\contentsline {figure}{\numberline {5.14}{\ignorespaces P-Adaption mit neuen Parametern}}{30}{figure.94}
-\contentsline {figure}{\numberline {5.15}{\ignorespaces Stromh\"ohe w\"ahrend der Regelung}}{31}{figure.96}
-\contentsline {figure}{\numberline {5.16}{\ignorespaces P-Adaption mit Strombegrenzung}}{31}{figure.97}
-\contentsline {figure}{\numberline {5.17}{\ignorespaces Motorstroms mit Strombegrenzung auf $\pm \unit [10]{A}$}}{31}{figure.98}
-\contentsline {figure}{\numberline {5.18}{\ignorespaces P-Adaption mit Strombegrenzung}}{32}{figure.99}
-\contentsline {figure}{\numberline {5.19}{\ignorespaces Angepasste P-Adaption mit Strombegrenzung}}{33}{figure.101}
-\contentsline {figure}{\numberline {5.20}{\ignorespaces Simulinaufbau mit Sensor}}{33}{figure.103}
-\contentsline {figure}{\numberline {5.21}{\ignorespaces Erster linearer Sensor}}{35}{figure.105}
-\contentsline {figure}{\numberline {5.22}{\ignorespaces Zweiter linearer Sensor}}{35}{figure.107}
-\contentsline {figure}{\numberline {5.23}{\ignorespaces Nichtlinearer Sensor}}{36}{figure.109}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces P-Anteil von 40}}{28}{figure.87}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces P-Anteil von 45}}{28}{figure.88}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces P-Anteil von 30 und I-Anteil von 17}}{29}{figure.90}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces P-Anteil von 30 und I-Anteil von 18}}{30}{figure.91}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces P=22 - D=1 - N=1}}{31}{figure.93}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces P=22 - D=1 - N=1}}{31}{figure.94}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces P=20 - I=15 - D=1 - N=1}}{32}{figure.96}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces P=20 - I=16 - D=1 - N=1}}{33}{figure.97}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces P-Adaption\cite {FrKu}}}{34}{figure.100}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces P-Adaption in Simulink}}{34}{figure.101}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces P-Adaption mit Parametern}}{35}{figure.103}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces P-Adaption mit Parametern}}{36}{figure.104}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces P-Adaption mit neuen Motorparametern}}{37}{figure.106}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces P-Adaption mit neuen Parametern}}{38}{figure.108}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Stromh\"ohe w\"ahrend der Regelung}}{39}{figure.110}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces P-Adaption mit Strombegrenzung}}{39}{figure.111}
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Motorstroms mit Strombegrenzung auf $\pm \unit [10]{A}$}}{40}{figure.112}
+\contentsline {figure}{\numberline {5.18}{\ignorespaces P-Adaption mit Strombegrenzung}}{40}{figure.113}
+\contentsline {figure}{\numberline {5.19}{\ignorespaces Angepasste P-Adaption mit Strombegrenzung}}{41}{figure.115}
+\contentsline {figure}{\numberline {5.20}{\ignorespaces Simulinaufbau mit Sensor}}{42}{figure.117}
+\contentsline {figure}{\numberline {5.21}{\ignorespaces Erster linearer Sensor}}{43}{figure.119}
+\contentsline {figure}{\numberline {5.22}{\ignorespaces Zweiter linearer Sensor}}{44}{figure.121}
+\contentsline {figure}{\numberline {5.23}{\ignorespaces Nichtlinearer Sensor}}{45}{figure.123}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

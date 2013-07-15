@@ -88,7 +88,9 @@ Das fertige Grundprogramm ist in Abb. \ref{fig:grundprogramm} dargestellt.
 \end{figure}
 
 \section{Matlab}
+\label{chap:Matlab}
 \subsection{Motor in Matlab}
+\label{chap:motor_matlab}
 Die Programmentwicklung in Matlab gestaltet sich für den Motor als relativ einfach, da, wie oben erwähnt, keien Motordaten gefunden wurden, wird auf das Matlabfile von Prof. Froriep aus der Vorlesung "Systemtechniken" zurück gegriffen.
 In diesem Matlabfile stehen:
 \begin{itemize}
@@ -109,15 +111,95 @@ In dem zweiten Plot der aktuelle Winkel $\phi$, der direkt von dem Motor abgegri
 Der dritte Plot enthält auch wieder den aktuellen Winkel $\phi$, jedoch mit einer feineren Auflösung um den Sollwinkel, um die Toleranzgrenzen besser erkennen zu können.
 
 \subsection{Sensor in Matlab}
+\label{chap:sensor_matlab}
 Der Sensor selbst wird nur mit Matlabprogrammen simuliert.
 Dies ermöglicht verschiedene Sensoren in das Hauptprogramm einzubinden und Änderungen an z.B. den Ausmaßen und dem Verhalten des Sensors vorzunehmen, ohne das Hauptprogramm ändern zu müssen.
 
-\subsubsection{Vorbereitungen}
-Um einen Sensor mit seinen verschiedenen Kenngrößen wie Sensorfläche, Übertragungsverhalten, und weiteres simulieren zu können, werden die verschiedenen Funktionen aus
-Kap. \ref{chap:sensor}in einzelnen Matlabfiles gespeichert. 
-Dieses macht die Aufgabenlösung zwar komplexer, bietet aber den Vorteil, einzelne Bereiche für sich testen zu können, bevor sie in den Sensor eingebunden werden.
+\subsubsection{Sensorkonstanten}
+\label{chap:sensorkonstanten}
+Um einen Sensor mit seinen verschiedenen Kenngrößen wie Sensorfläche, Übertragungsverhalten, und weiteres simulieren zu können, werden die verschiedenen Funktionen aus Kap. \ref{chap:sensor} in einzelnen Matlabfiles umgesetzt. Die Charakteristischen Daten der Photodioden, Blende und LED werden mit Hilfe der Matlabfunktion \texttt{SensorDaten.m} (siehe Anhang \ref{app:sensorDatenM}) in ein Cell-Array gespeichert. Dies Bietet den Vorteil, die Ergebnisse komplizierter Berechnungen und einige Konstanten in einer einzigen Variable zu speichern und an die Hauptfunktion \texttt{sensor.m} zu übergeben.
 
-\subsubsection{Files}
-Ich würde hier evtl. schreiben, in welche Unterprogramme Du den Sensor aufgeteilt hast.
-Auch sollten Deine Versuchsprogramme erwähnt und mit in den Anhang kommen.
-Da steckt viel Arbeit drin und war/ist für die Simuation äußerst wichtig.
+Die in Kap. \ref{chap:nonlinear_sensor} erläuterte mathematische Beschreibung der Einflüsse von Beugung und Streulicht, wird in den Zeilen 38 bis 81 der Matlab-Funktion umgesetzt.
+Die limitierung auf eine Diskrete Faltungsoperation erzeugt bei der Umsetzung einige Probleme.
+\begin{itemize}
+\item Diskrete Faltung erzeugt Randeffekte (Abweichung zur kontinuierlichen Lösung der Faltung zweier Rechteckfunktionen) -> Definitionsbereich vergrößern
+\item Diskrete Faltung erzeugt Diskrete Lösung. Somit muss das Verhalten des Sensors zwischen den Lösungswerten der Faltung interpoliert werden -> lineare Interpolation
+\end{itemize}
+
+\subsubsection{Rechtecks- und Glättungsfunktion}
+\label{chap:recht_glatt}
+Die Berechnung der Diskreten Faltung benötigt Diskrete Funktionswerte der Rechteckfunktionen für Blende und Dioden. Die im Anhang \ref{app:frectM} und \ref{app:gekernM} dargestellten Matlab-Files \texttt{frect.m} und \texttt{gekern.m} Berechnen die Funktionswerte der in Kap. \ref{chap:nonlinear_sensor} beschriebenen Funktionen. Diese werden im File \texttt{SensorDaten.m} (vgl. Kap. \ref{chap:sensorkonstanten}) in For-Schleifen zu Vektoren mit Diskreten Funktionswerten zusammengesetzt.
+
+\subsubsection{Die Sensor-Funktion}
+\label{chap:sensorM}
+Die Verwendungs des Sensors in den vorhandenen Simulinkprogramme macht es nötig, diverse Voreinstellungen als globale Variablen zu übergeben.
+\begin{itemize}
+\item \texttt{Unit}: die Einheit, in der die Sensorfunktion den Positionswinkel der Motorwelle übergeben wird
+\item \texttt{mode}: das Übertragungsverhalten, des Sensors
+\item \texttt{Sensorkonstanten}: die in Kap. \ref{chap:sensorkonstanten} beschriebenen charakteristischen Werte des Sensorsystems als Cell-Array
+\end{itemize}
+
+Die Variable \texttt{Unit} ermöglicht eine Umrechnung der Einheit für den eingegebenen Motorwellenwinkel.
+
+Um das Wirken, des Differenzenprinzips in der Vorliegenden Anordnung zu demonstrieren, wird ein Rauschen generiert. Dieses variiert statistisch gleichverteilt im bereich von 0 bis $\frac{1}{10}$ des maximalen Stromsignals.
+
+Die in Kap. \ref{chap:sensor} vorgestellten Mathematischen Modelle werden mittels caseswitch der Variablen \texttt{mode} implementiert. Für die modes: \glqq linear2 \grrq und \glqq nonlinear \grrq müssen die Funktiondswerte, welche zwischen den diskreten, charakteristischen werten liegen linear interpoliert werden.
+
+\subsubsection{Die Plausibilitätstests zum Sensor}
+\label{chap:sensor_plausile}
+Hier soll das in Kap. \ref{chap:nonlinear_sensor} beschriebene verhalten, bei Beeinflussung der Messung durch Streulicht und Beugung qualitativ bewertet und auf Plausibilität geprüft werden.
+Abb. \ref{fig:diode_faltung} Zeigt den Verlauf der Gewichtungsfunktion(Faltungsfunktion) über den Azimutwinkel bzw. Positionswinkel $\varphi$
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.6\textwidth]{../Plots/figure_4.jpg}
+	\caption{Diodenfunktion und lineare Faltungsfunktion}
+	\label{fig:diode_faltung}
+\end{figure}
+\FloatBarrier
+
+Abb. \ref{fig:vergleich_lin_glatt} zeigt, dass die diskrete Faltung der Blenden- und der Diodenfunktion qualitativ das erwartete Verhalten abbildet.
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.6\textwidth]{../Plots/figure_8.jpg}
+	\caption{Vergleich der ungeglätteten mit der geglätteten Funktion}
+	\label{fig:vergleich_lin_glatt}
+\end{figure}
+\FloatBarrier
+
+Im folgenden soll überprüft werden, ob die Sensoren für den maximalen Messbereich von $\pm \unit[45]{°}$ das erwartete Verhalten Zeigen.
+Abb. \ref{fig:kennlinie_einzelgruppe} zeigt die Kennlinie einer einzelnen Diodengruppe mit Einfluss durch statistisch gleichverteiltes Rauschen.
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.6\textwidth]{../Plots/Sensor-Kennlinie_einzelGruppe.jpg}
+	\caption{Kennlinie des Sensors im mode: einzelGruppe}
+	\label{fig:kennlinie_einzelgruppe}
+\end{figure}
+\FloatBarrier
+
+Abb. \ref{fig:kennlinie_linear1} zeigt, das ideal lineare Verhalten des Sensors im mode: linear1.
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.6\textwidth]{../Plots/Sensor-Kennlinie_linear1.jpg}
+	\caption{Kennlinie des Sensors im mode: linear1}
+	\label{fig:kennlinie_linear1}
+\end{figure}
+\FloatBarrier
+
+Abb. \ref{fig:kennlinie_linear2} stellt die Kennlinie des Sensors mittels Faltungsfunktion ohne Glättung wie erwartet dar.
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.6\textwidth]{../Plots/Sensor-Kennlinie_linear2.jpg}
+	\caption{Kennlinie des Sensors im mode: linear2}
+	\label{fig:kennlinie_linear2}
+\end{figure}
+\FloatBarrier
+
+Eben falls im mode: nonlinear zeigt die Abb. \ref{fig:kennlinie_nonlinear} qualitativ das erwartete Verhalten der Kennlinie.
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.6\textwidth]{../Plots/Sensor-Kennlinie_nonlinear.jpg}
+	\caption{Kennlinie des Sensors im mode: nonlinear}
+	\label{fig:kennlinie_nonlinear}
+\end{figure}
+\FloatBarrier

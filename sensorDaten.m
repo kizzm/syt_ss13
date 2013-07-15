@@ -22,7 +22,7 @@
 %
 %       Maximal messbarer Winkel +- => Messbereich in rad
 %
-%       Gesammtleistung der LED => LEDLeistung in W
+%       maximale Leistung der LED auf einer Diode => LEDLeistung in W
 %       Umgebungstemperatur => Umgebungstemperatur in K
    
 function Sensorkonstanten = sensorDaten(Photodioden,...
@@ -30,7 +30,7 @@ function Sensorkonstanten = sensorDaten(Photodioden,...
                                         LEDLeistung,...
                                         Umgebungstemperatur,...
                                         nonlinear)
-Sensorkonstanten{1}=0.001; % max Strom
+Sensorkonstanten{1}=sqrt(LEDLeistung/Photodioden(3)); % max Strom
 Sensorkonstanten{2}=Photodioden(3); % Lastwiderstand
 Sensorkonstanten{3}=Messbereich; % max Messbereich
 Sensorkonstanten{4}=Sensorkonstanten{1}*Photodioden(3)*4;%max Spannung
